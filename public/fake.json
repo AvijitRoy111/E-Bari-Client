@@ -1,0 +1,701 @@
+[
+  {
+    "id": 1,
+    "title": "Cedar Grove Apartments",
+    "category": "Budget Apartment",
+    "price_min": 900,
+    "price_max": 1300,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 470,
+    "images": [
+      "https://picsum.photos/id/101/800/600",
+      "https://picsum.photos/id/102/800/600",
+      "https://picsum.photos/id/103/800/600",
+      "https://picsum.photos/id/104/800/600",
+      "https://picsum.photos/id/105/800/600"
+    ],
+    "address": "South Renton, WA",
+    "availability": "Available Now",
+    "year_built": 1998,
+    "description": "Affordable units perfect for students and new renters.",
+    "floor_plans": [
+      { "plan_name": "1B-Simple", "beds": 1, "baths": 1, "sqft": 470, "price": 900 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": false,
+      "pet_friendly": true,
+      "gym": false,
+      "ac": false,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.481, "lng": -122.201 },
+    "sellCount": 14
+  },
+
+  {
+    "id": 2,
+    "title": "Willow Park Studio Homes",
+    "category": "Studio Apartment",
+    "price_min": 750,
+    "price_max": 1100,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 400,
+    "images": [
+      "https://picsum.photos/id/110/800/600",
+      "https://picsum.photos/id/111/800/600",
+      "https://picsum.photos/id/112/800/600",
+      "https://picsum.photos/id/113/800/600",
+      "https://picsum.photos/id/114/800/600"
+    ],
+    "address": "East Renton Highlands, WA",
+    "availability": "2 Weeks",
+    "year_built": 1985,
+    "description": "Compact studios perfect for single working professionals.",
+    "floor_plans": [
+      { "plan_name": "Studio-Eco", "beds": 1, "baths": 1, "sqft": 400, "price": 750 }
+    ],
+    "features": {
+      "parking": false,
+      "pool": false,
+      "pet_friendly": false,
+      "gym": false,
+      "ac": true,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.476, "lng": -122.199 },
+    "sellCount": 21
+  },
+
+  {
+    "id": 3,
+    "title": "Elm Ridge Family Homes",
+    "category": "Family Apartment",
+    "price_min": 1300,
+    "price_max": 1800,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 720,
+    "images": [
+      "https://picsum.photos/id/201/800/600",
+      "https://picsum.photos/id/202/800/600",
+      "https://picsum.photos/id/203/800/600",
+      "https://picsum.photos/id/204/800/600",
+      "https://picsum.photos/id/205/800/600"
+    ],
+    "address": "Renton Central, WA",
+    "availability": "Available",
+    "year_built": 2002,
+    "description": "Perfect for small families with playground access.",
+    "floor_plans": [
+      { "plan_name": "2B-Compact", "beds": 2, "baths": 1, "sqft": 720, "price": 1300 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": false,
+      "ac": true,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.488, "lng": -122.210 },
+    "sellCount": 32
+  },
+
+  {
+    "id": 4,
+    "title": "Birchwood Premium Suites",
+    "category": "Premium Apartment",
+    "price_min": 1600,
+    "price_max": 2100,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 820,
+    "images": [
+      "https://picsum.photos/id/210/800/600",
+      "https://picsum.photos/id/211/800/600",
+      "https://picsum.photos/id/212/800/600",
+      "https://picsum.photos/id/213/800/600",
+      "https://picsum.photos/id/214/800/600"
+    ],
+    "address": "Newcastle, WA",
+    "availability": "Available",
+    "year_built": 2010,
+    "description": "Modern premium flats with city views.",
+    "floor_plans": [
+      { "plan_name": "2B-Deluxe", "beds": 2, "baths": 2, "sqft": 820, "price": 1600 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": false,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.505, "lng": -122.220 },
+    "sellCount": 18
+  },
+
+  {
+    "id": 5,
+    "title": "Highland Lakeview Residences",
+    "category": "Luxury Apartment",
+    "price_min": 2000,
+    "price_max": 2600,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1050,
+    "images": [
+      "https://picsum.photos/id/250/800/600",
+      "https://picsum.photos/id/251/800/600",
+      "https://picsum.photos/id/252/800/600",
+      "https://picsum.photos/id/253/800/600",
+      "https://picsum.photos/id/254/800/600"
+    ],
+    "address": "Kennydale, WA",
+    "availability": "Available",
+    "year_built": 2018,
+    "description": "High-end lakeside living spaces.",
+    "floor_plans": [
+      { "plan_name": "3B-Lux", "beds": 3, "baths": 2, "sqft": 1050, "price": 2000 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.525, "lng": -122.234 },
+    "sellCount": 27
+  },
+
+  {
+    "id": 6,
+    "title": "Sunrise Mini Studios",
+    "category": "Studio Apartment",
+    "price_min": 700,
+    "price_max": 1050,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 390,
+    "images": [
+      "https://picsum.photos/id/260/800/600",
+      "https://picsum.photos/id/261/800/600",
+      "https://picsum.photos/id/262/800/600",
+      "https://picsum.photos/id/263/800/600",
+      "https://picsum.photos/id/264/800/600"
+    ],
+    "address": "Renton Highlands, WA",
+    "availability": "1 Week",
+    "year_built": 1990,
+    "description": "Low-cost simple studios with fast access to bus lines.",
+    "floor_plans": [
+      { "plan_name": "Studio-Basic", "beds": 1, "baths": 1, "sqft": 390, "price": 700 }
+    ],
+    "features": {
+      "parking": false,
+      "pool": false,
+      "pet_friendly": false,
+      "gym": false,
+      "ac": false,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.492, "lng": -122.230 },
+    "sellCount": 10
+  },
+
+  {
+    "id": 7,
+    "title": "Forest Edge Homes",
+    "category": "Family Apartment",
+    "price_min": 1250,
+    "price_max": 1750,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 760,
+    "images": [
+      "https://picsum.photos/id/270/800/600",
+      "https://picsum.photos/id/271/800/600",
+      "https://picsum.photos/id/272/800/600",
+      "https://picsum.photos/id/273/800/600",
+      "https://picsum.photos/id/274/800/600"
+    ],
+    "address": "Maple Valley Road, WA",
+    "availability": "Available",
+    "year_built": 2005,
+    "description": "Quiet community close to schools and parks.",
+    "floor_plans": [
+      { "plan_name": "2B-Standard", "beds": 2, "baths": 1, "sqft": 760, "price": 1250 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": false,
+      "pet_friendly": true,
+      "gym": false,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.478, "lng": -122.225 },
+    "sellCount": 24
+  },
+
+  {
+    "id": 8,
+    "title": "Silverline Premium Towers",
+    "category": "Premium Apartment",
+    "price_min": 1700,
+    "price_max": 2150,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 840,
+    "images": [
+      "https://picsum.photos/id/280/800/600",
+      "https://picsum.photos/id/281/800/600",
+      "https://picsum.photos/id/282/800/600",
+      "https://picsum.photos/id/283/800/600",
+      "https://picsum.photos/id/284/800/600"
+    ],
+    "address": "Renton Downtown, WA",
+    "availability": "Available",
+    "year_built": 2014,
+    "description": "Premium apartments with rooftop lounge.",
+    "floor_plans": [
+      { "plan_name": "2B-Premium", "beds": 2, "baths": 2, "sqft": 840, "price": 1700 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": false,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.485, "lng": -122.219 },
+    "sellCount": 15
+  },
+
+  {
+    "id": 9,
+    "title": "Riverbend View Apartments",
+    "category": "Luxury Apartment",
+    "price_min": 2100,
+    "price_max": 2700,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1120,
+    "images": [
+      "https://picsum.photos/id/290/800/600",
+      "https://picsum.photos/id/291/800/600",
+      "https://picsum.photos/id/292/800/600",
+      "https://picsum.photos/id/293/800/600",
+      "https://picsum.photos/id/294/800/600"
+    ],
+    "address": "Renton River District, WA",
+    "availability": "Available Now",
+    "year_built": 2020,
+    "description": "Luxury riverside apartments built for comfort.",
+    "floor_plans": [
+      { "plan_name": "3B-RiverView", "beds": 3, "baths": 2, "sqft": 1120, "price": 2100 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.501, "lng": -122.205 },
+    "sellCount": 29
+  },
+
+  {
+    "id": 10,
+    "title": "Maple Crest Mini Flats",
+    "category": "Budget Apartment",
+    "price_min": 800,
+    "price_max": 1150,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 430,
+    "images": [
+      "https://picsum.photos/id/310/800/600",
+      "https://picsum.photos/id/311/800/600",
+      "https://picsum.photos/id/312/800/600",
+      "https://picsum.photos/id/313/800/600",
+      "https://picsum.photos/id/314/800/600"
+    ],
+    "address": "Maplewood Area, WA",
+    "availability": "2 Weeks",
+    "year_built": 1995,
+    "description": "Affordable living in a quiet area.",
+    "floor_plans": [
+      { "plan_name": "1B-Eco", "beds": 1, "baths": 1, "sqft": 430, "price": 800 }
+    ],
+    "features": {
+      "parking": false,
+      "pool": false,
+      "pet_friendly": false,
+      "gym": false,
+      "ac": false,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.475, "lng": -122.238 },
+    "sellCount": 12
+  },
+
+  {
+    "id": 11,
+    "title": "Summit Park Residences",
+    "category": "Premium Apartment",
+    "price_min": 1650,
+    "price_max": 2200,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 860,
+    "images": [
+      "https://picsum.photos/id/320/800/600",
+      "https://picsum.photos/id/321/800/600",
+      "https://picsum.photos/id/322/800/600",
+      "https://picsum.photos/id/323/800/600",
+      "https://picsum.photos/id/324/800/600"
+    ],
+    "address": "Downtown Renton, WA",
+    "availability": "Available Now",
+    "year_built": 2015,
+    "description": "Comfortable premium units with skyline views.",
+    "floor_plans": [
+      { "plan_name": "2B-Elite", "beds": 2, "baths": 2, "sqft": 860, "price": 1650 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.490, "lng": -122.215 },
+    "sellCount": 23
+  },
+
+  {
+    "id": 12,
+    "title": "Oakland Budget Homes",
+    "category": "Budget Apartment",
+    "price_min": 850,
+    "price_max": 1180,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 445,
+    "images": [
+      "https://picsum.photos/id/330/800/600",
+      "https://picsum.photos/id/331/800/600",
+      "https://picsum.photos/id/332/800/600",
+      "https://picsum.photos/id/333/800/600",
+      "https://picsum.photos/id/334/800/600"
+    ],
+    "address": "North Renton, WA",
+    "availability": "Available",
+    "year_built": 1999,
+    "description": "Simple and affordable apartments.",
+    "floor_plans": [
+      { "plan_name": "1B-Economy", "beds": 1, "baths": 1, "sqft": 445, "price": 850 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": false,
+      "pet_friendly": false,
+      "gym": false,
+      "ac": false,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.493, "lng": -122.240 },
+    "sellCount": 19
+  },
+
+  {
+    "id": 13,
+    "title": "Bridgeview Riverside Suites",
+    "category": "Luxury Apartment",
+    "price_min": 2200,
+    "price_max": 2800,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1180,
+    "images": [
+      "https://picsum.photos/id/340/800/600",
+      "https://picsum.photos/id/341/800/600",
+      "https://picsum.photos/id/342/800/600",
+      "https://picsum.photos/id/343/800/600",
+      "https://picsum.photos/id/344/800/600"
+    ],
+    "address": "Renton Riverfront, WA",
+    "availability": "Available",
+    "year_built": 2021,
+    "description": "Brand new riverside luxury suites.",
+    "floor_plans": [
+      { "plan_name": "3B-Premium", "beds": 3, "baths": 2, "sqft": 1180, "price": 2200 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.502, "lng": -122.218 },
+    "sellCount": 31
+  },
+
+  {
+    "id": 14,
+    "title": "Hillcrest Studio Living",
+    "category": "Studio Apartment",
+    "price_min": 720,
+    "price_max": 1050,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 390,
+    "images": [
+      "https://picsum.photos/id/350/800/600",
+      "https://picsum.photos/id/351/800/600",
+      "https://picsum.photos/id/352/800/600",
+      "https://picsum.photos/id/353/800/600",
+      "https://picsum.photos/id/354/800/600"
+    ],
+    "address": "Renton East, WA",
+    "availability": "Available",
+    "year_built": 1993,
+    "description": "Budget studios with hill-facing windows.",
+    "floor_plans": [
+      { "plan_name": "Studio-Hill", "beds": 1, "baths": 1, "sqft": 390, "price": 720 }
+    ],
+    "features": {
+      "parking": false,
+      "pool": false,
+      "pet_friendly": false,
+      "gym": false,
+      "ac": false,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.487, "lng": -122.225 },
+    "sellCount": 17
+  },
+
+  {
+    "id": 15,
+    "title": "Greenville Family Residences",
+    "category": "Family Apartment",
+    "price_min": 1350,
+    "price_max": 1900,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 780,
+    "images": [
+      "https://picsum.photos/id/360/800/600",
+      "https://picsum.photos/id/361/800/600",
+      "https://picsum.photos/id/362/800/600",
+      "https://picsum.photos/id/363/800/600",
+      "https://picsum.photos/id/364/800/600"
+    ],
+    "address": "Renton Westside, WA",
+    "availability": "Available Now",
+    "year_built": 2007,
+    "description": "Family-friendly units with an open courtyard.",
+    "floor_plans": [
+      { "plan_name": "2B-Family", "beds": 2, "baths": 2, "sqft": 780, "price": 1350 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": false,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.495, "lng": -122.205 },
+    "sellCount": 26
+  },
+
+  {
+    "id": 16,
+    "title": "Blue Ridge Premium Homes",
+    "category": "Premium Apartment",
+    "price_min": 1750,
+    "price_max": 2300,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 890,
+    "images": [
+      "https://picsum.photos/id/370/800/600",
+      "https://picsum.photos/id/371/800/600",
+      "https://picsum.photos/id/372/800/600",
+      "https://picsum.photos/id/373/800/600",
+      "https://picsum.photos/id/374/800/600"
+    ],
+    "address": "Renton Central, WA",
+    "availability": "Available",
+    "year_built": 2013,
+    "description": "Modern premium units near shopping centers.",
+    "floor_plans": [
+      { "plan_name": "2B-Business", "beds": 2, "baths": 2, "sqft": 890, "price": 1750 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": false,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.489, "lng": -122.214 },
+    "sellCount": 22
+  },
+
+  {
+    "id": 17,
+    "title": "Lakeside View Suites",
+    "category": "Luxury Apartment",
+    "price_min": 2250,
+    "price_max": 2850,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1200,
+    "images": [
+      "https://picsum.photos/id/380/800/600",
+      "https://picsum.photos/id/381/800/600",
+      "https://picsum.photos/id/382/800/600",
+      "https://picsum.photos/id/383/800/600",
+      "https://picsum.photos/id/384/800/600"
+    ],
+    "address": "Kennydale, WA",
+    "availability": "Available",
+    "year_built": 2019,
+    "description": "High-end homes with stunning lake views.",
+    "floor_plans": [
+      { "plan_name": "3B-Lake", "beds": 3, "baths": 2, "sqft": 1200, "price": 2250 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": true,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.528, "lng": -122.236 },
+    "sellCount": 35
+  },
+
+  {
+    "id": 18,
+    "title": "Green Willow Budget Studios",
+    "category": "Budget Apartment",
+    "price_min": 780,
+    "price_max": 1120,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 420,
+    "images": [
+      "https://picsum.photos/id/390/800/600",
+      "https://picsum.photos/id/391/800/600",
+      "https://picsum.photos/id/392/800/600",
+      "https://picsum.photos/id/393/800/600",
+      "https://picsum.photos/id/394/800/600"
+    ],
+    "address": "Renton South, WA",
+    "availability": "Next Month",
+    "year_built": 1991,
+    "description": "Small affordable studios close to transit lines.",
+    "floor_plans": [
+      { "plan_name": "Studio-Value", "beds": 1, "baths": 1, "sqft": 420, "price": 780 }
+    ],
+    "features": {
+      "parking": false,
+      "pool": false,
+      "pet_friendly": false,
+      "gym": false,
+      "ac": false,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.470, "lng": -122.239 },
+    "sellCount": 11
+  },
+
+  {
+    "id": 19,
+    "title": "Redwood Family Homes",
+    "category": "Family Apartment",
+    "price_min": 1400,
+    "price_max": 1850,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 795,
+    "images": [
+      "https://picsum.photos/id/400/800/600",
+      "https://picsum.photos/id/401/800/600",
+      "https://picsum.photos/id/402/800/600",
+      "https://picsum.photos/id/403/800/600",
+      "https://picsum.photos/id/404/800/600"
+    ],
+    "address": "Renton Hilltop, WA",
+    "availability": "Available Now",
+    "year_built": 2008,
+    "description": "Spacious family homes with updated interiors.",
+    "floor_plans": [
+      { "plan_name": "2B-Modern", "beds": 2, "baths": 2, "sqft": 795, "price": 1400 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": true,
+      "pet_friendly": true,
+      "gym": false,
+      "ac": true,
+      "in_unit_laundry": true
+    },
+    "location": { "lat": 47.498, "lng": -122.207 },
+    "sellCount": 28
+  },
+
+  {
+    "id": 20,
+    "title": "Evergreen Budget Flats",
+    "category": "Budget Apartment",
+    "price_min": 880,
+    "price_max": 1200,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 450,
+    "images": [
+      "https://picsum.photos/id/300/800/600",
+      "https://picsum.photos/id/301/800/600",
+      "https://picsum.photos/id/302/800/600",
+      "https://picsum.photos/id/303/800/600",
+      "https://picsum.photos/id/304/800/600"
+    ],
+    "address": "Renton North, WA",
+    "availability": "Available Now",
+    "year_built": 1993,
+    "description": "Low-cost apartments ideal for single occupants.",
+    "floor_plans": [
+      { "plan_name": "1B-Economy", "beds": 1, "baths": 1, "sqft": 450, "price": 880 }
+    ],
+    "features": {
+      "parking": true,
+      "pool": false,
+      "pet_friendly": false,
+      "gym": false,
+      "ac": false,
+      "in_unit_laundry": false
+    },
+    "location": { "lat": 47.489, "lng": -122.214 },
+    "sellCount": 16
+  }
+]
