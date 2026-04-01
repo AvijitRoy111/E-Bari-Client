@@ -12,7 +12,7 @@ const Services = () => {
         },
         {
             id: 2,
-//             title: "Luxury Rentals",
+            title: "Luxury Rentals",
 //             desc: "Access an exclusive collection of high-end apartments and villas for short or long-term stays.",
 //             icon: <Key className="w-8 h-8 text-orange-600" />,
 //             bgColor: "bg-orange-50 dark:bg-orange-900/20"
