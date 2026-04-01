@@ -47,7 +47,7 @@ const Services = () => {
         }
     ];
 
-//     return (
+    return (
 //         <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
 //             {/* Breadcrumb Section */}
 //             <div className="max-w-7xl mx-auto px-6 pt-8">
