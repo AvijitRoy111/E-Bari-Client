@@ -31,13 +31,13 @@ const Services = () => {
             icon: <TrendingUp className="w-8 h-8 text-purple-600" />,
             bgColor: "bg-purple-50 dark:bg-purple-900/20"
         },
-//         {
-//             id: 5,
-//             title: "Legal Assistance",
-//             desc: "Complete transparency and legal support for property documentation and registration process.",
-//             icon: <Handshake className="w-8 h-8 text-red-600" />,
-//             bgColor: "bg-red-50 dark:bg-red-900/20"
-//         },
+        {
+            id: 5,
+            title: "Legal Assistance",
+            desc: "Complete transparency and legal support for property documentation and registration process.",
+            icon: <Handshake className="w-8 h-8 text-red-600" />,
+            bgColor: "bg-red-50 dark:bg-red-900/20"
+        },
 //         {
 //             id: 6,
 //             title: "24/7 Virtual Tour",
