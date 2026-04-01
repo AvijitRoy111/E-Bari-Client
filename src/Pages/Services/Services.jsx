@@ -3,7 +3,7 @@ import Breadcrumb from '@/Components/Breadcrumb/Breadcrumb';
 
 const Services = () => {
     const serviceList = [
-//         {
+        {
 //             id: 1,
 //             title: "Property Buy & Sell",
 //             desc: "We help you find your dream home or sell your property at the best market price with zero hassle.",
