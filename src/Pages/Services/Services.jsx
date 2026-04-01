@@ -17,13 +17,13 @@ const Services = () => {
             icon: <Key className="w-8 h-8 text-orange-600" />,
             bgColor: "bg-orange-50 dark:bg-orange-900/20"
         },
-//         {
-//             id: 3,
-//             title: "Property Management",
-//             desc: "Our expert team handles maintenance, tenant screening, and legal paperwork for your peace of mind.",
-//             icon: <ShieldCheck className="w-8 h-8 text-green-600" />,
-//             bgColor: "bg-green-50 dark:bg-green-900/20"
-//         },
+        {
+            id: 3,
+            title: "Property Management",
+            desc: "Our expert team handles maintenance, tenant screening, and legal paperwork for your peace of mind.",
+            icon: <ShieldCheck className="w-8 h-8 text-green-600" />,
+            bgColor: "bg-green-50 dark:bg-green-900/20"
+        },
 //         {
 //             id: 4,
 //             title: "Real Estate Investment",
