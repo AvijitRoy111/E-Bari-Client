@@ -80,14 +80,14 @@ const Services = () => {
 
                              <div className={`w-16 h-16 ${service.bgColor} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
                                  {service.icon}
-//                             </div>
+                             </div>
 
-//                             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-blue-600 transition-colors">
-//                                 {service.title}
-//                             </h3>
+                             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-blue-600 transition-colors">
+                                 {service.title}
+                             </h3>
 
-//                             <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
-//                                 {service.desc}
+                             <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
+                                 {service.desc}
 //                             </p>
 
 //                             <button className="flex items-center gap-2 text-sm font-bold text-gray-900 dark:text-gray-300 group-hover:text-blue-600 transition-colors uppercase tracking-wider">
