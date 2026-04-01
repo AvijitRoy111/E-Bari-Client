@@ -24,13 +24,13 @@ const Services = () => {
             icon: <ShieldCheck className="w-8 h-8 text-green-600" />,
             bgColor: "bg-green-50 dark:bg-green-900/20"
         },
-//         {
-//             id: 4,
-//             title: "Real Estate Investment",
-//             desc: "Get data-driven insights and expert advice on where to invest for the highest future ROI.",
-//             icon: <TrendingUp className="w-8 h-8 text-purple-600" />,
-//             bgColor: "bg-purple-50 dark:bg-purple-900/20"
-//         },
+        {
+            id: 4,
+            title: "Real Estate Investment",
+            desc: "Get data-driven insights and expert advice on where to invest for the highest future ROI.",
+            icon: <TrendingUp className="w-8 h-8 text-purple-600" />,
+            bgColor: "bg-purple-50 dark:bg-purple-900/20"
+        },
 //         {
 //             id: 5,
 //             title: "Legal Assistance",
