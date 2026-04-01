@@ -10,7 +10,7 @@ const Services = () => {
             icon: <Home className="w-8 h-8 text-blue-600" />,
             bgColor: "bg-blue-50 dark:bg-blue-900/20"
         },
-//         {
+        {
 //             id: 2,
 //             title: "Luxury Rentals",
 //             desc: "Access an exclusive collection of high-end apartments and villas for short or long-term stays.",
