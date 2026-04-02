@@ -114,9 +114,9 @@ const Services = () => {
                                  Get Started Now
                                  <span className="group-hover:translate-x-1 transition-transform">→</span>
                              </span>
-//                             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full duration-700 transition-transform"></div>
-//                         </button>
-//                     </div>
+                             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full duration-700 transition-transform"></div>
+                         </button>
+                     </div>
 
 //                     {/* Background Decorative Circles */}
 //                     <div className="absolute top-0 right-0 opacity-20 -translate-y-1/2 translate-x-1/3 pointer-events-none">
