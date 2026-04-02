@@ -148,9 +148,9 @@ const AllProperties = () => {
           </div>
         </div>
 
-      </div>
+      {/* </div>
     </div>
   );
-};
+}; */}
 
 export default AllProperties;
