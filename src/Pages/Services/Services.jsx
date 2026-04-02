@@ -123,7 +123,7 @@ const Services = () => {
                          <div className="w-[400px] h-[400px] border-[40px] border-white rounded-full"></div>
                      </div>
                      <div className="absolute bottom-0 left-0 opacity-10 translate-y-1/2 -translate-x-1/4 pointer-events-none">
-//                         <div className="w-[300px] h-[300px] bg-white rounded-full blur-3xl"></div>
+                         <div className="w-[300px] h-[300px] bg-white rounded-full blur-3xl"></div>
 //                     </div>
 //                 </div>
 //             </section>
