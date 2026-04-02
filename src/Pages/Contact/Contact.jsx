@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
           {/* Left Side: Contact Information */}
-          {/* <div className="space-y-8">
+          {/* {/* <div className="space-y-8"> */}
             <div>
               <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
                 Let's talk about <br /> <span className="text-blue-600">your next home.</span>
