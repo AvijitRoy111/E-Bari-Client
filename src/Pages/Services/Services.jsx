@@ -100,10 +100,10 @@ const Services = () => {
 
                  {/* Bottom CTA Section */}
                  <div className="mt-24 p-12 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-[3rem] relative overflow-hidden shadow-2xl shadow-blue-500/20">
-//                     <div className="relative z-10 text-center">
-//                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-//                             Ready to find your future?
-//                         </h2>
+                     <div className="relative z-10 text-center">
+                         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+                             Ready to find your future?
+                         </h2>
 //                         <p className="text-blue-100 mb-10 max-w-xl mx-auto text-lg opacity-90">
 //                             Let our experts guide you through the journey of finding the perfect place to call home.
 //                         </p>
