@@ -95,7 +95,7 @@ const Services = () => {
                                  <span className="group-hover:translate-x-2 transition-transform">→</span>
                              </button>
                          </div>
-//                     ))}
+                    ))}
 //                 </div>
 
 //                 {/* Bottom CTA Section */}
