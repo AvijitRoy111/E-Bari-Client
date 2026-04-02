@@ -24,7 +24,7 @@ const Contact = () => {
               </p>
             </div> 
 
-            {/* <div className="grid gap-6"> */}
+            <div className="grid gap-6">
               {/* Contact Cards */}
               <div className="flex items-center p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow">
                 <div className="p-3 bg-blue-50 dark:bg-blue-900/30 rounded-xl mr-4">
