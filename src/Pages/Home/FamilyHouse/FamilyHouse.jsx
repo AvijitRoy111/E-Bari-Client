@@ -36,16 +36,16 @@ const FamilyHouse = () => {
       size: "1800",
       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000"
     },
-//     {
-//       id: 4,
-//       title: "Classic Heritage Home",
-//       location: "Banani, Dhaka",
-//       price: "$510,000",
-//       beds: 4,
-//       baths: 3,
-//       size: "2600",
-//       image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=1000"
-//     },
+    {
+      id: 4,
+      title: "Classic Heritage Home",
+      location: "Banani, Dhaka",
+      price: "$510,000",
+      beds: 4,
+      baths: 3,
+      size: "2600",
+      image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 5,
 //       title: "Minimalist Urban House",
