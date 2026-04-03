@@ -87,9 +87,9 @@ const FamilyHouse = () => {
           >
             <ArrowLeft size={20} className="mr-2" /> Back to Home
           </button>
-//           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
-//             Available Family Houses
-//           </h1>
+           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
+             Available Family Houses
+           </h1>
 //           <p className="text-gray-500 mt-2">Find the perfect and most comfortable home for your family.</p>
 //         </div>
 
