@@ -96,10 +96,10 @@ const FamilyHouse = () => {
          {/* Responsive Grid */}
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
            {houseList.map((house) => (
-//             <div 
-//               key={house.id} 
-//               className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group"
-//             >
+            <div 
+              key={house.id} 
+              className="bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group"
+            >
 //               {/* Image Section with Zoom Controls */}
 //               <div className="relative h-64 overflow-hidden">
 //                 <img 
