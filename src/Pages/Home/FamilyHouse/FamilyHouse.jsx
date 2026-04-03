@@ -84,9 +84,9 @@ const FamilyHouse = () => {
            <button 
             onClick={() => navigate(-1)}
             className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 mb-4 transition-colors w-fit"
-//           >
-//             <ArrowLeft size={20} className="mr-2" /> Back to Home
-//           </button>
+          >
+            <ArrowLeft size={20} className="mr-2" /> Back to Home
+          </button>
 //           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
 //             Available Family Houses
 //           </h1>
