@@ -56,10 +56,10 @@ const FamilyHouse = () => {
       size: "2100",
       image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&q=80&w=1000"
     }
-//   ];
+  ];
 
-//   // Zoom state to track zoom level for each house by ID
-//   const [zoomLevels, setZoomLevels] = useState({});
+  // Zoom state to track zoom level for each house by ID
+  const [zoomLevels, setZoomLevels] = useState({});
 
 //   const handleZoomIn = (id) => {
 //     setZoomLevels(prev => ({
