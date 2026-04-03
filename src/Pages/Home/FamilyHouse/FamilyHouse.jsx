@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const FamilyHouse = () => {
   const navigate = useNavigate();
 
-//   const houseList = [
+  const houseList = [
 //     {
 //       id: 1,
 //       title: "Modern Dream Family House",
