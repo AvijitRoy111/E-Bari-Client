@@ -9,6 +9,7 @@ import Footer from "@/Components/Footer/Footer";
 import AllProperties from "@/Pages/AllProperties/AllProperties";
 import Error from "@/Components/Error/Error";
 import Services from "@/Pages/Services/Services";
+import FamilyHouse from "@/Pages/Home/FamilyHouse/FamilyHouse";
 
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services/>
+      },
+    {
+        path: "/family-house",
+        element: <FamilyHouse/>
       },
       {
         path: "/navbar",
