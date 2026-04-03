@@ -82,7 +82,7 @@ const FamilyHouse = () => {
          {/* Header section */}
          <div className="flex flex-col mb-10">
            <button 
-//             onClick={() => navigate(-1)}
+            onClick={() => navigate(-1)}
 //             className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 mb-4 transition-colors w-fit"
 //           >
 //             <ArrowLeft size={20} className="mr-2" /> Back to Home
