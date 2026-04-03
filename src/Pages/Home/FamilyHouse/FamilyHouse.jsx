@@ -16,16 +16,16 @@ const FamilyHouse = () => {
       size: "2400",
       image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1000"
     },
-//     {
-//       id: 2,
-//       title: "Luxury Skyline Villa",
-//       location: "Gulshan, Dhaka",
-//       price: "$620,000",
-//       beds: 5,
-//       baths: 4,
-//       size: "3200",
-//       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000"
-//     },
+    {
+      id: 2,
+      title: "Luxury Skyline Villa",
+      location: "Gulshan, Dhaka",
+      price: "$620,000",
+      beds: 5,
+      baths: 4,
+      size: "3200",
+      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 3,
 //       title: "Green View Apartment",
