@@ -149,9 +149,9 @@ const FamilyHouse = () => {
                    {house.title}
                  </h2>
 
-//                 {/* Features */}
-//                 <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-3 mb-4">
-//                   <div className="flex items-center gap-1">
+                {/* Features */}
+                 <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-3 mb-4">
+                   <div className="flex items-center gap-1">
 //                     <Bed size={16} className="text-blue-500" />
 //                     <span className="text-sm font-semibold dark:text-gray-300">{house.beds} Bed</span>
 //                   </div>
