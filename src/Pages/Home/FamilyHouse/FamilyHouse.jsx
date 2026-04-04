@@ -112,10 +112,10 @@ const FamilyHouse = () => {
                  {/* Status Badge */}
                  <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-lg text-xs font-bold shadow-md z-10">
                    FAMILY HOUSE
-//                 </div>
+                 </div>
 
-//                 {/* Favorite Button */}
-//                 <button className="absolute top-4 right-4 p-2 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition-all z-10">
+                 {/* Favorite Button */}
+                 <button className="absolute top-4 right-4 p-2 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/40 transition-all z-10">
 //                   <Heart size={18} />
 //                 </button>
 
