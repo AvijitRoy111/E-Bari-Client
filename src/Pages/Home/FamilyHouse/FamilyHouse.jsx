@@ -103,9 +103,9 @@ const FamilyHouse = () => {
                {/* Image Section with Zoom Controls */}
                <div className="relative h-64 overflow-hidden">
                  <img 
-//                   src={house.image} 
-//                   alt={house.title} 
-//                   style={{ transform: `scale(${zoomLevels[house.id] || 1})` }}
+                   src={house.image} 
+                  alt={house.title} 
+                  style={{ transform: `scale(${zoomLevels[house.id] || 1})` }}
 //                   className="w-full h-full object-cover transition-transform duration-300"
 //                 />
                 
