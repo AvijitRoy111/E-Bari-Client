@@ -131,7 +131,7 @@ const FamilyHouse = () => {
                    <button 
                     onClick={() => handleZoomOut(house.id)}
                     className="p-2 bg-black/50 hover:bg-black/70 backdrop-blur-md rounded-full text-white transition-all border border-white/20"
-//                     title="Zoom Out"
+                    title="Zoom Out"
 //                   >
 //                     <Minus size={16} />
 //                   </button>
