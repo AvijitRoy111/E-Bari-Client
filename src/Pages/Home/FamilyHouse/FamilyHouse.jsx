@@ -119,9 +119,9 @@ const FamilyHouse = () => {
                    <Heart size={18} />
                  </button>
 
-//                 {/* Zoom Controls Overlay */}
-//                 <div className="absolute bottom-4 right-4 flex gap-2 z-10">
-//                   <button 
+                 {/* Zoom Controls Overlay */}
+                 <div className="absolute bottom-4 right-4 flex gap-2 z-10">
+                   <button 
 //                     onClick={() => handleZoomIn(house.id)}
 //                     className="p-2 bg-black/50 hover:bg-black/70 backdrop-blur-md rounded-full text-white transition-all border border-white/20"
 //                     title="Zoom In"
