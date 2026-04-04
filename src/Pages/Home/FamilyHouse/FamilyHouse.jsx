@@ -141,8 +141,8 @@ const FamilyHouse = () => {
                {/* Details Content */}
                <div className="p-6">
                  <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-2">
-//                   <MapPin size={16} className="mr-1 text-red-500" />
-//                   <span>{house.location}</span>
+                   <MapPin size={16} className="mr-1 text-red-500" />
+                   <span>{house.location}</span>
 //                 </div>
                 
 //                 <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 transition-colors">
