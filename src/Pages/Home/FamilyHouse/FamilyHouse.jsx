@@ -155,8 +155,8 @@ const FamilyHouse = () => {
                      <Bed size={16} className="text-blue-500" />
                      <span className="text-sm font-semibold dark:text-gray-300">{house.beds} Bed</span>
                    </div>
-//                   <div className="flex items-center gap-1 border-l border-r px-4 dark:border-gray-800">
-//                     <Bath size={16} className="text-blue-500" />
+                   <div className="flex items-center gap-1 border-l border-r px-4 dark:border-gray-800">
+                     <Bath size={16} className="text-blue-500" />
 //                     <span className="text-sm font-semibold dark:text-gray-300">{house.baths} Bath</span>
 //                   </div>
 //                   <div className="flex items-center gap-1">
