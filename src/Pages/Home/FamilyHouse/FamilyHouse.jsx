@@ -109,9 +109,9 @@ const FamilyHouse = () => {
                    className="w-full h-full object-cover transition-transform duration-300"
                  />
                 
-//                 {/* Status Badge */}
-//                 <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-lg text-xs font-bold shadow-md z-10">
-//                   FAMILY HOUSE
+                 {/* Status Badge */}
+                 <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-lg text-xs font-bold shadow-md z-10">
+                   FAMILY HOUSE
 //                 </div>
 
 //                 {/* Favorite Button */}
