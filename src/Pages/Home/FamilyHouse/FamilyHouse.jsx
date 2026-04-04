@@ -143,11 +143,11 @@ const FamilyHouse = () => {
                  <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-2">
                    <MapPin size={16} className="mr-1 text-red-500" />
                    <span>{house.location}</span>
-//                 </div>
+                 </div>
                 
-//                 <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 transition-colors">
-//                   {house.title}
-//                 </h2>
+                 <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 transition-colors">
+                   {house.title}
+                 </h2>
 
 //                 {/* Features */}
 //                 <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-3 mb-4">
