@@ -134,8 +134,8 @@ const FamilyHouse = () => {
                     title="Zoom Out"
                   >
                      <Minus size={16} />
-//                   </button>
-//                 </div>
+                   </button>
+                 </div>
 //               </div>
 
 //               {/* Details Content */}
