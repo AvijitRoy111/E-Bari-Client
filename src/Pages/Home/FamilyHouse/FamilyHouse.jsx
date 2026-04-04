@@ -161,7 +161,7 @@ const FamilyHouse = () => {
                    </div>
                    <div className="flex items-center gap-1">
                      <Maximize size={16} className="text-blue-500" />
-//                     <span className="text-sm font-semibold dark:text-gray-300">{house.size} Sqft</span>
+                     <span className="text-sm font-semibold dark:text-gray-300">{house.size} Sqft</span>
 //                   </div>
 //                 </div>
 
