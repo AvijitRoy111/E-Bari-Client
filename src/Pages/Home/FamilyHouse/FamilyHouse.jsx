@@ -177,11 +177,11 @@ const FamilyHouse = () => {
                  </div>
                </div>
              </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
 
-// export default FamilyHouse;
+export default FamilyHouse;
