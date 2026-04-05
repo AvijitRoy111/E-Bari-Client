@@ -61,9 +61,9 @@ const Apartment = () => {
       floor: "8th Floor",
       image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80&w=1000"
     }
-//   ];
+  ];
 
-//   const [zoomLevels, setZoomLevels] = useState({});
+  const [zoomLevels, setZoomLevels] = useState({});
 
 //   const handleZoomIn = (id) => {
 //     setZoomLevels(prev => ({ ...prev, [id]: (prev[id] || 1) + 0.2 }));
