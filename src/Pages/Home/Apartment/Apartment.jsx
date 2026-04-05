@@ -50,12 +50,12 @@ const Apartment = () => {
       floor: "3rd Floor",
       image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=1000"
     },
-//     {
-//       id: 5,
-//       title: "Contemporary Living Space",
-//       location: "Uttara, Dhaka",
-//       price: "$210,000",
-//       beds: 3,
+    {
+      id: 5,
+      title: "Contemporary Living Space",
+      location: "Uttara, Dhaka",
+      price: "$210,000",
+      beds: 3,
 //       baths: 3,
 //       size: "1700",
 //       floor: "8th Floor",
