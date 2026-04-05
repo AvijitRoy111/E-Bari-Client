@@ -71,7 +71,7 @@ const Apartment = () => {
 
   const handleZoomOut = (id) => {
     setZoomLevels(prev => ({ ...prev, [id]: Math.max((prev[id] || 1) - 0.2, 1) }));
-//   };
+  };
 
 //   return (
 //     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12 px-6 font-sans">
