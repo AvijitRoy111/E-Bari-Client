@@ -59,8 +59,8 @@ const Apartment = () => {
       baths: 3,
       size: "1700",
       floor: "8th Floor",
-//       image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80&w=1000"
-//     }
+      image: "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&q=80&w=1000"
+    }
 //   ];
 
 //   const [zoomLevels, setZoomLevels] = useState({});
