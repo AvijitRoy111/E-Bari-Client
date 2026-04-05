@@ -39,13 +39,13 @@ const Apartment = () => {
       floor: "Top Floor",
       image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=1000"
     },
-//     {
-//       id: 4,
-//       title: "Minimalist Studio Unit",
-//       location: "Dhanmondi, Dhaka",
-//       price: "$150,000",
-//       beds: 2,
-//       baths: 1,
+    {
+      id: 4,
+      title: "Minimalist Studio Unit",
+      location: "Dhanmondi, Dhaka",
+      price: "$150,000",
+      beds: 2,
+      baths: 1,
 //       size: "1100",
 //       floor: "3rd Floor",
 //       image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=1000"
