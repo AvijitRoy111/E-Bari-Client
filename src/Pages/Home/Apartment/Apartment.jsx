@@ -3,7 +3,7 @@ import { Bed, Bath, Maximize, MapPin, ArrowLeft, Heart, Plus, Minus, Building2 }
 import { useNavigate } from 'react-router-dom';
 
 const Apartment = () => {
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
 
 //   const apartmentList = [
 //     {
