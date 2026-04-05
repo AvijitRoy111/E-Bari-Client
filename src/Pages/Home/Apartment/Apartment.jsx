@@ -69,7 +69,7 @@ const Apartment = () => {
     setZoomLevels(prev => ({ ...prev, [id]: (prev[id] || 1) + 0.2 }));
   };
 
-//   const handleZoomOut = (id) => {
+  const handleZoomOut = (id) => {
 //     setZoomLevels(prev => ({ ...prev, [id]: Math.max((prev[id] || 1) - 0.2, 1) }));
 //   };
 
