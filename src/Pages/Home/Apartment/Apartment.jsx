@@ -78,8 +78,8 @@ const Apartment = () => {
        <div className="max-w-7xl mx-auto">      
          {/* Navigation & Header */}
          <div className="flex flex-col mb-10">
-//           <button 
-//             onClick={() => navigate(-1)}
+           <button 
+             onClick={() => navigate(-1)}
 //             className="flex items-center text-gray-600 dark:text-gray-400 hover:text-indigo-600 mb-4 transition-colors w-fit font-medium"
 //           >
 //             <ArrowLeft size={20} className="mr-2" /> Back to Home
