@@ -120,11 +120,11 @@ const Apartment = () => {
                    <button 
                     onClick={() => handleZoomOut(apt.id)}
                     className="p-2 bg-white/90 dark:bg-black/60 backdrop-blur-md rounded-full text-gray-900 dark:text-white hover:bg-white transition-all shadow-lg"
-//                   >
-//                     <Minus size={16} />
-//                   </button>
-//                 </div>
-//               </div>
+                  >
+                     <Minus size={16} />
+                   </button>
+                 </div>
+               </div>
 
 //               {/* Details Content */}
 //               <div className="p-8">
