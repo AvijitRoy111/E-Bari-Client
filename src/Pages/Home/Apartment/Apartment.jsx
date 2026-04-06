@@ -141,8 +141,8 @@ const Apartment = () => {
                  <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-4 mb-6">
                    <div className="flex flex-col items-center">
                      <Bed size={20} className="text-indigo-500 mb-1" />
-//                     <span className="text-xs font-bold dark:text-gray-300">{apt.beds} Beds</span>
-//                   </div>
+                     <span className="text-xs font-bold dark:text-gray-300">{apt.beds} Beds</span>
+                   </div>
 //                   <div className="flex flex-col items-center border-l border-r px-6 dark:border-gray-800">
 //                     <Bath size={20} className="text-indigo-500 mb-1" />
 //                     <span className="text-xs font-bold dark:text-gray-300">{apt.baths} Baths</span>
