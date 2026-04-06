@@ -86,9 +86,9 @@ const Apartment = () => {
            </button>
            <h1 className="text-3xl md:text-5xl font-black text-gray-900 rk:text-white flex items-center gap-3">
              <Building2 className="text-indigo-600" size={36} /> Modern Apartments
-//           </h1>
-//           <p className="text-gray-500 mt-2 text-lg">Premium urban apartments designed for your lifestyle.</p>
-//         </div>
+           </h1>
+           <p className="text-gray-500 mt-2 text-lg">Premium urban artments designed for your lifestyle.</p>
+         </div>
 
 //         {/* Responsive Grid */}
 //         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
