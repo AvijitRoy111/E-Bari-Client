@@ -126,8 +126,8 @@ const Apartment = () => {
                  </div>
                </div>
 
-//               {/* Details Content */}
-//               <div className="p-8">
+               {/* Details Content */}
+               <div className="p-8">
 //                 <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-2">
 //                   <MapPin size={16} className="mr-1 text-red-500" />
 //                   <span>{apt.location} • <span className="text-indigo-500 font-semibold">{apt.floor}</span></span>
