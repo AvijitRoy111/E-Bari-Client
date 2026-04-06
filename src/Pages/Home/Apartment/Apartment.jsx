@@ -148,8 +148,8 @@ const Apartment = () => {
                      <span className="text-xs font-bold dark:text-gray-300">{apt.baths} Baths</span>
                    </div>
                    <div className="flex flex-col items-center">
-//                     <Maximize size={20} className="text-indigo-500 mb-1" />
-//                     <span className="text-xs font-bold dark:text-gray-300">{apt.size} Sqft</span>
+                     <Maximize size={20} className="text-indigo-500 mb-1" />
+                     <span className="text-xs font-bold dark:text-gray-300">{apt.size} Sqft</span>
 //                   </div>
 //                 </div>
 
