@@ -169,7 +169,7 @@ const Apartment = () => {
          </div>
        </div>
      </div>
-//   );
-// };
+  );
+};
 
-// export default Apartment;
+export default Apartment;
