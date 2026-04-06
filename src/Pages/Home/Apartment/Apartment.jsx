@@ -100,8 +100,8 @@ const Apartment = () => {
               {/* Image Section */}
               <div className="relative h-64 overflow-hidden">
                  <img 
-//                   src={apt.image} 
-//                   alt={apt.title} 
+                  src={apt.image} 
+                  alt={apt.title} 
 //                   style={{ transform: `scale(${zoomLevels[apt.id] || 1})` }}
 //                   className="w-full h-full object-cover transition-transform duration-300"
 //                 />
