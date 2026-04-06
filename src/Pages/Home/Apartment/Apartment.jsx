@@ -137,7 +137,7 @@ const Apartment = () => {
                    {apt.title}
                  </h2>
 
-//                 {/* Features */}
+                 {/* Features */}
 //                 <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-4 mb-6">
 //                   <div className="flex flex-col items-center">
 //                     <Bed size={20} className="text-indigo-500 mb-1" />
