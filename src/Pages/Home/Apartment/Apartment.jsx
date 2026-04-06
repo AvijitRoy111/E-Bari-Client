@@ -96,9 +96,9 @@ const Apartment = () => {
             <div 
               key={apt.id} 
               className="bg-white dark:bg-gray-900 rounded-[2.5rem] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group border border-gray-100 dark:border-gray-800"
-//             >
-//               {/* Image Section */}
-//               <div className="relative h-64 overflow-hidden">
+            >
+              {/* Image Section */}
+              <div className="relative h-64 overflow-hidden">
 //                 <img 
 //                   src={apt.image} 
 //                   alt={apt.title} 
