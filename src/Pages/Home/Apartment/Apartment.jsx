@@ -90,9 +90,9 @@ const Apartment = () => {
            <p className="text-gray-500 mt-2 text-lg">Premium urban artments designed for your lifestyle.</p>
          </div>
 
-//         {/* Responsive Grid */}
-//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-//           {apartmentList.map((apt) => (
+         {/* Responsive Grid */}
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+           {apartmentList.map((apt) => (
 //             <div 
 //               key={apt.id} 
 //               className="bg-white dark:bg-gray-900 rounded-[2.5rem] overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group border border-gray-100 dark:border-gray-800"
