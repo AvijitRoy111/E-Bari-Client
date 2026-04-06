@@ -150,12 +150,12 @@ const Apartment = () => {
                    <div className="flex flex-col items-center">
                      <Maximize size={20} className="text-indigo-500 mb-1" />
                      <span className="text-xs font-bold dark:text-gray-300">{apt.size} Sqft</span>
-//                   </div>
-//                 </div>
+                   </div>
+                 </div>
 
-//                 {/* Price and Button */}
-//                 <div className="flex items-center justify-between">
-//                   <div>
+                 {/* Price and Button */}
+                 <div className="flex items-center justify-between">
+                   <div>
 //                     <span className="text-gray-400 text-[10px] block uppercase font-bold tracking-widest">Starting Price</span>
 //                     <span className="text-2xl font-black text-indigo-600 dark:text-indigo-400">{apt.price}</span>
 //                   </div>
