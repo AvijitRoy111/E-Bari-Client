@@ -134,8 +134,8 @@ const Apartment = () => {
                  </div>
                 
                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-indigo-600 transition-colors">
-//                   {apt.title}
-//                 </h2>
+                   {apt.title}
+                 </h2>
 
 //                 {/* Features */}
 //                 <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-4 mb-6">
