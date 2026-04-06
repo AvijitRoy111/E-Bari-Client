@@ -112,12 +112,12 @@ const Apartment = () => {
                  {/* Zoom Controls */}
                  <div className="absolute bottom-4 right-4 flex gap-2">
                    <button 
-//                     onClick={() => handleZoomIn(apt.id)}
-//                     className="p-2 bg-white/90 dark:bg-black/60 backdrop-blur-md rounded-full text-gray-900 dark:text-white hover:bg-white transition-all shadow-lg"
-//                   >
-//                     <Plus size={16} />
-//                   </button>
-//                   <button 
+                    onClick={() => handleZoomIn(apt.id)}
+                    className="p-2 bg-white/90 dark:bg-black/60 backdrop-blur-md rounded-full text-gray-900 dark:text-white hover:bg-white transition-all shadow-lg"
+                  >
+                     <Plus size={16} />
+                   </button>
+                   <button 
 //                     onClick={() => handleZoomOut(apt.id)}
 //                     className="p-2 bg-white/90 dark:bg-black/60 backdrop-blur-md rounded-full text-gray-900 dark:text-white hover:bg-white transition-all shadow-lg"
 //                   >
