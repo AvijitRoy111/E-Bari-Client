@@ -128,9 +128,9 @@ const Apartment = () => {
 
                {/* Details Content */}
                <div className="p-8">
-//                 <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-2">
-//                   <MapPin size={16} className="mr-1 text-red-500" />
-//                   <span>{apt.location} • <span className="text-indigo-500 font-semibold">{apt.floor}</span></span>
+                 <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-2">
+                   <MapPin size={16} className="mr-1 text-red-500" />
+                   <span>{apt.location} • <span className="text-indigo-500 font-semibold">{apt.floor}</span></span>
 //                 </div>
                 
 //                 <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-indigo-600 transition-colors">
