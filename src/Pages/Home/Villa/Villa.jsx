@@ -32,10 +32,10 @@ const Villa = () => {
       location: "Beverly Hills, CA",
       price: "$2,100,000",
       beds: 7,
-//       baths: 6,
-//       size: "5200",
-//       image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000"
-//     },
+      baths: 6,
+      size: "5200",
+      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 4,
 //       title: "Palm Breeze Estate",
