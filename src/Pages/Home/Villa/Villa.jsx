@@ -3,7 +3,7 @@ import { Bed, Bath, Maximize, MapPin, ArrowLeft, Heart, Plus, Minus } from 'luci
 import { useNavigate } from 'react-router-dom';
 
 const Villa = () => {
-//   const navigate = useNavigate();
+  const navigate = useNavigate();
 
 //   const villaList = [
 //     {
