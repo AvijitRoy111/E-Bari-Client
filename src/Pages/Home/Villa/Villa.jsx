@@ -26,12 +26,12 @@ const Villa = () => {
       size: "3800",
       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000"
     },
-//     {
-//       id: 3,
-//       title: "Mediterranean Retreat",
-//       location: "Beverly Hills, CA",
-//       price: "$2,100,000",
-//       beds: 7,
+    {
+      id: 3,
+      title: "Mediterranean Retreat",
+      location: "Beverly Hills, CA",
+      price: "$2,100,000",
+      beds: 7,
 //       baths: 6,
 //       size: "5200",
 //       image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000"
