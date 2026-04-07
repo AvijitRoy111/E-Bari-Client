@@ -21,11 +21,11 @@ const Villa = () => {
       title: "Modern Glass Oasis",
       location: "Miami, Florida",
       price: "$980,000",
-//       beds: 4,
-//       baths: 4,
-//       size: "3800",
-//       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000"
-//     },
+      beds: 4,
+      baths: 4,
+      size: "3800",
+      image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 3,
 //       title: "Mediterranean Retreat",
