@@ -44,8 +44,8 @@ const Villa = () => {
       beds: 4,
 //       baths: 3,
 //       size: "3100",
-//       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000"
-//     }
+      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000"
+    }
 //   ];
 
 //   const [zoomLevels, setZoomLevels] = useState({});
