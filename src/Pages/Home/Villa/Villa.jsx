@@ -46,9 +46,9 @@ const Villa = () => {
       size: "3100",
       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000"
     }
-//   ];
+  ];
 
-//   const [zoomLevels, setZoomLevels] = useState({});
+  const [zoomLevels, setZoomLevels] = useState({});
 
 //   const handleZoomIn = (id) => {
 //     setZoomLevels(prev => ({ ...prev, [id]: (prev[id] || 1) + 0.2 }));
