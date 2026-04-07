@@ -14,8 +14,8 @@ const Villa = () => {
       beds: 6,
       baths: 5,
       size: "4500",
-    //   image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1000"
-    // },
+      image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 2,
 //       title: "Modern Glass Oasis",
