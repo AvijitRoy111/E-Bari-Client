@@ -36,12 +36,12 @@ const Villa = () => {
       size: "5200",
       image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1000"
     },
-//     {
-//       id: 4,
-//       title: "Palm Breeze Estate",
-//       location: "Palm Springs, CA",
-//       price: "$850,000",
-//       beds: 4,
+    {
+      id: 4,
+      title: "Palm Breeze Estate",
+      location: "Palm Springs, CA",
+      price: "$850,000",
+      beds: 4,
 //       baths: 3,
 //       size: "3100",
 //       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000"
