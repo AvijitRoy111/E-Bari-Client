@@ -60,10 +60,10 @@ const Villa = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-gray-950 py-12 px-6">
-//       <div className="max-w-7xl mx-auto">
+       <div className="max-w-7xl mx-auto">
         
-//         {/* Navigation */}
-//         <button 
+         {/* Navigation */}
+         <button 
 //           onClick={() => navigate(-1)}
 //           className="flex items-center text-gray-600 dark:text-gray-400 hover:text-green-600 mb-6 transition-colors font-medium"
 //         >
