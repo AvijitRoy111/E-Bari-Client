@@ -50,7 +50,7 @@ const Villa = () => {
 
   const [zoomLevels, setZoomLevels] = useState({});
 
-//   const handleZoomIn = (id) => {
+  const handleZoomIn = (id) => {
 //     setZoomLevels(prev => ({ ...prev, [id]: (prev[id] || 1) + 0.2 }));
 //   };
 
