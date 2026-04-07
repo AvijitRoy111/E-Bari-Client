@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Villa = () => {
   const navigate = useNavigate();
 
-//   const villaList = [
+  const villaList = [
 //     {
 //       id: 1,
 //       title: "Royal Azure Villa",
