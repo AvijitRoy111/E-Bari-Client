@@ -113,9 +113,9 @@ const Villa = () => {
                     <span className="flex items-center gap-1 font-semibold dark:text-gray-300"><Bed size={18} className="text-green-600"/> {villa.beds}</span>
                     <span className="flex items-center gap-1 font-semibold dark:text-gray-300"><Bath size={18} className="text-green-600"/> {villa.baths}</span>
                     <span className="flex items-center gap-1 font-semibold dark:text-gray-300"><Maximize size={18} className="text-green-600"/> {villa.size} ft</span>
-//                 </div>
+                 </div>
 
-//                 <div className="flex items-center justify-between">
+                 <div className="flex items-center justify-between">
 //                   <span className="text-2xl font-black text-green-700 dark:text-green-400">{villa.price}</span>
 //                   <button className="bg-green-700 hover:bg-green-800 text-white px-6 py-2.5 rounded-xl font-bold transition-all transform hover:scale-105">
 //                     View Villa
