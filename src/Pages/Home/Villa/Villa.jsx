@@ -101,8 +101,8 @@ const Villa = () => {
                  </div>
                </div>
 
-//               {/* Content */}
-//               <div className="p-8">
+               {/* Content */}
+               <div className="p-8">
 //                 <div className="flex items-center text-gray-400 text-sm mb-3">
 //                   <MapPin size={16} className="mr-1 text-green-500" />
 //                   <span>{villa.location}</span>
