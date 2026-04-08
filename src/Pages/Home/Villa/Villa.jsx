@@ -118,7 +118,7 @@ const Villa = () => {
                  <div className="flex items-center justify-between">
                    <span className="text-2xl font-black text-green-700 dark:text-green-400">{villa.price}</span>
                    <button className="bg-green-700 hover:bg-green-800 text-white px-6 py-2.5 rounded-xl font-bold transition-all transform hover:scale-105">
-//                     View Villa
+                     View Villa
 //                   </button>
 //                 </div>
 //               </div>
