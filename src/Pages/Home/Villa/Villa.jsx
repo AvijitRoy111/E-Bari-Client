@@ -121,9 +121,9 @@ const Villa = () => {
                      View Villa
                    </button>
                  </div>
-//               </div>
-//             </div>
-//           ))}
+               </div>
+             </div>
+          ))}
 //         </div>
 //       </div>
 //     </div>
