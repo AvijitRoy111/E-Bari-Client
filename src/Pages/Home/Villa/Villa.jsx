@@ -72,8 +72,8 @@ const Villa = () => {
 
          <div className="mb-10 text-center md:text-left">
            <h1 className="text-4xl font-black text-gray-900 dark:text-white uppercase tracking-tight">
-//             Luxury Villas
-//           </h1>
+             Luxury Villas
+           </h1>
 //           <p className="text-gray-500 mt-2 text-lg italic">Experience world-class living in our premium villas.</p>
 //         </div>
 
