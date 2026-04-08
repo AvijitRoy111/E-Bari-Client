@@ -85,10 +85,10 @@ const Villa = () => {
                {/* Image with Zoom */}
                <div className="relative h-72 overflow-hidden">
                  <img 
-//                   src={villa.image} 
-//                   alt={villa.title} 
-//                   style={{ transform: `scale(${zoomLevels[villa.id] || 1})` }}
-//                   className="w-full h-full object-cover transition-transform duration-500"
+                   src={villa.image} 
+                   alt={villa.title} 
+                   style={{ transform: `scale(${zoomLevels[villa.id] || 1})` }}
+                   className="w-full h-full object-cover transition-transform duration-500"
 //                 />
 //                 <div className="absolute top-5 left-5 bg-black/60 backdrop-blur-md text-white px-4 py-1 rounded-full text-xs font-bold">
 //                   PREMIUM VILLA
