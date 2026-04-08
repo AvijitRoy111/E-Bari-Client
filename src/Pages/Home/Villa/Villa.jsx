@@ -103,9 +103,9 @@ const Villa = () => {
 
                {/* Content */}
                <div className="p-8">
-//                 <div className="flex items-center text-gray-400 text-sm mb-3">
-//                   <MapPin size={16} className="mr-1 text-green-500" />
-//                   <span>{villa.location}</span>
+                 <div className="flex items-center text-gray-400 text-sm mb-3">
+                   <MapPin size={16} className="mr-1 text-green-500" />
+                   <span>{villa.location}</span>
 //                 </div>
 //                 <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4 leading-tight">{villa.title}</h3>
                 
