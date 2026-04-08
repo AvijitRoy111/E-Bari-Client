@@ -119,8 +119,8 @@ const Villa = () => {
                    <span className="text-2xl font-black text-green-700 dark:text-green-400">{villa.price}</span>
                    <button className="bg-green-700 hover:bg-green-800 text-white px-6 py-2.5 rounded-xl font-bold transition-all transform hover:scale-105">
                      View Villa
-//                   </button>
-//                 </div>
+                   </button>
+                 </div>
 //               </div>
 //             </div>
 //           ))}
