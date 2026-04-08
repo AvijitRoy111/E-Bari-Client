@@ -127,7 +127,7 @@ const Villa = () => {
          </div>
        </div>
      </div>
-//   );
-// };
+  );
+};
 
 // export default Villa;
