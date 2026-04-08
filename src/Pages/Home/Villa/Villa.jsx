@@ -74,8 +74,8 @@ const Villa = () => {
            <h1 className="text-4xl font-black text-gray-900 dark:text-white uppercase tracking-tight">
              Luxury Villas
            </h1>
-//           <p className="text-gray-500 mt-2 text-lg italic">Experience world-class living in our premium villas.</p>
-//         </div>
+           <p className="text-gray-500 mt-2 text-lg italic">Experience world-class living in our premium villas.</p>
+         </div>
 
 //         {/* Grid Container */}
 //         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
