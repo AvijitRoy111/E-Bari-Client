@@ -47,11 +47,11 @@ export const Home = () => {
 
 
       {/* offer scroller section */}
-      <div className="bg-green-500 w-full h-10 mt-4">
+      {/* <div className="bg-green-500 w-full h-10 mt-4">
         <marquee behavior="scroll" direction="left">
           <p className="text-white font-bold pt-2">Special Offers Available! Limited Time Only!</p>
         </marquee>
-      </div>
+      </div> */}
 
 
       {/* offer card section */}
