@@ -94,8 +94,8 @@ const Villa = () => {
                    PREMIUM VILLA
                  </div>
                 
-//                 {/* Zoom Controls */}
-//                 <div className="absolute bottom-4 right-4 flex flex-col gap-2">
+                 {/* Zoom Controls */}
+                 <div className="absolute bottom-4 right-4 flex flex-col gap-2">
 //                   <button onClick={() => handleZoomIn(villa.id)} className="p-2 bg-white/90 rounded-full text-black hover:bg-white shadow-lg transition-all"><Plus size={16}/></button>
 //                   <button onClick={() => handleZoomOut(villa.id)} className="p-2 bg-white/90 rounded-full text-black hover:bg-white shadow-lg transition-all"><Minus size={16}/></button>
 //                 </div>
