@@ -109,8 +109,8 @@ const Villa = () => {
                  </div>
                  <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4 leading-tight">{villa.title}</h3>
                 
-//                 <div className="flex justify-between py-4 border-t border-gray-50 dark:border-gray-800 mb-6">
-//                    <span className="flex items-center gap-1 font-semibold dark:text-gray-300"><Bed size={18} className="text-green-600"/> {villa.beds}</span>
+                 <div className="flex justify-between py-4 border-t border-gray-50 dark:border-gray-800 mb-6">
+                    <span className="flex items-center gap-1 font-semibold dark:text-gray-300"><Bed size={18} className="text-green-600"/> {villa.beds}</span>
 //                    <span className="flex items-center gap-1 font-semibold dark:text-gray-300"><Bath size={18} className="text-green-600"/> {villa.baths}</span>
 //                    <span className="flex items-center gap-1 font-semibold dark:text-gray-300"><Maximize size={18} className="text-green-600"/> {villa.size} ft</span>
 //                 </div>
