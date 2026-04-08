@@ -80,11 +80,11 @@ const Villa = () => {
          {/* Grid Container */}
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
            {villaList.map((villa) => (
-//             <div key={villa.id} className="bg-white dark:bg-gray-900 rounded-[2rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 dark:border-gray-800">
+            <div key={villa.id} className="bg-white dark:bg-gray-900 rounded-[2rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 dark:border-gray-800">
               
-//               {/* Image with Zoom */}
-//               <div className="relative h-72 overflow-hidden">
-//                 <img 
+               {/* Image with Zoom */}
+               <div className="relative h-72 overflow-hidden">
+                 <img 
 //                   src={villa.image} 
 //                   alt={villa.title} 
 //                   style={{ transform: `scale(${zoomLevels[villa.id] || 1})` }}
