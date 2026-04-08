@@ -124,9 +124,9 @@ const Villa = () => {
                </div>
              </div>
           ))}
-//         </div>
-//       </div>
-//     </div>
+         </div>
+       </div>
+     </div>
 //   );
 // };
 
