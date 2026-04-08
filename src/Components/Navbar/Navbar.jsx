@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, User, Moon, Sun, Laptop, Home, Phone, Wrench, Building2 } from "lucide-react";
+import { Menu, X, User, Moon, Sun, Laptop, Home, Phone, Wrench, Building2, HeartPlus } from "lucide-react";
 import { Button } from "../ui/button";
 import {
   DropdownMenu,
@@ -33,6 +33,7 @@ export default function Navbar() {
     { to: "/all-properties", label: "All Properties", icon: <Building2 className="w-5 h-5" /> },
     { to: "/services", label: "Services", icon: <Wrench className="w-5 h-5" /> },
     { to: "/contact", label: "Contact", icon: <Phone className="w-5 h-5" /> },
+    { to: "/contact", label: "Favourite", icon: <HeartPlus className="w-5 h-5" /> },
   ];
 
   // Desktop nav without icons
@@ -71,6 +72,14 @@ export default function Navbar() {
           className={({ isActive }) => (isActive ? "text-green-700 font-semibold" : "")}
         >
           Contact
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/favourite"
+          className={({ isActive }) => (isActive ? "text-green-700 font-semibold" : "")}
+        >
+          <HeartPlus className="w-6 h-6" />
         </NavLink>
       </li>
     </>

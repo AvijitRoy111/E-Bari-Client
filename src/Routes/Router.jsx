@@ -12,6 +12,7 @@ import Services from "@/Pages/Services/Services";
 import FamilyHouse from "@/Pages/Home/FamilyHouse/FamilyHouse";
 import Villa from "@/Pages/Home/Villa/Villa";
 import Apartment from "@/Pages/Home/Apartment/Apartment";
+import Favourite from "@/Pages/Favourite/Favourite";
 
 
 const router = createBrowserRouter([
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: "/apartment",
         element: <Apartment />
+      },
+      {
+        path: "/favourite",
+        element: <Favourite />
       },
       {
         path: "/navbar",
