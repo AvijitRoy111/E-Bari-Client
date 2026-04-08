@@ -66,7 +66,7 @@ const Villa = () => {
          <button 
            onClick={() => navigate(-1)}
            className="flex items-center text-gray-600 dark:text-gray-400 hover:text-green-600 mb-6 transition-colors font-medium"
-//         >
+        >
 //           <ArrowLeft size={20} className="mr-2" /> Back to Explore
 //         </button>
 
