@@ -77,9 +77,9 @@ const Villa = () => {
            <p className="text-gray-500 mt-2 text-lg italic">Experience world-class living in our premium villas.</p>
          </div>
 
-//         {/* Grid Container */}
-//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-//           {villaList.map((villa) => (
+         {/* Grid Container */}
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+           {villaList.map((villa) => (
 //             <div key={villa.id} className="bg-white dark:bg-gray-900 rounded-[2rem] overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 dark:border-gray-800">
               
 //               {/* Image with Zoom */}
