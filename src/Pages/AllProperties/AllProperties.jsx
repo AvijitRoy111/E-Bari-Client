@@ -1,156 +1,312 @@
-import React, { useState } from 'react';
-import { Search, SlidersHorizontal, MapPin, BedDouble, Bath, Square, Heart } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react';
+import {
+  Search,
+  SlidersHorizontal,
+  MapPin,
+  BedDouble,
+  Bath,
+  Square,
+  RotateCcw,
+  ChevronRight,
+  Heater,
+  Heart
+} from 'lucide-react';
 import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
-import card1 from "../../assets/images/card/card-1.jpg"; // Apnar image path thik thakle thakbe
 
 const AllProperties = () => {
-  const [activeTab, setActiveTab] = useState("All");
+  const [properties, setProperties] = useState([]);
+  const [favorites, setFavorites] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  const properties = [
-    { id: 1, img: card1, price: "$4,500", title: "Skyline Haven Villa", loc: "Miami, FL", bed: 4, bath: 3, sqft: 2500, type: "Sale" },
-    { id: 2, img: card1, price: "$2,200", title: "Modern Urban Loft", loc: "New York, NY", bed: 2, bath: 1, sqft: 1200, type: "Rent" },
-    { id: 3, img: card1, price: "$3,800", title: "Serene Garden House", loc: "Austin, TX", bed: 3, bath: 2, sqft: 1800, type: "Sale" },
-    { id: 4, img: card1, price: "$5,000", title: "Ocean Edge Mansion", loc: "Malibu, CA", bed: 6, bath: 5, sqft: 4500, type: "Sale" },
-    { id: 5, img: card1, price: "$1,800", title: "Cozy Studio Flat", loc: "Chicago, IL", bed: 1, bath: 1, sqft: 800, type: "Rent" },
-    { id: 6, img: card1, price: "$3,200", title: "Contemporary Condo", loc: "Seattle, WA", bed: 3, bath: 2, sqft: 1500, type: "Rent" },
-  ];
+  // Filter States
+  const [searchTerm, setSearchTerm] = useState("");
+  const [activeTab, setActiveTab] = useState("All");
+  const [maxPrice, setMaxPrice] = useState(600000); 
+
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 6;
+
+  // Initial Fetch
+  useEffect(() => {
+    const fetchProperties = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch('../public/fake.json');
+        const data = await response.json();
+        setProperties(data);
+      } catch (error) {
+        console.error("Fetch error:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchProperties();
+  }, []);
+
+  // Favourite state
+  useEffect(() => {
+    const saved = JSON.parse(localStorage.getItem('property-favorites')) || [];
+    setFavorites(saved);
+  }, []);
+
+  const toggleFavorite = (item) => {
+    const isExist = favorites.find(fav => fav.id === item.id);
+    let updated;
+    if (isExist) {
+      updated = favorites.filter(fav => fav.id !== item.id);
+    } else {
+      updated = [...favorites, item];
+    }
+    setFavorites(updated);
+    localStorage.setItem('property-favorites', JSON.stringify(updated));
+  };
+
+  // Filter Logic
+  const filteredProperties = useMemo(() => {
+    return properties.filter((item) => {
+      const matchesSearch =
+        item.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        item.address?.toLowerCase().includes(searchTerm.toLowerCase());
+
+      const matchesType =
+        activeTab === "All" ||
+        item.category?.toLowerCase() === activeTab.toLowerCase() ||
+        (activeTab === "House" && item.category === "Family House"); 
+
+
+      const matchesPrice = (item.price_min || 0) <= maxPrice;
+
+      return matchesSearch && matchesType && matchesPrice;
+    });
+  }, [properties, searchTerm, activeTab, maxPrice]);
+
+  // Reset Function
+  const handleReset = () => {
+    setSearchTerm("");
+    setActiveTab("All");
+    setMaxPrice(600000);
+    setCurrentPage(1);
+  };
+
+  // Pagination
+  const totalPages = Math.ceil(filteredProperties.length / itemsPerPage);
+  const currentItems = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    return filteredProperties.slice(start, start + itemsPerPage);
+  }, [filteredProperties, currentPage]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, activeTab, maxPrice]);
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
-      {/* Header & Breadcrumb */}
       <div className="max-w-[1440px] mx-auto px-6 pt-8">
-        <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "All Properties", href: "/all-properties" }]} />
-        
-        <div className="mt-8 mb-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <Breadcrumb
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Properties", href: "/all" }
+          ]}
+        />
+
+        {/* HEADER */}
+        <div className="mt-8 mb-10 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6">
           <div>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white tracking-tight">
+            <h1 className="text-4xl md:text-5xl font-black text-gray-900 dark:text-white tracking-tight">
               Our <span className="text-blue-600">Exclusive</span> Collection
             </h1>
-            <p className="text-gray-500 dark:text-gray-400 mt-2 text-lg">Found {properties.length} premium properties for you.</p>
+            <p className="text-gray-500 dark:text-gray-400 mt-2 text-lg">
+              {loading ? "Discovering spaces..." : `Found ${filteredProperties.length} stunning properties`}
+            </p>
           </div>
 
-          {/* Quick Search Bar */}
-          <div className="relative group w-full md:w-96">
+          <div className="relative w-full md:w-96 group">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-blue-600 transition-colors" size={20} />
-            <input 
-              type="text" 
-              placeholder="Search by location or name..."
-              className="w-full pl-12 pr-4 py-4 rounded-2xl bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 focus:ring-2 focus:ring-blue-500/20 focus:border-blue-600 outline-none transition-all shadow-sm dark:text-white"
+            <input
+              type="text"
+              placeholder="Search by name or location..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="w-full pl-12 pr-4 py-4 rounded-2xl border-none bg-white dark:bg-gray-900 dark:text-white shadow-sm focus:ring-2 focus:ring-blue-500 outline-none transition-all shadow-blue-100/20 dark:shadow-none"
             />
           </div>
         </div>
       </div>
 
       <div className="max-w-[1440px] mx-auto px-6 pb-20 flex flex-col lg:flex-row gap-10">
-        
-        {/* SIDEBAR FILTER - Desktop */}
-        <aside className="hidden lg:block w-80 space-y-8 h-fit sticky top-24">
-          <div className="p-8 bg-white dark:bg-gray-900 rounded-[2.5rem] border border-gray-100 dark:border-gray-800 shadow-sm">
-            <div className="flex items-center gap-2 mb-6">
-              <SlidersHorizontal size={18} className="text-blue-600" />
-              <h3 className="font-bold text-xl dark:text-white">Filters</h3>
+
+        {/* SIDEBAR */}
+        <aside className="w-full lg:w-80 space-y-6">
+          <div className="p-8 bg-white dark:bg-gray-900 rounded-3xl shadow-xl shadow-gray-200/50 dark:shadow-none border border-gray-100 dark:border-gray-800">
+            <div className="flex items-center justify-between mb-8">
+              <div className="flex items-center gap-2 text-gray-900 dark:text-white">
+                <SlidersHorizontal size={20} className="text-blue-600" />
+                <h3 className="font-bold text-xl">Filters</h3>
+              </div>
+              <button
+                onClick={handleReset}
+                className="p-2 hover:bg-red-50 text-red-500 rounded-full transition-colors group"
+                title="Reset Filters"
+              >
+                <RotateCcw size={18} className="group-hover:rotate-[-45deg] transition-transform" />
+              </button>
             </div>
 
-            <div className="space-y-6">
-              <div>
-                <label className="block text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">Property Type</label>
-                <div className="flex flex-wrap gap-2">
-                  {["All", "Villa", "Apartment", "House"].map((t) => (
-                    <button 
-                      key={t}
-                      onClick={() => setActiveTab(t)}
-                      className={`px-4 py-2 rounded-xl text-sm font-medium transition-all ${activeTab === t ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30' : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300'}`}
-                    >
-                      {t}
-                    </button>
-                  ))}
-                </div>
+            {/* TYPE FILTER */}
+            <div className="mb-8">
+              <label className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4 block">
+                Property Type
+              </label>
+              <div className="grid grid-cols-2 gap-2">
+                {["All", "Villa", "Apartment", "House"].map((t) => (
+                  <button
+                    key={t}
+                    onClick={() => setActiveTab(t)}
+                    className={`px-4 py-3 rounded-xl text-sm font-semibold transition-all ${activeTab === t
+                      ? "bg-blue-600 text-white shadow-lg shadow-blue-200 dark:shadow-none scale-[1.02]"
+                      : "bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-100"
+                      }`}
+                  >
+                    {t}
+                  </button>
+                ))}
               </div>
+            </div>
 
-              <div>
-                <label className="block text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">Price Range</label>
-                <input type="range" className="w-full accent-blue-600" min="1000" max="10000" />
-                <div className="flex justify-between mt-2 text-xs font-bold text-gray-500 uppercase">
-                  <span>$1k</span>
-                  <span>$10k+</span>
-                </div>
+            {/* PRICE FILTER */}
+            <div>
+              <div className="flex justify-between items-end mb-4">
+                <label className="text-sm font-bold text-gray-400 uppercase tracking-wider">Budget</label>
+                <span className="text-blue-600 font-extrabold text-lg">
+                  Up to ${maxPrice.toLocaleString()}
+                </span>
               </div>
-
-              <button className="w-full bg-gray-900 dark:bg-blue-600 text-white py-4 rounded-2xl font-bold hover:opacity-90 transition-opacity">
-                Apply Filters
-              </button>
+              <input
+                type="range"
+                min="1000"
+                max="600000"
+                step="5000"
+                value={maxPrice}
+                onChange={(e) => setMaxPrice(parseInt(e.target.value))}
+                className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
+              />
+              <div className="flex justify-between mt-2 text-xs text-gray-400 font-medium">
+                <span>$1k</span>
+                <span>$600k</span>
+              </div>
             </div>
           </div>
         </aside>
 
-        {/* PROPERTY GRID */}
+        {/* GRID */}
         <div className="flex-1">
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-8">
-            {properties.map((item) => (
-              <div key={item.id} className="group bg-white dark:bg-gray-900 rounded-[2.5rem] overflow-hidden border border-gray-100 dark:border-gray-800 hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500">
-                {/* Image Section */}
-                <div className="relative h-72 overflow-hidden">
-                  <img 
-                    src={item.img} 
-                    alt={item.title} 
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  />
-                  {/* Badges */}
-                  <div className="absolute top-5 left-5 flex gap-2">
-                    <span className={`px-4 py-1.5 rounded-full text-xs font-bold text-white backdrop-blur-md shadow-lg ${item.type === 'Sale' ? 'bg-green-600/80' : 'bg-orange-500/80'}`}>
-                      FOR {item.type.toUpperCase()}
-                    </span>
-                  </div>
-                  <button className="absolute top-5 right-5 p-3 bg-white/20 hover:bg-white/40 backdrop-blur-md rounded-full text-white transition-all group/heart">
-                    <Heart size={20} className="group-hover/heart:fill-red-500 group-hover/heart:text-red-500 transition-colors" />
-                  </button>
-                  <div className="absolute bottom-5 left-5">
-                    <p className="bg-white dark:bg-gray-900 px-4 py-2 rounded-xl font-black text-blue-600 dark:text-blue-400 shadow-xl text-lg">
-                      {item.price}<span className="text-sm font-medium text-gray-500">{item.type === 'Rent' ? '/mo' : ''}</span>
-                    </p>
-                  </div>
-                </div>
+          {filteredProperties.length === 0 && !loading ? (
+            <div className="text-center py-20 bg-white dark:bg-gray-900 rounded-3xl border-2 border-dashed border-gray-200 dark:border-gray-800">
+              <p className="text-gray-500 text-xl font-medium">No properties match your search.</p>
+              <button onClick={handleReset} className="mt-4 text-blue-600 font-bold hover:underline">Clear all filters</button>
+            </div>
+          ) : (
+            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+              {loading
+                ? Array.from({ length: 6 }).map((_, i) => (
+                  <div key={i} className="h-[450px] bg-gray-200 dark:bg-gray-800 rounded-3xl animate-pulse"></div>
+                ))
+                : currentItems.map((item) => (
+                  <div key={item.id} className="group bg-white dark:bg-gray-900 rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100 dark:border-gray-800 flex flex-col">
 
-                {/* Info Section */}
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white group-hover:text-blue-600 transition-colors">
-                    {item.title}
-                  </h3>
-                  <div className="flex items-center gap-1 text-gray-500 dark:text-gray-400 mt-2">
-                    <MapPin size={16} />
-                    <span className="text-sm">{item.loc}</span>
-                  </div>
+                    {/* IMAGE SECTION */}
+                    <div className="relative overflow-hidden h-64">
+                      <div className="absolute top-4 left-4 right-4 z-10 flex justify-between items-center">
+                        <span className="bg-white/90 backdrop-blur-md text-blue-600 px-3 py-1 rounded-full text-xs font-bold uppercase shadow-sm">
+                          {item.category}
+                        </span>
+                        <button
+                          onClick={() => toggleFavorite(item)}
+                          className={`p-2 rounded-full transition-all duration-300 shadow-md ${favorites.some(fav => fav.id === item.id)
+                              ? "bg-red-500 text-white"
+                              : "bg-white/80 backdrop-blur-sm text-gray-600 hover:text-red-500"
+                            }`}
+                        >
+                          <Heart size={18} fill={favorites.some(fav => fav.id === item.id) ? "currentColor" : "none"} />
+                        </button>
+                      </div>
+                      <img
+                        src={item.images?.[0]}
+                        alt={item.title}
+                        className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                    </div>
 
-                  <div className="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800 flex items-center justify-between text-gray-600 dark:text-gray-400">
-                    <div className="flex items-center gap-2">
-                      <BedDouble size={20} className="text-blue-500" />
-                      <span className="text-sm font-semibold">{item.bed} Beds</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Bath size={20} className="text-blue-500" />
-                      <span className="text-sm font-semibold">{item.bath} Baths</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Square size={18} className="text-blue-500" />
-                      <span className="text-sm font-semibold">{item.sqft} sqft</span>
+                    {/* CONTENT SECTION */}
+                    <div className="p-6 flex flex-col flex-1">
+                      <div className="flex justify-between items-start mb-2">
+                        <h3 className="text-xl font-bold dark:text-white group-hover:text-blue-600 transition-colors line-clamp-1">
+                          {item.title}
+                        </h3>
+                      </div>
+
+                      <div className="flex items-center gap-1 text-gray-400 text-sm mb-4">
+                        <MapPin size={14} className="shrink-0" />
+                        <span className="truncate">{item.address}</span>
+                      </div>
+
+                      <div className="mb-4">
+                        <span className="text-2xl font-black text-blue-600">
+                          ${item.price_min.toLocaleString()}
+                        </span>
+                        {item.price_max > item.price_min && (
+                          <span className="text-gray-400 text-sm font-medium ml-1">
+                            - ${item.price_max.toLocaleString()}
+                          </span>
+                        )}
+                      </div>
+
+                      <div className="grid grid-cols-3 gap-4 py-4 border-y border-gray-50 dark:border-gray-800 text-gray-600 dark:text-gray-400 ">
+                        <div className="flex flex-col items-center gap-1">
+                          <BedDouble size={18} className="text-blue-500" />
+                          <span className="text-xs font-bold">{item.beds} Beds</span>
+                        </div>
+                        <div className="flex flex-col items-center gap-1 border-x border-gray-100 dark:border-gray-800">
+                          <Bath size={18} className="text-blue-500" />
+                          <span className="text-xs font-bold">{item.baths} Baths</span>
+                        </div>
+                        <div className="flex flex-col items-center gap-1">
+                          <Square size={18} className="text-blue-500" />
+                          <span className="text-xs font-bold">{item.sqft} sqft</span>
+                        </div>
+                      </div>
+
                     </div>
                   </div>
-                </div>
-              </div>
-            ))}
-          </div>
+                ))}
+            </div>
+          )}
 
-          {/* Pagination (Optional) */}
-          <div className="mt-16 flex justify-center gap-4">
-              <button className="w-12 h-12 rounded-2xl border border-gray-200 dark:border-gray-800 flex items-center justify-center dark:text-white hover:bg-blue-600 hover:text-white transition-all">1</button>
-              <button className="w-12 h-12 rounded-2xl bg-blue-600 text-white flex items-center justify-center font-bold">2</button>
-              <button className="w-12 h-12 rounded-2xl border border-gray-200 dark:border-gray-800 flex items-center justify-center dark:text-white hover:bg-blue-600 hover:text-white transition-all">3</button>
-          </div>
+          {/* PAGINATION */}
+          {totalPages > 1 && (
+            <div className="flex justify-center mt-16 gap-3">
+              {[...Array(totalPages).keys()].map((n) => (
+                <button
+                  key={n}
+                  onClick={() => {
+                    setCurrentPage(n + 1);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className={`w-12 h-12 rounded-2xl font-bold transition-all ${currentPage === n + 1
+                    ? "bg-blue-600 text-white shadow-lg shadow-blue-200 scale-110"
+                    : "bg-white dark:bg-gray-900 text-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+                    }`}
+                >
+                  {n + 1}
+                </button>
+              ))}
+            </div>
+          )}
         </div>
-
-       </div>
+      </div>
     </div>
   );
-}; 
+};
 
 export default AllProperties;

@@ -1,701 +1,802 @@
 [
   {
     "id": 1,
-    "title": "Cedar Grove Apartments",
-    "category": "Budget Apartment",
+    "title": "Skyline Urban Retreat",
+    "category": "Apartment",
+    "price_min": 2500,
+    "price_max": 3200,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1300,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Mirpur DOHS, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2021,
+    "description": "Skyline Urban Retreat is designed for modern city living with comfort and elegance at its core. This beautifully crafted apartment offers a harmonious blend of style and functionality, making it ideal for small families and working professionals. The spacious living room is filled with natural light due to large windows, creating a bright and welcoming environment throughout the day. The bedrooms are thoughtfully designed with built-in wardrobes and soft ambient lighting to ensure a relaxing atmosphere. The kitchen is equipped with modern cabinetry, granite countertops, and energy-efficient appliances. Residents will enjoy access to a secure parking area, 24/7 security services, and uninterrupted utilities. The neighborhood is quiet, safe, and conveniently located near schools, hospitals, shopping centers, and public transportation. This apartment also includes a balcony that offers a pleasant city view, perfect for morning coffee or evening relaxation. Overall, Skyline Urban Retreat offers a perfect balance of affordability, comfort, and urban convenience for those seeking a quality lifestyle in Dhaka.",
+    "floor_plans": [{ "plan_name": "Standard Apartment", "beds": 2, "baths": 2, "sqft": 1300, "price": 2800 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.810, "lng": 90.365 },
+    "sellCount": 9
+  },
+  {
+    "id": 2,
+    "title": "Elite Garden Villa",
+    "category": "Villa",
+    "price_min": 480000,
+    "price_max": 600000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3000,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+    ],
+    "address": "Bashundhara R/A, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2022,
+    "description": "Elite Garden Villa offers an exceptional living experience for those who seek luxury, privacy, and comfort in one place. This expansive villa features a beautifully landscaped private garden, providing a serene escape from the busy city life. Inside, the home boasts a spacious open-plan living and dining area, enhanced by high ceilings and elegant interior finishes. Each bedroom is generously sized and comes with attached bathrooms fitted with modern fixtures. The kitchen is fully equipped with premium appliances and stylish cabinetry, making it ideal for both daily cooking and hosting gatherings. Additional features include a private swimming pool, a well-equipped gym, and a rooftop terrace perfect for entertainment or relaxation. Security is top-notch with gated access and surveillance systems. The villa is located in one of Dhaka’s most prestigious neighborhoods, offering easy access to top schools, hospitals, and shopping destinations. This property is perfect for families looking for a peaceful yet luxurious lifestyle.",
+    "floor_plans": [{ "plan_name": "Luxury Villa", "beds": 5, "baths": 4, "sqft": 3000, "price": 520000 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.815, "lng": 90.425 },
+    "sellCount": 5
+  },
+  {
+    "id": 3,
+    "title": "Skyline Urban Retreat",
+    "category": "Apartment",
+    "price_min": 2500,
+    "price_max": 3200,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1300,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Mirpur DOHS, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2021,
+    "description": "Skyline Urban Retreat is a thoughtfully designed apartment that perfectly captures the essence of modern urban living. Located in a calm and secure neighborhood, this property provides a peaceful environment while still being close to major city attractions. The living room is spacious and filled with natural sunlight due to large windows, making the space feel open and welcoming throughout the day. The bedrooms are designed with comfort in mind, featuring built-in wardrobes and soft lighting that promotes relaxation. The kitchen is modern and fully functional, equipped with high-quality cabinets and efficient appliances. The apartment also includes a balcony where residents can enjoy fresh air and a beautiful city view. Nearby facilities include schools, hospitals, shopping centers, and public transport, making everyday life very convenient. Security is ensured with 24/7 monitoring and dedicated guards. This apartment is ideal for small families or professionals looking for a stylish and comfortable home in Dhaka.",
+    "floor_plans": [{ "plan_name": "Standard Apartment", "beds": 2, "baths": 2, "sqft": 1300, "price": 2800 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.810, "lng": 90.365 },
+    "sellCount": 9
+  },
+  {
+    "id": 4,
+    "title": "Elite Garden Villa",
+    "category": "Villa",
+    "price_min": 480000,
+    "price_max": 600000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3000,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+    ],
+    "address": "Bashundhara R/A, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2022,
+    "description": "Elite Garden Villa is a luxurious residence that offers a perfect blend of elegance, space, and privacy. This property is ideal for large families who value comfort and a premium lifestyle. The villa features a beautifully landscaped garden that creates a peaceful outdoor environment for relaxation or family gatherings. Inside, the home boasts a large open living and dining area with modern interior design and high ceilings. Each bedroom is spacious and comes with an attached bathroom, ensuring maximum comfort and convenience. The kitchen is equipped with modern appliances, stylish cabinets, and ample storage space. Additional features include a private swimming pool, gym facilities, and a rooftop terrace that can be used for entertaining guests. The property is located in a secure and prestigious neighborhood with easy access to top schools, hospitals, and shopping malls. Overall, this villa offers a high-end living experience for those who want both luxury and tranquility.",
+    "floor_plans": [{ "plan_name": "Luxury Villa", "beds": 5, "baths": 4, "sqft": 3000, "price": 520000 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.815, "lng": 90.425 },
+    "sellCount": 5
+  },
+  {
+    "id": 5,
+    "title": "Green Leaf Family Home",
+    "category": "Family House",
+    "price_min": 200000,
+    "price_max": 260000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1700,
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "https://images.unsplash.com/photo-1448630360428-65ff23827195",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b"
+    ],
+    "address": "Uttara Sector 10, Dhaka",
+    "availability": "Contact for Date",
+    "year_built": 2018,
+    "description": "Green Leaf Family Home is a perfect residence for families seeking comfort, space, and a peaceful environment. The house is surrounded by greenery, offering a calm atmosphere away from the noise of the city. Inside, the living room is large and connected to a dining area, making it ideal for family gatherings and entertaining guests. The bedrooms are cozy and well-ventilated, ensuring a comfortable living experience. The kitchen features a modern layout with quality fittings and plenty of storage space. A small backyard garden provides a safe and enjoyable area for children to play or for hosting outdoor activities. The neighborhood is quiet and family-friendly, with schools, parks, and healthcare facilities located nearby. Security is well-managed, and the community is known for its friendly residents. This home is a great choice for those who want a balance between urban convenience and suburban peace.",
+    "floor_plans": [{ "plan_name": "Family Plan", "beds": 3, "baths": 2, "sqft": 1700, "price": 220000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.875, "lng": 90.379 },
+    "sellCount": 11
+  },
+  {
+    "id": 6,
+    "title": "Skyline Urban Retreat",
+    "category": "Apartment",
+    "price_min": 2500,
+    "price_max": 3200,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1300,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Mirpur DOHS, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2021,
+    "description": "Skyline Urban Retreat is a thoughtfully designed apartment that perfectly captures the essence of modern urban living. Located in a calm and secure neighborhood, this property provides a peaceful environment while still being close to major city attractions. The living room is spacious and filled with natural sunlight due to large windows, making the space feel open and welcoming throughout the day. The bedrooms are designed with comfort in mind, featuring built-in wardrobes and soft lighting that promotes relaxation. The kitchen is modern and fully functional, equipped with high-quality cabinets and efficient appliances. The apartment also includes a balcony where residents can enjoy fresh air and a beautiful city view. Nearby facilities include schools, hospitals, shopping centers, and public transport, making everyday life very convenient. Security is ensured with 24/7 monitoring and dedicated guards. This apartment is ideal for small families or professionals looking for a stylish and comfortable home in Dhaka.",
+    "floor_plans": [{ "plan_name": "Standard Apartment", "beds": 2, "baths": 2, "sqft": 1300, "price": 2800 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.810, "lng": 90.365 },
+    "sellCount": 9
+  },
+  {
+    "id": 7,
+    "title": "Elite Garden Villa",
+    "category": "Villa",
+    "price_min": 480000,
+    "price_max": 600000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3000,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914"
+    ],
+    "address": "Bashundhara R/A, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2022,
+    "description": "Elite Garden Villa is a luxurious residence that offers a perfect blend of elegance, space, and privacy. This property is ideal for large families who value comfort and a premium lifestyle. The villa features a beautifully landscaped garden that creates a peaceful outdoor environment for relaxation or family gatherings. Inside, the home boasts a large open living and dining area with modern interior design and high ceilings. Each bedroom is spacious and comes with an attached bathroom, ensuring maximum comfort and convenience. The kitchen is equipped with modern appliances, stylish cabinets, and ample storage space. Additional features include a private swimming pool, gym facilities, and a rooftop terrace that can be used for entertaining guests. The property is located in a secure and prestigious neighborhood with easy access to top schools, hospitals, and shopping malls. Overall, this villa offers a high-end living experience for those who want both luxury and tranquility.",
+    "floor_plans": [{ "plan_name": "Luxury Villa", "beds": 5, "baths": 4, "sqft": 3000, "price": 520000 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.815, "lng": 90.425 },
+    "sellCount": 5
+  },
+  {
+    "id": 8,
+    "title": "Green Leaf Family Home",
+    "category": "Family House",
+    "price_min": 200000,
+    "price_max": 260000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1700,
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "https://images.unsplash.com/photo-1448630360428-65ff23827195",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b"
+    ],
+    "address": "Uttara Sector 10, Dhaka",
+    "availability": "Contact for Date",
+    "year_built": 2018,
+    "description": "Green Leaf Family Home is a perfect residence for families seeking comfort, space, and a peaceful environment. The house is surrounded by greenery, offering a calm atmosphere away from the noise of the city. Inside, the living room is large and connected to a dining area, making it ideal for family gatherings and entertaining guests. The bedrooms are cozy and well-ventilated, ensuring a comfortable living experience. The kitchen features a modern layout with quality fittings and plenty of storage space. A small backyard garden provides a safe and enjoyable area for children to play or for hosting outdoor activities. The neighborhood is quiet and family-friendly, with schools, parks, and healthcare facilities located nearby. Security is well-managed, and the community is known for its friendly residents. This home is a great choice for those who want a balance between urban convenience and suburban peace.",
+    "floor_plans": [{ "plan_name": "Family Plan", "beds": 3, "baths": 2, "sqft": 1700, "price": 220000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.875, "lng": 90.379 },
+    "sellCount": 11
+  },
+  {
+    "id": 9,
+    "title": "Modern Studio Nest",
+    "category": "Studio",
+    "price_min": 1200,
+    "price_max": 1700,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 650,
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+    ],
+    "address": "Mohammadpur, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2020,
+    "description": "Modern Studio Nest is a compact yet stylish living space designed for individuals or young professionals. The studio layout maximizes every inch of space, offering a comfortable and functional environment. The interior is modern, with clean lines and smart storage solutions that keep the space organized. Large windows allow natural light to brighten the room, creating a warm and inviting atmosphere. The kitchen area is efficiently designed with essential appliances and storage cabinets. The bathroom is modern and fitted with quality fixtures. This studio apartment is located in a convenient area with easy access to public transport, restaurants, and shopping centers. Security features include controlled access and surveillance systems. Despite its compact size, the studio provides all the necessary amenities for comfortable urban living. It is an excellent choice for those who prefer simplicity, affordability, and convenience in the heart of the city.",
+    "floor_plans": [{ "plan_name": "Studio Plan", "beds": 1, "baths": 1, "sqft": 650, "price": 1400 }],
+    "features": { "parking": false, "pool": false, "pet_friendly": false, "gym": false, "ac": true, "in_unit_laundry": false },
+    "location": { "lat": 23.758, "lng": 90.362 },
+    "sellCount": 14
+  },
+  {
+    "id": 10,
+    "title": "Lake Breeze Apartment",
+    "category": "Apartment",
+    "price_min": 2800,
+    "price_max": 3500,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1500,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Gulshan 1, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2022,
+    "description": "Lake Breeze Apartment offers a refreshing living experience with beautiful views and modern amenities. Located near a scenic lake, this apartment provides a calm and relaxing environment for residents. The spacious living area is designed with elegance and comfort in mind, featuring large windows that offer stunning views of the surrounding area. The bedrooms are well-designed with ample storage and natural lighting. The kitchen is modern and equipped with high-quality appliances and cabinets. Residents can enjoy a private balcony, perfect for relaxing with a cup of tea while enjoying the view. The building offers secure parking, elevators, and 24/7 security services. The neighborhood is one of the most desirable areas in Dhaka, with easy access to restaurants, schools, hospitals, and shopping malls. This apartment is ideal for families or professionals who want a peaceful yet connected lifestyle.",
+    "floor_plans": [{ "plan_name": "Premium Apartment", "beds": 3, "baths": 2, "sqft": 1500, "price": 3000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.792, "lng": 90.407 },
+    "sellCount": 8
+  },
+  {
+    "id": 11,
+    "title": "Modern Studio Nest",
+    "category": "Studio",
+    "price_min": 1200,
+    "price_max": 1700,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 650,
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+    ],
+    "address": "Mohammadpur, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2020,
+    "description": "Modern Studio Nest is a compact yet stylish living space designed for individuals or young professionals. The studio layout maximizes every inch of space, offering a comfortable and functional environment. The interior is modern, with clean lines and smart storage solutions that keep the space organized. Large windows allow natural light to brighten the room, creating a warm and inviting atmosphere. The kitchen area is efficiently designed with essential appliances and storage cabinets. The bathroom is modern and fitted with quality fixtures. This studio apartment is located in a convenient area with easy access to public transport, restaurants, and shopping centers. Security features include controlled access and surveillance systems. Despite its compact size, the studio provides all the necessary amenities for comfortable urban living. It is an excellent choice for those who prefer simplicity, affordability, and convenience in the heart of the city.",
+    "floor_plans": [{ "plan_name": "Studio Plan", "beds": 1, "baths": 1, "sqft": 650, "price": 1400 }],
+    "features": { "parking": false, "pool": false, "pet_friendly": false, "gym": false, "ac": true, "in_unit_laundry": false },
+    "location": { "lat": 23.758, "lng": 90.362 },
+    "sellCount": 14
+  },
+  {
+    "id": 12,
+    "title": "Lake Breeze Apartment",
+    "category": "Apartment",
+    "price_min": 2800,
+    "price_max": 3500,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1500,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Gulshan 1, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2022,
+    "description": "Lake Breeze Apartment offers a refreshing living experience with beautiful views and modern amenities. Located near a scenic lake, this apartment provides a calm and relaxing environment for residents. The spacious living area is designed with elegance and comfort in mind, featuring large windows that offer stunning views of the surrounding area. The bedrooms are well-designed with ample storage and natural lighting. The kitchen is modern and equipped with high-quality appliances and cabinets. Residents can enjoy a private balcony, perfect for relaxing with a cup of tea while enjoying the view. The building offers secure parking, elevators, and 24/7 security services. The neighborhood is one of the most desirable areas in Dhaka, with easy access to restaurants, schools, hospitals, and shopping malls. This apartment is ideal for families or professionals who want a peaceful yet connected lifestyle.",
+    "floor_plans": [{ "plan_name": "Premium Apartment", "beds": 3, "baths": 2, "sqft": 1500, "price": 3000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.792, "lng": 90.407 },
+    "sellCount": 8
+  },
+  {
+    "id": 13,
+    "title": "Silver Lake Residency",
+    "category": "Apartment",
+    "price_min": 2600,
+    "price_max": 3400,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1450,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Gulshan 1, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2021,
+    "description": "Silver Lake Residency is a modern apartment designed for families who seek comfort and convenience in an urban setting. The apartment features a spacious living and dining area that is filled with natural light from large windows, creating a warm and inviting atmosphere. The bedrooms are well-proportioned and designed with built-in wardrobes and quality finishes to ensure a comfortable lifestyle. The kitchen is equipped with modern appliances and efficient storage solutions, making everyday cooking simple and enjoyable. Residents can enjoy a private balcony that offers a relaxing view of the surrounding neighborhood. The building includes facilities such as secure parking, elevators, and 24/7 security services. Located in Gulshan, one of Dhaka’s most prestigious areas, the property provides easy access to schools, hospitals, restaurants, and shopping centers. This apartment is ideal for families or professionals looking for a well-balanced lifestyle with modern amenities and excellent connectivity.",
+    "floor_plans": [{ "plan_name": "Lake View Plan", "beds": 3, "baths": 2, "sqft": 1450, "price": 3000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.791, "lng": 90.407 },
+    "sellCount": 7
+  },
+  {
+    "id": 14,
+    "title": "Royal Garden Estate",
+    "category": "Villa",
+    "price_min": 550000,
+    "price_max": 700000,
+    "beds": 6,
+    "baths": 5,
+    "sqft": 3600,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+    ],
+    "address": "Baridhara, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2022,
+    "description": "Royal Garden Estate is an ultra-luxurious villa that offers unmatched elegance and comfort. This property is designed for those who appreciate high-end living and spacious environments. The villa features a grand entrance, a beautifully landscaped garden, and a private swimming pool. Inside, the home includes a large living area with premium interior finishes and high ceilings. Each bedroom is spacious and equipped with attached bathrooms and modern fittings. The kitchen is designed with top-quality appliances and ample storage space, making it perfect for both daily use and hosting guests. Additional amenities include a private gym, rooftop terrace, and dedicated parking spaces. The property is located in a secure and prestigious neighborhood with easy access to international schools, hospitals, and shopping malls. Security systems ensure complete safety and privacy. This villa is ideal for large families who want to experience luxury, space, and tranquility in the heart of Dhaka.",
+    "floor_plans": [{ "plan_name": "Royal Plan", "beds": 6, "baths": 5, "sqft": 3600, "price": 620000 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.804, "lng": 90.416 },
+    "sellCount": 2
+  },
+  {
+    "id": 15,
+    "title": "Harmony Family Residence",
+    "category": "Family House",
+    "price_min": 190000,
+    "price_max": 240000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1650,
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "https://images.unsplash.com/photo-1448630360428-65ff23827195",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b"
+    ],
+    "address": "Uttara Sector 9, Dhaka",
+    "availability": "Contact for Date",
+    "year_built": 2017,
+    "description": "Harmony Family Residence is a welcoming home designed for comfortable family living. The property features a spacious layout with a large living room that connects seamlessly to the dining area. The bedrooms are cozy and well-ventilated, providing a relaxing environment for rest. The kitchen is functional and includes modern fittings and sufficient storage space. Outside, there is a small garden area that adds a touch of nature to the home and provides space for children to play. The neighborhood is quiet and safe, with schools, parks, and essential services located nearby. Residents benefit from a friendly community atmosphere and easy access to public transportation. This home is ideal for families looking for a peaceful and practical living space that offers both comfort and convenience in Dhaka.",
+    "floor_plans": [{ "plan_name": "Family Comfort Plan", "beds": 3, "baths": 2, "sqft": 1650, "price": 210000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.870, "lng": 90.378 },
+    "sellCount": 9
+  },
+  {
+    "id": 16,
+    "title": "Minimal Smart Studio",
+    "category": "Studio",
+    "price_min": 1100,
+    "price_max": 1600,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 600,
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+    ],
+    "address": "Tejgaon, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2020,
+    "description": "Minimal Smart Studio is a compact yet highly functional living space designed for individuals who prefer simplicity and efficiency. The studio features a modern interior with clean lines and smart storage solutions that maximize space usage. The living area is bright and comfortable, thanks to large windows that allow natural light to enter throughout the day. The kitchen is small but efficient, equipped with essential appliances and storage cabinets. The bathroom is modern and well-maintained with quality fittings. Located in a central area, this studio offers excellent connectivity to offices, public transport, restaurants, and shopping areas. Security is ensured with controlled access and surveillance systems. This property is ideal for students or young professionals who want an affordable, convenient, and comfortable place to live in the city.",
+    "floor_plans": [{ "plan_name": "Smart Studio Plan", "beds": 1, "baths": 1, "sqft": 600, "price": 1300 }],
+    "features": { "parking": false, "pool": false, "pet_friendly": false, "gym": false, "ac": true, "in_unit_laundry": false },
+    "location": { "lat": 23.760, "lng": 90.392 },
+    "sellCount": 16
+  },
+  {
+    "id": 17,
+    "title": "Urban Luxury Heights",
+    "category": "Apartment",
+    "price_min": 3500,
+    "price_max": 4500,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2200,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Banani, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2023,
+    "description": "Urban Luxury Heights is a premium apartment designed for those who appreciate high-end living and modern design. The property features a spacious layout with a large living area, elegant dining space, and beautifully designed bedrooms. Large glass windows provide stunning views of the city and allow plenty of natural light to brighten the interior. The kitchen is equipped with top-quality appliances and stylish cabinetry. Each bedroom offers comfort and privacy, with attached bathrooms and modern fittings. Residents can enjoy premium facilities such as a gym, rooftop lounge, and secure parking. The building also provides 24/7 security and concierge services. Located in Banani, the apartment offers easy access to top restaurants, schools, and shopping centers. This property is ideal for families or professionals seeking a luxurious lifestyle in a prime location.",
+    "floor_plans": [{ "plan_name": "Luxury Plan", "beds": 4, "baths": 3, "sqft": 2200, "price": 4000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.793, "lng": 90.404 },
+    "sellCount": 6
+  },
+  {
+    "id": 18,
+    "title": "Sunset View Apartment",
+    "category": "Apartment",
+    "price_min": 2700,
+    "price_max": 3500,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1500,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Mohakhali, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2021,
+    "description": "Sunset View Apartment offers a comfortable and modern living experience with stunning views of the evening skyline. The apartment is designed to maximize natural light and airflow, creating a refreshing and relaxing environment for residents. The living area is spacious and well-decorated, making it perfect for family gatherings or entertaining guests. Bedrooms are cozy and equipped with built-in wardrobes and quality finishes. The kitchen features modern appliances and a practical layout that makes daily cooking convenient. A private balcony provides the perfect spot to enjoy sunsets and unwind after a long day. The building includes secure parking, elevators, and round-the-clock security services. Located in Mohakhali, the apartment offers easy access to offices, hospitals, schools, and shopping areas. This property is ideal for families or professionals seeking comfort, convenience, and a pleasant urban lifestyle in Dhaka.",
+    "floor_plans": [{ "plan_name": "Sunset Plan", "beds": 3, "baths": 2, "sqft": 1500, "price": 3000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.777, "lng": 90.401 },
+    "sellCount": 8
+  },
+  {
+    "id": 19,
+    "title": "Grand Palace Villa",
+    "category": "Villa",
+    "price_min": 600000,
+    "price_max": 780000,
+    "beds": 6,
+    "baths": 6,
+    "sqft": 4000,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+    ],
+    "address": "Baridhara DOHS, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2023,
+    "description": "Grand Palace Villa is an extraordinary property that redefines luxury living in Dhaka. This magnificent villa features a grand architectural design with premium materials and exquisite detailing throughout. The entrance opens into a spacious living area with high ceilings and elegant finishes that create a sense of sophistication. Each bedroom is designed as a private retreat, complete with attached bathrooms and high-end fixtures. The kitchen is modern and fully equipped with top-tier appliances, offering both style and functionality. The villa includes a private swimming pool, landscaped garden, and a rooftop terrace for relaxation and entertainment. Additional amenities such as a personal gym and multiple parking spaces enhance the living experience. The property is located in a secure and prestigious neighborhood, ensuring privacy and safety. This villa is perfect for those who want a luxurious and comfortable lifestyle with all modern conveniences.",
+    "floor_plans": [{ "plan_name": "Grand Plan", "beds": 6, "baths": 6, "sqft": 4000, "price": 680000 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.805, "lng": 90.417 },
+    "sellCount": 2
+  },
+  {
+    "id": 20,
+    "title": "Comfort Green House",
+    "category": "Family House",
+    "price_min": 200000,
+    "price_max": 260000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1700,
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09",
+      "https://images.unsplash.com/photo-1448630360428-65ff23827195",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b"
+    ],
+    "address": "Uttara Sector 11, Dhaka",
+    "availability": "Contact for Date",
+    "year_built": 2018,
+    "description": "Comfort Green House is a peaceful and family-friendly residence designed to provide a relaxing lifestyle. The property features a spacious layout with a large living area that connects seamlessly to the dining space. Bedrooms are well-ventilated and designed for maximum comfort, ensuring a restful environment. The kitchen is practical and includes modern fittings and storage options. A small garden area surrounds the house, providing a natural and refreshing atmosphere. The neighborhood is quiet and safe, with nearby schools, parks, and healthcare facilities. Residents enjoy a strong sense of community and easy access to daily necessities. This home is ideal for families who want a comfortable living space with a touch of nature while staying connected to the city.",
+    "floor_plans": [{ "plan_name": "Green Plan", "beds": 3, "baths": 2, "sqft": 1700, "price": 220000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.878, "lng": 90.381 },
+    "sellCount": 12
+  },
+  {
+    "id": 21,
+    "title": "Smart Living Studio",
+    "category": "Studio",
+    "price_min": 1200,
+    "price_max": 1700,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 600,
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+    ],
+    "address": "Karwan Bazar, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2020,
+    "description": "Smart Living Studio is designed for individuals who prefer a compact yet efficient living space. The studio layout is carefully planned to maximize usability and comfort. The living area is bright and welcoming, thanks to large windows that allow natural light to fill the space. The kitchen is compact but fully functional, equipped with essential appliances and storage cabinets. The bathroom features modern fittings and a clean design. Located in a central area, the studio provides easy access to offices, public transport, restaurants, and shopping centers. Security is ensured with controlled entry and surveillance systems. This studio is ideal for students or professionals looking for a simple, affordable, and convenient place to live in Dhaka.",
+    "floor_plans": [{ "plan_name": "Studio Plan", "beds": 1, "baths": 1, "sqft": 600, "price": 1400 }],
+    "features": { "parking": false, "pool": false, "pet_friendly": false, "gym": false, "ac": true, "in_unit_laundry": false },
+    "location": { "lat": 23.751, "lng": 90.392 },
+    "sellCount": 20
+  },
+  {
+    "id": 22,
+    "title": "Prime City Heights",
+    "category": "Apartment",
+    "price_min": 3600,
+    "price_max": 4800,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2300,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Gulshan 2, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2023,
+    "description": "Prime City Heights is a luxurious apartment that offers a premium lifestyle in the heart of Dhaka. The property features a spacious interior with elegant design elements and high-quality finishes. The living and dining areas are large and well-lit, providing a perfect space for family gatherings. Bedrooms are designed for comfort and privacy, each with attached bathrooms and modern fittings. The kitchen is equipped with top-quality appliances and stylish cabinetry. Residents have access to facilities such as a gym, rooftop lounge, and secure parking. The building also offers 24/7 security and concierge services. Located in Gulshan, this apartment provides easy access to top restaurants, schools, and shopping centers. It is an ideal choice for families or professionals seeking luxury and convenience.",
+    "floor_plans": [{ "plan_name": "Prime Plan", "beds": 4, "baths": 3, "sqft": 2300, "price": 4200 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.792, "lng": 90.407 },
+    "sellCount": 5
+  },
+  {
+    "id": 23,
+    "title": "Blue Sky Residency",
+    "category": "Apartment",
+    "price_min": 2600,
+    "price_max": 3300,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1400,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Badda, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2021,
+    "description": "Blue Sky Residency is a beautifully designed apartment that offers a comfortable and modern lifestyle in a growing residential area of Dhaka. The apartment features a spacious living room filled with natural light, creating a bright and welcoming environment. The bedrooms are well-designed with built-in wardrobes and soft lighting, ensuring a cozy and relaxing atmosphere. The kitchen is modern and functional, equipped with quality cabinets and appliances that make cooking easy and enjoyable. Residents can also enjoy a private balcony that offers a refreshing view of the surrounding area. The building includes essential facilities such as secure parking, elevators, and 24/7 security services. The location provides easy access to schools, hospitals, shopping centers, and public transport, making daily life convenient. This apartment is ideal for families or professionals looking for a well-balanced and comfortable lifestyle in the city.",
+    "floor_plans": [{ "plan_name": "Standard Plan", "beds": 3, "baths": 2, "sqft": 1400, "price": 2900 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.780, "lng": 90.420 },
+    "sellCount": 10
+  },
+  {
+    "id": 24,
+    "title": "Luxury Green Villa",
+    "category": "Villa",
+    "price_min": 580000,
+    "price_max": 750000,
+    "beds": 5,
+    "baths": 5,
+    "sqft": 3600,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+    ],
+    "address": "Bashundhara R/A, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2023,
+    "description": "Luxury Green Villa is an exceptional property that offers a premium living experience with a strong connection to nature. The villa is surrounded by a beautifully landscaped garden, providing a peaceful and refreshing atmosphere. Inside, the home features a spacious layout with a large living and dining area, designed with modern architecture and high-quality materials. Each bedroom is generously sized and includes an attached bathroom with modern fittings. The kitchen is fully equipped with top-tier appliances and stylish cabinetry, making it both functional and elegant. Additional features include a private swimming pool, a well-equipped gym, and a rooftop terrace that offers a perfect space for relaxation or entertainment. The property is located in a secure and prestigious neighborhood, with easy access to schools, hospitals, and shopping centers. This villa is ideal for families who want a luxurious lifestyle combined with comfort and privacy.",
+    "floor_plans": [{ "plan_name": "Luxury Plan", "beds": 5, "baths": 5, "sqft": 3600, "price": 650000 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.815, "lng": 90.425 },
+    "sellCount": 3
+  },
+  {
+    "id": 25,
+    "title": "Family Comfort Nest",
+    "category": "Family House",
+    "price_min": 210000,
+    "price_max": 260000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1750,
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09",
+      "https://images.unsplash.com/photo-1448630360428-65ff23827195",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b"
+    ],
+    "address": "Uttara Sector 13, Dhaka",
+    "availability": "Contact for Date",
+    "year_built": 2019,
+    "description": "Family Comfort Nest is a perfect home designed for families who value space, comfort, and a peaceful environment. The property features a well-planned layout with a spacious living area that connects seamlessly to the dining space. Bedrooms are cozy and well-ventilated, ensuring a comfortable living experience. The kitchen is modern and includes necessary appliances and storage options. A small outdoor space provides a pleasant area for relaxation or children’s activities. The neighborhood is quiet and family-friendly, with nearby schools, parks, and healthcare facilities. Residents also benefit from a strong community atmosphere and easy access to daily necessities. This home is ideal for families seeking a practical and comfortable living space in Dhaka.",
+    "floor_plans": [{ "plan_name": "Family Plan", "beds": 3, "baths": 2, "sqft": 1750, "price": 230000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.882, "lng": 90.382 },
+    "sellCount": 9
+  },
+  {
+    "id": 26,
+    "title": "Urban Smart Studio",
+    "category": "Studio",
+    "price_min": 1200,
+    "price_max": 1600,
+    "beds": 1,
+    "baths": 1,
+    "sqft": 580,
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+    ],
+    "address": "Shahbag, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2020,
+    "description": "Urban Smart Studio is designed for individuals who prefer a compact and efficient lifestyle in a central location. The studio features a modern layout with smart storage solutions and a comfortable living space. Large windows allow natural light to brighten the interior, creating a welcoming atmosphere. The kitchen is small but functional, equipped with essential appliances. The bathroom includes modern fittings and a clean design. Located in Shahbag, the studio offers excellent connectivity to educational institutions, offices, and public transport. Security is maintained with controlled access and surveillance systems. This studio is ideal for students or professionals seeking affordability and convenience in Dhaka.",
+    "floor_plans": [{ "plan_name": "Studio Plan", "beds": 1, "baths": 1, "sqft": 580, "price": 1350 }],
+    "features": { "parking": false, "pool": false, "pet_friendly": false, "gym": false, "ac": true, "in_unit_laundry": false },
+    "location": { "lat": 23.738, "lng": 90.395 },
+    "sellCount": 17
+  },
+  {
+    "id": 27,
+    "title": "City Elite Apartment",
+    "category": "Apartment",
+    "price_min": 3700,
+    "price_max": 4800,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2200,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Banani, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2023,
+    "description": "City Elite Apartment offers a luxurious lifestyle in one of Dhaka’s most vibrant areas. The apartment features a spacious layout with elegant interior design and high-quality finishes. The living and dining areas are large and well-lit, providing a comfortable environment for family life. Bedrooms are designed with comfort and privacy in mind, each with attached bathrooms and modern fittings. The kitchen is equipped with premium appliances and stylish cabinetry. Residents can enjoy access to facilities such as a gym, rooftop lounge, and secure parking. The building also provides 24/7 security and concierge services. This apartment is ideal for families or professionals seeking luxury and convenience.",
+    "floor_plans": [{ "plan_name": "Elite Plan", "beds": 4, "baths": 3, "sqft": 2200, "price": 4200 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.793, "lng": 90.404 },
+    "sellCount": 6
+  },
+  {
+    "id": 28,
+    "title": "Harmony Lake View",
+    "category": "Apartment",
+    "price_min": 3000,
+    "price_max": 3800,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1600,
+    "images": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "address": "Gulshan Lake Area, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2022,
+    "description": "Harmony Lake View offers a serene and modern living experience with beautiful lake views. The apartment is designed to provide comfort and elegance, featuring spacious rooms and large windows that bring in natural light. The living area is perfect for relaxing or entertaining guests, while the bedrooms provide a peaceful environment. The kitchen is modern and equipped with quality appliances. Residents can enjoy a balcony with scenic views. The building includes parking, elevators, and 24/7 security. This property is ideal for families who want a calm and luxurious lifestyle.",
+    "floor_plans": [{ "plan_name": "Lake Plan", "beds": 3, "baths": 2, "sqft": 1600, "price": 3300 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.790, "lng": 90.408 },
+    "sellCount": 7
+  },
+  {
+    "id": 29,
+    "title": "Green Valley Villa",
+    "category": "Villa",
+    "price_min": 500000,
+    "price_max": 650000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3200,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9",
+      "https://images.unsplash.com/photo-1518780664697-55e3ad937233"
+    ],
+    "address": "Bashundhara, Dhaka",
+    "availability": "Available Now",
+    "year_built": 2021,
+    "description": "Green Valley Villa offers a perfect blend of luxury and nature. The villa features a spacious layout, modern interior design, and a beautiful garden. The living area is large and well-lit, while the bedrooms provide comfort and privacy. The kitchen is equipped with modern appliances. Additional features include a pool and gym. Located in a peaceful area, this villa is ideal for families seeking luxury and tranquility.",
+    "floor_plans": [{ "plan_name": "Valley Plan", "beds": 5, "baths": 4, "sqft": 3200, "price": 580000 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": true, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.814, "lng": 90.424 },
+    "sellCount": 4
+  },
+  {
+    "id": 30,
+    "title": "Urban Family House",
+    "category": "Family House",
+    "price_min": 180000,
+    "price_max": 230000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1600,
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09",
+      "https://images.unsplash.com/photo-1448630360428-65ff23827195",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b"
+    ],
+    "address": "Uttara Sector 5, Dhaka",
+    "availability": "Contact for Date",
+    "year_built": 2017,
+    "description": "Urban Family House is a practical and comfortable home designed for everyday living. The property includes a spacious living room, cozy bedrooms, and a functional kitchen. The environment is peaceful and family-friendly, with nearby schools and parks. This house is perfect for families seeking affordability and comfort.",
+    "floor_plans": [{ "plan_name": "Urban Plan", "beds": 3, "baths": 2, "sqft": 1600, "price": 200000 }],
+    "features": { "parking": true, "pool": false, "pet_friendly": true, "gym": false, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.874, "lng": 90.377 },
+    "sellCount": 11
+  },
+  {
+    "id": 31,
+    "title": "Smart Budget Studio",
+    "category": "Studio",
     "price_min": 900,
     "price_max": 1300,
     "beds": 1,
     "baths": 1,
-    "sqft": 470,
+    "sqft": 500,
     "images": [
-      "https://picsum.photos/id/101/800/600",
-      "https://picsum.photos/id/102/800/600",
-      "https://picsum.photos/id/103/800/600",
-      "https://picsum.photos/id/104/800/600",
-      "https://picsum.photos/id/105/800/600"
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
     ],
-    "address": "South Renton, WA",
+    "address": "Nilkhet, Dhaka",
     "availability": "Available Now",
-    "year_built": 1998,
-    "description": "Affordable units perfect for students and new renters.",
-    "floor_plans": [
-      { "plan_name": "1B-Simple", "beds": 1, "baths": 1, "sqft": 470, "price": 900 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": false,
-      "pet_friendly": true,
-      "gym": false,
-      "ac": false,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.481, "lng": -122.201 },
-    "sellCount": 14
-  },
-
-  {
-    "id": 2,
-    "title": "Willow Park Studio Homes",
-    "category": "Studio Apartment",
-    "price_min": 750,
-    "price_max": 1100,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 400,
-    "images": [
-      "https://picsum.photos/id/110/800/600",
-      "https://picsum.photos/id/111/800/600",
-      "https://picsum.photos/id/112/800/600",
-      "https://picsum.photos/id/113/800/600",
-      "https://picsum.photos/id/114/800/600"
-    ],
-    "address": "East Renton Highlands, WA",
-    "availability": "2 Weeks",
-    "year_built": 1985,
-    "description": "Compact studios perfect for single working professionals.",
-    "floor_plans": [
-      { "plan_name": "Studio-Eco", "beds": 1, "baths": 1, "sqft": 400, "price": 750 }
-    ],
-    "features": {
-      "parking": false,
-      "pool": false,
-      "pet_friendly": false,
-      "gym": false,
-      "ac": true,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.476, "lng": -122.199 },
-    "sellCount": 21
-  },
-
-  {
-    "id": 3,
-    "title": "Elm Ridge Family Homes",
-    "category": "Family Apartment",
-    "price_min": 1300,
-    "price_max": 1800,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 720,
-    "images": [
-      "https://picsum.photos/id/201/800/600",
-      "https://picsum.photos/id/202/800/600",
-      "https://picsum.photos/id/203/800/600",
-      "https://picsum.photos/id/204/800/600",
-      "https://picsum.photos/id/205/800/600"
-    ],
-    "address": "Renton Central, WA",
-    "availability": "Available",
-    "year_built": 2002,
-    "description": "Perfect for small families with playground access.",
-    "floor_plans": [
-      { "plan_name": "2B-Compact", "beds": 2, "baths": 1, "sqft": 720, "price": 1300 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": false,
-      "ac": true,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.488, "lng": -122.210 },
-    "sellCount": 32
-  },
-
-  {
-    "id": 4,
-    "title": "Birchwood Premium Suites",
-    "category": "Premium Apartment",
-    "price_min": 1600,
-    "price_max": 2100,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 820,
-    "images": [
-      "https://picsum.photos/id/210/800/600",
-      "https://picsum.photos/id/211/800/600",
-      "https://picsum.photos/id/212/800/600",
-      "https://picsum.photos/id/213/800/600",
-      "https://picsum.photos/id/214/800/600"
-    ],
-    "address": "Newcastle, WA",
-    "availability": "Available",
-    "year_built": 2010,
-    "description": "Modern premium flats with city views.",
-    "floor_plans": [
-      { "plan_name": "2B-Deluxe", "beds": 2, "baths": 2, "sqft": 820, "price": 1600 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": false,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.505, "lng": -122.220 },
-    "sellCount": 18
-  },
-
-  {
-    "id": 5,
-    "title": "Highland Lakeview Residences",
-    "category": "Luxury Apartment",
-    "price_min": 2000,
-    "price_max": 2600,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1050,
-    "images": [
-      "https://picsum.photos/id/250/800/600",
-      "https://picsum.photos/id/251/800/600",
-      "https://picsum.photos/id/252/800/600",
-      "https://picsum.photos/id/253/800/600",
-      "https://picsum.photos/id/254/800/600"
-    ],
-    "address": "Kennydale, WA",
-    "availability": "Available",
-    "year_built": 2018,
-    "description": "High-end lakeside living spaces.",
-    "floor_plans": [
-      { "plan_name": "3B-Lux", "beds": 3, "baths": 2, "sqft": 1050, "price": 2000 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.525, "lng": -122.234 },
-    "sellCount": 27
-  },
-
-  {
-    "id": 6,
-    "title": "Sunrise Mini Studios",
-    "category": "Studio Apartment",
-    "price_min": 700,
-    "price_max": 1050,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 390,
-    "images": [
-      "https://picsum.photos/id/260/800/600",
-      "https://picsum.photos/id/261/800/600",
-      "https://picsum.photos/id/262/800/600",
-      "https://picsum.photos/id/263/800/600",
-      "https://picsum.photos/id/264/800/600"
-    ],
-    "address": "Renton Highlands, WA",
-    "availability": "1 Week",
-    "year_built": 1990,
-    "description": "Low-cost simple studios with fast access to bus lines.",
-    "floor_plans": [
-      { "plan_name": "Studio-Basic", "beds": 1, "baths": 1, "sqft": 390, "price": 700 }
-    ],
-    "features": {
-      "parking": false,
-      "pool": false,
-      "pet_friendly": false,
-      "gym": false,
-      "ac": false,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.492, "lng": -122.230 },
-    "sellCount": 10
-  },
-
-  {
-    "id": 7,
-    "title": "Forest Edge Homes",
-    "category": "Family Apartment",
-    "price_min": 1250,
-    "price_max": 1750,
-    "beds": 2,
-    "baths": 1,
-    "sqft": 760,
-    "images": [
-      "https://picsum.photos/id/270/800/600",
-      "https://picsum.photos/id/271/800/600",
-      "https://picsum.photos/id/272/800/600",
-      "https://picsum.photos/id/273/800/600",
-      "https://picsum.photos/id/274/800/600"
-    ],
-    "address": "Maple Valley Road, WA",
-    "availability": "Available",
-    "year_built": 2005,
-    "description": "Quiet community close to schools and parks.",
-    "floor_plans": [
-      { "plan_name": "2B-Standard", "beds": 2, "baths": 1, "sqft": 760, "price": 1250 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": false,
-      "pet_friendly": true,
-      "gym": false,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.478, "lng": -122.225 },
-    "sellCount": 24
-  },
-
-  {
-    "id": 8,
-    "title": "Silverline Premium Towers",
-    "category": "Premium Apartment",
-    "price_min": 1700,
-    "price_max": 2150,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 840,
-    "images": [
-      "https://picsum.photos/id/280/800/600",
-      "https://picsum.photos/id/281/800/600",
-      "https://picsum.photos/id/282/800/600",
-      "https://picsum.photos/id/283/800/600",
-      "https://picsum.photos/id/284/800/600"
-    ],
-    "address": "Renton Downtown, WA",
-    "availability": "Available",
-    "year_built": 2014,
-    "description": "Premium apartments with rooftop lounge.",
-    "floor_plans": [
-      { "plan_name": "2B-Premium", "beds": 2, "baths": 2, "sqft": 840, "price": 1700 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": false,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.485, "lng": -122.219 },
-    "sellCount": 15
-  },
-
-  {
-    "id": 9,
-    "title": "Riverbend View Apartments",
-    "category": "Luxury Apartment",
-    "price_min": 2100,
-    "price_max": 2700,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1120,
-    "images": [
-      "https://picsum.photos/id/290/800/600",
-      "https://picsum.photos/id/291/800/600",
-      "https://picsum.photos/id/292/800/600",
-      "https://picsum.photos/id/293/800/600",
-      "https://picsum.photos/id/294/800/600"
-    ],
-    "address": "Renton River District, WA",
-    "availability": "Available Now",
-    "year_built": 2020,
-    "description": "Luxury riverside apartments built for comfort.",
-    "floor_plans": [
-      { "plan_name": "3B-RiverView", "beds": 3, "baths": 2, "sqft": 1120, "price": 2100 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.501, "lng": -122.205 },
-    "sellCount": 29
-  },
-
-  {
-    "id": 10,
-    "title": "Maple Crest Mini Flats",
-    "category": "Budget Apartment",
-    "price_min": 800,
-    "price_max": 1150,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 430,
-    "images": [
-      "https://picsum.photos/id/310/800/600",
-      "https://picsum.photos/id/311/800/600",
-      "https://picsum.photos/id/312/800/600",
-      "https://picsum.photos/id/313/800/600",
-      "https://picsum.photos/id/314/800/600"
-    ],
-    "address": "Maplewood Area, WA",
-    "availability": "2 Weeks",
-    "year_built": 1995,
-    "description": "Affordable living in a quiet area.",
-    "floor_plans": [
-      { "plan_name": "1B-Eco", "beds": 1, "baths": 1, "sqft": 430, "price": 800 }
-    ],
-    "features": {
-      "parking": false,
-      "pool": false,
-      "pet_friendly": false,
-      "gym": false,
-      "ac": false,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.475, "lng": -122.238 },
-    "sellCount": 12
-  },
-
-  {
-    "id": 11,
-    "title": "Summit Park Residences",
-    "category": "Premium Apartment",
-    "price_min": 1650,
-    "price_max": 2200,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 860,
-    "images": [
-      "https://picsum.photos/id/320/800/600",
-      "https://picsum.photos/id/321/800/600",
-      "https://picsum.photos/id/322/800/600",
-      "https://picsum.photos/id/323/800/600",
-      "https://picsum.photos/id/324/800/600"
-    ],
-    "address": "Downtown Renton, WA",
-    "availability": "Available Now",
-    "year_built": 2015,
-    "description": "Comfortable premium units with skyline views.",
-    "floor_plans": [
-      { "plan_name": "2B-Elite", "beds": 2, "baths": 2, "sqft": 860, "price": 1650 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.490, "lng": -122.215 },
-    "sellCount": 23
-  },
-
-  {
-    "id": 12,
-    "title": "Oakland Budget Homes",
-    "category": "Budget Apartment",
-    "price_min": 850,
-    "price_max": 1180,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 445,
-    "images": [
-      "https://picsum.photos/id/330/800/600",
-      "https://picsum.photos/id/331/800/600",
-      "https://picsum.photos/id/332/800/600",
-      "https://picsum.photos/id/333/800/600",
-      "https://picsum.photos/id/334/800/600"
-    ],
-    "address": "North Renton, WA",
-    "availability": "Available",
-    "year_built": 1999,
-    "description": "Simple and affordable apartments.",
-    "floor_plans": [
-      { "plan_name": "1B-Economy", "beds": 1, "baths": 1, "sqft": 445, "price": 850 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": false,
-      "pet_friendly": false,
-      "gym": false,
-      "ac": false,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.493, "lng": -122.240 },
-    "sellCount": 19
-  },
-
-  {
-    "id": 13,
-    "title": "Bridgeview Riverside Suites",
-    "category": "Luxury Apartment",
-    "price_min": 2200,
-    "price_max": 2800,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1180,
-    "images": [
-      "https://picsum.photos/id/340/800/600",
-      "https://picsum.photos/id/341/800/600",
-      "https://picsum.photos/id/342/800/600",
-      "https://picsum.photos/id/343/800/600",
-      "https://picsum.photos/id/344/800/600"
-    ],
-    "address": "Renton Riverfront, WA",
-    "availability": "Available",
-    "year_built": 2021,
-    "description": "Brand new riverside luxury suites.",
-    "floor_plans": [
-      { "plan_name": "3B-Premium", "beds": 3, "baths": 2, "sqft": 1180, "price": 2200 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.502, "lng": -122.218 },
-    "sellCount": 31
-  },
-
-  {
-    "id": 14,
-    "title": "Hillcrest Studio Living",
-    "category": "Studio Apartment",
-    "price_min": 720,
-    "price_max": 1050,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 390,
-    "images": [
-      "https://picsum.photos/id/350/800/600",
-      "https://picsum.photos/id/351/800/600",
-      "https://picsum.photos/id/352/800/600",
-      "https://picsum.photos/id/353/800/600",
-      "https://picsum.photos/id/354/800/600"
-    ],
-    "address": "Renton East, WA",
-    "availability": "Available",
-    "year_built": 1993,
-    "description": "Budget studios with hill-facing windows.",
-    "floor_plans": [
-      { "plan_name": "Studio-Hill", "beds": 1, "baths": 1, "sqft": 390, "price": 720 }
-    ],
-    "features": {
-      "parking": false,
-      "pool": false,
-      "pet_friendly": false,
-      "gym": false,
-      "ac": false,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.487, "lng": -122.225 },
-    "sellCount": 17
-  },
-
-  {
-    "id": 15,
-    "title": "Greenville Family Residences",
-    "category": "Family Apartment",
-    "price_min": 1350,
-    "price_max": 1900,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 780,
-    "images": [
-      "https://picsum.photos/id/360/800/600",
-      "https://picsum.photos/id/361/800/600",
-      "https://picsum.photos/id/362/800/600",
-      "https://picsum.photos/id/363/800/600",
-      "https://picsum.photos/id/364/800/600"
-    ],
-    "address": "Renton Westside, WA",
-    "availability": "Available Now",
-    "year_built": 2007,
-    "description": "Family-friendly units with an open courtyard.",
-    "floor_plans": [
-      { "plan_name": "2B-Family", "beds": 2, "baths": 2, "sqft": 780, "price": 1350 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": false,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.495, "lng": -122.205 },
-    "sellCount": 26
-  },
-
-  {
-    "id": 16,
-    "title": "Blue Ridge Premium Homes",
-    "category": "Premium Apartment",
-    "price_min": 1750,
-    "price_max": 2300,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 890,
-    "images": [
-      "https://picsum.photos/id/370/800/600",
-      "https://picsum.photos/id/371/800/600",
-      "https://picsum.photos/id/372/800/600",
-      "https://picsum.photos/id/373/800/600",
-      "https://picsum.photos/id/374/800/600"
-    ],
-    "address": "Renton Central, WA",
-    "availability": "Available",
-    "year_built": 2013,
-    "description": "Modern premium units near shopping centers.",
-    "floor_plans": [
-      { "plan_name": "2B-Business", "beds": 2, "baths": 2, "sqft": 890, "price": 1750 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": false,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.489, "lng": -122.214 },
+    "year_built": 2019,
+    "description": "Smart Budget Studio is an affordable and efficient living space designed for students and young professionals. The studio offers a compact layout with modern design and essential amenities. Located in a central area, it provides easy access to universities and public transport. This studio is perfect for those seeking convenience and affordability.",
+    "floor_plans": [{ "plan_name": "Budget Plan", "beds": 1, "baths": 1, "sqft": 500, "price": 1100 }],
+    "features": { "parking": false, "pool": false, "pet_friendly": false, "gym": false, "ac": true, "in_unit_laundry": false },
+    "location": { "lat": 23.734, "lng": 90.385 },
     "sellCount": 22
   },
-
   {
-    "id": 17,
-    "title": "Lakeside View Suites",
-    "category": "Luxury Apartment",
-    "price_min": 2250,
-    "price_max": 2850,
-    "beds": 3,
-    "baths": 2,
-    "sqft": 1200,
+    "id": 32,
+    "title": "Royal Sky Penthouse",
+    "category": "Apartment",
+    "price_min": 4500,
+    "price_max": 6000,
+    "beds": 4,
+    "baths": 4,
+    "sqft": 2700,
     "images": [
-      "https://picsum.photos/id/380/800/600",
-      "https://picsum.photos/id/381/800/600",
-      "https://picsum.photos/id/382/800/600",
-      "https://picsum.photos/id/383/800/600",
-      "https://picsum.photos/id/384/800/600"
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
     ],
-    "address": "Kennydale, WA",
-    "availability": "Available",
-    "year_built": 2019,
-    "description": "High-end homes with stunning lake views.",
-    "floor_plans": [
-      { "plan_name": "3B-Lake", "beds": 3, "baths": 2, "sqft": 1200, "price": 2250 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": true,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.528, "lng": -122.236 },
-    "sellCount": 35
-  },
-
-  {
-    "id": 18,
-    "title": "Green Willow Budget Studios",
-    "category": "Budget Apartment",
-    "price_min": 780,
-    "price_max": 1120,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 420,
-    "images": [
-      "https://picsum.photos/id/390/800/600",
-      "https://picsum.photos/id/391/800/600",
-      "https://picsum.photos/id/392/800/600",
-      "https://picsum.photos/id/393/800/600",
-      "https://picsum.photos/id/394/800/600"
-    ],
-    "address": "Renton South, WA",
-    "availability": "Next Month",
-    "year_built": 1991,
-    "description": "Small affordable studios close to transit lines.",
-    "floor_plans": [
-      { "plan_name": "Studio-Value", "beds": 1, "baths": 1, "sqft": 420, "price": 780 }
-    ],
-    "features": {
-      "parking": false,
-      "pool": false,
-      "pet_friendly": false,
-      "gym": false,
-      "ac": false,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.470, "lng": -122.239 },
-    "sellCount": 11
-  },
-
-  {
-    "id": 19,
-    "title": "Redwood Family Homes",
-    "category": "Family Apartment",
-    "price_min": 1400,
-    "price_max": 1850,
-    "beds": 2,
-    "baths": 2,
-    "sqft": 795,
-    "images": [
-      "https://picsum.photos/id/400/800/600",
-      "https://picsum.photos/id/401/800/600",
-      "https://picsum.photos/id/402/800/600",
-      "https://picsum.photos/id/403/800/600",
-      "https://picsum.photos/id/404/800/600"
-    ],
-    "address": "Renton Hilltop, WA",
+    "address": "Gulshan 2, Dhaka",
     "availability": "Available Now",
-    "year_built": 2008,
-    "description": "Spacious family homes with updated interiors.",
-    "floor_plans": [
-      { "plan_name": "2B-Modern", "beds": 2, "baths": 2, "sqft": 795, "price": 1400 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": true,
-      "pet_friendly": true,
-      "gym": false,
-      "ac": true,
-      "in_unit_laundry": true
-    },
-    "location": { "lat": 47.498, "lng": -122.207 },
-    "sellCount": 28
-  },
-
-  {
-    "id": 20,
-    "title": "Evergreen Budget Flats",
-    "category": "Budget Apartment",
-    "price_min": 880,
-    "price_max": 1200,
-    "beds": 1,
-    "baths": 1,
-    "sqft": 450,
-    "images": [
-      "https://picsum.photos/id/300/800/600",
-      "https://picsum.photos/id/301/800/600",
-      "https://picsum.photos/id/302/800/600",
-      "https://picsum.photos/id/303/800/600",
-      "https://picsum.photos/id/304/800/600"
-    ],
-    "address": "Renton North, WA",
-    "availability": "Available Now",
-    "year_built": 1993,
-    "description": "Low-cost apartments ideal for single occupants.",
-    "floor_plans": [
-      { "plan_name": "1B-Economy", "beds": 1, "baths": 1, "sqft": 450, "price": 880 }
-    ],
-    "features": {
-      "parking": true,
-      "pool": false,
-      "pet_friendly": false,
-      "gym": false,
-      "ac": false,
-      "in_unit_laundry": false
-    },
-    "location": { "lat": 47.489, "lng": -122.214 },
-    "sellCount": 16
+    "year_built": 2023,
+    "description": "Royal Sky Penthouse is the ultimate luxury residence offering breathtaking views and premium living. The penthouse features a spacious layout with high-end finishes and modern design. Large windows provide panoramic views of the city. Residents enjoy exclusive facilities such as a rooftop pool, gym, and concierge services. This property is ideal for those seeking an elite lifestyle in Dhaka.",
+    "floor_plans": [{ "plan_name": "Penthouse Plan", "beds": 4, "baths": 4, "sqft": 2700, "price": 5200 }],
+    "features": { "parking": true, "pool": true, "pet_friendly": false, "gym": true, "ac": true, "in_unit_laundry": true },
+    "location": { "lat": 23.792, "lng": 90.407 },
+    "sellCount": 3
   }
 ]
