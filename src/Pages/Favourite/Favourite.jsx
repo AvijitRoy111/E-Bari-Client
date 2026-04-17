@@ -79,9 +79,9 @@ const Favourite = () => {
                                          </div>
                                      </div>
                                  </div>
-//                             </div>
-//                         ))}
-//                     </div>
+                             </div>
+                         ))}
+                     </div>
 //                 )}
 //             </div>
 //         </div>
