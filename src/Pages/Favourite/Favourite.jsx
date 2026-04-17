@@ -30,12 +30,12 @@ const Favourite = () => {
 
                  {favItems.length === 0 ? (
                      <div className="text-center py-20 bg-white dark:bg-gray-900 rounded-3xl border-2 border-dashed border-gray-200 dark:border-gray-800">
-//                         <p className="text-gray-500 text-xl font-medium">Your favourite list is empty!</p>
-//                     </div>
-//                 ) : (
-//                     <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-//                         {favItems.map((item) => (
-//                             <div key={item.id} className="group bg-white dark:bg-gray-900 rounded-3xl shadow-sm hover:shadow-xl transition-all overflow-hidden border border-gray-100 dark:border-gray-800 flex flex-col">
+                         <p className="text-gray-500 text-xl font-medium">Your favourite list is empty!</p>
+                     </div>
+                 ) : (
+                     <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                         {favItems.map((item) => (
+                             <div key={item.id} className="group bg-white dark:bg-gray-900 rounded-3xl shadow-sm hover:shadow-xl transition-all overflow-hidden border border-gray-100 dark:border-gray-800 flex flex-col">
 //                                 <div className="relative overflow-hidden h-52">
 //                                     <img
 //                                         src={item.images?.[0]}
