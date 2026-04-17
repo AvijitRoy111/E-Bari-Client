@@ -64,12 +64,12 @@ const Favourite = () => {
                                          </span>
                                      </div>
 
-//                                     <div className="grid grid-cols-3 gap-2 py-3 border-t border-gray-50 dark:border-gray-800 text-gray-600 dark:text-gray-400">
-//                                         <div className="flex flex-col items-center gap-1">
-//                                             <BedDouble size={14} className="text-blue-500" />
-//                                             <span className="text-[10px] font-bold">{item.beds} Beds</span>
-//                                         </div>
-//                                         <div className="flex flex-col items-center gap-1 border-x border-gray-100 dark:border-gray-800">
+                                     <div className="grid grid-cols-3 gap-2 py-3 border-t border-gray-50 dark:border-gray-800 text-gray-600 dark:text-gray-400">
+                                         <div className="flex flex-col items-center gap-1">
+                                             <BedDouble size={14} className="text-blue-500" />
+                                             <span className="text-[10px] font-bold">{item.beds} Beds</span>
+                                         </div>
+                                         <div className="flex flex-col items-center gap-1 border-x border-gray-100 dark:border-gray-800">
 //                                             <Bath size={14} className="text-blue-500" />
 //                                             <span className="text-[10px] font-bold">{item.baths} Baths</span>
 //                                         </div>
