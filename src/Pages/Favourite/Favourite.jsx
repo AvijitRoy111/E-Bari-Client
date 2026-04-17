@@ -41,10 +41,10 @@ const Favourite = () => {
                                          src={item.images?.[0]}
                                          alt={item.title}
                                          className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-700"
-//                                     />
-//                                     <button 
-//                                         onClick={() => removeFavorite(item.id)}
-//                                         className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded-full shadow-lg"
+                                     />
+                                     <button 
+                                         onClick={() => removeFavorite(item.id)}
+                                         className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded-full shadow-lg"
 //                                     >
 //                                         <Trash2 size={16} />
 //                                     </button>
