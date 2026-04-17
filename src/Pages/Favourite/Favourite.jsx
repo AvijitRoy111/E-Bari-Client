@@ -10,11 +10,11 @@ const Favourite = () => {
         setFavItems(saved);
     }, []);
 
-//     const removeFavorite = (id) => {
-//         const updated = favItems.filter(item => item.id !== id);
-//         setFavItems(updated);
-//         localStorage.setItem('property-favorites', JSON.stringify(updated));
-//     };
+    const removeFavorite = (id) => {
+        const updated = favItems.filter(item => item.id !== id);
+        setFavItems(updated);
+        localStorage.setItem('property-favorites', JSON.stringify(updated));
+    };
 
 //     return (
 //         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
