@@ -70,8 +70,8 @@ const Favourite = () => {
                                              <span className="text-[10px] font-bold">{item.beds} Beds</span>
                                          </div>
                                          <div className="flex flex-col items-center gap-1 border-x border-gray-100 dark:border-gray-800">
-//                                             <Bath size={14} className="text-blue-500" />
-//                                             <span className="text-[10px] font-bold">{item.baths} Baths</span>
+                                             <Bath size={14} className="text-blue-500" />
+                                             <span className="text-[10px] font-bold">{item.baths} Baths</span>
 //                                         </div>
 //                                         <div className="flex flex-col items-center gap-1">
 //                                             <Square size={14} className="text-blue-500" />
