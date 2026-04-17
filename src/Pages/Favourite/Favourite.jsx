@@ -28,8 +28,8 @@ const Favourite = () => {
                      <p className="text-gray-500 mt-2">You have saved {favItems.length} properties</p>
                  </div>
 
-//                 {favItems.length === 0 ? (
-//                     <div className="text-center py-20 bg-white dark:bg-gray-900 rounded-3xl border-2 border-dashed border-gray-200 dark:border-gray-800">
+                 {favItems.length === 0 ? (
+                     <div className="text-center py-20 bg-white dark:bg-gray-900 rounded-3xl border-2 border-dashed border-gray-200 dark:border-gray-800">
 //                         <p className="text-gray-500 text-xl font-medium">Your favourite list is empty!</p>
 //                     </div>
 //                 ) : (
