@@ -16,10 +16,10 @@ const Favourite = () => {
         localStorage.setItem('property-favorites', JSON.stringify(updated));
     };
 
-//     return (
-//         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
-//             <div className="max-w-[1440px] mx-auto px-6 pt-8">
-//                 <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Favourite", href: "/favourite" }]} />
+    return (
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
+            <div className="max-w-[1440px] mx-auto px-6 pt-8">
+                <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Favourite", href: "/favourite" }]} />
                 
 //                 <div className="mt-8 mb-10">
 //                     <h1 className="text-4xl font-black text-gray-900 dark:text-white tracking-tight">
