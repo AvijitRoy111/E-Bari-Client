@@ -76,9 +76,9 @@ const Favourite = () => {
                                          <div className="flex flex-col items-center gap-1">
                                              <Square size={14} className="text-blue-500" />
                                              <span className="text-[10px] font-bold">{item.sqft} sqft</span>
-//                                         </div>
-//                                     </div>
-//                                 </div>
+                                         </div>
+                                     </div>
+                                 </div>
 //                             </div>
 //                         ))}
 //                     </div>
