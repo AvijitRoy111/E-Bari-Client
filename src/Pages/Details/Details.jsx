@@ -95,16 +95,16 @@ const Details = () => {
                  {property.description || "This luxurious property offers a perfect blend of modern architecture and comfortable living. Located in a prime area, it features state-of-the-art facilities, spacious rooms, and breathtaking views."}
                </p>
               
-//               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-//                 {['Smart Home', 'Swimming Pool', 'Gym', 'Parking', 'Security', 'Garden'].map((feat) => (
-//                   <div key={feat} className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-//                     <CheckCircle2 size={18} className="text-green-500" />
-//                     <span className="text-sm font-medium">{feat}</span>
-//                   </div>
-//                 ))}
-//               </div>
-//             </div>
-//           </div>
+               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+                 {['Smart Home', 'Swimming Pool', 'Gym', 'Parking', 'Security', 'Garden'].map((feat) => (
+                   <div key={feat} className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
+                     <CheckCircle2 size={18} className="text-green-500" />
+                     <span className="text-sm font-medium">{feat}</span>
+                   </div>
+                 ))}
+               </div>
+             </div>
+           </div>
 
 //           {/* RIGHT COLUMN: DETAILS & BOOKING */}
 //           <div className="lg:col-span-5 space-y-6">
