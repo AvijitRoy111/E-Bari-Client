@@ -13,6 +13,7 @@ import FamilyHouse from "@/Pages/Home/FamilyHouse/FamilyHouse";
 import Villa from "@/Pages/Home/Villa/Villa";
 import Apartment from "@/Pages/Home/Apartment/Apartment";
 import Favourite from "@/Pages/Favourite/Favourite";
+import Details from "@/Pages/Details/Details";
 
 
 const router = createBrowserRouter([
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "/favourite",
         element: <Favourite />
+      },
+      {
+        path: "/details/:id",
+        element: <Details />
       },
       {
         path: "/navbar",
