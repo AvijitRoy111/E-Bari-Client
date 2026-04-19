@@ -62,12 +62,12 @@ const Details = () => {
                    <ZoomOut size={20} />
                  </button>
                  <button onClick={handleZoomIn} className="p-3 bg-white/90 dark:bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 hover:text-white transition-all">
-//                   <ZoomIn size={20} />
-//                 </button>
-//               </div>
+                   <ZoomIn size={20} />
+                 </button>
+               </div>
 
-//               <div className="absolute top-6 left-6">
-//                 <span className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold uppercase">
+               <div className="absolute top-6 left-6">
+                 <span className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold uppercase">
 //                   {property.category}
 //                 </span>
 //               </div>
