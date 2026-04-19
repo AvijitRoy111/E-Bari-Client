@@ -6,11 +6,11 @@ import {
 } from 'lucide-react';
 import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 
-// const Details = () => {
-//   const { id } = useParams();
-//   const [property, setProperty] = useState(null);
-//   const [activeImage, setActiveImage] = useState(0);
-//   const [zoom, setZoom] = useState(1);
+const Details = () => {
+  const { id } = useParams();
+  const [property, setProperty] = useState(null);
+  const [activeImage, setActiveImage] = useState(0);
+  const [zoom, setZoom] = useState(1);
 
 //   //loaded data ......
 //   useEffect(() => {
