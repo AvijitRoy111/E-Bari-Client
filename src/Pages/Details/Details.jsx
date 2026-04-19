@@ -73,13 +73,13 @@ const Details = () => {
                </div>
              </div>
 
-//             {/* Thumbnails (4 Images) */}
-//             <div className="grid grid-cols-4 gap-4">
-//               {property.images?.slice(0, 4).map((img, idx) => (
-//                 <button
-//                   key={idx}
-//                   onClick={() => {setActiveImage(idx); setZoom(1);}}
-//                   className={`relative h-24 md:h-32 rounded-2xl overflow-hidden border-4 transition-all ${
+             {/* Thumbnails (4 Images) */}
+             <div className="grid grid-cols-4 gap-4">
+               {property.images?.slice(0, 4).map((img, idx) => (
+                 <button
+                   key={idx}
+                   onClick={() => {setActiveImage(idx); setZoom(1);}}
+                   className={`relative h-24 md:h-32 rounded-2xl overflow-hidden border-4 transition-all ${
 //                     activeImage === idx ? "border-blue-600 scale-95" : "border-transparent opacity-70 hover:opacity-100"
 //                   }`}
 //                 >
