@@ -59,9 +59,9 @@ const Details = () => {
                {/* Zoom Controls */}
                <div className="absolute bottom-6 right-6 flex gap-2">
                  <button onClick={handleZoomOut} className="p-3 bg-white/90 dark:bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 hover:text-white transition-all">
-//                   <ZoomOut size={20} />
-//                 </button>
-//                 <button onClick={handleZoomIn} className="p-3 bg-white/90 dark:bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 hover:text-white transition-all">
+                   <ZoomOut size={20} />
+                 </button>
+                 <button onClick={handleZoomIn} className="p-3 bg-white/90 dark:bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 hover:text-white transition-all">
 //                   <ZoomIn size={20} />
 //                 </button>
 //               </div>
