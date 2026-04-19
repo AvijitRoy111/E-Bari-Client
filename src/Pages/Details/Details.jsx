@@ -1,10 +1,10 @@
-// import React, { useState, useEffect } from 'react';
-// import { useParams } from 'react-router-dom';
-// import { 
-//   MapPin, BedDouble, Bath, Square, Heart, Share2, 
-//   ZoomIn, ZoomOut, CheckCircle2, Calendar, MessageSquare 
-// } from 'lucide-react';
-// import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { 
+  MapPin, BedDouble, Bath, Square, Heart, Share2, 
+  ZoomIn, ZoomOut, CheckCircle2, Calendar, MessageSquare 
+} from 'lucide-react';
+import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 
 // const Details = () => {
 //   const { id } = useParams();
