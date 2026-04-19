@@ -27,9 +27,9 @@ const Details = () => {
     fetchDetails();
   }, [id]);
 
-//   if (!property) return <div className="h-screen flex items-center justify-center">Loading...</div>;
+  if (!property) return <div className="h-screen flex items-center justify-center">Loading...</div>;
 
-//   const handleZoomIn = () => setZoom(prev => Math.min(prev + 0.2, 2));
+  const handleZoomIn = () => setZoom(prev => Math.min(prev + 0.2, 2));
 //   const handleZoomOut = () => setZoom(prev => Math.max(prev - 0.2, 1));
 
 //   return (
