@@ -171,15 +171,15 @@ const Details = () => {
                    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">JS</div>
                    <div>
                      <p className="text-sm font-bold dark:text-white">John Smith</p>
-//                     <p className="text-xs text-gray-400">Property Owner</p>
-//                   </div>
-//                 </div>
-//                 <button className="text-gray-400 hover:text-blue-600 transition-colors">
-//                   <Share2 size={20} />
-//                 </button>
-//               </div>
-//             </div>
-//           </div>
+                     <p className="text-xs text-gray-400">Property Owner</p>
+                   </div>
+                 </div>
+                 <button className="text-gray-400 hover:text-blue-600 transition-colors">
+                   <Share2 size={20} />
+                 </button>
+               </div>
+             </div>
+           </div>
 
 //         </div>
 //       </div>
