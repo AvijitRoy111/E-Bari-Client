@@ -90,10 +90,10 @@ const Details = () => {
 
              {/* Description Section */}
              <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-800">
-//               <h2 className="text-2xl font-bold mb-4 dark:text-white">About this property</h2>
-//               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-//                 {property.description || "This luxurious property offers a perfect blend of modern architecture and comfortable living. Located in a prime area, it features state-of-the-art facilities, spacious rooms, and breathtaking views."}
-//               </p>
+               <h2 className="text-2xl font-bold mb-4 dark:text-white">About this property</h2>
+               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                 {property.description || "This luxurious property offers a perfect blend of modern architecture and comfortable living. Located in a prime area, it features state-of-the-art facilities, spacious rooms, and breathtaking views."}
+               </p>
               
 //               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
 //                 {['Smart Home', 'Swimming Pool', 'Gym', 'Parking', 'Security', 'Garden'].map((feat) => (
