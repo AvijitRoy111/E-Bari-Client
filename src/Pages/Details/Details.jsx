@@ -43,18 +43,18 @@ const Details = () => {
           ]}
         />
 
-//         <div className="mt-8 grid lg:grid-cols-12 gap-10">
+         <div className="mt-8 grid lg:grid-cols-12 gap-10">
           
-//           {/* LEFT COLUMN: IMAGES */}
-//           <div className="lg:col-span-7 space-y-6">
-//             {/* Main Image with Zoom */}
-//             <div className="relative h-[500px] rounded-3xl overflow-hidden bg-black group">
-//               <img
-//                 src={property.images?.[activeImage]}
-//                 alt={property.title}
-//                 className="w-full h-full object-cover transition-transform duration-300"
-//                 style={{ transform: `scale(${zoom})` }}
-//               />
+           {/* LEFT COLUMN: IMAGES */}
+           <div className="lg:col-span-7 space-y-6">
+             {/* Main Image with Zoom */}
+             <div className="relative h-[500px] rounded-3xl overflow-hidden bg-black group">
+               <img
+                 src={property.images?.[activeImage]}
+                 alt={property.title}
+                 className="w-full h-full object-cover transition-transform duration-300"
+                 style={{ transform: `scale(${zoom})` }}
+               />
               
 //               {/* Zoom Controls */}
 //               <div className="absolute bottom-6 right-6 flex gap-2">
