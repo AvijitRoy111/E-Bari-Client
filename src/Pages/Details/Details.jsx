@@ -133,44 +133,44 @@ const Details = () => {
                      <span className="text-gray-400 font-medium"> - ${property.price_max?.toLocaleString()}</span>
                    )}
                  </div>
-//               </div>
+               </div>
 
-//               {/* Stats */}
-//               <div className="grid grid-cols-3 gap-4 mb-8">
-//                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-//                   <BedDouble className="mx-auto mb-2 text-blue-600" />
-//                   <p className="text-xs text-gray-400 uppercase font-bold">Beds</p>
-//                   <p className="font-bold dark:text-white">{property.beds}</p>
-//                 </div>
-//                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-//                   <Bath className="mx-auto mb-2 text-blue-600" />
-//                   <p className="text-xs text-gray-400 uppercase font-bold">Baths</p>
-//                   <p className="font-bold dark:text-white">{property.baths}</p>
-//                 </div>
-//                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-//                   <Square className="mx-auto mb-2 text-blue-600" />
-//                   <p className="text-xs text-gray-400 uppercase font-bold">Sqft</p>
-//                   <p className="font-bold dark:text-white">{property.sqft}</p>
-//                 </div>
-//               </div>
+               {/* Stats */}
+               <div className="grid grid-cols-3 gap-4 mb-8">
+                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+                   <BedDouble className="mx-auto mb-2 text-blue-600" />
+                   <p className="text-xs text-gray-400 uppercase font-bold">Beds</p>
+                   <p className="font-bold dark:text-white">{property.beds}</p>
+                 </div>
+                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+                   <Bath className="mx-auto mb-2 text-blue-600" />
+                   <p className="text-xs text-gray-400 uppercase font-bold">Baths</p>
+                   <p className="font-bold dark:text-white">{property.baths}</p>
+                 </div>
+                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+                   <Square className="mx-auto mb-2 text-blue-600" />
+                   <p className="text-xs text-gray-400 uppercase font-bold">Sqft</p>
+                   <p className="font-bold dark:text-white">{property.sqft}</p>
+                 </div>
+               </div>
 
-//               {/* Action Buttons */}
-//               <div className="space-y-3">
-//                 <button className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-bold text-lg shadow-lg shadow-blue-200 dark:shadow-none transition-all flex items-center justify-center gap-2">
-//                   <Calendar size={20} />
-//                   Book a Visit
-//                 </button>
-//                 <button className="w-full py-4 bg-white dark:bg-gray-800 border-2 border-gray-100 dark:border-gray-700 text-gray-900 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-gray-50 transition-all">
-//                   <MessageSquare size={20} />
-//                   Contact Agent
-//                 </button>
-//               </div>
+               {/* Action Buttons */}
+               <div className="space-y-3">
+                 <button className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-bold text-lg shadow-lg shadow-blue-200 dark:shadow-none transition-all flex items-center justify-center gap-2">
+                   <Calendar size={20} />
+                   Book a Visit
+                 </button>
+                 <button className="w-full py-4 bg-white dark:bg-gray-800 border-2 border-gray-100 dark:border-gray-700 text-gray-900 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-gray-50 transition-all">
+                   <MessageSquare size={20} />
+                   Contact Agent
+                 </button>
+               </div>
 
-//               <div className="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800 flex justify-between items-center">
-//                 <div className="flex items-center gap-3">
-//                   <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">JS</div>
-//                   <div>
-//                     <p className="text-sm font-bold dark:text-white">John Smith</p>
+               <div className="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800 flex justify-between items-center">
+                 <div className="flex items-center gap-3">
+                   <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">JS</div>
+                   <div>
+                     <p className="text-sm font-bold dark:text-white">John Smith</p>
 //                     <p className="text-xs text-gray-400">Property Owner</p>
 //                   </div>
 //                 </div>
