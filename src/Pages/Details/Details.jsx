@@ -36,12 +36,12 @@ const Details = () => {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
       <div className="max-w-[1440px] mx-auto px-6 pt-8">
         <Breadcrumb
-//           items={[
-//             { label: "Home", href: "/" },
-//             { label: "Properties", href: "/all" },
-//             { label: "Details", href: "#" }
-//           ]}
-//         />
+          items={[
+            { label: "Home", href: "/" },
+            { label: "Properties", href: "/all" },
+            { label: "Details", href: "#" }
+          ]}
+        />
 
 //         <div className="mt-8 grid lg:grid-cols-12 gap-10">
           
