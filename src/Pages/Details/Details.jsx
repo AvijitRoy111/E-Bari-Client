@@ -80,16 +80,16 @@ const Details = () => {
                    key={idx}
                    onClick={() => {setActiveImage(idx); setZoom(1);}}
                    className={`relative h-24 md:h-32 rounded-2xl overflow-hidden border-4 transition-all ${
-//                     activeImage === idx ? "border-blue-600 scale-95" : "border-transparent opacity-70 hover:opacity-100"
-//                   }`}
-//                 >
-//                   <img src={img} className="w-full h-full object-cover" alt="thumbnail" />
-//                 </button>
-//               ))}
-//             </div>
+                     activeImage === idx ? "border-blue-600 scale-95" : "border-transparent opacity-70 hover:opacity-100"
+                   }`}
+                 >
+                   <img src={img} className="w-full h-full object-cover" alt="thumbnail" />
+                 </button>
+               ))}
+             </div>
 
-//             {/* Description Section */}
-//             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-800">
+             {/* Description Section */}
+             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-800">
 //               <h2 className="text-2xl font-bold mb-4 dark:text-white">About this property</h2>
 //               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
 //                 {property.description || "This luxurious property offers a perfect blend of modern architecture and comfortable living. Located in a prime area, it features state-of-the-art facilities, spacious rooms, and breathtaking views."}
