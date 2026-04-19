@@ -12,20 +12,20 @@ const Details = () => {
   const [activeImage, setActiveImage] = useState(0);
   const [zoom, setZoom] = useState(1);
 
-//   //loaded data ......
-//   useEffect(() => {
-//     const fetchDetails = async () => {
-//       try {
-//         const response = await fetch('/fake.json'); 
-//         const data = await response.json();
-//         const found = data.find(p => p.id === parseInt(id)) || data[0];
-//         setProperty(found);
-//       } catch (error) {
-//         console.error("Error loading property:", error);
-//       }
-//     };
-//     fetchDetails();
-//   }, [id]);
+  //loaded data ......
+  useEffect(() => {
+    const fetchDetails = async () => {
+      try {
+        const response = await fetch('/fake.json'); 
+        const data = await response.json();
+        const found = data.find(p => p.id === parseInt(id)) || data[0];
+        setProperty(found);
+      } catch (error) {
+        console.error("Error loading property:", error);
+      }
+    };
+    fetchDetails();
+  }, [id]);
 
 //   if (!property) return <div className="h-screen flex items-center justify-center">Loading...</div>;
 
