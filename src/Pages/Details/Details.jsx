@@ -106,23 +106,23 @@ const Details = () => {
              </div>
            </div>
 
-//           {/* RIGHT COLUMN: DETAILS & BOOKING */}
-//           <div className="lg:col-span-5 space-y-6">
-//             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-800 sticky top-8">
-//               <div className="flex justify-between items-start mb-6">
-//                 <div>
-//                   <h1 className="text-3xl font-black text-gray-900 dark:text-white mb-2 leading-tight">
-//                     {property.title}
-//                   </h1>
-//                   <div className="flex items-center gap-2 text-gray-500">
-//                     <MapPin size={18} className="text-blue-600" />
-//                     <span className="text-sm">{property.address}</span>
-//                   </div>
-//                 </div>
-//                 <button className="p-3 bg-gray-50 dark:bg-gray-800 rounded-2xl hover:text-red-500 transition-colors">
-//                   <Heart size={24} />
-//                 </button>
-//               </div>
+           {/* RIGHT COLUMN: DETAILS & BOOKING */}
+           <div className="lg:col-span-5 space-y-6">
+             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-800 sticky top-8">
+               <div className="flex justify-between items-start mb-6">
+                 <div>
+                   <h1 className="text-3xl font-black text-gray-900 dark:text-white mb-2 leading-tight">
+                     {property.title}
+                   </h1>
+                   <div className="flex items-center gap-2 text-gray-500">
+                     <MapPin size={18} className="text-blue-600" />
+                     <span className="text-sm">{property.address}</span>
+                   </div>
+                 </div>
+                 <button className="p-3 bg-gray-50 dark:bg-gray-800 rounded-2xl hover:text-red-500 transition-colors">
+                   <Heart size={24} />
+                 </button>
+               </div>
 
 //               {/* Price Tag */}
 //               <div className="mb-8 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30">
