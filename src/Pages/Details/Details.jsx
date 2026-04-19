@@ -30,7 +30,7 @@ const Details = () => {
   if (!property) return <div className="h-screen flex items-center justify-center">Loading...</div>;
 
   const handleZoomIn = () => setZoom(prev => Math.min(prev + 0.2, 2));
-//   const handleZoomOut = () => setZoom(prev => Math.max(prev - 0.2, 1));
+  const handleZoomOut = () => setZoom(prev => Math.max(prev - 0.2, 1));
 
 //   return (
 //     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
