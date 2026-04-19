@@ -68,10 +68,10 @@ const Details = () => {
 
                <div className="absolute top-6 left-6">
                  <span className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold uppercase">
-//                   {property.category}
-//                 </span>
-//               </div>
-//             </div>
+                   {property.category}
+                 </span>
+               </div>
+             </div>
 
 //             {/* Thumbnails (4 Images) */}
 //             <div className="grid grid-cols-4 gap-4">
