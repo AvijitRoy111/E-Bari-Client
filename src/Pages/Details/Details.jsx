@@ -124,15 +124,15 @@ const Details = () => {
                  </button>
                </div>
 
-//               {/* Price Tag */}
-//               <div className="mb-8 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30">
-//                 <span className="text-gray-500 dark:text-gray-400 block text-sm font-bold uppercase mb-1">Total Price</span>
-//                 <div className="flex items-baseline gap-2">
-//                   <span className="text-4xl font-black text-blue-600">${property.price_min?.toLocaleString()}</span>
-//                   {property.price_max > property.price_min && (
-//                     <span className="text-gray-400 font-medium"> - ${property.price_max?.toLocaleString()}</span>
-//                   )}
-//                 </div>
+               {/* Price Tag */}
+               <div className="mb-8 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30">
+                 <span className="text-gray-500 dark:text-gray-400 block text-sm font-bold uppercase mb-1">Total Price</span>
+                 <div className="flex items-baseline gap-2">
+                   <span className="text-4xl font-black text-blue-600">${property.price_min?.toLocaleString()}</span>
+                   {property.price_max > property.price_min && (
+                     <span className="text-gray-400 font-medium"> - ${property.price_max?.toLocaleString()}</span>
+                   )}
+                 </div>
 //               </div>
 
 //               {/* Stats */}
