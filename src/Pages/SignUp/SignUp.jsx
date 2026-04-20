@@ -20,23 +20,23 @@ const SignUp = () => {
           
           {/* Decorative Elements */}
           <div className="absolute top-0 left-0 w-full h-full opacity-20">
-//             <div className="absolute top-20 left-10 w-32 h-32 bg-white rounded-full animate-pulse blur-xl"></div>
-//             <div className="absolute bottom-10 right-20 w-48 h-48 bg-white rounded-full animate-bounce blur-2xl"></div>
-//           </div>
+             <div className="absolute top-20 left-10 w-32 h-32 bg-white rounded-full animate-pulse blur-xl"></div>
+             <div className="absolute bottom-10 right-20 w-48 h-48 bg-white rounded-full animate-bounce blur-2xl"></div>
+           </div>
           
-//           {/* Reliable Illustration - High Quality SVG */}
-//           <div className="z-10 mt-10 animate-float flex justify-center items-center">
-//             <img 
-//               src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" 
-//               alt="Laptop Illustration" 
-//               className="w-40 h-40 object-contain drop-shadow-2xl"
-//             />
-//             {/* Alt alternative if the above doesn't show: https://undraw.co/ standard SVGs */}
-//             <img 
-//               src="https://illustrations.popsy.co/white/creative-work.svg" 
-//               alt="Sign Up Illustration" 
-//               className="w-80 h-80 absolute opacity-80"
-//               onError={(e) => { e.target.src = 'https://cdni.iconscout.com/illustration/premium/thumb/user-account-sign-up-4489360-3723267.png' }}
+           {/* Reliable Illustration - High Quality SVG */}
+           <div className="z-10 mt-10 animate-float flex justify-center items-center">
+             <img 
+               src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" 
+              alt="Laptop Illustration" 
+              className="w-40 h-40 object-contain drop-shadow-2xl"
+            />
+            {/* Alt alternative if the above doesn't show: https://undraw.co/ standard SVGs */}
+            <img 
+              src="https://illustrations.popsy.co/white/creative-work.svg" 
+              alt="Sign Up Illustration" 
+              className="w-80 h-80 absolute opacity-80"
+              onError={(e) => { e.target.src = 'https://cdni.iconscout.com/illustration/premium/thumb/user-account-sign-up-4489360-3723267.png' }}
 //             />
 //           </div>
 //         </div>
