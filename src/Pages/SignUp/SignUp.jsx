@@ -137,8 +137,8 @@ const SignUp = () => {
              <div className="flex items-center justify-between text-sm pt-3">
                <label className="flex items-center cursor-pointer text-gray-500 dark:text-slate-400 hover:text-gray-700 select-none">
                  <input type="checkbox" className="mr-2 h-4 w-4 accent-sky-600 rounded border-gray-300 dark:border-slate-700 dark:bg-slate-800 cursor-pointer" />
-//                 I agree to the <a href="#" className="text-sky-600 dark:text-sky-400 font-medium hover:underline ml-1">Terms & Conditions</a>
-//               </label>
+                 I agree to the <a href="#" className="text-sky-600 dark:text-sky-400 font-medium hover:underline ml-1">Terms & Conditions</a>
+               </label>
 //             </div>
 
 //             <button className="w-full bg-sky-600 hover:bg-sky-700 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-sky-200 dark:shadow-none transform hover:-translate-y-1 active:scale-[0.98] transition-all flex items-center justify-center gap-2 group mt-6">
