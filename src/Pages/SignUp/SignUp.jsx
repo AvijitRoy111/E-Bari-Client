@@ -96,12 +96,12 @@ const SignUp = () => {
                <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Password</label>
                <div className="relative group">
                  <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
-//                   <Lock size={19} />
-//                 </span>
-//                 <input 
-//                   type={showPassword ? "text" : "password"} 
-//                   placeholder="••••••••"
-//                   className="w-full pl-10 pr-12 py-2.5 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 dark:focus:ring-sky-400 text-gray-800 dark:text-white outline-none"
+                   <Lock size={19} />
+                 </span>
+                 <input 
+                   type={showPassword ? "text" : "password"} 
+                   placeholder="••••••••"
+                   className="w-full pl-10 pr-12 py-2.5 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 dark:focus:ring-sky-400 text-gray-800 dark:text-white outline-none"
 //                 />
 //                 <button 
 //                   type="button"
