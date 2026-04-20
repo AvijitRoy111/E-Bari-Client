@@ -10,7 +10,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "../ui/sheet";
 import logo from "../../assets/images/logo/bari.png.png";
 import { useTheme } from "../Theme-Provider/Theme-Provider";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -173,9 +173,9 @@ export default function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <Button className="hidden md:block bg-green-600 hover:bg-green-700 text-white">
+         <Link to="/signin" className="hidden md:block bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md">
             Sign In
-          </Button>
+          </Link>
 
           <User className="md:hidden w-6 h-6" />
         </div>

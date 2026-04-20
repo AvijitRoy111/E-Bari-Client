@@ -14,6 +14,9 @@ import Villa from "@/Pages/Home/Villa/Villa";
 import Apartment from "@/Pages/Home/Apartment/Apartment";
 import Favourite from "@/Pages/Favourite/Favourite";
 import Details from "@/Pages/Details/Details";
+import AouthLayout from "@/Components/Layouts/AouthLayout";
+import SignIn from "@/Pages/SignIn/SignIn";
+import SignUp from "@/Pages/SignUp/SignUp";
 
 
 const router = createBrowserRouter([
@@ -72,6 +75,21 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path:"/",
+    element:<AouthLayout/>,
+    errorElement: <Error />,
+    children:[
+      {
+         path: "/signin",
+        element: <SignIn />
+      },
+      {
+        path: "/signup",
+        element: <SignUp />
+      }
+    ]
+  }
 ]);
 
 export default router;
