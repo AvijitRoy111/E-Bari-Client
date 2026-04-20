@@ -151,10 +151,10 @@ const SignUp = () => {
              Already have an account? 
              <Link to="/signin" className="text-sky-600 dark:text-sky-400 font-bold hover:underline ml-1">
                Sign In
-//             </Link> 
-//           </p>
-//         </div>
-//       </div>
+             </Link> 
+           </p>
+         </div>
+       </div>
 
 //       <style jsx>{`
 //         @keyframes float {
