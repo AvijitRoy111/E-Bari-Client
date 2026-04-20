@@ -123,7 +123,7 @@ const SignUp = () => {
                    type={showConfirmPassword ? "text" : "password"} 
                    placeholder="••••••••"
                    className="w-full pl-10 pr-12 py-2.5 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 dark:focus:ring-sky-400 text-gray-800 dark:text-white outline-none"
-//                 />
+                 />
 //                 <button 
 //                   type="button"
 //                   onClick={() => setShowConfirmPassword(!showConfirmPassword)}
