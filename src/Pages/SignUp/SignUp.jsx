@@ -145,10 +145,10 @@ const SignUp = () => {
                Create Account
                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
              </button>
-//           </form>
+           </form>
 
-//           <p className="text-center text-gray-500 dark:text-slate-400 mt-8">
-//             Already have an account? 
+           <p className="text-center text-gray-500 dark:text-slate-400 mt-8">
+             Already have an account? 
 //             <Link to="/signin" className="text-sky-600 dark:text-sky-400 font-bold hover:underline ml-1">
 //               Sign In
 //             </Link> 
