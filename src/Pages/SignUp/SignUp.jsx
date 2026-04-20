@@ -102,16 +102,16 @@ const SignUp = () => {
                    type={showPassword ? "text" : "password"} 
                    placeholder="••••••••"
                    className="w-full pl-10 pr-12 py-2.5 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 dark:focus:ring-sky-400 text-gray-800 dark:text-white outline-none"
-//                 />
-//                 <button 
-//                   type="button"
-//                   onClick={() => setShowPassword(!showPassword)}
-//                   className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-sky-600"
-//                 >
-//                   {showPassword ? <EyeOff size={19} /> : <Eye size={19} />}
-//                 </button>
-//               </div>
-//             </div>
+                 />
+                 <button 
+                  type="button"
+                  onClick={() => setShowPassword(!showPassword)}
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-sky-600"
+                >
+                  {showPassword ? <EyeOff size={19} /> : <Eye size={19} />}
+                </button>
+              </div>
+            </div>
 
 //             <div className="space-y-1">
 //               <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Confirm Password</label>
