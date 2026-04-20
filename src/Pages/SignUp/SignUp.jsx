@@ -131,8 +131,8 @@ const SignUp = () => {
                  >
                    {showConfirmPassword ? <EyeOff size={19} /> : <Eye size={19} />}
                  </button>
-//               </div>
-//             </div>
+               </div>
+             </div>
 
 //             <div className="flex items-center justify-between text-sm pt-3">
 //               <label className="flex items-center cursor-pointer text-gray-500 dark:text-slate-400 hover:text-gray-700 select-none">
