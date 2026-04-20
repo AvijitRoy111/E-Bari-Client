@@ -129,8 +129,8 @@ const SignUp = () => {
                   onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                   className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-sky-600"
                  >
-//                   {showConfirmPassword ? <EyeOff size={19} /> : <Eye size={19} />}
-//                 </button>
+                   {showConfirmPassword ? <EyeOff size={19} /> : <Eye size={19} />}
+                 </button>
 //               </div>
 //             </div>
 
