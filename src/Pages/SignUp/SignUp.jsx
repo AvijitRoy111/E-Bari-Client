@@ -167,6 +167,6 @@ const SignUp = () => {
        `}</style>
      </div>
    );
-// };
+};
 
 // export default SignUp;
