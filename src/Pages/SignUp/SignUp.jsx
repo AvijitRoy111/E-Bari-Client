@@ -9,10 +9,10 @@ const SignUp = () => {
   return (
     <div className="min-h-screen w-full flex items-center justify-center p-4 font-sans bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
       
-//       <div className="max-w-5xl w-full bg-white dark:bg-slate-900 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-transparent dark:border-slate-800">
+       <div className="max-w-5xl w-full bg-white dark:bg-slate-900 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-transparent dark:border-slate-800">
         
-//         {/* Left Side: Animated Image Section */}
-//         <div className="hidden md:flex md:w-1/2 bg-sky-600 dark:bg-sky-700 p-12 text-white flex-col justify-center items-center relative overflow-hidden">
+         {/* Left Side: Animated Image Section */}
+         <div className="hidden md:flex md:w-1/2 bg-sky-600 dark:bg-sky-700 p-12 text-white flex-col justify-center items-center relative overflow-hidden">
 //           <div className="z-10 text-center">
 //             <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Join Us Today!</h2>
 //             <p className="text-sky-100 text-lg opacity-90">Create your account and unlock a world of new possibilities.</p>
