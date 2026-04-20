@@ -37,12 +37,12 @@ const SignUp = () => {
               alt="Sign Up Illustration" 
               className="w-80 h-80 absolute opacity-80"
               onError={(e) => { e.target.src = 'https://cdni.iconscout.com/illustration/premium/thumb/user-account-sign-up-4489360-3723267.png' }}
-//             />
-//           </div>
-//         </div>
+            />
+          </div>
+        </div>
 
-//         {/* Right Side: Sign Up Form */}
-//         <div className="w-full md:w-1/2 p-8 md:p-14 bg-white dark:bg-slate-900 transition-colors duration-300 flex flex-col justify-center">
+        {/* Right Side: Sign Up Form */}
+        <div className="w-full md:w-1/2 p-8 md:p-14 bg-white dark:bg-slate-900 transition-colors duration-300 flex flex-col justify-center">
 //           <div className="mb-8 text-center md:text-left">
 //             <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Create Account</h2>
 //             <p className="text-gray-500 dark:text-slate-400 mt-2">Fill in the details below to get started</p>
