@@ -43,16 +43,16 @@ const SignUp = () => {
 
         {/* Right Side: Sign Up Form */}
         <div className="w-full md:w-1/2 p-8 md:p-14 bg-white dark:bg-slate-900 transition-colors duration-300 flex flex-col justify-center">
-//           <div className="mb-8 text-center md:text-left">
-//             <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Create Account</h2>
-//             <p className="text-gray-500 dark:text-slate-400 mt-2">Fill in the details below to get started</p>
-//           </div>
+           <div className="mb-8 text-center md:text-left">
+             <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Create Account</h2>
+             <p className="text-gray-500 dark:text-slate-400 mt-2">Fill in the details below to get started</p>
+           </div>
 
-//           <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+           <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
             
-//             <div className="space-y-1">
-//               <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Full Name</label>
-//               <div className="relative group">
+            <div className="space-y-1">
+               <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Full Name</label>
+               <div className="relative group">
 //                 <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
 //                   <User size={19} />
 //                 </span>
