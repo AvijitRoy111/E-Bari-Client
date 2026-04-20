@@ -124,10 +124,10 @@ const SignUp = () => {
                    placeholder="••••••••"
                    className="w-full pl-10 pr-12 py-2.5 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 dark:focus:ring-sky-400 text-gray-800 dark:text-white outline-none"
                  />
-//                 <button 
-//                   type="button"
-//                   onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-//                   className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-sky-600"
+                 <button 
+                  type="button"
+                  onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                  className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-sky-600"
 //                 >
 //                   {showConfirmPassword ? <EyeOff size={19} /> : <Eye size={19} />}
 //                 </button>
