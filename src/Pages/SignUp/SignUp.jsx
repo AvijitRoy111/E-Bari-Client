@@ -143,8 +143,8 @@ const SignUp = () => {
 
              <button className="w-full bg-sky-600 hover:bg-sky-700 text-white font-bold py-3.5 rounded-xl shadow-lg shadow-sky-200 dark:shadow-none transform hover:-translate-y-1 active:scale-[0.98] transition-all flex items-center justify-center gap-2 group mt-6">
                Create Account
-//               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-//             </button>
+               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+             </button>
 //           </form>
 
 //           <p className="text-center text-gray-500 dark:text-slate-400 mt-8">
