@@ -13,13 +13,13 @@ const SignUp = () => {
         
          {/* Left Side: Animated Image Section */}
          <div className="hidden md:flex md:w-1/2 bg-sky-600 dark:bg-sky-700 p-12 text-white flex-col justify-center items-center relative overflow-hidden">
-//           <div className="z-10 text-center">
-//             <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Join Us Today!</h2>
-//             <p className="text-sky-100 text-lg opacity-90">Create your account and unlock a world of new possibilities.</p>
-//           </div>
+           <div className="z-10 text-center">
+             <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Join Us Today!</h2>
+             <p className="text-sky-100 text-lg opacity-90">Create your account and unlock a world of new possibilities.</p>
+           </div>
           
-//           {/* Decorative Elements */}
-//           <div className="absolute top-0 left-0 w-full h-full opacity-20">
+          {/* Decorative Elements */}
+          <div className="absolute top-0 left-0 w-full h-full opacity-20">
 //             <div className="absolute top-20 left-10 w-32 h-32 bg-white rounded-full animate-pulse blur-xl"></div>
 //             <div className="absolute bottom-10 right-20 w-48 h-48 bg-white rounded-full animate-bounce blur-2xl"></div>
 //           </div>
