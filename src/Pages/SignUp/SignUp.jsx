@@ -165,8 +165,8 @@ const SignUp = () => {
            animation: float 4s ease-in-out infinite;
          }
        `}</style>
-//     </div>
-//   );
+     </div>
+   );
 // };
 
 // export default SignUp;
