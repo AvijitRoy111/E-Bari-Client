@@ -1,6 +1,6 @@
-// import React, { useState } from 'react';
-// import { Eye, EyeOff, Mail, Lock, User, ArrowRight, Phone } from 'lucide-react';
-// import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Eye, EyeOff, Mail, Lock, User, ArrowRight, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 // const SignUp = () => {
 //   const [showPassword, setShowPassword] = useState(false);
