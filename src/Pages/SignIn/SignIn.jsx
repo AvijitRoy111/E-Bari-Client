@@ -105,8 +105,8 @@ const SignIn = () => {
                <a href="#" className="text-indigo-600 dark:text-indigo-400 font-medium hover:underline">Forgot password?</a>
              </div>
 
-//             {/* Submit Button */}
-//             <button className="w-full bg-indigo-600 dark:bg-indigo-600 hover:bg-indigo-700 dark:hover:bg-indigo-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-200 dark:shadow-none transform hover:-translate-y-1 active:scale-[0.98] transition-all flex items-center justify-center gap-2 group mt-6">
+             {/* Submit Button */}
+             <button className="w-full bg-indigo-600 dark:bg-indigo-600 hover:bg-indigo-700 dark:hover:bg-indigo-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-200 dark:shadow-none transform hover:-translate-y-1 active:scale-[0.98] transition-all flex items-center justify-center gap-2 group mt-6">
 //               Sign In
 //               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
 //             </button>
