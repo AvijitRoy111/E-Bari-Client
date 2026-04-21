@@ -17,13 +17,13 @@ const SignIn = () => {
            <div className="z-10 text-center">
              <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Welcome Back!</h2>
              <p className="text-indigo-100 text-lg opacity-90">To keep connected with us please login with your personal info</p>
-//           </div>
+           </div>
           
-//           {/* Decorative Animated Elements */}
-//           <div className="absolute top-0 left-0 w-full h-full opacity-20">
-//             <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full animate-pulse blur-xl"></div>
-//             <div className="absolute bottom-20 right-10 w-48 h-48 bg-white rounded-full animate-bounce blur-2xl"></div>
-//           </div>
+           {/* Decorative Animated Elements */}
+           <div className="absolute top-0 left-0 w-full h-full opacity-20">
+             <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full animate-pulse blur-xl"></div>
+             <div className="absolute bottom-20 right-10 w-48 h-48 bg-white rounded-full animate-bounce blur-2xl"></div>
+           </div>
           
 //           {/* Animated Illustration */}
 //           <div className="z-10 mt-10 animate-float">
