@@ -37,10 +37,10 @@ const SignIn = () => {
 
          {/* Right Side: Sign In Form */}
          <div className="w-full md:w-1/2 p-8 md:p-14 bg-white dark:bg-slate-900 transition-colors duration-300">
-//           <div className="mb-10 text-center md:text-left">
-//             <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Sign In</h2>
-//             <p className="text-gray-500 dark:text-slate-400 mt-2">Enter your details to access your account</p>
-//           </div>
+           <div className="mb-10 text-center md:text-left">
+             <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Sign In</h2>
+             <p className="text-gray-500 dark:text-slate-400 mt-2">Enter your details to access your account</p>
+           </div>
 
 //           <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
             
