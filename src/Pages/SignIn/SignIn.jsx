@@ -89,9 +89,9 @@ const SignIn = () => {
                  <button 
                    type="button"
                    onClick={() => setShowPassword(!showPassword)}
-//                   className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
-//                 >
-//                   {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+                   className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+                 >
+                   {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
 //                 </button>
 //               </div>
 //             </div>
