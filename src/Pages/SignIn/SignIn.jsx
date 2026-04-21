@@ -101,9 +101,9 @@ const SignIn = () => {
                <label className="flex items-center cursor-pointer text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200">
                  <input type="checkbox" className="mr-2 h-4 w-4 accent-indigo-600 rounded border-gray-300 dark:border-slate-700 dark:bg-slate-800" />
                  Remember me
-//               </label>
-//               <a href="#" className="text-indigo-600 dark:text-indigo-400 font-medium hover:underline">Forgot password?</a>
-//             </div>
+               </label>
+               <a href="#" className="text-indigo-600 dark:text-indigo-400 font-medium hover:underline">Forgot password?</a>
+             </div>
 
 //             {/* Submit Button */}
 //             <button className="w-full bg-indigo-600 dark:bg-indigo-600 hover:bg-indigo-700 dark:hover:bg-indigo-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-200 dark:shadow-none transform hover:-translate-y-1 active:scale-[0.98] transition-all flex items-center justify-center gap-2 group mt-6">
