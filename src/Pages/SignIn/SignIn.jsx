@@ -115,12 +115,12 @@ const SignIn = () => {
            {/* Bottom Link */}
            <p className="text-center text-gray-500 dark:text-slate-400 mt-10">
              Don't have an account? <Link to="/signup"><a href="signup" className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline">Create Account</a></Link>
-//           </p>
-//         </div>
-//       </div>
+           </p>
+         </div>
+       </div>
 
-//       {/* Internal CSS for floating animation */}
-//       <style jsx>{`
+      {/* Internal CSS for floating animation */}
+       <style jsx>{`
 //         @keyframes float {
 //           0%, 100% { transform: translateY(0); }
 //           50% { transform: translateY(-15px); }
