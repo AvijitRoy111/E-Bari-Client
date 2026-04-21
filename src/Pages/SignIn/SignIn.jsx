@@ -69,10 +69,10 @@ const SignIn = () => {
                  <input 
                    type="email" 
                    placeholder="name@company.com"
-//                   className="w-full pl-10 pr-4 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:bg-white dark:focus:bg-slate-800 text-gray-800 dark:text-white outline-none transition-all placeholder:text-gray-400 dark:placeholder:text-slate-500"
-//                 />
-//               </div>
-//             </div>
+                   className="w-full pl-10 pr-4 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:bg-white dark:focus:bg-slate-800 text-gray-800 dark:text-white outline-none transition-all placeholder:text-gray-400 dark:placeholder:text-slate-500"
+                 />
+               </div>
+             </div>
 
 //             {/* Password Field */}
 //             <div className="space-y-1">
