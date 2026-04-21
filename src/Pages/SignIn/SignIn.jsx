@@ -14,9 +14,9 @@ const SignIn = () => {
         
          {/* Left Side: Animation/Image Section */}
          <div className="hidden md:flex md:w-1/2 bg-indigo-600 dark:bg-indigo-700 p-12 text-white flex-col justify-center items-center relative overflow-hidden">
-//           <div className="z-10 text-center">
-//             <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Welcome Back!</h2>
-//             <p className="text-indigo-100 text-lg opacity-90">To keep connected with us please login with your personal info</p>
+           <div className="z-10 text-center">
+             <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Welcome Back!</h2>
+             <p className="text-indigo-100 text-lg opacity-90">To keep connected with us please login with your personal info</p>
 //           </div>
           
 //           {/* Decorative Animated Elements */}
