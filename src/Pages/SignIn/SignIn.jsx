@@ -129,8 +129,8 @@ const SignIn = () => {
            animation: float 4s ease-in-out infinite;
          }
        `}</style>
-//     </div>
-//   );
+     </div>
+   );
 // };
 
 // export default SignIn;
