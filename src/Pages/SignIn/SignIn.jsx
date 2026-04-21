@@ -25,9 +25,9 @@ const SignIn = () => {
              <div className="absolute bottom-20 right-10 w-48 h-48 bg-white rounded-full animate-bounce blur-2xl"></div>
            </div>
           
-//           {/* Animated Illustration */}
-//           <div className="z-10 mt-10 animate-float">
-//             <img 
+           {/* Animated Illustration */}
+           <div className="z-10 mt-10 animate-float">
+             <img 
 //               src="https://illustrations.popsy.co/white/remote-work.svg" 
 //               alt="Sign In Illustration" 
 //               className="w-72 h-72 drop-shadow-2xl transition-transform duration-700 hover:scale-105"
