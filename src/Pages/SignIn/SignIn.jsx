@@ -79,16 +79,16 @@ const SignIn = () => {
                <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Password</label>
                <div className="relative group">
                  <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-indigo-500 transition-colors">
-//                   <Lock size={20} />
-//                 </span>
-//                 <input 
-//                   type={showPassword ? "text" : "password"} 
-//                   placeholder="••••••••"
-//                   className="w-full pl-10 pr-12 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:bg-white dark:focus:bg-slate-800 text-gray-800 dark:text-white outline-none transition-all placeholder:text-gray-400 dark:placeholder:text-slate-500"
-//                 />
-//                 <button 
-//                   type="button"
-//                   onClick={() => setShowPassword(!showPassword)}
+                   <Lock size={20} />
+                 </span>
+                 <input 
+                   type={showPassword ? "text" : "password"} 
+                   placeholder="••••••••"
+                   className="w-full pl-10 pr-12 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 focus:bg-white dark:focus:bg-slate-800 text-gray-800 dark:text-white outline-none transition-all placeholder:text-gray-400 dark:placeholder:text-slate-500"
+                 />
+                 <button 
+                   type="button"
+                   onClick={() => setShowPassword(!showPassword)}
 //                   className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
 //                 >
 //                   {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
