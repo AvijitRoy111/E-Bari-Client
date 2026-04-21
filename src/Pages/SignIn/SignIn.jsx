@@ -59,9 +59,9 @@ const SignIn = () => {
               </div>
             </div>
 
-//             {/* Email Field */}
-//             <div className="space-y-1">
-//               <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Email Address</label>
+             {/* Email Field */}
+            <div className="space-y-1">
+               <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Email Address</label>
 //               <div className="relative group">
 //                 <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-indigo-500 transition-colors">
 //                   <Mail size={20} />
