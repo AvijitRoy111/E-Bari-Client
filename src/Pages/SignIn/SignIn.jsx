@@ -107,14 +107,14 @@ const SignIn = () => {
 
              {/* Submit Button */}
              <button className="w-full bg-indigo-600 dark:bg-indigo-600 hover:bg-indigo-700 dark:hover:bg-indigo-500 text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-200 dark:shadow-none transform hover:-translate-y-1 active:scale-[0.98] transition-all flex items-center justify-center gap-2 group mt-6">
-//               Sign In
-//               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-//             </button>
-//           </form>
+               Sign In
+               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+             </button>
+           </form>
 
-//           {/* Bottom Link */}
-//           <p className="text-center text-gray-500 dark:text-slate-400 mt-10">
-//             Don't have an account? <Link to="/signup"><a href="signup" className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline">Create Account</a></Link>
+           {/* Bottom Link */}
+           <p className="text-center text-gray-500 dark:text-slate-400 mt-10">
+             Don't have an account? <Link to="/signup"><a href="signup" className="text-indigo-600 dark:text-indigo-400 font-bold hover:underline">Create Account</a></Link>
 //           </p>
 //         </div>
 //       </div>
