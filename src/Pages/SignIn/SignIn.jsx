@@ -97,10 +97,10 @@ const SignIn = () => {
              </div>
 
              {/* Extra Options */}
-//             <div className="flex items-center justify-between text-sm pt-2">
-//               <label className="flex items-center cursor-pointer text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200">
-//                 <input type="checkbox" className="mr-2 h-4 w-4 accent-indigo-600 rounded border-gray-300 dark:border-slate-700 dark:bg-slate-800" />
-//                 Remember me
+             <div className="flex items-center justify-between text-sm pt-2">
+               <label className="flex items-center cursor-pointer text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200">
+                 <input type="checkbox" className="mr-2 h-4 w-4 accent-indigo-600 rounded border-gray-300 dark:border-slate-700 dark:bg-slate-800" />
+                 Remember me
 //               </label>
 //               <a href="#" className="text-indigo-600 dark:text-indigo-400 font-medium hover:underline">Forgot password?</a>
 //             </div>
