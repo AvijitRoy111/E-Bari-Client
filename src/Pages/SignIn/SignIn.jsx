@@ -74,11 +74,11 @@ const SignIn = () => {
                </div>
              </div>
 
-//             {/* Password Field */}
-//             <div className="space-y-1">
-//               <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Password</label>
-//               <div className="relative group">
-//                 <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-indigo-500 transition-colors">
+             {/* Password Field */}
+             <div className="space-y-1">
+               <label className="text-sm font-semibold text-gray-600 dark:text-slate-300 ml-1">Password</label>
+               <div className="relative group">
+                 <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-indigo-500 transition-colors">
 //                   <Lock size={20} />
 //                 </span>
 //                 <input 
