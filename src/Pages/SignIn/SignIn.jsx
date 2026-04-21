@@ -92,11 +92,11 @@ const SignIn = () => {
                    className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
                  >
                    {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
-//                 </button>
-//               </div>
-//             </div>
+                 </button>
+               </div>
+             </div>
 
-//             {/* Extra Options */}
+             {/* Extra Options */}
 //             <div className="flex items-center justify-between text-sm pt-2">
 //               <label className="flex items-center cursor-pointer text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200">
 //                 <input type="checkbox" className="mr-2 h-4 w-4 accent-indigo-600 rounded border-gray-300 dark:border-slate-700 dark:bg-slate-800" />
