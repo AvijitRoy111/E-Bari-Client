@@ -121,8 +121,8 @@ const SignIn = () => {
 
       {/* Internal CSS for floating animation */}
        <style jsx>{`
-//         @keyframes float {
-//           0%, 100% { transform: translateY(0); }
+         @keyframes float {
+           0%, 100% { transform: translateY(0); }
 //           50% { transform: translateY(-15px); }
 //         }
 //         .animate-float {
