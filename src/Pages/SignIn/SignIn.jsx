@@ -28,15 +28,15 @@ const SignIn = () => {
            {/* Animated Illustration */}
            <div className="z-10 mt-10 animate-float">
              <img 
-//               src="https://illustrations.popsy.co/white/remote-work.svg" 
-//               alt="Sign In Illustration" 
-//               className="w-72 h-72 drop-shadow-2xl transition-transform duration-700 hover:scale-105"
-//             />
-//           </div>
-//         </div>
+              src="https://illustrations.popsy.co/white/remote-work.svg" 
+              alt="Sign In Illustration" 
+              className="w-72 h-72 drop-shadow-2xl transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+        </div>
 
-//         {/* Right Side: Sign In Form */}
-//         <div className="w-full md:w-1/2 p-8 md:p-14 bg-white dark:bg-slate-900 transition-colors duration-300">
+         {/* Right Side: Sign In Form */}
+         <div className="w-full md:w-1/2 p-8 md:p-14 bg-white dark:bg-slate-900 transition-colors duration-300">
 //           <div className="mb-10 text-center md:text-left">
 //             <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Sign In</h2>
 //             <p className="text-gray-500 dark:text-slate-400 mt-2">Enter your details to access your account</p>
