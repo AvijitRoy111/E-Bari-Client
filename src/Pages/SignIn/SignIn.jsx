@@ -123,8 +123,8 @@ const SignIn = () => {
        <style jsx>{`
          @keyframes float {
            0%, 100% { transform: translateY(0); }
-//           50% { transform: translateY(-15px); }
-//         }
+           50% { transform: translateY(-15px); }
+         }
 //         .animate-float {
 //           animation: float 4s ease-in-out infinite;
 //         }
