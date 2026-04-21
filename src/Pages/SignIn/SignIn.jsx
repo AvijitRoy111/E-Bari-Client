@@ -9,11 +9,11 @@ const SignIn = () => {
     // Parent container with dark mode background
     <div className="min-h-screen w-full flex items-center justify-center p-4 font-sans bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
       
-//       {/* Main Card */}
-//       <div className="max-w-4xl w-full bg-white dark:bg-slate-900 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-transparent dark:border-slate-800">
+     {/* Main Card */}
+       <div className="max-w-4xl w-full bg-white dark:bg-slate-900 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-transparent dark:border-slate-800">
         
-//         {/* Left Side: Animation/Image Section */}
-//         <div className="hidden md:flex md:w-1/2 bg-indigo-600 dark:bg-indigo-700 p-12 text-white flex-col justify-center items-center relative overflow-hidden">
+         {/* Left Side: Animation/Image Section */}
+         <div className="hidden md:flex md:w-1/2 bg-indigo-600 dark:bg-indigo-700 p-12 text-white flex-col justify-center items-center relative overflow-hidden">
 //           <div className="z-10 text-center">
 //             <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Welcome Back!</h2>
 //             <p className="text-indigo-100 text-lg opacity-90">To keep connected with us please login with your personal info</p>
