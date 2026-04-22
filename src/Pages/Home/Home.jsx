@@ -132,7 +132,7 @@ export const Home = () => {
           <div className="py-20 text-center dark:text-white">Loading stunning properties...</div>
         ) : (
           <>
-            <PropertyCarousel title="Featured Properties" items={properties} />
+            {/* <PropertyCarousel title="Featured Properties" items={properties} /> */}
             <PropertyCarousel title="Luxury Villas" items={villas} />
             <PropertyCarousel title="Modern Apartments" items={apartments} />
           </>
