@@ -7,7 +7,7 @@ const AouthLayout = () => {
 
     <div className="flex flex-col min-h-screen ">
        <Navbar />
-//       <div className="flex flex-grow">
+       <div className="flex flex-grow">
 //         <Outlet></Outlet>
 //       </div>
 
