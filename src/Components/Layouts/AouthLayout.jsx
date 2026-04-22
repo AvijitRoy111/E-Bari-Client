@@ -13,6 +13,6 @@ const AouthLayout = () => {
 
      </div>
    )
-// }
+}
 
 // export default AouthLayout
