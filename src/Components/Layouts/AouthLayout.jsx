@@ -1,18 +1,18 @@
-import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import { Outlet } from 'react-router-dom'
+// import React from 'react'
+// import Navbar from '../Navbar/Navbar'
+// import { Outlet } from 'react-router-dom'
 
-const AouthLayout = () => {
-  return (
+// const AouthLayout = () => {
+//   return (
 
-    <div className="flex flex-col min-h-screen ">
-      <Navbar />
-      <div className="flex flex-grow">
-        <Outlet></Outlet>
-      </div>
+//     <div className="flex flex-col min-h-screen ">
+//       <Navbar />
+//       <div className="flex flex-grow">
+//         <Outlet></Outlet>
+//       </div>
 
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default AouthLayout
+// export default AouthLayout
