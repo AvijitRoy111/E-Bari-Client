@@ -9,7 +9,7 @@ const AouthLayout = () => {
        <Navbar />
        <div className="flex flex-grow">
          <Outlet></Outlet>
-//       </div>
+       </div>
 
 //     </div>
 //   )
