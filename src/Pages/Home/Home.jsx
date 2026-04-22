@@ -182,7 +182,7 @@ export const Home = () => {
                 </div>
               </SwiperSlide>
             ))}
-          </Swiper>
+          {/* </Swiper> */}
         </div>  
 
       </div>
