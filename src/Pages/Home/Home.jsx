@@ -172,7 +172,7 @@ export const Home = () => {
                   <p className="text-xl md:text-2xl text-blue-50 italic mb-8">
                     "Finding a home was never this easy. E-Bari provided me with multiple options and the agent support was outstanding. Highly recommended!"
                   </p>
-                  {/* <div className="flex items-center justify-center gap-4">
+                   <div className="flex items-center justify-center gap-4">
                     <div className="w-14 h-14 rounded-full bg-white/20"></div>
                     <div className="text-left">
                       <h4 className="font-bold text-white">Rahat Chowdhury</h4>
@@ -183,7 +183,7 @@ export const Home = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>  */}
+        </div>  
 
       </div>
 
