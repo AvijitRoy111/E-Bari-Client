@@ -174,7 +174,7 @@ export const Home = () => {
                   </p>
                    <div className="flex items-center justify-center gap-4">
                     <div className="w-14 h-14 rounded-full bg-white/20"></div>
-                    <div className="text-left">
+                    {/* <div className="text-left"> */}
                       <h4 className="font-bold text-white">Rahat Chowdhury</h4>
                       <p className="text-blue-200 text-sm">Property Buyer</p>
                     </div>
