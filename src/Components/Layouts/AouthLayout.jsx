@@ -11,7 +11,7 @@ const AouthLayout = () => {
          <Outlet></Outlet>
        </div>
 
-//     </div>
+     </div>
 //   )
 // }
 
