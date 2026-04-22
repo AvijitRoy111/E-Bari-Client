@@ -15,4 +15,4 @@ const AouthLayout = () => {
    )
 }
 
-// export default AouthLayout
+export default AouthLayout
