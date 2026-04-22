@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { Outlet } from 'react-router-dom'
 
-// const AouthLayout = () => {
+const AouthLayout = () => {
 //   return (
 
 //     <div className="flex flex-col min-h-screen ">
