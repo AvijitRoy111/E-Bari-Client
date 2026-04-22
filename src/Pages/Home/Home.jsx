@@ -107,7 +107,7 @@ export const Home = () => {
             Over 10,000+ people already found their dream space with E-Bari.
           </p>
 
-          {/* <div className="flex flex-wrap gap-4"> */}
+          <div className="flex flex-wrap gap-4">
             <Link to="/all-properties" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-bold text-lg shadow-xl shadow-blue-500/30 transition-all flex items-center gap-2">
               Explore Properties <ArrowRight size={20}/>
             </Link>
