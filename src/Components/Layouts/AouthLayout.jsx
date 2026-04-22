@@ -12,7 +12,7 @@ const AouthLayout = () => {
        </div>
 
      </div>
-//   )
+   )
 // }
 
 // export default AouthLayout
