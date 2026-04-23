@@ -42,10 +42,10 @@ const Services = () => {
             id: 6,
             title: "24/7 Virtual Tour",
             desc: "Experience properties from the comfort of your home with our high-quality 3D virtual tour technology.",
-//             icon: <Headset className="w-8 h-8 text-indigo-600" />,
-//             bgColor: "bg-indigo-50 dark:bg-indigo-900/20"
-//         }
-//     ];
+            icon: <Headset className="w-8 h-8 text-indigo-600" />,
+            bgColor: "bg-indigo-50 dark:bg-indigo-900/20"
+        }
+    ];
 
 //     return (
 //         <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
