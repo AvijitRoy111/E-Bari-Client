@@ -54,9 +54,9 @@ const Services = () => {
                   <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }]} />
               </div>
 
-//              {/* Hero Section of Services */}
-//              <section className="max-w-7xl mx-auto px-6 py-16 text-center">
-//                  <div className="max-w-3xl mx-auto mb-16">
+              {/* Hero Section of Services */}
+              <section className="max-w-7xl mx-auto px-6 py-16 text-center">
+                  <div className="max-w-3xl mx-auto mb-16">
 //                      <span className="text-blue-600 font-semibold tracking-widest uppercase text-sm mb-3 block">
 //                          Our Expertise
 //                      </span>
