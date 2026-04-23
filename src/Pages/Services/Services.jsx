@@ -126,7 +126,7 @@ const Services = () => {
                           <div className="w-[300px] h-[300px] bg-white rounded-full blur-3xl"></div>
                       </div>
                   </div>
-//              </section>
+              </section>
 //          </div>
 //     );
 // };
