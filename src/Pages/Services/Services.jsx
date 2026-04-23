@@ -38,10 +38,10 @@ const Services = () => {
             icon: <Handshake className="w-8 h-8 text-red-600" />,
             bgColor: "bg-red-50 dark:bg-red-900/20"
         },
-//         {
-//             id: 6,
-//             title: "24/7 Virtual Tour",
-//             desc: "Experience properties from the comfort of your home with our high-quality 3D virtual tour technology.",
+        {
+            id: 6,
+            title: "24/7 Virtual Tour",
+            desc: "Experience properties from the comfort of your home with our high-quality 3D virtual tour technology.",
 //             icon: <Headset className="w-8 h-8 text-indigo-600" />,
 //             bgColor: "bg-indigo-50 dark:bg-indigo-900/20"
 //         }
