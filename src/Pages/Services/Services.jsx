@@ -74,13 +74,13 @@ const Services = () => {
                         <div
                             key={service.id}
                             className="group p-10 bg-gray-50 dark:bg-gray-800/50 rounded-[2.5rem] border border-transparent hover:border-blue-500/30 hover:bg-white dark:hover:bg-gray-800 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10 text-left relative overflow-hidden"
-//                         >
-//                              {/* Decorative Circle on Hover */}
-//                              <div className="absolute -right-10 -top-10 w-32 h-32 bg-blue-500/5 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
+                        >
+                             {/* Decorative Circle on Hover */}
+                             <div className="absolute -right-10 -top-10 w-32 h-32 bg-blue-500/5 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
 
-//                              <div className={`w-16 h-16 ${service.bgColor} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-//                                  {service.icon}
-//                              </div>
+                             <div className={`w-16 h-16 ${service.bgColor} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                                 {service.icon}
+                             </div>
 
 //                              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-blue-600 transition-colors">
 //                                  {service.title}
