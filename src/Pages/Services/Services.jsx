@@ -49,10 +49,10 @@ const Services = () => {
 
     return (
         <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
-//              {/* Breadcrumb Section */}
-//             <div className="max-w-7xl mx-auto px-6 pt-8">
-//                  <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }]} />
-//              </div>
+              {/* Breadcrumb Section */}
+             <div className="max-w-7xl mx-auto px-6 pt-8">
+                  <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Services", href: "/services" }]} />
+              </div>
 
 //              {/* Hero Section of Services */}
 //              <section className="max-w-7xl mx-auto px-6 py-16 text-center">
