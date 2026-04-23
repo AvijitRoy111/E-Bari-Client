@@ -1,8 +1,8 @@
 import { Home, Key, ShieldCheck, TrendingUp, Handshake, Headset } from 'lucide-react';
 import Breadcrumb from '@/Components/Breadcrumb/Breadcrumb';
 
-// const Services = () => {
-//     const serviceList = [
+const Services = () => {
+    const serviceList = [
 //         {
 //             id: 1,
 //             title: "Property Buy & Sell",
