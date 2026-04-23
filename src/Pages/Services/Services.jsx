@@ -35,7 +35,7 @@ const Services = () => {
             id: 5,
             title: "Legal Assistance",
             desc: "Complete transparency and legal support for property documentation and registration process.",
-//             icon: <Handshake className="w-8 h-8 text-red-600" />,
+            icon: <Handshake className="w-8 h-8 text-red-600" />,
 //             bgColor: "bg-red-50 dark:bg-red-900/20"
 //         },
 //         {
