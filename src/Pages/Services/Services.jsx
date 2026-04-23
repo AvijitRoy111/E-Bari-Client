@@ -3,13 +3,13 @@ import Breadcrumb from '@/Components/Breadcrumb/Breadcrumb';
 
 const Services = () => {
     const serviceList = [
-//         {
-//             id: 1,
-//             title: "Property Buy & Sell",
-//             desc: "We help you find your dream home or sell your property at the best market price with zero hassle.",
-//             icon: <Home className="w-8 h-8 text-blue-600" />,
-//             bgColor: "bg-blue-50 dark:bg-blue-900/20"
-//         },
+        {
+            id: 1,
+            title: "Property Buy & Sell",
+            desc: "We help you find your dream home or sell your property at the best market price with zero hassle.",
+            icon: <Home className="w-8 h-8 text-blue-600" />,
+            bgColor: "bg-blue-50 dark:bg-blue-900/20"
+        },
 //         {
 //             id: 2,
 //             title: "Luxury Rentals",
