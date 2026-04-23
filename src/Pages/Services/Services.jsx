@@ -71,9 +71,9 @@ const Services = () => {
                   {/* Services Grid */}
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                       {serviceList.map((service) => (
-//                         <div
-//                             key={service.id}
-//                             className="group p-10 bg-gray-50 dark:bg-gray-800/50 rounded-[2.5rem] border border-transparent hover:border-blue-500/30 hover:bg-white dark:hover:bg-gray-800 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10 text-left relative overflow-hidden"
+                        <div
+                            key={service.id}
+                            className="group p-10 bg-gray-50 dark:bg-gray-800/50 rounded-[2.5rem] border border-transparent hover:border-blue-500/30 hover:bg-white dark:hover:bg-gray-800 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10 text-left relative overflow-hidden"
 //                         >
 //                              {/* Decorative Circle on Hover */}
 //                              <div className="absolute -right-10 -top-10 w-32 h-32 bg-blue-500/5 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
