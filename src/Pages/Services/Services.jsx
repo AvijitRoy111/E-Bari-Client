@@ -116,10 +116,10 @@ const Services = () => {
                               </span>
                               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full duration-700 transition-transform"></div>
                           </button>
-//                      </div>
+                      </div>
 
-//                      {/* Background Decorative Circles */}
-//                      <div className="absolute top-0 right-0 opacity-20 -translate-y-1/2 translate-x-1/3 pointer-events-none">
+                      {/* Background Decorative Circles */}
+                      <div className="absolute top-0 right-0 opacity-20 -translate-y-1/2 translate-x-1/3 pointer-events-none">
 //                          <div className="w-[400px] h-[400px] border-[40px] border-white rounded-full"></div>
 //                      </div>
 //                      <div className="absolute bottom-0 left-0 opacity-10 translate-y-1/2 -translate-x-1/4 pointer-events-none">
