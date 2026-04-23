@@ -59,8 +59,8 @@ const Services = () => {
                   <div className="max-w-3xl mx-auto mb-16">
                       <span className="text-blue-600 font-semibold tracking-widest uppercase text-sm mb-3 block">
                           Our Expertise
-//                      </span>
-//                      <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 dark:text-white mb-6 leading-tight">
+                      </span>
+                      <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 dark:text-white mb-6 leading-tight">
 //                          Comprehensive Real Estate <span className="text-blue-600">Solutions</span>
 //                      </h1>
 //                      <p className="text-gray-500 dark:text-gray-400 text-lg">
