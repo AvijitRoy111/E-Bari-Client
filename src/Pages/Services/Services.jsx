@@ -93,10 +93,10 @@ const Services = () => {
                               <button className="flex items-center gap-2 text-sm font-bold text-gray-900 dark:text-gray-300 group-hover:text-blue-600 transition-colors uppercase tracking-wider">
                                   Learn More
                                   <span className="group-hover:translate-x-2 transition-transform">→</span>
-//                              </button>
-//                          </div>
-//                     ))}
-//                  </div>
+                              </button>
+                          </div>
+                     ))}
+                  </div>
 
 //                  {/* Bottom CTA Section */}
 //                  <div className="mt-24 p-12 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-[3rem] relative overflow-hidden shadow-2xl shadow-blue-500/20">
