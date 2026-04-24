@@ -160,9 +160,9 @@ const Apartment = () => {
                       <span className="text-2xl font-black text-indigo-600 dark:text-indigo-400">{apt.price}</span>
                     </div>
                     <button className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold py-3 px-6 rounded-2xl transition-all shadow-lg shadow-indigo-100 dark:shadow-none transform active:scale-95">
-//                      Details
-//                    </button>
-//                  </div>
+                      Details
+                    </button>
+                  </div>
 //             </div>
 //              </div>
 //           ))}
