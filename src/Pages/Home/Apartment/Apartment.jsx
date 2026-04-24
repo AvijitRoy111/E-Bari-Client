@@ -63,7 +63,7 @@ const Apartment = () => {
     }
   ];
 
-//   const [zoomLevels, setZoomLevels] = useState({});
+  const [zoomLevels, setZoomLevels] = useState({});
 
 //   const handleZoomIn = (id) => {
 //     setZoomLevels(prev => ({ ...prev, [id]: (prev[id] || 1) + 0.2 }));
