@@ -106,12 +106,12 @@ const Apartment = () => {
                    className="w-full h-full object-cover transition-transform duration-300"
                  />
                  <div className="absolute top-5 left-5 bg-indigo-600 text-white px-4 py-1 rounded-full text-xs font-bold shadow-md">
-//                    APARTMENT
-//                  </div>
+                    APARTMENT
+                  </div>
 
-//                  {/* Zoom Controls */}
-//                  <div className="absolute bottom-4 right-4 flex gap-2">
-//                    <button 
+                  {/* Zoom Controls */}
+                 <div className="absolute bottom-4 right-4 flex gap-2">
+                    <button 
 //                     onClick={() => handleZoomIn(apt.id)}
 //                     className="p-2 bg-white/90 dark:bg-black/60 backdrop-blur-md rounded-full text-gray-900 dark:text-white hover:bg-white transition-all shadow-lg"
 //                   >
