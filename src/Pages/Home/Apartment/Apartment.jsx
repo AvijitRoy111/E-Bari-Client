@@ -165,10 +165,10 @@ const Apartment = () => {
                   </div>
              </div>
               </div>
-//           ))}
-//          </div>
-//        </div>
-//      </div>
+          ))}
+          </div>
+        </div>
+      </div>
 //   );
 // };
 
