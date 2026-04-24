@@ -99,13 +99,13 @@ const Apartment = () => {
              >
                {/* Image Section */}
                <div className="relative h-64 overflow-hidden">
-//                  <img 
-//                   src={apt.image} 
-//                   alt={apt.title} 
-//                    style={{ transform: `scale(${zoomLevels[apt.id] || 1})` }}
-//                    className="w-full h-full object-cover transition-transform duration-300"
-//                  />
-//                  <div className="absolute top-5 left-5 bg-indigo-600 text-white px-4 py-1 rounded-full text-xs font-bold shadow-md">
+                  <img 
+                  src={apt.image} 
+                  alt={apt.title} 
+                   style={{ transform: `scale(${zoomLevels[apt.id] || 1})` }}
+                   className="w-full h-full object-cover transition-transform duration-300"
+                 />
+                 <div className="absolute top-5 left-5 bg-indigo-600 text-white px-4 py-1 rounded-full text-xs font-bold shadow-md">
 //                    APARTMENT
 //                  </div>
 
