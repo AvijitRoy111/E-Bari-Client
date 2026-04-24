@@ -83,11 +83,11 @@ const Apartment = () => {
               className="flex items-center text-gray-600 dark:text-gray-400 hover:text-indigo-600 mb-4 transition-colors w-fit font-medium"
             >
               <ArrowLeft size={20} className="mr-2" /> Back to Home
-//            </button>
-//            <h1 className="text-3xl md:text-5xl font-black text-gray-900 rk:text-white flex items-center gap-3">
-//              <Building2 className="text-indigo-600" size={36} /> Modern Apartments
-//            </h1>
-//            <p className="text-gray-500 mt-2 text-lg">Premium urban artments designed for your lifestyle.</p>
+            </button>
+            <h1 className="text-3xl md:text-5xl font-black text-gray-900 rk:text-white flex items-center gap-3">
+              <Building2 className="text-indigo-600" size={36} /> Modern Apartments
+            </h1>
+            <p className="text-gray-500 mt-2 text-lg">Premium urban artments designed for your lifestyle.</p>
 //          </div>
 
 //          {/* Responsive Grid */}
