@@ -23,11 +23,11 @@ const Apartment = () => {
       location: "Banani, Dhaka",
       price: "$275,000",
       beds: 3,
-//       baths: 2,
-//       size: "1600",
-//       floor: "5th Floor",
-//       image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1000"
-//     },
+      baths: 2,
+      size: "1600",
+      floor: "5th Floor",
+      image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 3,
 //       title: "Panoramic View Penthouse",
