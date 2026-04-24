@@ -163,8 +163,8 @@ const Apartment = () => {
                       Details
                     </button>
                   </div>
-//             </div>
-//              </div>
+             </div>
+              </div>
 //           ))}
 //          </div>
 //        </div>
