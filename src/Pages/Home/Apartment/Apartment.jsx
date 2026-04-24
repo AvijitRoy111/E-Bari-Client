@@ -6,17 +6,17 @@ const Apartment = () => {
   const navigate = useNavigate();
 
   const apartmentList = [
-//     {
-//       id: 1,
-//       title: "Skyline Luxury Apartment",
-//       location: "Gulshan 2, Dhaka",
-//       price: "$320,000",
-//       beds: 3,
-//       baths: 3,
-//       size: "1850",
-//       floor: "12th Floor",
-//       image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000"
-//     },
+    {
+      id: 1,
+      title: "Skyline Luxury Apartment",
+      location: "Gulshan 2, Dhaka",
+      price: "$320,000",
+      beds: 3,
+      baths: 3,
+      size: "1850",
+      floor: "12th Floor",
+      image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 2,
 //       title: "Urban Comfort Suite",
