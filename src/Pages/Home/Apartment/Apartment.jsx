@@ -76,13 +76,13 @@ const Apartment = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12 px-6 font-sans">
        <div className="max-w-7xl mx-auto">      
-//          {/* Navigation & Header */}
-//          <div className="flex flex-col mb-10">
-//            <button 
-//              onClick={() => navigate(-1)}
-//              className="flex items-center text-gray-600 dark:text-gray-400 hover:text-indigo-600 mb-4 transition-colors w-fit font-medium"
-//            >
-//              <ArrowLeft size={20} className="mr-2" /> Back to Home
+          {/* Navigation & Header */}
+          <div className="flex flex-col mb-10">
+            <button 
+              onClick={() => navigate(-1)}
+              className="flex items-center text-gray-600 dark:text-gray-400 hover:text-indigo-600 mb-4 transition-colors w-fit font-medium"
+            >
+              <ArrowLeft size={20} className="mr-2" /> Back to Home
 //            </button>
 //            <h1 className="text-3xl md:text-5xl font-black text-gray-900 rk:text-white flex items-center gap-3">
 //              <Building2 className="text-indigo-600" size={36} /> Modern Apartments
