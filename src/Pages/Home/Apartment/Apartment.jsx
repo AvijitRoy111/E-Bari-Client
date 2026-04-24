@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Bed, Bath, Maximize, MapPin, ArrowLeft, Heart, Plus, Minus, Building2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-// const Apartment = () => {
-//   const navigate = useNavigate();
+const Apartment = () => {
+  const navigate = useNavigate();
 
-//   const apartmentList = [
+  const apartmentList = [
 //     {
 //       id: 1,
 //       title: "Skyline Luxury Apartment",
