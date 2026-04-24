@@ -133,25 +133,25 @@ const Apartment = () => {
                     <span>{apt.location} • <span className="text-indigo-500 font-semibold">{apt.floor}</span></span>
                   </div>
                 
-//                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-indigo-600 transition-colors">
-//                    {apt.title}
-//                  </h2>
+                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-indigo-600 transition-colors">
+                    {apt.title}
+                  </h2>
 
-//                  {/* Features */}
-//                  <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-4 mb-6">
-//                    <div className="flex flex-col items-center">
-//                      <Bed size={20} className="text-indigo-500 mb-1" />
-//                      <span className="text-xs font-bold dark:text-gray-300">{apt.beds} Beds</span>
-//                    </div>
-//                    <div className="flex flex-col items-center border-l border-r px-6 dark:border-gray-800">
-//                      <Bath size={20} className="text-indigo-500 mb-1" />
-//                      <span className="text-xs font-bold dark:text-gray-300">{apt.baths} Baths</span>
-//                    </div>
-//                    <div className="flex flex-col items-center">
-//                      <Maximize size={20} className="text-indigo-500 mb-1" />
-//                      <span className="text-xs font-bold dark:text-gray-300">{apt.size} Sqft</span>
-//                    </div>
-//                  </div>
+                  {/* Features */}
+                  <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-4 mb-6">
+                    <div className="flex flex-col items-center">
+                      <Bed size={20} className="text-indigo-500 mb-1" />
+                      <span className="text-xs font-bold dark:text-gray-300">{apt.beds} Beds</span>
+                    </div>
+                    <div className="flex flex-col items-center border-l border-r px-6 dark:border-gray-800">
+                      <Bath size={20} className="text-indigo-500 mb-1" />
+                      <span className="text-xs font-bold dark:text-gray-300">{apt.baths} Baths</span>
+                    </div>
+                    <div className="flex flex-col items-center">
+                      <Maximize size={20} className="text-indigo-500 mb-1" />
+                      <span className="text-xs font-bold dark:text-gray-300">{apt.size} Sqft</span>
+                    </div>
+                  </div>
 
 //                  {/* Price and Button */}
 //                  <div className="flex items-center justify-between">
