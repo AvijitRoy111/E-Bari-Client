@@ -75,23 +75,23 @@ const FamilyHouse = () => {
     }));
   };
 
-//   return (
-//     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12 px-6 font-sans">
-//       <div className="max-w-7xl mx-auto">
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 py-12 px-6 font-sans">
+      <div className="max-w-7xl mx-auto">
         
-//          {/* Header section */}
-//          <div className="flex flex-col mb-10">
-//            <button 
-//             onClick={() => navigate(-1)}
-//             className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 mb-4 transition-colors w-fit"
-//           >
-//             <ArrowLeft size={20} className="mr-2" /> Back to Home
-//           </button>
-//            <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
-//              Available Family Houses
-//            </h1>
-//            <p className="text-gray-500 mt-2">Find the perfect and most comfortable home for your family.</p>
-//          </div>
+         {/* Header section */}
+         <div className="flex flex-col mb-10">
+           <button 
+            onClick={() => navigate(-1)}
+            className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 mb-4 transition-colors w-fit"
+          >
+            <ArrowLeft size={20} className="mr-2" /> Back to Home
+          </button>
+           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white">
+             Available Family Houses
+           </h1>
+           <p className="text-gray-500 mt-2">Find the perfect and most comfortable home for your family.</p>
+         </div>
 
 //          {/* Responsive Grid */}
 //          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
