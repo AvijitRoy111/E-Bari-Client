@@ -45,18 +45,18 @@ const FamilyHouse = () => {
       baths: 3,
       size: "2600",
       image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=1000"
-    },
-//     {
-//       id: 5,
-//       title: "Minimalist Urban House",
-//       location: "Bashundhara, Dhaka",
-//       price: "$390,000",
-//       beds: 3,
-//       baths: 3,
-//       size: "2100",
-//       image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&q=80&w=1000"
-//     }
-//   ];
+//     },
+// //     {
+// //       id: 5,
+// //       title: "Minimalist Urban House",
+// //       location: "Bashundhara, Dhaka",
+// //       price: "$390,000",
+// //       beds: 3,
+// //       baths: 3,
+// //       size: "2100",
+// //       image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&q=80&w=1000"
+// //     }
+// //   ];
 
 //   // Zoom state to track zoom level for each house by ID
 //   const [zoomLevels, setZoomLevels] = useState({});
