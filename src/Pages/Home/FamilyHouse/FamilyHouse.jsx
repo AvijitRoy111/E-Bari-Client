@@ -26,16 +26,16 @@ const FamilyHouse = () => {
       size: "3200",
       image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000"
     },
-//     {
-//       id: 3,
-//       title: "Green View Apartment",
-//       location: "Uttara, Dhaka",
-//       price: "$280,000",
-//       beds: 3,
-//       baths: 2,
-//       size: "1800",
-//       image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000"
-//     },
+    {
+      id: 3,
+      title: "Green View Apartment",
+      location: "Uttara, Dhaka",
+      price: "$280,000",
+      beds: 3,
+      baths: 2,
+      size: "1800",
+      image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 4,
 //       title: "Classic Heritage Home",
