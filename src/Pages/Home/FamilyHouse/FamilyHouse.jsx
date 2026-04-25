@@ -63,10 +63,10 @@ const FamilyHouse = () => {
 
   const handleZoomIn = (id) => {
     setZoomLevels(prev => ({
-//       ...prev,
-//       [id]: (prev[id] || 1) + 0.2
-//     }));
-//   };
+      ...prev,
+      [id]: (prev[id] || 1) + 0.2
+    }));
+  };
 
 //   const handleZoomOut = (id) => {
 //     setZoomLevels(prev => ({
