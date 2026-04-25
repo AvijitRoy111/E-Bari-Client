@@ -145,25 +145,25 @@ const FamilyHouse = () => {
                    <span>{house.location}</span>
                  </div>
                 
-//                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 transition-colors">
-//                    {house.title}
-//                  </h2>
+                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 transition-colors">
+                    {house.title}
+                  </h2>
 
-//                 {/* Features */}
-//                  <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-3 mb-4">
-//                    <div className="flex items-center gap-1">
-//                      <Bed size={16} className="text-blue-500" />
-//                      <span className="text-sm font-semibold dark:text-gray-300">{house.beds} Bed</span>
-//                    </div>
-//                    <div className="flex items-center gap-1 border-l border-r px-4 dark:border-gray-800">
-//                      <Bath size={16} className="text-blue-500" />
-//                      <span className="text-sm font-semibold dark:text-gray-300">{house.baths} Bath</span>
-//                    </div>
-//                    <div className="flex items-center gap-1">
-//                      <Maximize size={16} className="text-blue-500" />
-//                      <span className="text-sm font-semibold dark:text-gray-300">{house.size} Sqft</span>
-//                    </div>
-//                  </div>
+                 {/* Features */}
+                  <div className="flex justify-between items-center border-t border-b border-gray-100 dark:border-gray-800 py-3 mb-4">
+                    <div className="flex items-center gap-1">
+                      <Bed size={16} className="text-blue-500" />
+                      <span className="text-sm font-semibold dark:text-gray-300">{house.beds} Bed</span>
+                    </div>
+                    <div className="flex items-center gap-1 border-l border-r px-4 dark:border-gray-800">
+                      <Bath size={16} className="text-blue-500" />
+                      <span className="text-sm font-semibold dark:text-gray-300">{house.baths} Bath</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <Maximize size={16} className="text-blue-500" />
+                      <span className="text-sm font-semibold dark:text-gray-300">{house.size} Sqft</span>
+                    </div>
+                  </div>
 
 //                  {/* Price and Button */}
 //                  <div className="flex items-center justify-between">
