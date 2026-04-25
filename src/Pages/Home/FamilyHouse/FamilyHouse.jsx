@@ -165,13 +165,13 @@ const FamilyHouse = () => {
                     </div>
                   </div>
 
-//                  {/* Price and Button */}
-//                  <div className="flex items-center justify-between">
-//                    <div>
-//                      <span className="text-gray-400 text-[10px] block uppercase font-bold">Price</span>
-//                      <span className="text-xl font-bold text-blue-600 dark:text-blue-400">{house.price}</span>
-//                    </div>
-//                    <button className="bg-gray-900 dark:bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-2 px-5 rounded-xl transition-all shadow-md">
+                  {/* Price and Button */}
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <span className="text-gray-400 text-[10px] block uppercase font-bold">Price</span>
+                      <span className="text-xl font-bold text-blue-600 dark:text-blue-400">{house.price}</span>
+                  </div>
+                  <button className="bg-gray-900 dark:bg-blue-600 hover:bg-blue-700 text-white text-sm font-bold py-2 px-5 rounded-xl transition-all shadow-md">
 //                      View Details
 //                    </button>
 //                  </div>
