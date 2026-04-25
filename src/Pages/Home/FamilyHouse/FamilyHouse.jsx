@@ -6,16 +6,16 @@ const FamilyHouse = () => {
   const navigate = useNavigate();
 
   const houseList = [
-//     {
-//       id: 1,
-//       title: "Modern Dream Family House",
-//       location: "Dhanmondi, Dhaka",
-//       price: "$450,000",
-//       beds: 4,
-//       baths: 3,
-//       size: "2400",
-//       image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1000"
-//     },
+    {
+      id: 1,
+      title: "Modern Dream Family House",
+      location: "Dhanmondi, Dhaka",
+      price: "$450,000",
+      beds: 4,
+      baths: 3,
+      size: "2400",
+      image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1000"
+    },
 //     {
 //       id: 2,
 //       title: "Luxury Skyline Villa",
