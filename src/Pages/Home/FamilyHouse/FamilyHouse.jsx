@@ -132,18 +132,18 @@ const FamilyHouse = () => {
                     onClick={() => handleZoomOut(house.id)}
                     className="p-2 bg-black/50 hover:bg-black/70 backdrop-blur-md rounded-full text-white transition-all border border-white/20"
                     title="Zoom Out"
-//                   >
-//                      <Minus size={16} />
-//                    </button>
-//                  </div>
-//                </div>
+                  >
+                     <Minus size={16} />
+                   </button>
+                 </div>
+               </div>
 
-//                {/* Details Content */}
-//                <div className="p-6">
-//                  <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-2">
-//                    <MapPin size={16} className="mr-1 text-red-500" />
-//                    <span>{house.location}</span>
-//                  </div>
+               {/* Details Content */}
+               <div className="p-6">
+                 <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-2">
+                   <MapPin size={16} className="mr-1 text-red-500" />
+                   <span>{house.location}</span>
+                 </div>
                 
 //                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-blue-600 transition-colors">
 //                    {house.title}
