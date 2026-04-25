@@ -68,9 +68,9 @@ const FamilyHouse = () => {
     }));
   };
 
-//   const handleZoomOut = (id) => {
-//     setZoomLevels(prev => ({
-//       ...prev,
+  const handleZoomOut = (id) => {
+    setZoomLevels(prev => ({
+      ...prev,
 //       [id]: Math.max((prev[id] || 1) - 0.2, 1) // Minimum zoom level is 1
 //     }));
 //   };
