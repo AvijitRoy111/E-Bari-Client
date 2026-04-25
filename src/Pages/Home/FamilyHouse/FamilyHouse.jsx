@@ -58,8 +58,8 @@ const FamilyHouse = () => {
 // //     }
 // //   ];
 
-//   // Zoom state to track zoom level for each house by ID
-//   const [zoomLevels, setZoomLevels] = useState({});
+  // Zoom state to track zoom level for each house by ID
+  const [zoomLevels, setZoomLevels] = useState({});
 
 //   const handleZoomIn = (id) => {
 //     setZoomLevels(prev => ({
