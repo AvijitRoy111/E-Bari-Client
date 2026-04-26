@@ -36,11 +36,11 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                  </div>
              </div>
          );
-//     }
+     }
 
-//     return (
-//         <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
-//             {/* Search Input */}
+    return (
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
+            {/* Search Input */}
 //             <div className="w-full lg:w-1/3">
 //                 <input
 //                     type="text"
