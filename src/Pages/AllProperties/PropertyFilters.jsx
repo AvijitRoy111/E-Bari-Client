@@ -33,9 +33,9 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                  {/* Reset Button Skeleton */}
                  <div className="hidden lg:block">
                      <Skeleton className="w-12 h-12 rounded-xl" />
-//                 </div>
-//             </div>
-//         );
+                 </div>
+             </div>
+         );
 //     }
 
 //     return (
