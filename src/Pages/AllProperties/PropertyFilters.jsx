@@ -29,10 +29,10 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                          <Skeleton className="w-20 h-4 rounded" />
                      </div>
                      <Skeleton className="w-full h-2 rounded-lg" />
-//                 </div>
-//                 {/* Reset Button Skeleton */}
-//                 <div className="hidden lg:block">
-//                     <Skeleton className="w-12 h-12 rounded-xl" />
+                 </div>
+                 {/* Reset Button Skeleton */}
+                 <div className="hidden lg:block">
+                     <Skeleton className="w-12 h-12 rounded-xl" />
 //                 </div>
 //             </div>
 //         );
