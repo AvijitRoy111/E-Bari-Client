@@ -34,6 +34,10 @@ const router = createBrowserRouter([
         element: <AllProperties />
       },
       {
+        path: "/all",
+        element: <AllProperties />
+      },
+      {
         path: "/contact",
         element: <Contact />
       },
@@ -58,7 +62,7 @@ const router = createBrowserRouter([
         element: <Favourite />
       },
       {
-        path: "/details/:id",
+        path: "/details/:_id",
         element: <Details />
       },
       {

@@ -1,189 +1,217 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { 
-  MapPin, BedDouble, Bath, Square, Heart, Share2, 
-  ZoomIn, ZoomOut, CheckCircle2, Calendar, MessageSquare 
+  MapPin, BedDouble, Bath, Square, Heart, Calendar, 
+  MessageSquare, ShieldCheck, ZoomIn, ZoomOut, ChevronLeft, 
+  Wifi, Car, Tv, Wind, Coffee
 } from 'lucide-react';
 import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
+import useProperties from '@/hooks/useProperties'; 
+
+// --- Updated Skeleton Component (Matches the Real UI Layout) ---
+const DetailsSkeleton = () => (
+  <div className="max-w-[1440px] mx-auto px-4 md:px-6 pt-6 animate-pulse">
+    {/* Navigation Skeleton */}
+    <div className="flex justify-between mb-6">
+      <div className="h-10 w-32 bg-gray-200 dark:bg-gray-800 rounded-xl"></div>
+      <div className="h-6 w-48 bg-gray-200 dark:bg-gray-800 rounded-lg"></div>
+    </div>
+
+    <div className="grid lg:grid-cols-12 gap-6 lg:gap-10">
+      {/* Media Skeleton */}
+      <div className="lg:col-span-7 space-y-4">
+        <div className="h-[300px] sm:h-[400px] md:h-[550px] bg-gray-200 dark:bg-gray-800 rounded-[2.5rem]"></div>
+        <div className="flex gap-3 overflow-hidden">
+          {[1, 2, 3, 4].map(i => (
+            <div key={i} className="min-w-[80px] md:min-w-[120px] h-16 md:h-24 bg-gray-200 dark:bg-gray-800 rounded-2xl"></div>
+          ))}
+        </div>
+      </div>
+
+      {/* Pricing/Stats Card Skeleton */}
+      <div className="lg:col-span-5">
+        <div className="h-[500px] bg-gray-200 dark:bg-gray-800 rounded-[2.5rem]"></div>
+      </div>
+
+      {/* Full-width Content Skeleton (Description & Amenities) */}
+      <div className="lg:col-span-12 grid md:grid-cols-12 gap-6 md:gap-10 mt-4">
+        {/* Description Skeleton */}
+        <div className="md:col-span-8 bg-gray-200/50 dark:bg-gray-800/30 p-10 rounded-[2rem] space-y-4">
+          <div className="h-8 w-48 bg-gray-200 dark:bg-gray-800 rounded-lg"></div>
+          <div className="h-4 w-full bg-gray-200 dark:bg-gray-800 rounded"></div>
+          <div className="h-4 w-full bg-gray-200 dark:bg-gray-800 rounded"></div>
+          <div className="h-4 w-2/3 bg-gray-200 dark:bg-gray-800 rounded"></div>
+        </div>
+        {/* Amenities Skeleton */}
+        <div className="md:col-span-4 bg-gray-200/50 dark:bg-gray-800/30 p-10 rounded-[2rem] space-y-4">
+          <div className="h-8 w-32 bg-gray-200 dark:bg-gray-800 rounded-lg"></div>
+          <div className="grid grid-cols-2 gap-4">
+            {[1, 2, 3, 4].map(i => (
+              <div key={i} className="h-10 bg-gray-200 dark:bg-gray-800 rounded-xl"></div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+);
 
 const Details = () => {
-  const { id } = useParams();
+  const { _id } = useParams();
+  const navigate = useNavigate();
+  const { properties, loading } = useProperties(); 
   const [property, setProperty] = useState(null);
   const [activeImage, setActiveImage] = useState(0);
   const [zoom, setZoom] = useState(1);
+  const [isLiked, setIsLiked] = useState(false);
 
-  //loaded data ......
   useEffect(() => {
-    const fetchDetails = async () => {
-      try {
-        const response = await fetch('/fake.json'); 
-        const data = await response.json();
-        const found = data.find(p => p.id === parseInt(id)) || data[0];
-        setProperty(found);
-      } catch (error) {
-        console.error("Error loading property:", error);
-      }
-    };
-    fetchDetails();
-  }, [id]);
+    if (!loading && properties?.length > 0 && _id) {
+      const found = properties.find(p => String(p._id) === String(_id));
+      if (found) setProperty(found);
+    }
+  }, [_id, properties, loading]);
 
-  if (!property) return <div className="h-screen flex items-center justify-center">Loading...</div>;
+  // Loading state with updated Skeleton
+  if (loading) return (
+    <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20">
+      <DetailsSkeleton />
+    </div>
+  );
 
-  const handleZoomIn = () => setZoom(prev => Math.min(prev + 0.2, 2));
-  const handleZoomOut = () => setZoom(prev => Math.max(prev - 0.2, 1));
+  if (!property) return (
+    <div className="h-screen flex flex-col items-center justify-center text-center px-4">
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">Property Not Found</h2>
+      <button onClick={() => navigate('/all')} className="text-blue-600 flex items-center gap-2 font-semibold">
+        <ChevronLeft size={20} /> Back to Listings
+      </button>
+    </div>
+  );
+
+  const displayLocation = typeof property.location === 'object' ? property.address : (property.location || property.address);
+
+  const amenities = property.amenities || [
+    { icon: Wifi, label: "Free WiFi" },
+    { icon: Car, label: "Parking" },
+    { icon: Tv, label: "Smart TV" },
+    { icon: Wind, label: "Air Condition" },
+    { icon: Coffee, label: "Breakfast" },
+    { icon: ShieldCheck, label: "Security" },
+  ];
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
-      <div className="max-w-[1440px] mx-auto px-6 pt-8">
-        <Breadcrumb
-          items={[
-            { label: "Home", href: "/" },
-            { label: "Properties", href: "/all" },
-            { label: "Details", href: "#" }
-          ]}
-        />
+    <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20">
+      <div className="max-w-[1440px] mx-auto px-4 md:px-6 pt-6">
+        
+        {/* Navigation & Breadcrumb */}
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+          <button 
+            onClick={() => navigate('/all')}
+            className="flex items-center gap-2 w-fit px-4 py-2 bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800 rounded-xl text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-all font-medium"
+          >
+            <ChevronLeft size={18} /> Back to Search
+          </button>
+          <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Properties", href: "/all" }, { label: "Details", href: "#" }]} />
+        </div>
 
-         <div className="mt-8 grid lg:grid-cols-12 gap-10">
+        <div className="grid lg:grid-cols-12 gap-6 lg:gap-10">
           
-           {/* LEFT COLUMN: IMAGES */}
-           <div className="lg:col-span-7 space-y-6">
-             {/* Main Image with Zoom */}
-             <div className="relative h-[500px] rounded-3xl overflow-hidden bg-black group">
-               <img
-                 src={property.images?.[activeImage]}
-                 alt={property.title}
-                 className="w-full h-full object-cover transition-transform duration-300"
-                 style={{ transform: `scale(${zoom})` }}
-               />
-              
-               {/* Zoom Controls */}
-               <div className="absolute bottom-6 right-6 flex gap-2">
-                 <button onClick={handleZoomOut} className="p-3 bg-white/90 dark:bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 hover:text-white transition-all">
-                   <ZoomOut size={20} />
-                 </button>
-                 <button onClick={handleZoomIn} className="p-3 bg-white/90 dark:bg-gray-800 rounded-xl shadow-lg hover:bg-blue-600 hover:text-white transition-all">
-                   <ZoomIn size={20} />
-                 </button>
-               </div>
+          {/* LEFT: MEDIA */}
+          <div className="lg:col-span-7 space-y-4 md:space-y-6">
+            <div className="relative h-[300px] sm:h-[400px] md:h-[550px] rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-xl bg-gray-200 dark:bg-gray-800 group">
+              <img
+                src={property.images?.[activeImage] || property.image}
+                alt={property.title}
+                className="w-full h-full object-cover transition-transform duration-500"
+                style={{ transform: `scale(${zoom})` }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+              <div className="absolute bottom-4 right-4 md:bottom-8 md:left-8 flex gap-2">
+                <button onClick={() => setZoom(z => Math.min(z + 0.2, 2))} className="p-2 md:p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomIn size={20} /></button>
+                <button onClick={() => setZoom(z => Math.max(z - 0.2, 1))} className="p-2 md:p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomOut size={20} /></button>
+              </div>
+            </div>
 
-               <div className="absolute top-6 left-6">
-                 <span className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold uppercase">
-                   {property.category}
-                 </span>
-               </div>
-             </div>
+            {/* Thumbnails */}
+            {property.images?.length > 1 && (
+              <div className="flex gap-3 overflow-x-auto pb-2 no-scrollbar px-1">
+                {property.images.map((img, idx) => (
+                  <button
+                    key={idx}
+                    onClick={() => {setActiveImage(idx); setZoom(1);}}
+                    className={`relative min-w-[80px] md:min-w-[120px] h-16 md:h-24 rounded-xl md:rounded-2xl overflow-hidden border-4 transition-all ${
+                      activeImage === idx ? "border-blue-600 scale-105" : "border-transparent opacity-60"
+                    }`}
+                  >
+                    <img src={img} className="w-full h-full object-cover" alt="thumb" />
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
 
-             {/* Thumbnails (4 Images) */}
-             <div className="grid grid-cols-4 gap-4">
-               {property.images?.slice(0, 4).map((img, idx) => (
-                 <button
-                   key={idx}
-                   onClick={() => {setActiveImage(idx); setZoom(1);}}
-                   className={`relative h-24 md:h-32 rounded-2xl overflow-hidden border-4 transition-all ${
-                     activeImage === idx ? "border-blue-600 scale-95" : "border-transparent opacity-70 hover:opacity-100"
-                   }`}
-                 >
-                   <img src={img} className="w-full h-full object-cover" alt="thumbnail" />
-                 </button>
-               ))}
-             </div>
+          {/* RIGHT: PRICING CARD */}
+          <div className="lg:col-span-5">
+            <div className="bg-white dark:bg-gray-900 p-6 md:p-8 rounded-[2rem] md:rounded-[2.5rem] shadow-xl border border-gray-100 dark:border-gray-800 lg:sticky lg:top-8">
+              <div className="flex justify-between items-start mb-6">
+                <div>
+                  <h1 className="text-2xl md:text-3xl font-black text-gray-900 dark:text-white leading-tight">{property.title || property.property_title}</h1>
+                  <div className="flex items-center gap-2 text-gray-500 mt-2"><MapPin size={18} className="text-blue-600" /><span>{displayLocation}</span></div>
+                </div>
+                <button onClick={() => setIsLiked(!isLiked)} className={`p-4 rounded-2xl ${isLiked ? "bg-red-50 text-red-500" : "bg-gray-50 text-gray-400"}`}>
+                  <Heart size={22} fill={isLiked ? "currentColor" : "none"} />
+                </button>
+              </div>
 
-             {/* Description Section */}
-             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-sm border border-gray-100 dark:border-gray-800">
-               <h2 className="text-2xl font-bold mb-4 dark:text-white">About this property</h2>
-               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                 {property.description || "This luxurious property offers a perfect blend of modern architecture and comfortable living. Located in a prime area, it features state-of-the-art facilities, spacious rooms, and breathtaking views."}
-               </p>
-              
-               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
-                 {['Smart Home', 'Swimming Pool', 'Gym', 'Parking', 'Security', 'Garden'].map((feat) => (
-                   <div key={feat} className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-                     <CheckCircle2 size={18} className="text-green-500" />
-                     <span className="text-sm font-medium">{feat}</span>
-                   </div>
-                 ))}
-               </div>
-             </div>
-           </div>
+              <div className="mb-6 p-6 bg-blue-600 rounded-3xl text-white">
+                <p className="text-xs font-bold uppercase mb-1">Selling Price</p>
+                <span className="text-3xl md:text-4xl font-black">${(property.price || property.price_min)?.toLocaleString()}</span>
+              </div>
 
-           {/* RIGHT COLUMN: DETAILS & BOOKING */}
-           <div className="lg:col-span-5 space-y-6">
-             <div className="bg-white dark:bg-gray-900 p-8 rounded-3xl shadow-xl border border-gray-100 dark:border-gray-800 sticky top-8">
-               <div className="flex justify-between items-start mb-6">
-                 <div>
-                   <h1 className="text-3xl font-black text-gray-900 dark:text-white mb-2 leading-tight">
-                     {property.title}
-                   </h1>
-                   <div className="flex items-center gap-2 text-gray-500">
-                     <MapPin size={18} className="text-blue-600" />
-                     <span className="text-sm">{property.address}</span>
-                   </div>
-                 </div>
-                 <button className="p-3 bg-gray-50 dark:bg-gray-800 rounded-2xl hover:text-red-500 transition-colors">
-                   <Heart size={24} />
-                 </button>
-               </div>
+              <div className="grid grid-cols-3 gap-3 mb-8">
+                {[
+                  { icon: BedDouble, label: "Beds", value: property.bedrooms || property.beds || 0 },
+                  { icon: Bath, label: "Baths", value: property.bathrooms || property.baths || 0 },
+                  { icon: Square, label: "Sqft", value: property.area || property.sqft || 0 }
+                ].map((stat, i) => (
+                  <div key={i} className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+                    <stat.icon className="mx-auto mb-2 text-blue-600" size={20} />
+                    <p className="text-[10px] text-gray-400 uppercase font-black">{stat.label}</p>
+                    <p className="font-bold dark:text-white">{stat.value}</p>
+                  </div>
+                ))}
+              </div>
 
-               {/* Price Tag */}
-               <div className="mb-8 p-6 bg-blue-50 dark:bg-blue-900/20 rounded-2xl border border-blue-100 dark:border-blue-800/30">
-                 <span className="text-gray-500 dark:text-gray-400 block text-sm font-bold uppercase mb-1">Total Price</span>
-                 <div className="flex items-baseline gap-2">
-                   <span className="text-4xl font-black text-blue-600">${property.price_min?.toLocaleString()}</span>
-                   {property.price_max > property.price_min && (
-                     <span className="text-gray-400 font-medium"> - ${property.price_max?.toLocaleString()}</span>
-                   )}
-                 </div>
-               </div>
+              <div className="space-y-3">
+                <button className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center justify-center gap-3"><Calendar size={20} /> Book Now</button>
+                <button className="w-full py-4 border-2 border-gray-100 dark:border-gray-700 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-3"><MessageSquare size={20} /> Contact Agent</button>
+              </div>
+            </div>
+          </div>
 
-               {/* Stats */}
-               <div className="grid grid-cols-3 gap-4 mb-8">
-                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-                   <BedDouble className="mx-auto mb-2 text-blue-600" />
-                   <p className="text-xs text-gray-400 uppercase font-bold">Beds</p>
-                   <p className="font-bold dark:text-white">{property.beds}</p>
-                 </div>
-                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-                   <Bath className="mx-auto mb-2 text-blue-600" />
-                   <p className="text-xs text-gray-400 uppercase font-bold">Baths</p>
-                   <p className="font-bold dark:text-white">{property.baths}</p>
-                 </div>
-                 <div className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-                   <Square className="mx-auto mb-2 text-blue-600" />
-                   <p className="text-xs text-gray-400 uppercase font-bold">Sqft</p>
-                   <p className="font-bold dark:text-white">{property.sqft}</p>
-                 </div>
-               </div>
+          {/* BOTTOM CONTENT */}
+          <div className="lg:col-span-12 grid md:grid-cols-12 gap-6 md:gap-10 mt-4">
+            <div className="md:col-span-8 bg-white dark:bg-gray-900 p-8 md:p-10 rounded-[2rem] border border-gray-100 dark:border-gray-800">
+              <h2 className="text-2xl font-bold dark:text-white mb-6">About Property</h2>
+              <p className="text-gray-600 dark:text-gray-400 leading-[1.8] text-lg">{property.description || "No description available."}</p>
+            </div>
 
-               {/* Action Buttons */}
-               <div className="space-y-3">
-                 <button className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl font-bold text-lg shadow-lg shadow-blue-200 dark:shadow-none transition-all flex items-center justify-center gap-2">
-                   <Calendar size={20} />
-                   Book a Visit
-                 </button>
-                 <button className="w-full py-4 bg-white dark:bg-gray-800 border-2 border-gray-100 dark:border-gray-700 text-gray-900 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-2 hover:bg-gray-50 transition-all">
-                   <MessageSquare size={20} />
-                   Contact Agent
-                 </button>
-               </div>
+            <div className="md:col-span-4 bg-white dark:bg-gray-900 p-8 rounded-[2rem] border border-gray-100 dark:border-gray-800">
+              <h3 className="text-xl font-bold mb-6 dark:text-white">Amenities</h3>
+              <div className="grid grid-cols-2 gap-4">
+                {amenities.map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
+                    <div className="p-2 bg-blue-50 dark:bg-blue-900/30 text-blue-600 rounded-lg"><item.icon size={18} /></div>
+                    <span className="text-sm font-medium">{item.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
 
-               <div className="mt-6 pt-6 border-t border-gray-100 dark:border-gray-800 flex justify-between items-center">
-                 <div className="flex items-center gap-3">
-                   <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">JS</div>
-                   <div>
-                     <p className="text-sm font-bold dark:text-white">John Smith</p>
-                     <p className="text-xs text-gray-400">Property Owner</p>
-                   </div>
-                 </div>
-                 <button className="text-gray-400 hover:text-blue-600 transition-colors">
-                   <Share2 size={20} />
-                 </button>
-               </div>
-             </div>
-           </div>
-
-         </div>
-       </div>
-     </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
