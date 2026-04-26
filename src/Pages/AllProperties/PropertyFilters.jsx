@@ -7,9 +7,9 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
     // Function to clear all filters
     const handleReset = () => {
         setSearchTerm("");
-//         setActiveTab("All");
-//         setMaxPrice(600000); // Reset to default max price
-//     };
+        setActiveTab("All");
+        setMaxPrice(600000); // Reset to default max price
+    };
 
 //     // Show detailed skeleton loading
 //     if (loading) {
