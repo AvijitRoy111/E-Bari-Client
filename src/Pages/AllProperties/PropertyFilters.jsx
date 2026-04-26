@@ -82,11 +82,11 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                      className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
                      value={maxPrice}
                      onChange={(e) => setMaxPrice(Number(e.target.value))}
-//                 />
-//             </div>
+                 />
+             </div>
 
-//             {/* Reset Button */}
-//             <button
+             {/* Reset Button */}
+             <button
 //                 onClick={handleReset}
 //                 title="Reset Filters"
 //                 className="flex items-center justify-center gap-2 px-4 py-3 bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 border border-red-100 dark:border-red-900/30 rounded-xl hover:bg-red-600 hover:text-white dark:hover:bg-red-600 dark:hover:text-white transition-all active:scale-95 group"
