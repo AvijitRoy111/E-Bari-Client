@@ -79,9 +79,9 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                     min="1000"
                     max="600000"
                     step="5000"
-//                     className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
-//                     value={maxPrice}
-//                     onChange={(e) => setMaxPrice(Number(e.target.value))}
+                     className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                     value={maxPrice}
+                     onChange={(e) => setMaxPrice(Number(e.target.value))}
 //                 />
 //             </div>
 
