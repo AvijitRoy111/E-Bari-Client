@@ -57,8 +57,8 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                      <button
                          key={type}
                          onClick={() => setActiveTab(type)}
-//                         className={`px-6 py-2 rounded-lg text-sm font-semibold transition-all ${
-//                             activeTab === type
+                         className={`px-6 py-2 rounded-lg text-sm font-semibold transition-all ${
+                             activeTab === type
 //                                 ? "bg-white dark:bg-blue-600 shadow-sm text-blue-600 dark:text-white"
 //                                 : "text-gray-500 dark:text-gray-400 hover:text-gray-700"
 //                         }`}
