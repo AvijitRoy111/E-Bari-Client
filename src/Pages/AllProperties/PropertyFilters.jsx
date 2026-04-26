@@ -54,9 +54,9 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
             {/* Category Tabs */}
              <div className="flex bg-gray-100 dark:bg-gray-700 p-1.5 rounded-xl">
                 {["All", "Villa", "Apartment"].map((type) => (
-//                     <button
-//                         key={type}
-//                         onClick={() => setActiveTab(type)}
+                     <button
+                         key={type}
+                         onClick={() => setActiveTab(type)}
 //                         className={`px-6 py-2 rounded-lg text-sm font-semibold transition-all ${
 //                             activeTab === type
 //                                 ? "bg-white dark:bg-blue-600 shadow-sm text-blue-600 dark:text-white"
