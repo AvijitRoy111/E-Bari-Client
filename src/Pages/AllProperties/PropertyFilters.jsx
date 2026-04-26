@@ -49,11 +49,11 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
-//             </div>
+             </div>
 
-//             {/* Category Tabs */}
-//             <div className="flex bg-gray-100 dark:bg-gray-700 p-1.5 rounded-xl">
-//                 {["All", "Villa", "Apartment"].map((type) => (
+            {/* Category Tabs */}
+             <div className="flex bg-gray-100 dark:bg-gray-700 p-1.5 rounded-xl">
+                {["All", "Villa", "Apartment"].map((type) => (
 //                     <button
 //                         key={type}
 //                         onClick={() => setActiveTab(type)}
