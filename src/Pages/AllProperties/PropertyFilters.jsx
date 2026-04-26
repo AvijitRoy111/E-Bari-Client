@@ -71,10 +71,10 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
             {/* Price Range */}
             <div className="w-full lg:w-1/4">
                 <div className="flex justify-between mb-2">
-//                     <span className="text-sm font-medium dark:text-gray-300">Max Price:</span>
-//                     <span className="text-sm font-bold text-blue-600">${maxPrice.toLocaleString()}</span>
-//                 </div>
-//                 <input
+                     <span className="text-sm font-medium dark:text-gray-300">Max Price:</span>
+                     <span className="text-sm font-bold text-blue-600">${maxPrice.toLocaleString()}</span>
+                 </div>
+                 <input
 //                     type="range"
 //                     min="1000"
 //                     max="600000"
