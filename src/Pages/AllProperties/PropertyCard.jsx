@@ -66,28 +66,28 @@ const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
              <span className="truncate">{item?.address}</span>
            </div>
            <div className="pt-4 border-t border-gray-50 dark:border-gray-700 flex justify-between items-center">
-//             <span className="text-2xl font-black text-blue-600 dark:text-blue-400">
-//               ${item?.price_min?.toLocaleString()}
-//             </span>
-//             <span className="text-xs text-gray-400">Explore →</span>
-//           </div>
-//         </div>
-//       </Link>
+             <span className="text-2xl font-black text-blue-600 dark:text-blue-400">
+               ${item?.price_min?.toLocaleString()}
+             </span>
+             <span className="text-xs text-gray-400">Explore →</span>
+           </div>
+         </div>
+       </Link>
 
-//       <button
-//         onClick={(e) => {
-//           e.preventDefault();
-//           toggleFavorite(item);
-//         }}
-//         className="absolute top-4 right-4 p-2.5 rounded-full bg-white/80 dark:bg-gray-900/60 backdrop-blur-md shadow-sm border border-white/20 hover:scale-110 active:scale-95 transition-all z-10"
-//       >
-//         <Heart
-//           size={20}
-//           className={isFav ? "fill-red-500 stroke-red-500" : "text-gray-600 dark:text-white"}
-//         />
-//       </button>
-//     </div>
-//   );
-// };
+       <button
+         onClick={(e) => {
+           e.preventDefault();
+           toggleFavorite(item);
+         }}
+         className="absolute top-4 right-4 p-2.5 rounded-full bg-white/80 dark:bg-gray-900/60 backdrop-blur-md shadow-sm border border-white/20 hover:scale-110 active:scale-95 transition-all z-10"
+       >
+         <Heart
+           size={20}
+           className={isFav ? "fill-red-500 stroke-red-500" : "text-gray-600 dark:text-white"}
+         />
+       </button>
+     </div>
+   );
+ };
 
-// export default PropertyCard;
+ export default PropertyCard;
