@@ -1,7 +1,7 @@
-// import React from "react";
-// import { Link } from "react-router-dom";
-// import { Heart, MapPin } from "lucide-react";
-// import Skeleton from "./SkeletonSkeleton";
+import React from "react";
+import { Link } from "react-router-dom";
+import { Heart, MapPin } from "lucide-react";
+import Skeleton from "./SkeletonSkeleton";
 
 // const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
 //   // Show detailed skeleton while loading
