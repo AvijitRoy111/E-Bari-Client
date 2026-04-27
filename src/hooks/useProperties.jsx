@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axiosPublic from "../api/axiosPublic";
 
-// const useProperties = () => {
+const useProperties = () => {
 //     const [properties, setProperties] = useState([]);
 //     const [loading, setLoading] = useState(true);
 
