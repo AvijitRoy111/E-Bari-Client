@@ -3,7 +3,7 @@ import axiosPublic from "../api/axiosPublic";
 
 const useProperties = () => {
     const [properties, setProperties] = useState([]);
-//     const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(true);
 
 //     useEffect(() => {
 //         const fetchProperties = async () => {
