@@ -21,7 +21,7 @@ const useProperties = () => {
         fetchProperties();
     }, []);
 
-//     return {properties, loading};
+    return {properties, loading};
 // };
 
 // export default useProperties;
