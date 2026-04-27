@@ -18,7 +18,7 @@ const useProperties = () => {
             }
         };
 
-//         fetchProperties();
+        fetchProperties();
 //     }, []);
 
 //     return {properties, loading};
