@@ -6,7 +6,7 @@ const useProperties = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-//         const fetchProperties = async () => {
+        const fetchProperties = async () => {
 //             try {
 //                 setLoading(true);
 //                 const response = await axiosPublic.get('/properties'); 
