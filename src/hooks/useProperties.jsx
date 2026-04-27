@@ -16,7 +16,7 @@ const useProperties = () => {
             } finally {
                 setLoading(false);
             }
-//         };
+        };
 
 //         fetchProperties();
 //     }, []);
