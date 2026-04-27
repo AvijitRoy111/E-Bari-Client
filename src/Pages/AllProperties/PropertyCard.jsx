@@ -40,8 +40,8 @@ const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
     );
   }
 
-//   // --- Real Content Logic ---
-//   const isFav = favorites?.some((fav) => fav._id === item?._id);
+  // --- Real Content Logic ---
+  const isFav = favorites?.some((fav) => fav._id === item?._id);
 
 //   return (
 //     <div className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-xl transition-all duration-300 relative">
