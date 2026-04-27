@@ -8,7 +8,7 @@ const useProperties = () => {
     useEffect(() => {
         const fetchProperties = async () => {
             try {
-//                 setLoading(true);
+                setLoading(true);
 //                 const response = await axiosPublic.get('/properties'); 
 //                 setProperties(response.data.data);
 //             } catch (error) {
