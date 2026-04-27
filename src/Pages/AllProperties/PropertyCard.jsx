@@ -47,12 +47,12 @@ const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
     <div className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-xl transition-all duration-300 relative">
       <Link to={`/details/${item?._id}`}>
         <div className="relative aspect-[4/3] overflow-hidden">
-//           <img
-//             src={item?.images?.[0] || "placeholder.jpg"}
-//             alt={item?.title}
-//             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-//           />
-//           <div className="absolute top-4 left-4 px-3 py-1.5 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md rounded-lg text-xs font-bold text-blue-600 z-10">
+           <img
+             src={item?.images?.[0] || "placeholder.jpg"}
+             alt={item?.title}
+             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+           />
+           <div className="absolute top-4 left-4 px-3 py-1.5 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md rounded-lg text-xs font-bold text-blue-600 z-10">
 //             {item?.category}
 //           </div>
 //         </div>
