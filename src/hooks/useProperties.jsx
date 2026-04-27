@@ -5,7 +5,7 @@ const useProperties = () => {
     const [properties, setProperties] = useState([]);
     const [loading, setLoading] = useState(true);
 
-//     useEffect(() => {
+    useEffect(() => {
 //         const fetchProperties = async () => {
 //             try {
 //                 setLoading(true);
