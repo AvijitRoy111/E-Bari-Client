@@ -19,7 +19,7 @@ const useProperties = () => {
         };
 
         fetchProperties();
-//     }, []);
+    }, []);
 
 //     return {properties, loading};
 // };
