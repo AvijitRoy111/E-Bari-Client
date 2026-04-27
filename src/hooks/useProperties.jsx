@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import axiosPublic from "../api/axiosPublic";
+import axiosPublic from "../api/axiosPublic";
 
 // const useProperties = () => {
 //     const [properties, setProperties] = useState([]);
