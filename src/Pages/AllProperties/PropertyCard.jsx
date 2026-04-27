@@ -3,42 +3,42 @@ import { Link } from "react-router-dom";
 import { Heart, MapPin } from "lucide-react";
 import Skeleton from "./SkeletonSkeleton";
 
-// const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
-//   // Show detailed skeleton while loading
-//   if (loading) {
-//     return (
-//       <div className="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700 shadow-sm relative">
-//         {/* Image Placeholder */}
-//         <div className="relative aspect-[4/3]">
-//           <Skeleton className="w-full h-full" />
+const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
+  // Show detailed skeleton while loading
+  if (loading) {
+    return (
+      <div className="bg-white dark:bg-gray-800 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700 shadow-sm relative">
+        {/* Image Placeholder */}
+        <div className="relative aspect-[4/3]">
+          <Skeleton className="w-full h-full" />
 
           
-//           {/* UPDATED: Category Badge Skeleton with Shadow and Backdrop */}
-//           <div className="absolute top-4 left-4 z-10 px-3 py-1.5 bg-white/60 dark:bg-blue-900/60 backdrop-blur-md rounded-lg shadow-sm border border-white/20">
-//             <Skeleton className="w-16 h-4 rounded" />
-//           </div>
+          {/* UPDATED: Category Badge Skeleton with Shadow and Backdrop */}
+          <div className="absolute top-4 left-4 z-10 px-3 py-1.5 bg-white/60 dark:bg-blue-900/60 backdrop-blur-md rounded-lg shadow-sm border border-white/20">
+            <Skeleton className="w-16 h-4 rounded" />
+          </div>
 
-//           {/* UPDATED: Favorite Button Skeleton with Shadow and Backdrop */}
-//           <div className="absolute top-4 right-4 z-10 p-2.5 rounded-full bg-white/60 dark:bg-gray-900/60 backdrop-blur-md shadow-sm border border-white/20">
-//             <Skeleton className="w-5 h-5 rounded-full" />
-//           </div>
-//         </div>
+          {/* UPDATED: Favorite Button Skeleton with Shadow and Backdrop */}
+          <div className="absolute top-4 right-4 z-10 p-2.5 rounded-full bg-white/60 dark:bg-gray-900/60 backdrop-blur-md shadow-sm border border-white/20">
+            <Skeleton className="w-5 h-5 rounded-full" />
+          </div>
+        </div>
 
-//         {/* Details Placeholder */}
-//         <div className="p-5">
-//           <Skeleton className="w-3/4 h-6 mb-3 rounded-md" />
-//           <div className="flex items-center mb-4">
-//             <Skeleton className="w-4 h-4 mr-2 rounded-full" />
-//             <Skeleton className="w-1/2 h-4 rounded-md" />
-//           </div>
-//           <div className="pt-4 border-t border-gray-50 dark:border-gray-700 flex justify-between items-center">
-//             <Skeleton className="w-24 h-8 rounded-md" />
-//             <Skeleton className="w-16 h-4 rounded-md" />
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
+        {/* Details Placeholder */}
+        <div className="p-5">
+          <Skeleton className="w-3/4 h-6 mb-3 rounded-md" />
+          <div className="flex items-center mb-4">
+            <Skeleton className="w-4 h-4 mr-2 rounded-full" />
+            <Skeleton className="w-1/2 h-4 rounded-md" />
+          </div>
+          <div className="pt-4 border-t border-gray-50 dark:border-gray-700 flex justify-between items-center">
+            <Skeleton className="w-24 h-8 rounded-md" />
+            <Skeleton className="w-16 h-4 rounded-md" />
+          </div>
+        </div>
+      </div>
+    );
+  }
 
 //   // --- Real Content Logic ---
 //   const isFav = favorites?.some((fav) => fav._id === item?._id);
