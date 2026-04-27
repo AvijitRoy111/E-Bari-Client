@@ -22,6 +22,6 @@ const useProperties = () => {
     }, []);
 
     return {properties, loading};
-// };
+};
 
 // export default useProperties;
