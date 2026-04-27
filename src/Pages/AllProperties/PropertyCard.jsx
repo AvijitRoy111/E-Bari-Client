@@ -63,9 +63,9 @@ const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
            </h3>
            <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-4">
              <MapPin size={14} className="mr-1 shrink-0" />
-//             <span className="truncate">{item?.address}</span>
-//           </div>
-//           <div className="pt-4 border-t border-gray-50 dark:border-gray-700 flex justify-between items-center">
+             <span className="truncate">{item?.address}</span>
+           </div>
+           <div className="pt-4 border-t border-gray-50 dark:border-gray-700 flex justify-between items-center">
 //             <span className="text-2xl font-black text-blue-600 dark:text-blue-400">
 //               ${item?.price_min?.toLocaleString()}
 //             </span>
