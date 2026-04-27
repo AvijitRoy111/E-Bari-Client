@@ -1,27 +1,27 @@
-import { useEffect, useState } from "react";
-import axiosPublic from "../api/axiosPublic";
+// import { useEffect, useState } from "react";
+// import axiosPublic from "../api/axiosPublic";
 
-const useProperties = () => {
-    const [properties, setProperties] = useState([]);
-    const [loading, setLoading] = useState(true);
+// const useProperties = () => {
+//     const [properties, setProperties] = useState([]);
+//     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const fetchProperties = async () => {
-            try {
-                setLoading(true);
-                const response = await axiosPublic.get('/properties'); 
-                setProperties(response.data.data);
-            } catch (error) {
-                console.error("Fetch error:", error);
-            } finally {
-                setLoading(false);
-            }
-        };
+//     useEffect(() => {
+//         const fetchProperties = async () => {
+//             try {
+//                 setLoading(true);
+//                 const response = await axiosPublic.get('/properties'); 
+//                 setProperties(response.data.data);
+//             } catch (error) {
+//                 console.error("Fetch error:", error);
+//             } finally {
+//                 setLoading(false);
+//             }
+//         };
 
-        fetchProperties();
-    }, []);
+//         fetchProperties();
+//     }, []);
 
-    return {properties, loading};
-};
+//     return {properties, loading};
+// };
 
-export default useProperties;
+// export default useProperties;
