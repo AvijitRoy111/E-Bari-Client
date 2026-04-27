@@ -57,12 +57,12 @@ const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
            </div>
          </div>
 
-//         <div className="p-5">
-//           <h3 className="text-lg font-bold text-gray-900 dark:text-white truncate mb-2">
-//             {item?.title}
-//           </h3>
-//           <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-4">
-//             <MapPin size={14} className="mr-1 shrink-0" />
+         <div className="p-5">
+           <h3 className="text-lg font-bold text-gray-900 dark:text-white truncate mb-2">
+             {item?.title}
+           </h3>
+           <div className="flex items-center text-gray-500 dark:text-gray-400 text-sm mb-4">
+             <MapPin size={14} className="mr-1 shrink-0" />
 //             <span className="truncate">{item?.address}</span>
 //           </div>
 //           <div className="pt-4 border-t border-gray-50 dark:border-gray-700 flex justify-between items-center">
