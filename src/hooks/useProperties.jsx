@@ -15,7 +15,7 @@ const useProperties = () => {
                 console.error("Fetch error:", error);
             } finally {
                 setLoading(false);
-//             }
+            }
 //         };
 
 //         fetchProperties();
