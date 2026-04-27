@@ -9,7 +9,7 @@ const useProperties = () => {
         const fetchProperties = async () => {
             try {
                 setLoading(true);
-//                 const response = await axiosPublic.get('/properties'); 
+                const response = await axiosPublic.get('/properties'); 
 //                 setProperties(response.data.data);
 //             } catch (error) {
 //                 console.error("Fetch error:", error);
