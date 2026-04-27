@@ -13,7 +13,7 @@ const useProperties = () => {
                 setProperties(response.data.data);
             } catch (error) {
                 console.error("Fetch error:", error);
-//             } finally {
+            } finally {
 //                 setLoading(false);
 //             }
 //         };
