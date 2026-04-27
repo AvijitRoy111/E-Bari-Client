@@ -43,10 +43,10 @@ const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
   // --- Real Content Logic ---
   const isFav = favorites?.some((fav) => fav._id === item?._id);
 
-//   return (
-//     <div className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-xl transition-all duration-300 relative">
-//       <Link to={`/details/${item?._id}`}>
-//         <div className="relative aspect-[4/3] overflow-hidden">
+  return (
+    <div className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden border border-gray-100 dark:border-gray-700 shadow-sm hover:shadow-xl transition-all duration-300 relative">
+      <Link to={`/details/${item?._id}`}>
+        <div className="relative aspect-[4/3] overflow-hidden">
 //           <img
 //             src={item?.images?.[0] || "placeholder.jpg"}
 //             alt={item?.title}
