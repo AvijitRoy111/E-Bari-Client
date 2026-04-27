@@ -53,9 +53,9 @@ const PropertyCard = ({ item, favorites, toggleFavorite, loading }) => {
              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
            />
            <div className="absolute top-4 left-4 px-3 py-1.5 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md rounded-lg text-xs font-bold text-blue-600 z-10">
-//             {item?.category}
-//           </div>
-//         </div>
+             {item?.category}
+           </div>
+         </div>
 
 //         <div className="p-5">
 //           <h3 className="text-lg font-bold text-gray-900 dark:text-white truncate mb-2">
