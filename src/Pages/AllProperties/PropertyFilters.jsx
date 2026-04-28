@@ -46,10 +46,10 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                       type="text"
                      placeholder="Search by location..."
                      className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-600 dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all"
-//                     value={searchTerm}
-//                     onChange={(e) => setSearchTerm(e.target.value)}
-//                 />
-//              </div>
+                     value={searchTerm}
+                     onChange={(e) => setSearchTerm(e.target.value)}
+                 />
+              </div>
 
 //             {/* Category Tabs */}
 //              <div className="flex bg-gray-100 dark:bg-gray-700 p-1.5 rounded-xl">
