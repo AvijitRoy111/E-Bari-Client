@@ -11,8 +11,8 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
         setMaxPrice(600000); // Reset to default max price
     };
 
-//     // Show detailed skeleton loading
-//     if (loading) {
+    // Show detailed skeleton loading
+    if (loading) {
 //         return (
 //             <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
 //                 <div className="w-full lg:w-1/3">
