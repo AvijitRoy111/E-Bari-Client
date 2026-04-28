@@ -18,25 +18,25 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                 <div className="w-full lg:w-1/3">
                     <Skeleton className="w-full h-12 rounded-xl" />
                 </div>
-//                  <div className="flex bg-gray-100 dark:bg-gray-700 p-1.5 rounded-xl gap-2">
-//                      <Skeleton className="w-20 h-9 rounded-lg" />
-//                      <Skeleton className="w-20 h-9 rounded-lg" />
-//                      <Skeleton className="w-24 h-9 rounded-lg" />
-//                  </div>
-//                  <div className="w-full lg:w-1/4">
-//                      <div className="flex justify-between mb-3">
-//                          <Skeleton className="w-16 h-4 rounded" />
-//                          <Skeleton className="w-20 h-4 rounded" />
-//                      </div>
-//                      <Skeleton className="w-full h-2 rounded-lg" />
-//                  </div>
-//                  {/* Reset Button Skeleton */}
-//                  <div className="hidden lg:block">
-//                      <Skeleton className="w-12 h-12 rounded-xl" />
-//                  </div>
-//              </div>
-//          );
-//      }
+                  <div className="flex bg-gray-100 dark:bg-gray-700 p-1.5 rounded-xl gap-2">
+                      <Skeleton className="w-20 h-9 rounded-lg" />
+                      <Skeleton className="w-20 h-9 rounded-lg" />
+                      <Skeleton className="w-24 h-9 rounded-lg" />
+                  </div>
+                  <div className="w-full lg:w-1/4">
+                      <div className="flex justify-between mb-3">
+                          <Skeleton className="w-16 h-4 rounded" />
+                          <Skeleton className="w-20 h-4 rounded" />
+                      </div>
+                      <Skeleton className="w-full h-2 rounded-lg" />
+                  </div>
+                  {/* Reset Button Skeleton */}
+                  <div className="hidden lg:block">
+                      <Skeleton className="w-12 h-12 rounded-xl" />
+                  </div>
+              </div>
+          );
+      }
 
 //     return (
 //         <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
