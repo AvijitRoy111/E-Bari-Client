@@ -2,7 +2,7 @@ import React from "react";
 import Skeleton from "./SkeletonSkeleton";
 import { RotateCcw } from "lucide-react"; // Import a reset icon
 
-// const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setActiveTab, maxPrice, setMaxPrice }) => {
+const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setActiveTab, maxPrice, setMaxPrice }) => {
     
 //     // Function to clear all filters
 //     const handleReset = () => {
