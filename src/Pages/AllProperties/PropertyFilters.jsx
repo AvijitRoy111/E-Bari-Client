@@ -65,8 +65,8 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                       >
                           {type}
                       </button>
-//                 ))}
-//             </div>
+                 ))}
+             </div>
 
 //             {/* Price Range */}
 //             <div className="w-full lg:w-1/4">
