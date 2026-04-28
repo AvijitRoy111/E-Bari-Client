@@ -63,8 +63,8 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                                   : "text-gray-500 dark:text-gray-400 hover:text-gray-700"
                           }`}
                       >
-//                          {type}
-//                      </button>
+                          {type}
+                      </button>
 //                 ))}
 //             </div>
 
