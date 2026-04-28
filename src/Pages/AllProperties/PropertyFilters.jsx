@@ -95,7 +95,7 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                  <span className="lg:hidden font-bold">Reset Filters</span>
              </button>
          </div>
-//     );
-// };
+    );
+};
 
-// export default PropertyFilters;
+export default PropertyFilters;
