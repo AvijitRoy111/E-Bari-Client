@@ -13,11 +13,11 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
 
     // Show detailed skeleton loading
     if (loading) {
-//         return (
-//             <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
-//                 <div className="w-full lg:w-1/3">
-//                     <Skeleton className="w-full h-12 rounded-xl" />
-//                 </div>
+        return (
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
+                <div className="w-full lg:w-1/3">
+                    <Skeleton className="w-full h-12 rounded-xl" />
+                </div>
 //                  <div className="flex bg-gray-100 dark:bg-gray-700 p-1.5 rounded-xl gap-2">
 //                      <Skeleton className="w-20 h-9 rounded-lg" />
 //                      <Skeleton className="w-20 h-9 rounded-lg" />
