@@ -38,11 +38,11 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
           );
       }
 
-//     return (
-//         <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
-//             {/* Search Input */}
-//              <div className="w-full lg:w-1/3">
-//                  <input
+    return (
+        <div className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 flex flex-col lg:flex-row gap-6 items-center justify-between">
+            {/* Search Input */}
+             <div className="w-full lg:w-1/3">
+                 <input
 //                      type="text"
 //                     placeholder="Search by location..."
 //                     className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-600 dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all"
