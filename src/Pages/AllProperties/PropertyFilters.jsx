@@ -75,11 +75,11 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
                       <span className="text-sm font-bold text-blue-600">${maxPrice.toLocaleString()}</span>
                   </div>
                   <input
-//                     type="range"
-//                     min="1000"
-//                     max="600000"
-//                     step="5000"
-//                      className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
+                     type="range"
+                     min="1000"
+                     max="600000"
+                     step="5000"
+                      className="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer accent-blue-600"
 //                      value={maxPrice}
 //                      onChange={(e) => setMaxPrice(Number(e.target.value))}
 //                  />
