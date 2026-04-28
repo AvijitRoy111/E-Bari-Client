@@ -43,9 +43,9 @@ const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setAct
             {/* Search Input */}
              <div className="w-full lg:w-1/3">
                  <input
-//                      type="text"
-//                     placeholder="Search by location..."
-//                     className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-600 dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all"
+                      type="text"
+                     placeholder="Search by location..."
+                     className="w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-600 dark:bg-gray-700 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all"
 //                     value={searchTerm}
 //                     onChange={(e) => setSearchTerm(e.target.value)}
 //                 />
