@@ -4,12 +4,12 @@ import { RotateCcw } from "lucide-react"; // Import a reset icon
 
 const PropertyFilters = ({ loading, searchTerm, setSearchTerm, activeTab, setActiveTab, maxPrice, setMaxPrice }) => {
     
-//     // Function to clear all filters
-//     const handleReset = () => {
-//         setSearchTerm("");
-//         setActiveTab("All");
-//         setMaxPrice(600000); // Reset to default max price
-//     };
+    // Function to clear all filters
+    const handleReset = () => {
+        setSearchTerm("");
+        setActiveTab("All");
+        setMaxPrice(600000); // Reset to default max price
+    };
 
 //     // Show detailed skeleton loading
 //     if (loading) {
