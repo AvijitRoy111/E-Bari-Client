@@ -55,10 +55,10 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
                 : "bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border border-gray-200 dark:border-gray-700"
             }`}
           >
-//             {pageNum}
-//           </button>
-//         );
-//       })}
+             {pageNum}
+           </button>
+         );
+       })}
 
 //       <button
 //         disabled={currentPage === totalPages}
