@@ -42,8 +42,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
          <ChevronLeft size={20} />
        </button>
 
-//       {/* Render dynamic page number buttons */}
-//       {[...Array(totalPages).keys()].map((n) => {
+       {/* Render dynamic page number buttons */}
+       {[...Array(totalPages).keys()].map((n) => {
 //         const pageNum = n + 1;
 //         return (
 //           <button
