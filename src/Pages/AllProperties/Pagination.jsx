@@ -67,8 +67,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
        >
          <ChevronRight size={20} />
        </button>
-//     </div>
-//   );
-// };
+     </div>
+   );
+ };
 
 // export default Pagination;
