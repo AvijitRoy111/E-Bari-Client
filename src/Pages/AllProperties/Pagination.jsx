@@ -11,9 +11,9 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
         {/* Left Arrow Button Skeleton */}
         <Skeleton className="w-10 h-10 rounded-lg" />
 
-//         {/* Dynamic Page Number Skeletons */}
-//         {/* We show 5 placeholders to represent a standard range */}
-//         {[...Array(5).keys()].map((i) => (
+         {/* Dynamic Page Number Skeletons */}
+         {/* We show 5 placeholders to represent a standard range */}
+         {[...Array(5).keys()].map((i) => (
 //           <Skeleton key={i} className="w-11 h-11 rounded-lg" />
 //         ))}
 
