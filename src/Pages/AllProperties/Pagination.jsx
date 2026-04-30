@@ -20,8 +20,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
          {/* Right Arrow Button Skeleton */}
          <Skeleton className="w-10 h-10 rounded-lg" />
        </div>
-//     );
-//   }
+     );
+   }
 
 //   // Return null if there is only one page or no items
 //   if (totalPages <= 1) return null;
