@@ -29,8 +29,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
   // Handle page navigation and scroll to top
   const handlePageChange = (newPage) => {
     setCurrentPage(newPage);
-//     window.scrollTo({ top: 0, behavior: "smooth" });
-//   };
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
 //   return (
 //     <div className="flex justify-center items-center mt-12 gap-2">
