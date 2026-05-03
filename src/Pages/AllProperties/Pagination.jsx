@@ -16,11 +16,11 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
             <Skeleton key={i} className="w-11 h-11 rounded-lg" />
           ))}
 
-//          {/* Right Arrow Button Skeleton */}
-//          <Skeleton className="w-10 h-10 rounded-lg" />
-//        </div>
-//      );
-//    }
+          {/* Right Arrow Button Skeleton */}
+          <Skeleton className="w-10 h-10 rounded-lg" />
+        </div>
+      );
+    }
 
 //   // Return null if there is only one page or no items
 //   if (totalPages <= 1) return null;
