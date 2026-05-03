@@ -5,11 +5,11 @@ import Skeleton from "./SkeletonSkeleton"; // Ensure the path is correct
 const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
   
   // Render detailed skeleton while loading
-//   if (loading) {
-//     return (
-//       <div className="flex justify-center items-center mt-12 gap-2">
-//         {/* Left Arrow Button Skeleton */}
-//         <Skeleton className="w-10 h-10 rounded-lg" />
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center mt-12 gap-2">
+        {/* Left Arrow Button Skeleton */}
+        <Skeleton className="w-10 h-10 rounded-lg" />
 
 //          {/* Dynamic Page Number Skeletons */}
 //          {[...Array(5).keys()].map((i) => (
