@@ -45,7 +45,7 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
         {[...Array(totalPages).keys()].map((n) => {
          const pageNum = n + 1;
          return (
-//           <button
+           <button
 //             key={pageNum}
 //             onClick={() => handlePageChange(pageNum)}
 //             className={`w-11 h-11 rounded-lg text-sm font-bold transition-all ${
