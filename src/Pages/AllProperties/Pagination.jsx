@@ -52,7 +52,7 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
                currentPage === pageNum
                  ? "bg-blue-600 text-white shadow-lg"
                  : "bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border border-gray-200 dark:border-gray-700"
-//             }`}
+             }`}
 //           >
 //              {pageNum}
 //            </button>
