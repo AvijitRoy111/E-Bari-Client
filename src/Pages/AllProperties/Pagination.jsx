@@ -4,7 +4,7 @@ import Skeleton from "./SkeletonSkeleton"; // Ensure the path is correct
 
 const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
   
-//   // Render detailed skeleton while loading
+  // Render detailed skeleton while loading
 //   if (loading) {
 //     return (
 //       <div className="flex justify-center items-center mt-12 gap-2">
