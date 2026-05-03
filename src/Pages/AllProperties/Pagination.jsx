@@ -48,8 +48,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
            <button
              key={pageNum}
              onClick={() => handlePageChange(pageNum)}
-//             className={`w-11 h-11 rounded-lg text-sm font-bold transition-all ${
-//               currentPage === pageNum
+             className={`w-11 h-11 rounded-lg text-sm font-bold transition-all ${
+               currentPage === pageNum
 //                 ? "bg-blue-600 text-white shadow-lg"
 //                 : "bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 border border-gray-200 dark:border-gray-700"
 //             }`}
