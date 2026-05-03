@@ -22,8 +22,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
       );
     }
 
-//   // Return null if there is only one page or no items
-//   if (totalPages <= 1) return null;
+   // Return null if there is only one page or no items
+   if (totalPages <= 1) return null;
 
 //   // Handle page navigation and scroll to top
 //   const handlePageChange = (newPage) => {
