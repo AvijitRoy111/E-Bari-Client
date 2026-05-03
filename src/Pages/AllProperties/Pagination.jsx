@@ -43,8 +43,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
 
         {/* Render dynamic page number buttons */}
         {[...Array(totalPages).keys()].map((n) => {
-//         const pageNum = n + 1;
-//         return (
+         const pageNum = n + 1;
+         return (
 //           <button
 //             key={pageNum}
 //             onClick={() => handlePageChange(pageNum)}
