@@ -2,7 +2,7 @@ import React from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Skeleton from "./SkeletonSkeleton"; // Ensure the path is correct
 
-// const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
+const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
   
 //   // Render detailed skeleton while loading
 //   if (loading) {
