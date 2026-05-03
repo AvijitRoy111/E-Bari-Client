@@ -1,6 +1,6 @@
-// import React from "react";
-// import { ChevronLeft, ChevronRight } from "lucide-react";
-// import Skeleton from "./SkeletonSkeleton"; // Ensure the path is correct
+import React from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import Skeleton from "./SkeletonSkeleton"; // Ensure the path is correct
 
 // const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
   
