@@ -65,8 +65,8 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
           className="p-2 rounded-lg border dark:border-gray-700 dark:text-white disabled:opacity-30 hover:bg-gray-100 dark:hover:bg-gray-800"
         >
           <ChevronRight size={20} />
-//        </button>
-//      </div>
+        </button>
+      </div>
 //    );
 //  };
 
