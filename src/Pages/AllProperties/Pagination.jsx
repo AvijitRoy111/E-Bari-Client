@@ -31,9 +31,9 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
      window.scrollTo({ top: 0, behavior: "smooth" });
    };
 
-//   return (
-//     <div className="flex justify-center items-center mt-12 gap-2">
-//       <button
+  return (
+    <div className="flex justify-center items-center mt-12 gap-2">
+      <button
 //         disabled={currentPage === 1}
 //         onClick={() => handlePageChange(currentPage - 1)}
 //         className="p-2 rounded-lg border dark:border-gray-700 dark:text-white disabled:opacity-30 hover:bg-gray-100 dark:hover:bg-gray-800"
