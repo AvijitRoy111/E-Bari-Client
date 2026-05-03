@@ -62,7 +62,7 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
         <button
           disabled={currentPage === totalPages}
           onClick={() => handlePageChange(currentPage + 1)}
-//          className="p-2 rounded-lg border dark:border-gray-700 dark:text-white disabled:opacity-30 hover:bg-gray-100 dark:hover:bg-gray-800"
+          className="p-2 rounded-lg border dark:border-gray-700 dark:text-white disabled:opacity-30 hover:bg-gray-100 dark:hover:bg-gray-800"
 //        >
 //          <ChevronRight size={20} />
 //        </button>
