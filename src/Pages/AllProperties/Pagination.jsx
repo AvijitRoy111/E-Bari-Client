@@ -25,11 +25,11 @@ const Pagination = ({ loading, totalPages, currentPage, setCurrentPage }) => {
    // Return null if there is only one page or no items
    if (totalPages <= 1) return null;
 
-//   // Handle page navigation and scroll to top
-//   const handlePageChange = (newPage) => {
-//     setCurrentPage(newPage);
-//     window.scrollTo({ top: 0, behavior: "smooth" });
-//   };
+   // Handle page navigation and scroll to top
+   const handlePageChange = (newPage) => {
+     setCurrentPage(newPage);
+     window.scrollTo({ top: 0, behavior: "smooth" });
+   };
 
 //   return (
 //     <div className="flex justify-center items-center mt-12 gap-2">
