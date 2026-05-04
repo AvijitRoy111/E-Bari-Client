@@ -1,6 +1,6 @@
-// import React from 'react';
-// import { Mail, Phone, MapPin, Send, MessageSquare } from 'lucide-react';
-// import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
+import React from 'react';
+import { Mail, Phone, MapPin, Send, MessageSquare } from 'lucide-react';
+import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 
 // const Contact = () => {
 //   return (
