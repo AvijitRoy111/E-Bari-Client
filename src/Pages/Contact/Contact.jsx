@@ -13,14 +13,14 @@ const Contact = () => {
        <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
-//           {/* Left Side: Contact Information */}
-//            <div className="space-y-8"> 
-//             <div>
-//               <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
-//                 Let's talk about <br /> <span className="text-blue-600">your next home.</span>
-//               </h1>
-//               <p className="text-gray-500 dark:text-gray-400 text-lg max-w-md">
-//                 Have questions about our properties or need expert advice? Our team is here to help you every step of the way.
+           {/* Left Side: Contact Information */}
+            <div className="space-y-8"> 
+             <div>
+               <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
+                 Let's talk about <br /> <span className="text-blue-600">your next home.</span>
+               </h1>
+               <p className="text-gray-500 dark:text-gray-400 text-lg max-w-md">
+                 Have questions about our properties or need expert advice? Our team is here to help you every step of the way.
 //               </p>
 //             </div> 
 
