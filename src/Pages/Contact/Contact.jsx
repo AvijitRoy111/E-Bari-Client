@@ -52,11 +52,11 @@ const Contact = () => {
                  </div>
                  <div>
                    <p className="text-sm text-gray-500 dark:text-gray-400">Visit Office</p>
-//                   <p className="text-lg font-semibold text-gray-900 dark:text-white">Dhanmondi, Dhaka, Bangladesh</p>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
+                   <p className="text-lg font-semibold text-gray-900 dark:text-white">Dhanmondi, Dhaka, Bangladesh</p>
+                 </div>
+               </div>
+             </div>
+           </div>
 
 //           {/* Right Side: Contact Form */}
 //           <div className="bg-white dark:bg-gray-800 p-8 md:p-10 rounded-[2.5rem] shadow-xl shadow-blue-500/5 border border-gray-100 dark:border-gray-700">
