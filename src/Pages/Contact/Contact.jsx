@@ -62,8 +62,8 @@ const Contact = () => {
            <div className="bg-white dark:bg-gray-800 p-8 md:p-10 rounded-[2.5rem] shadow-xl shadow-blue-500/5 border border-gray-100 dark:border-gray-700">
              <div className="mb-8 flex items-center gap-3">
                 <MessageSquare className="w-6 h-6 text-blue-600" />
-//                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Send Message</h3>
-//             </div>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white">Send Message</h3>
+            </div>
             
 //             <form className="space-y-5">
 //               <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
