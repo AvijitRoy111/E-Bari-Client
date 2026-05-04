@@ -41,10 +41,10 @@ const Contact = () => {
                    <Phone className="w-6 h-6 text-green-600" />
                  </div>
                  <div>
-//                   <p className="text-sm text-gray-500 dark:text-gray-400">Call us</p>
-//                   <p className="text-lg font-semibold text-gray-900 dark:text-white">+880 1234-567890</p>
-//                 </div>
-//               </div>
+                   <p className="text-sm text-gray-500 dark:text-gray-400">Call us</p>
+                   <p className="text-lg font-semibold text-gray-900 dark:text-white">+880 1234-567890</p>
+                 </div>
+               </div>
 
 //               <div className="flex items-center p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow">
 //                 <div className="p-3 bg-purple-50 dark:bg-purple-900/30 rounded-xl mr-4">
