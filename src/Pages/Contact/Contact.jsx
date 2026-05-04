@@ -96,19 +96,19 @@ const Contact = () => {
 
                <div className="space-y-2">
                  <label className="text-sm font-medium text-gray-700 dark:text-gray-300 ml-1">Message</label>
-//                 <textarea 
-//                   rows="4" 
-//                   placeholder="Tell us how we can help..."
-//                   className="w-full px-5 py-3 rounded-xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white resize-none"
-//                 ></textarea>
-//               </div>
+                 <textarea 
+                   rows="4" 
+                   placeholder="Tell us how we can help..."
+                   className="w-full px-5 py-3 rounded-xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white resize-none"
+                 ></textarea>
+              </div>
 
-//               <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2 transition-all transform active:scale-[0.98]">
-//                 <Send className="w-5 h-5" />
-//                 Send Message
-//               </button>
-//             </form>
-//           </div>
+               <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-500/30 flex items-center justify-center gap-2 transition-all transform active:scale-[0.98]">
+                 <Send className="w-5 h-5" />
+                 Send Message
+               </button>
+             </form>
+           </div>
 
 //         </div>
 //       </section>
