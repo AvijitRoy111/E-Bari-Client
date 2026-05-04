@@ -110,10 +110,10 @@ const Contact = () => {
              </form>
            </div>
 
-//         </div>
-//       </section>
-//     </div>
-//   );
+         </div>
+       </section>
+     </div>
+   );
 // };
 
 // export default Contact;
