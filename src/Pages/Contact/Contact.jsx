@@ -2,13 +2,13 @@ import React from 'react';
 import { Mail, Phone, MapPin, Send, MessageSquare } from 'lucide-react';
 import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 
-// const Contact = () => {
-//   return (
-//     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-//       {/* Breadcrumb Section */}
-//       <div className="max-w-7xl mx-auto px-6 pt-8">
-//         <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]} />
-//       </div>
+const Contact = () => {
+  return (
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+      {/* Breadcrumb Section */}
+      <div className="max-w-7xl mx-auto px-6 pt-8">
+        <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]} />
+      </div>
 
 //       <section className="max-w-7xl mx-auto px-6 py-12 md:py-20">
 //         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
