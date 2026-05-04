@@ -77,10 +77,10 @@ const Contact = () => {
                  </div>
                  <div className="space-y-2">
                    <label className="text-sm font-medium text-gray-700 dark:text-gray-300 ml-1">Email Address</label>
-//                   <input 
-//                     type="email" 
-//                     placeholder="Write your email address !"
-//                     className="w-full px-5 py-3 rounded-xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
+                   <input 
+                     type="email" 
+                     placeholder="Write your email address !"
+                     className="w-full px-5 py-3 rounded-xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
 //                   />
 //                 </div>
 //               </div>
