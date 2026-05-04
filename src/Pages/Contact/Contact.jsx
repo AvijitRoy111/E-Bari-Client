@@ -21,8 +21,8 @@ const Contact = () => {
                </h1>
                <p className="text-gray-500 dark:text-gray-400 text-lg max-w-md">
                  Have questions about our properties or need expert advice? Our team is here to help you every step of the way.
-//               </p>
-//             </div> 
+               </p>
+             </div> 
 
 //             <div className="grid gap-6">
 //               {/* Contact Cards */}
