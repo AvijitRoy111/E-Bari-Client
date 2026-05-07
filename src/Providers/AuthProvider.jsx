@@ -99,7 +99,7 @@ export const AuthProvider = ({ children }) => {
     loading,
     setLoading,
     login,
-//     logout,
+    logout,
 //   };
 
 //   return (
