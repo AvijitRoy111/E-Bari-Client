@@ -93,10 +93,10 @@ export const AuthProvider = ({ children }) => {
     }
   }, []);
 
-//   // Context values to be shared across the app
-//   const authInfo = {
-//     user,
-//     loading,
+  // Context values to be shared across the app
+  const authInfo = {
+    user,
+    loading,
 //     setLoading,
 //     login,
 //     logout,
