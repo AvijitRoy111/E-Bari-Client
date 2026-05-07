@@ -65,14 +65,14 @@ export const AuthProvider = ({ children }) => {
     });
   };
 
-//   /**
-//    * 3. Logout function
-//    */
-//   const logout = () => {
-//     setLoading(true);
-//     localStorage.removeItem("user-email");
-//     setUser(null);
-//     setLoading(false);
+  /**
+   * 3. Logout function
+   */
+  const logout = () => {
+    setLoading(true);
+    localStorage.removeItem("user-email");
+    setUser(null);
+    setLoading(false);
     
 //     // Success Toast for Logout
 //     Toast.fire({
