@@ -1,15 +1,21 @@
-import React, { useState } from 'react';
-import { Eye, EyeOff, Mail, Lock, User, ArrowRight, Phone, Image as ImageIcon, Loader2 } from 'lucide-react';
-import { Link, useNavigate } from 'react-router-dom';
-import { registerUser } from '@/api/authApi';
-import { toast, Toaster } from 'react-hot-toast'; // ✅ Toaster ইম্পোর্ট করা হয়েছে
+import React, { useState, useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { toast, Toaster } from "react-hot-toast";
+import { 
+  User, Mail, Phone, Image as ImageIcon, Lock, 
+  Eye, EyeOff, Loader2
+} from "lucide-react";
+import axiosPublic from "@/api/axiosPublic";
+import { AuthContext } from "@/Providers/AuthProvider";
 
 const SignUp = () => {
   const navigate = useNavigate();
+  const { login } = useContext(AuthContext);
 
-  const [showPassword, setShowPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const [agreed, setAgreed] = useState(false); // ✅ Terms and conditions এর জন্য স্টেট
+  const [loading, setLoading] = useState(false);
+  const [agreed, setAgreed] = useState(false);
+  const [error, setError] = useState("");
+  const [showPass, setShowPass] = useState(false);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -20,9 +26,6 @@ const SignUp = () => {
     confirmPassword: ""
   });
 
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState("");
-
   const handleChange = (e) => {
     setError("");
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -30,20 +33,12 @@ const SignUp = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // ✅ ভ্যালিডেশন
     if (!agreed) {
-      setError("Please agree to the Terms and Conditions ⚠️");
+      toast.error("Please agree to the terms and conditions!");
       return;
     }
-
     if (formData.password !== formData.confirmPassword) {
-      setError("Passwords do not match ❌");
-      return;
-    }
-
-    if (formData.password.length < 6) {
-      setError("Password must be at least 6 characters");
+      setError("Passwords do not match");
       return;
     }
 
@@ -57,156 +52,182 @@ const SignUp = () => {
         password: formData.password
       };
 
-      await registerUser(payload);
-      
-      // ✅ সাকসেস টোস্টার
-      toast.success("Account created successfully! 🎉");
-      
-      setTimeout(() => {
-        navigate("/signin");
-      }, 2000); // ২ সেকেন্ড পর রিডাইরেক্ট হবে যাতে টোস্টারটি দেখা যায়
+      const res = await axiosPublic.post("/auth/create-user", payload);
 
-    } catch (err) {
-      setError(err?.response?.data?.message || "Something went wrong");
-      toast.error(err?.response?.data?.message || "Registration failed");
-      if (err?.response?.data?.message === "User already exists") {
-        navigate("/signin");
+      if (res.data.success) {
+        toast.success("Welcome to E-Bari! Account created.");
+        await login(formData.email);
+        navigate("/");
       }
+    } catch (err) {
+      const msg = err.response?.data?.message || "Something went wrong";
+      setError(msg);
+      toast.error(msg);
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen w-full flex items-center justify-center p-4 font-sans bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
-      {/* ✅ টোস্টার কন্টেইনার */}
+    <div className="min-h-screen w-full flex items-center justify-center bg-gray-50 dark:bg-gray-950 p-4 py-12">
       <Toaster position="top-center" reverseOrder={false} />
 
-      <div className="max-w-5xl w-full bg-white dark:bg-slate-900 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col md:flex-row border border-transparent dark:border-slate-800">
+      <div className="max-w-4xl w-full bg-white dark:bg-gray-900 rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row border dark:border-gray-800">
         
-        {/* Left Side: Illustration */}
-        <div className="hidden md:flex md:w-1/2 bg-sky-600 dark:bg-sky-700 p-12 text-white flex-col justify-center items-center relative overflow-hidden">
-          <div className="z-10 text-center">
-            <h2 className="text-4xl font-extrabold mb-4 tracking-tight">Join Us Today!</h2>
-            <p className="text-sky-100 text-lg opacity-90">Create your account and unlock a world of new possibilities.</p>
+        {/* --- বাম দিকের সেকশন (ILLUSTRATION) --- */}
+        <div className="md:w-5/12 bg-green-700 p-10 text-white flex flex-col items-center justify-between">
+          <div className="text-center w-full">
+            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-4 backdrop-blur-md mx-auto transform rotate-12">
+              <span className="text-3xl font-extrabold italic -rotate-12">B</span>
+            </div>
+            <h2 className="text-3xl font-bold tracking-tight">E-Bari</h2>
+            <p className="text-green-100/80 text-sm mt-2">Find your comfort, find your home.</p>
           </div>
-          <div className="z-10 mt-10 animate-float">
-            <img 
-              src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" 
-              alt="Laptop" 
-              className="w-40 h-40 object-contain drop-shadow-2xl"
-            />
+
+          {/* এখানে একটি সুন্দর SVG ইলাস্ট্রেশন যোগ করা হয়েছে */}
+          <div className="relative w-full flex justify-center py-10">
+            <div className="absolute inset-0 bg-green-500/20 blur-3xl rounded-full"></div>
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-56 h-56 relative z-10 animate-pulse-slow">
+              <path fill="#FFFFFF" d="M44.7,-76.4C58.1,-69.2,70.1,-59,78.8,-46.3C87.4,-33.5,92.6,-18.2,91.3,-3.3C90,11.5,82.3,26,72.6,38.8C62.9,51.6,51.2,62.7,37.6,71.2C24,79.8,8.5,85.8,-6.2,85.8C-20.9,85.8,-34.8,79.8,-47.5,71C-60.2,62.3,-71.7,50.7,-78.9,37C-86,23.3,-88.9,7.5,-86.6,-7.7C-84.3,-22.9,-76.8,-37.6,-66.2,-49.2C-55.6,-60.8,-41.9,-69.3,-28.4,-76.3C-14.9,-83.4,-1.6,-88.9,13.2,-87.3C28,-85.7,44.7,-76.4Z" transform="translate(100 100)" opacity="0.1" />
+              <rect x="60" y="80" width="80" height="60" rx="4" fill="white" />
+              <path d="M60 80L100 50L140 80H60Z" fill="#A7F3D0" />
+              <rect x="92" y="115" width="16" height="25" fill="#065F46" />
+              <circle cx="140" cy="50" r="15" fill="#FDE047" opacity="0.8" />
+            </svg>
+          </div>
+
+          <div className="text-center">
+             <p className="text-xs text-green-200 font-medium tracking-widest uppercase">Premium Real Estate Solution</p>
           </div>
         </div>
 
-        {/* Right Side: Form */}
-        <div className="w-full md:w-1/2 p-8 md:p-14 bg-white dark:bg-slate-900 flex flex-col justify-center">
-          <div className="mb-8 text-center md:text-left">
-            <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Create Account</h2>
-            <p className="text-gray-500 dark:text-slate-400 mt-2">Please fill in the details below</p>
+        {/* --- ডান দিকের সেকশন (FORM) --- */}
+        <div className="md:w-7/12 p-8 lg:p-12">
+          <div className="mb-8">
+            <h3 className="text-2xl font-bold text-gray-800 dark:text-white">Create Account</h3>
+            <p className="text-gray-500 dark:text-gray-400 mt-1 text-sm">Join our community and explore thousands of properties.</p>
           </div>
 
-          {error && (
-            <div className="bg-red-50 border-l-4 border-red-500 text-red-700 p-3 mb-6 rounded-r-lg text-sm flex items-center">
-              <span>{error}</span>
-            </div>
-          )}
-
-          <form className="space-y-4" onSubmit={handleSubmit}>
-            
-            <div className="relative group">
-              <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
-                <User size={19} />
-              </span>
-              <input type="text" name="name" required placeholder="Full Name" onChange={handleChange} className="w-full pl-10 pr-4 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 outline-none transition-all dark:text-white" />
-            </div>
-
+          <form onSubmit={handleSubmit} className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="relative group">
-                <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
-                  <Mail size={19} />
-                </span>
-                <input type="email" name="email" required placeholder="Email" onChange={handleChange} className="w-full pl-10 pr-4 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 outline-none transition-all dark:text-white" />
+                <User className="absolute left-3 top-3 text-gray-400 group-focus-within:text-green-600 transition-colors w-5 h-5" />
+                <input 
+                  name="name" 
+                  placeholder="Full Name" 
+                  required
+                  onChange={handleChange} 
+                  className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:ring-2 focus:ring-green-500 focus:bg-white dark:focus:bg-gray-900 outline-none transition-all dark:text-white"
+                />
               </div>
 
               <div className="relative group">
-                <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
-                  <Phone size={19} />
-                </span>
-                <input type="text" name="phone" placeholder="Phone" onChange={handleChange} className="w-full pl-10 pr-4 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 outline-none transition-all dark:text-white" />
+                <Mail className="absolute left-3 top-3 text-gray-400 group-focus-within:text-green-600 transition-colors w-5 h-5" />
+                <input 
+                  type="email"
+                  name="email" 
+                  placeholder="Email Address" 
+                  required
+                  onChange={handleChange} 
+                  className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:ring-2 focus:ring-green-500 focus:bg-white dark:focus:bg-gray-900 outline-none transition-all dark:text-white"
+                />
+              </div>
+
+              <div className="relative group">
+                <Phone className="absolute left-3 top-3 text-gray-400 group-focus-within:text-green-600 transition-colors w-5 h-5" />
+                <input 
+                  name="phone" 
+                  placeholder="Phone Number" 
+                  required
+                  onChange={handleChange} 
+                  className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:ring-2 focus:ring-green-500 focus:bg-white dark:focus:bg-gray-900 outline-none transition-all dark:text-white"
+                />
+              </div>
+
+              <div className="relative group">
+                <ImageIcon className="absolute left-3 top-3 text-gray-400 group-focus-within:text-green-600 transition-colors w-5 h-5" />
+                <input 
+                  name="image" 
+                  placeholder="Profile Image URL" 
+                  onChange={handleChange} 
+                  className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:ring-2 focus:ring-green-500 focus:bg-white dark:focus:bg-gray-900 outline-none transition-all dark:text-white"
+                />
               </div>
             </div>
 
             <div className="relative group">
-              <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
-                <ImageIcon size={19} />
-              </span>
-              <input type="url" name="image" placeholder="Profile Image URL" onChange={handleChange} className="w-full pl-10 pr-4 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 outline-none transition-all dark:text-white" />
-            </div>
-
-            <div className="relative group">
-              <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
-                <Lock size={19} />
-              </span>
-              <input type={showPassword ? "text" : "password"} name="password" required placeholder="Password" onChange={handleChange} className="w-full pl-10 pr-12 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 outline-none transition-all dark:text-white" />
-              <button type="button" onClick={() => setShowPassword(!showPassword)} className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-sky-600">
-                {showPassword ? <EyeOff size={19} /> : <Eye size={19} />}
+              <Lock className="absolute left-3 top-3 text-gray-400 group-focus-within:text-green-600 transition-colors w-5 h-5" />
+              <input 
+                type={showPass ? "text" : "password"}
+                name="password" 
+                placeholder="Create Password" 
+                required
+                onChange={handleChange} 
+                className="w-full pl-10 pr-12 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:ring-2 focus:ring-green-500 focus:bg-white dark:focus:bg-gray-900 outline-none transition-all dark:text-white"
+              />
+              <button 
+                type="button"
+                onClick={() => setShowPass(!showPass)}
+                className="absolute right-3 top-3 text-gray-400 hover:text-green-600 transition-colors"
+              >
+                {showPass ? <EyeOff size={20}/> : <Eye size={20}/>}
               </button>
             </div>
 
             <div className="relative group">
-              <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400 group-focus-within:text-sky-500">
-                <Lock size={19} />
-              </span>
-              <input type={showConfirmPassword ? "text" : "password"} name="confirmPassword" required placeholder="Confirm Password" onChange={handleChange} className="w-full pl-10 pr-12 py-3 bg-gray-50 dark:bg-slate-800/50 border border-gray-200 dark:border-slate-700 rounded-xl focus:ring-2 focus:ring-sky-500 outline-none transition-all dark:text-white" />
-              <button type="button" onClick={() => setShowConfirmPassword(!showConfirmPassword)} className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-sky-600">
-                {showConfirmPassword ? <EyeOff size={19} /> : <Eye size={19} />}
-              </button>
+              <Lock className="absolute left-3 top-3 text-gray-400 group-focus-within:text-green-600 transition-colors w-5 h-5" />
+              <input 
+                type="password"
+                name="confirmPassword" 
+                placeholder="Confirm Password" 
+                required
+                onChange={handleChange} 
+                className="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:ring-2 focus:ring-green-500 focus:bg-white dark:focus:bg-gray-900 outline-none transition-all dark:text-white"
+              />
             </div>
 
-            {/*  Terms and Conditions Checkbox */}
-            <div className="flex items-center gap-2 px-1 py-2">
+            <div className="flex items-center gap-2 py-1">
               <input 
                 type="checkbox" 
-                id="terms" 
-                checked={agreed}
-                onChange={(e) => setAgreed(e.target.checked)}
-                className="w-4 h-4 rounded text-sky-600 focus:ring-sky-500 border-gray-300 cursor-pointer"
+                id="agreed"
+                className="w-4 h-4 rounded accent-green-600 cursor-pointer"
+                onChange={(e) => setAgreed(e.target.checked)} 
               />
-              <label htmlFor="terms" className="text-sm text-gray-500 dark:text-slate-400 cursor-pointer">
-                I agree to the <span className="text-sky-600 hover:underline">Terms & Conditions</span>
+              <label htmlFor="agreed" className="text-xs text-gray-600 dark:text-gray-400 cursor-pointer select-none">
+                I agree to the <span className="text-green-600 font-bold">Terms</span> & <span className="text-green-600 font-bold">Privacy</span>
               </label>
             </div>
 
+            {error && (
+              <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-3 text-red-600 dark:text-red-400 text-xs font-medium">
+                {error}
+              </div>
+            )}
+
             <button 
-              disabled={loading}
-              className="w-full bg-sky-600 hover:bg-sky-700 text-white font-bold py-3.5 rounded-xl shadow-lg transform hover:-translate-y-1 transition-all flex items-center justify-center gap-2 group disabled:opacity-70 disabled:cursor-not-allowed"
+              type="submit"
+              disabled={loading} 
+              className="w-full bg-green-700 hover:bg-green-800 disabled:bg-green-400 text-white font-bold py-3.5 rounded-xl transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 shadow-xl shadow-green-200 dark:shadow-none mt-2"
             >
               {loading ? (
-                <><Loader2 size={20} className="animate-spin" /> Processing...</>
+                <>
+                  <Loader2 className="animate-spin" size={20} />
+                  Creating Account...
+                </>
               ) : (
-                <><ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" /> Create Account</>
+                "Create Account"
               )}
             </button>
-          </form>
 
-          <p className="text-center text-gray-500 dark:text-slate-400 mt-8">
-            Already have an account? 
-            <Link to="/signin" className="text-sky-600 dark:text-sky-400 font-bold hover:underline ml-1">Sign In</Link> 
-          </p>
+            <p className="text-center text-gray-600 dark:text-gray-400 mt-6 text-sm">
+              Already have an account?{" "}
+              <Link to="/signin" className="text-green-700 font-bold hover:underline underline-offset-4">
+                Sign In
+              </Link>
+            </p>
+          </form>
         </div>
       </div>
-      
-      {/* CSS Animations */}
-      <style jsx>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-15px); }
-        }
-        .animate-float {
-          animation: float 4s ease-in-out infinite;
-        }
-      `}</style>
     </div>
   );
 };
