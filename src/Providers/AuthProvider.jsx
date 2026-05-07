@@ -97,8 +97,8 @@ export const AuthProvider = ({ children }) => {
   const authInfo = {
     user,
     loading,
-//     setLoading,
-//     login,
+    setLoading,
+    login,
 //     logout,
 //   };
 
