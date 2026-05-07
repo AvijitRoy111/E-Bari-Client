@@ -30,9 +30,9 @@ export const AuthProvider = ({ children }) => {
       setLoading(true);
       const res = await axiosPublic.get(`/auth/current-user?email=${email}`);
       
-//       if (res.data.success) {
-//         setUser(res.data.data);
-//       } else {
+      if (res.data.success) {
+        setUser(res.data.data);
+      } else {
 //         // If user not found in database
 //         setUser(null);
 //         localStorage.removeItem("user-email");
