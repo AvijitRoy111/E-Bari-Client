@@ -104,7 +104,7 @@ export const AuthProvider = ({ children }) => {
 
   return (
     <AuthContext.Provider value={authInfo}>
-//       {children}
+       {children}
 //     </AuthContext.Provider>
 //   );
 // };
