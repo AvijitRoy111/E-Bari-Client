@@ -106,7 +106,7 @@ export const AuthProvider = ({ children }) => {
     <AuthContext.Provider value={authInfo}>
        {children}
      </AuthContext.Provider>
-//   );
-// };
+   );
+ };
 
 // export default AuthProvider;
