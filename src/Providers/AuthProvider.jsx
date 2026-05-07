@@ -100,7 +100,7 @@ export const AuthProvider = ({ children }) => {
     setLoading,
     login,
     logout,
-//   };
+  };
 
 //   return (
 //     <AuthContext.Provider value={authInfo}>
