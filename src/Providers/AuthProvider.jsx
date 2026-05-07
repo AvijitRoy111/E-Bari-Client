@@ -74,12 +74,12 @@ export const AuthProvider = ({ children }) => {
     setUser(null);
     setLoading(false);
     
-//     // Success Toast for Logout
-//     Toast.fire({
-//       icon: "success",
-//       title: "Logged out successfully"
-//     });
-//   };
+    // Success Toast for Logout
+    Toast.fire({
+      icon: "success",
+      title: "Logged out successfully"
+    });
+  };
 
 //   /**
 //    * 4. Auto-login (Recovers data on page refresh)
