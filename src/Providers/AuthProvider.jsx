@@ -21,9 +21,9 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-//   /**
-//    * 1. Fetch current user data from backend
-//    * @param {string} email 
+  /**
+   * 1. Fetch current user data from backend
+   * @param {string} email 
 //    */
 //   const fetchCurrentUser = async (email) => {
 //     try {
