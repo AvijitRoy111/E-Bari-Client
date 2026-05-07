@@ -33,10 +33,10 @@ export const AuthProvider = ({ children }) => {
       if (res.data.success) {
         setUser(res.data.data);
       } else {
-//         // If user not found in database
-//         setUser(null);
-//         localStorage.removeItem("user-email");
-//       }
+        // If user not found in database
+        setUser(null);
+        localStorage.removeItem("user-email");
+      }
 //     } catch (error) {
 //       console.error("User fetch error:", error);
 //       setUser(null);
