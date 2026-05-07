@@ -53,17 +53,17 @@ export const AuthProvider = ({ children }) => {
   const login = async (email) => {
     if (!email) return;
     
-//     setLoading(true);
-//     // Save email to storage to persist data on refresh
-//     localStorage.setItem("user-email", email);
-//     await fetchCurrentUser(email);
+    setLoading(true);
+    // Save email to storage to persist data on refresh
+    localStorage.setItem("user-email", email);
+    await fetchCurrentUser(email);
 
-//     // Success Toast for Login
-//     Toast.fire({
-//       icon: "success",
-//       title: "Signed in successfully"
-//     });
-//   };
+    // Success Toast for Login
+    Toast.fire({
+      icon: "success",
+      title: "Signed in successfully"
+    });
+  };
 
 //   /**
 //    * 3. Logout function
