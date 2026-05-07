@@ -37,14 +37,14 @@ export const AuthProvider = ({ children }) => {
         setUser(null);
         localStorage.removeItem("user-email");
       }
-//     } catch (error) {
-//       console.error("User fetch error:", error);
-//       setUser(null);
-//       localStorage.removeItem("user-email");
-//     } finally {
-//       setLoading(false);
-//     }
-//   };
+    } catch (error) {
+      console.error("User fetch error:", error);
+      setUser(null);
+      localStorage.removeItem("user-email");
+    } finally {
+      setLoading(false);
+    }
+  };
 
 //   /**
 //    * 2. Login function (Called from SignIn page)
