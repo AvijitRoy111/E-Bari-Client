@@ -81,17 +81,17 @@ export const AuthProvider = ({ children }) => {
     });
   };
 
-//   /**
-//    * 4. Auto-login (Recovers data on page refresh)
-//    */
-//   useEffect(() => {
-//     const savedEmail = localStorage.getItem("user-email");
-//     if (savedEmail) {
-//       fetchCurrentUser(savedEmail);
-//     } else {
-//       setLoading(false);
-//     }
-//   }, []);
+  /**
+   * 4. Auto-login (Recovers data on page refresh)
+   */
+  useEffect(() => {
+    const savedEmail = localStorage.getItem("user-email");
+    if (savedEmail) {
+      fetchCurrentUser(savedEmail);
+    } else {
+      setLoading(false);
+    }
+  }, []);
 
 //   // Context values to be shared across the app
 //   const authInfo = {
