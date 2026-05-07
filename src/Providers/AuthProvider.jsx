@@ -46,12 +46,12 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-//   /**
-//    * 2. Login function (Called from SignIn page)
-//    * @param {string} email 
-//    */
-//   const login = async (email) => {
-//     if (!email) return;
+  /**
+   * 2. Login function (Called from SignIn page)
+   * @param {string} email 
+   */
+  const login = async (email) => {
+    if (!email) return;
     
 //     setLoading(true);
 //     // Save email to storage to persist data on refresh
