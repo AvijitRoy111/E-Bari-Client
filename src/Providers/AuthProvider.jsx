@@ -24,9 +24,9 @@ export const AuthProvider = ({ children }) => {
   /**
    * 1. Fetch current user data from backend
    * @param {string} email 
-//    */
-//   const fetchCurrentUser = async (email) => {
-//     try {
+   */
+  const fetchCurrentUser = async (email) => {
+    try {
 //       setLoading(true);
 //       const res = await axiosPublic.get(`/auth/current-user?email=${email}`);
       
