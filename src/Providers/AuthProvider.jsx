@@ -27,8 +27,8 @@ export const AuthProvider = ({ children }) => {
    */
   const fetchCurrentUser = async (email) => {
     try {
-//       setLoading(true);
-//       const res = await axiosPublic.get(`/auth/current-user?email=${email}`);
+      setLoading(true);
+      const res = await axiosPublic.get(`/auth/current-user?email=${email}`);
       
 //       if (res.data.success) {
 //         setUser(res.data.data);
