@@ -40,8 +40,8 @@ const AllProperties = () => {
         item.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.address?.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesType =
-//         activeTab === "All" ||
-//         item.category?.toLowerCase() === activeTab.toLowerCase();
+        activeTab === "All" ||
+        item.category?.toLowerCase() === activeTab.toLowerCase();
 //       const matchesPrice = (item.price_min || 0) <= maxPrice;
 //       return matchesSearch && matchesType && matchesPrice;
 //     });
