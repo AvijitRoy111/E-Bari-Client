@@ -82,12 +82,12 @@ const AllProperties = () => {
             toggleFavorite={toggleFavorite}
           />
 
-//           {/* Hide pagination while loading for a cleaner look */}
-//           {!loading && (
-//             <Pagination
-//               totalPages={totalPages}
-//               currentPage={currentPage}
-//               setCurrentPage={setCurrentPage}
+           {/* Hide pagination while loading for a cleaner look */}
+           {!loading && (
+             <Pagination
+               totalPages={totalPages}
+               currentPage={currentPage}
+               setCurrentPage={setCurrentPage}
 //             />
 //           )}
 //         </div>
