@@ -69,8 +69,8 @@ const AllProperties = () => {
             loading={loading}
             searchTerm={searchTerm}
             setSearchTerm={setSearchTerm}
-//             activeTab={activeTab}
-//             setActiveTab={setActiveTab}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
 //             maxPrice={maxPrice}
 //             setMaxPrice={setMaxPrice}
 //           />
