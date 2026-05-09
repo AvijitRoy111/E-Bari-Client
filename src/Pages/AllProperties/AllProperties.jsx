@@ -44,10 +44,10 @@ const AllProperties = () => {
         item.category?.toLowerCase() === activeTab.toLowerCase();
       const matchesPrice = (item.price_min || 0) <= maxPrice;
       return matchesSearch && matchesType && matchesPrice;
-//     });
-//   }, [properties, searchTerm, activeTab, maxPrice]);
+    });
+  }, [properties, searchTerm, activeTab, maxPrice]);
 
-//   const totalPages = Math.ceil(filteredProperties.length / itemsPerPage);
+  const totalPages = Math.ceil(filteredProperties.length / itemsPerPage);
 
 //   const currentItems = useMemo(() => {
 //     const start = (currentPage - 1) * itemsPerPage;
