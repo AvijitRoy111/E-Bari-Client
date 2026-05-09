@@ -49,9 +49,9 @@ const AllProperties = () => {
 
   const totalPages = Math.ceil(filteredProperties.length / itemsPerPage);
 
-//   const currentItems = useMemo(() => {
-//     const start = (currentPage - 1) * itemsPerPage;
-//     return filteredProperties.slice(start, start + itemsPerPage);
+  const currentItems = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    return filteredProperties.slice(start, start + itemsPerPage);
 //   }, [filteredProperties, currentPage]);
 
 //   useEffect(() => {
