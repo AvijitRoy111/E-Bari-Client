@@ -3,8 +3,8 @@ import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 import useProperties from "@/hooks/useProperties";
 
 import PropertyFilters from "./PropertyFilters";
-// import PropertyGrid from "./PropertyGrid";
-// import Pagination from "./Pagination";
+import PropertyGrid from "./PropertyGrid";
+import Pagination from "./Pagination";
 
 // const AllProperties = () => {
 //   const { properties, loading } = useProperties();
