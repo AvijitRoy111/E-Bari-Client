@@ -11,8 +11,8 @@ const AllProperties = () => {
   const [favorites, setFavorites] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [activeTab, setActiveTab] = useState("All");
-//   const [maxPrice, setMaxPrice] = useState(600000);
-//   const [currentPage, setCurrentPage] = useState(1);
+  const [maxPrice, setMaxPrice] = useState(600000);
+  const [currentPage, setCurrentPage] = useState(1);
 
 //   const itemsPerPage = 6;
 
