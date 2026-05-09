@@ -88,12 +88,12 @@ const AllProperties = () => {
                totalPages={totalPages}
                currentPage={currentPage}
                setCurrentPage={setCurrentPage}
-//             />
-//           )}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
+            />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
 
-// export default AllProperties;
+export default AllProperties;
