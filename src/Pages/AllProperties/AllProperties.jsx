@@ -77,10 +77,10 @@ const AllProperties = () => {
 
            <PropertyGrid
              loading={loading}
-//             properties={currentItems}
-//             favorites={favorites}
-//             toggleFavorite={toggleFavorite}
-//           />
+            properties={currentItems}
+            favorites={favorites}
+            toggleFavorite={toggleFavorite}
+          />
 
 //           {/* Hide pagination while loading for a cleaner look */}
 //           {!loading && (
