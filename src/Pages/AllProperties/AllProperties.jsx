@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useMemo } from "react";
 import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
-// import useProperties from "@/hooks/useProperties";
+import useProperties from "@/hooks/useProperties";
 
-// import PropertyFilters from "./PropertyFilters";
+import PropertyFilters from "./PropertyFilters";
 // import PropertyGrid from "./PropertyGrid";
 // import Pagination from "./Pagination";
 
