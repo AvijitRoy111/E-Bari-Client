@@ -6,9 +6,9 @@ import PropertyFilters from "./PropertyFilters";
 import PropertyGrid from "./PropertyGrid";
 import Pagination from "./Pagination";
 
-// const AllProperties = () => {
-//   const { properties, loading } = useProperties();
-//   const [favorites, setFavorites] = useState([]);
+const AllProperties = () => {
+  const { properties, loading } = useProperties();
+  const [favorites, setFavorites] = useState([]);
 //   const [searchTerm, setSearchTerm] = useState("");
 //   const [activeTab, setActiveTab] = useState("All");
 //   const [maxPrice, setMaxPrice] = useState(600000);
