@@ -58,10 +58,10 @@ const AllProperties = () => {
     setCurrentPage(1);
   }, [searchTerm, activeTab, maxPrice]);
 
-//   return (
-//     <div className="min-h-screen bg-slate-50 dark:bg-gray-900 transition-colors duration-300 pb-20">
-//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
-//         <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Properties" }]} />
+  return (
+    <div className="min-h-screen bg-slate-50 dark:bg-gray-900 transition-colors duration-300 pb-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Properties" }]} />
         
 //         <div className="mt-8 space-y-10">
 //           {/* Added loading prop here so filters can show skeletons */}
