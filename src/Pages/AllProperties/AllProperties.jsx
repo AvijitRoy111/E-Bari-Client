@@ -66,9 +66,9 @@ const AllProperties = () => {
          <div className="mt-8 space-y-10">
            {/* Added loading prop here so filters can show skeletons */}
            <PropertyFilters
-//             loading={loading}
-//             searchTerm={searchTerm}
-//             setSearchTerm={setSearchTerm}
+            loading={loading}
+            searchTerm={searchTerm}
+            setSearchTerm={setSearchTerm}
 //             activeTab={activeTab}
 //             setActiveTab={setActiveTab}
 //             maxPrice={maxPrice}
