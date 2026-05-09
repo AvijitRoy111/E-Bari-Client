@@ -17,9 +17,9 @@ const AllProperties = () => {
   const itemsPerPage = 6;
 
   useEffect(() => {
-//     const saved = JSON.parse(localStorage.getItem("property-favorites")) || [];
-//     setFavorites(saved);
-//   }, []);
+    const saved = JSON.parse(localStorage.getItem("property-favorites")) || [];
+    setFavorites(saved);
+  }, []);
 
 //   const toggleFavorite = (item) => {
 //     const isExist = favorites.find(fav => fav._id === item._id);
