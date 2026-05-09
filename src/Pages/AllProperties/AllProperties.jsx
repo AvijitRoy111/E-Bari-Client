@@ -54,9 +54,9 @@ const AllProperties = () => {
     return filteredProperties.slice(start, start + itemsPerPage);
   }, [filteredProperties, currentPage]);
 
-//   useEffect(() => {
-//     setCurrentPage(1);
-//   }, [searchTerm, activeTab, maxPrice]);
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm, activeTab, maxPrice]);
 
 //   return (
 //     <div className="min-h-screen bg-slate-50 dark:bg-gray-900 transition-colors duration-300 pb-20">
