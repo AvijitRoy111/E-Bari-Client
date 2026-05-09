@@ -52,7 +52,7 @@ const AllProperties = () => {
   const currentItems = useMemo(() => {
     const start = (currentPage - 1) * itemsPerPage;
     return filteredProperties.slice(start, start + itemsPerPage);
-//   }, [filteredProperties, currentPage]);
+  }, [filteredProperties, currentPage]);
 
 //   useEffect(() => {
 //     setCurrentPage(1);
