@@ -75,8 +75,8 @@ const AllProperties = () => {
             setMaxPrice={setMaxPrice}
           />
 
-//           <PropertyGrid
-//             loading={loading}
+           <PropertyGrid
+             loading={loading}
 //             properties={currentItems}
 //             favorites={favorites}
 //             toggleFavorite={toggleFavorite}
