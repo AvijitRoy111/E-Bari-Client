@@ -71,9 +71,9 @@ const AllProperties = () => {
             setSearchTerm={setSearchTerm}
             activeTab={activeTab}
             setActiveTab={setActiveTab}
-//             maxPrice={maxPrice}
-//             setMaxPrice={setMaxPrice}
-//           />
+            maxPrice={maxPrice}
+            setMaxPrice={setMaxPrice}
+          />
 
 //           <PropertyGrid
 //             loading={loading}
