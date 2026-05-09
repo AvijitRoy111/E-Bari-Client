@@ -21,19 +21,19 @@ const AllProperties = () => {
     setFavorites(saved);
   }, []);
 
-//   const toggleFavorite = (item) => {
-//     const isExist = favorites.find(fav => fav._id === item._id);
-//     let updated;
-//     if (isExist) {
-//       updated = favorites.filter(fav => fav._id !== item._id);
-//     } else {
-//       updated = [...favorites, item];
-//     }
-//     setFavorites(updated);
-//     localStorage.setItem("property-favorites", JSON.stringify(updated));
-//   };
+  const toggleFavorite = (item) => {
+    const isExist = favorites.find(fav => fav._id === item._id);
+    let updated;
+    if (isExist) {
+      updated = favorites.filter(fav => fav._id !== item._id);
+    } else {
+      updated = [...favorites, item];
+    }
+    setFavorites(updated);
+    localStorage.setItem("property-favorites", JSON.stringify(updated));
+  };
 
-//   const filteredProperties = useMemo(() => {
+  const filteredProperties = useMemo(() => {
     if (!properties) return [];
     return properties.filter(item => {
       const matchesSearch =
