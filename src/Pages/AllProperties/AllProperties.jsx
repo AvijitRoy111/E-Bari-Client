@@ -38,8 +38,8 @@ const AllProperties = () => {
     return properties.filter(item => {
       const matchesSearch =
         item.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-//         item.address?.toLowerCase().includes(searchTerm.toLowerCase());
-//       const matchesType =
+        item.address?.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesType =
 //         activeTab === "All" ||
 //         item.category?.toLowerCase() === activeTab.toLowerCase();
 //       const matchesPrice = (item.price_min || 0) <= maxPrice;
