@@ -34,8 +34,8 @@ const AllProperties = () => {
 //   };
 
 //   const filteredProperties = useMemo(() => {
-//     if (!properties) return [];
-//     return properties.filter(item => {
+    if (!properties) return [];
+    return properties.filter(item => {
 //       const matchesSearch =
 //         item.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
 //         item.address?.toLowerCase().includes(searchTerm.toLowerCase());
