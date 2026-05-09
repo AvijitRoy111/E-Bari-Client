@@ -14,9 +14,9 @@ const AllProperties = () => {
   const [maxPrice, setMaxPrice] = useState(600000);
   const [currentPage, setCurrentPage] = useState(1);
 
-//   const itemsPerPage = 6;
+  const itemsPerPage = 6;
 
-//   useEffect(() => {
+  useEffect(() => {
 //     const saved = JSON.parse(localStorage.getItem("property-favorites")) || [];
 //     setFavorites(saved);
 //   }, []);
