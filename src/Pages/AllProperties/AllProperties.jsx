@@ -42,8 +42,8 @@ const AllProperties = () => {
       const matchesType =
         activeTab === "All" ||
         item.category?.toLowerCase() === activeTab.toLowerCase();
-//       const matchesPrice = (item.price_min || 0) <= maxPrice;
-//       return matchesSearch && matchesType && matchesPrice;
+      const matchesPrice = (item.price_min || 0) <= maxPrice;
+      return matchesSearch && matchesType && matchesPrice;
 //     });
 //   }, [properties, searchTerm, activeTab, maxPrice]);
 
