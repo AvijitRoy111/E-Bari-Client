@@ -47,7 +47,7 @@ const Contact = () => {
     // Modal Close and Reset Form
     const handleCloseModal = () => {
         setShowModal(false);
-//         setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+        setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
 //     };
 
 //     return (
