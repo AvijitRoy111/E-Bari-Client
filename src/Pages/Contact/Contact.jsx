@@ -4,7 +4,7 @@ import {
     CheckCircle, Clock, Facebook, Twitter, Instagram, Linkedin 
 } from 'lucide-react';
 import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
-// import axiosPublic from '@/api/axiosPublic';
+import axiosPublic from '@/api/axiosPublic';
 
 // const Contact = () => {
 //     // Form State
