@@ -27,8 +27,8 @@ const Contact = () => {
 
     // Form Submit Handler
     const handleSubmit = async (e) => {
-//         e.preventDefault();
-//         setIsSubmitting(true);
+        e.preventDefault();
+        setIsSubmitting(true);
 
 //         try {
 //             // Ensure this endpoint matches your Backend Route precisely
