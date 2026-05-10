@@ -30,7 +30,7 @@ const Contact = () => {
         e.preventDefault();
         setIsSubmitting(true);
 
-//         try {
+        try {
 //             // Ensure this endpoint matches your Backend Route precisely
 //             const response = await axiosPublic.post('/contacts/contact', formData);
 //             if (response.status === 200 || response.status === 201) {
