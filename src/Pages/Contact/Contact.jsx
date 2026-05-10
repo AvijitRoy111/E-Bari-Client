@@ -17,7 +17,7 @@ const Contact = () => {
     });
 
     const [isSubmitting, setIsSubmitting] = useState(false);
-//     const [showModal, setShowModal] = useState(false);
+    const [showModal, setShowModal] = useState(false);
 
 //     // Input Change Handler
 //     const handleChange = (e) => {
