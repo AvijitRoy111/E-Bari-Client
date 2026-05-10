@@ -22,8 +22,8 @@ const Contact = () => {
     // Input Change Handler
     const handleChange = (e) => {
         const { name, value } = e.target;
-//         setFormData({ ...formData, [name]: value });
-//     };
+        setFormData({ ...formData, [name]: value });
+    };
 
 //     // Form Submit Handler
 //     const handleSubmit = async (e) => {
