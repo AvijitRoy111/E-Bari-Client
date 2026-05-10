@@ -37,8 +37,8 @@ const Contact = () => {
                 setShowModal(true); 
             }
         } catch (error) {
-//             console.error("Submission Error:", error);
-//             alert("Connection refused. Please ensure the backend server is running on port 5000.");
+            console.error("Submission Error:", error);
+            alert("Connection refused. Please ensure the backend server is running on port 5000.");
 //         } finally {
 //             setIsSubmitting(false);
 //         }
