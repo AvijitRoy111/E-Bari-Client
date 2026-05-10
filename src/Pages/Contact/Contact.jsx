@@ -31,8 +31,8 @@ const Contact = () => {
         setIsSubmitting(true);
 
         try {
-//             // Ensure this endpoint matches your Backend Route precisely
-//             const response = await axiosPublic.post('/contacts/contact', formData);
+            // Ensure this endpoint matches your Backend Route precisely
+            const response = await axiosPublic.post('/contacts/contact', formData);
 //             if (response.status === 200 || response.status === 201) {
 //                 setShowModal(true); 
 //             }
