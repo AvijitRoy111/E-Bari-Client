@@ -8,7 +8,7 @@ import axiosPublic from '@/api/axiosPublic';
 
 const Contact = () => {
     // Form State
-//     const [formData, setFormData] = useState({
+    const [formData, setFormData] = useState({
 //         name: '',
 //         email: '',
 //         phone: '',
