@@ -36,7 +36,7 @@ const Contact = () => {
             if (response.status === 200 || response.status === 201) {
                 setShowModal(true); 
             }
-//         } catch (error) {
+        } catch (error) {
 //             console.error("Submission Error:", error);
 //             alert("Connection refused. Please ensure the backend server is running on port 5000.");
 //         } finally {
