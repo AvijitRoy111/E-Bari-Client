@@ -25,7 +25,7 @@ const Contact = () => {
         setFormData({ ...formData, [name]: value });
     };
 
-//     // Form Submit Handler
+    // Form Submit Handler
 //     const handleSubmit = async (e) => {
 //         e.preventDefault();
 //         setIsSubmitting(true);
