@@ -33,9 +33,9 @@ const Contact = () => {
         try {
             // Ensure this endpoint matches your Backend Route precisely
             const response = await axiosPublic.post('/contacts/contact', formData);
-//             if (response.status === 200 || response.status === 201) {
-//                 setShowModal(true); 
-//             }
+            if (response.status === 200 || response.status === 201) {
+                setShowModal(true); 
+            }
 //         } catch (error) {
 //             console.error("Submission Error:", error);
 //             alert("Connection refused. Please ensure the backend server is running on port 5000.");
