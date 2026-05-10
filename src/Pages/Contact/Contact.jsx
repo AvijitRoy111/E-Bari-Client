@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
     Mail, Phone, MapPin, Send, MessageSquare, 
-//     CheckCircle, Clock, Facebook, Twitter, Instagram, Linkedin 
+    CheckCircle, Clock, Facebook, Twitter, Instagram, Linkedin 
 // } from 'lucide-react';
 // import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 // import axiosPublic from '@/api/axiosPublic';
