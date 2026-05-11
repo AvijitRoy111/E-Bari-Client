@@ -65,10 +65,10 @@ const Contact = () => {
                          <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">Thank You!</h3>
                          <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
                              Your message has been received. Our property experts will reach out to you within 24 hours.
-//                         </p>
-//                         <button 
-//                             onClick={handleCloseModal}
-//                             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-2xl transition-all shadow-lg shadow-blue-500/25 active:scale-95"
+                         </p>
+                         <button 
+                             onClick={handleCloseModal}
+                             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-2xl transition-all shadow-lg shadow-blue-500/25 active:scale-95"
 //                         >
 //                             Back to Home
 //                         </button>
