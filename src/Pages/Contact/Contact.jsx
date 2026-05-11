@@ -50,8 +50,8 @@ const Contact = () => {
         setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
     };
 
-//     return (
-//         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 relative">
+    return (
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 relative">
             
 //             {/* Themed Success Modal */}
 //             {showModal && (
