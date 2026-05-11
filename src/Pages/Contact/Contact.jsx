@@ -166,8 +166,8 @@ const Contact = () => {
                                          className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
                                      />
                                  </div>
-//                                 <div className="space-y-2">
-//                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Email Address</label>
+                                 <div className="space-y-2">
+                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Email Address</label>
 //                                     <input
 //                                         required
 //                                         type="email"
