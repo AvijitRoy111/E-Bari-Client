@@ -95,10 +95,10 @@ const Contact = () => {
                              </p>
                          </div>
 
-//                         {/* Contact Channels */}
-//                         <div className="space-y-6">
-//                             <div className="flex items-center gap-5 group">
-//                                 <div className="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 group-hover:border-blue-500 transition-all">
+                         {/* Contact Channels */}
+                         <div className="space-y-6">
+                             <div className="flex items-center gap-5 group">
+                                 <div className="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 group-hover:border-blue-500 transition-all">
 //                                     <Mail className="w-6 h-6 text-blue-600" />
 //                                 </div>
 //                                 <div>
