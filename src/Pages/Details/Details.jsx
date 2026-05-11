@@ -1,10 +1,10 @@
-// import React, { useState, useEffect } from 'react';
-// import { useParams, useNavigate, Link } from 'react-router-dom';
-// import { 
-//   MapPin, BedDouble, Bath, Square, Heart, Calendar, 
-//   MessageSquare, ShieldCheck, ZoomIn, ZoomOut, ChevronLeft, 
-//   Wifi, Car, Tv, Wind, Coffee, X, CheckCircle2
-// } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { 
+  MapPin, BedDouble, Bath, Square, Heart, Calendar, 
+  MessageSquare, ShieldCheck, ZoomIn, ZoomOut, ChevronLeft, 
+  Wifi, Car, Tv, Wind, Coffee, X, CheckCircle2
+} from 'lucide-react';
 // import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 // import useProperties from '@/hooks/useProperties'; 
 // import axiosPublic from '@/api/axiosPublic';
