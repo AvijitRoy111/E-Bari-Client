@@ -84,10 +84,10 @@ const Contact = () => {
              <section className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
                     
-//                     {/* Left Side: Professional Information */}
-//                     <div className="space-y-12">
-//                         <div>
-//                             <h1 className="text-4xl md:text-6xl font-black text-gray-900 dark:text-white mb-6 leading-tight">
+                     {/* Left Side: Professional Information */}
+                     <div className="space-y-12">
+                         <div>
+                             <h1 className="text-4xl md:text-6xl font-black text-gray-900 dark:text-white mb-6 leading-tight">
 //                                 Let's build <br /> <span className="text-blue-600">your dream.</span>
 //                             </h1>
 //                             <p className="text-gray-500 dark:text-gray-400 text-lg max-w-md leading-relaxed">
