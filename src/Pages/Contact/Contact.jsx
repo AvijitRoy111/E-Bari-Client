@@ -69,9 +69,9 @@ const Contact = () => {
                          <button 
                              onClick={handleCloseModal}
                              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-2xl transition-all shadow-lg shadow-blue-500/25 active:scale-95"
-//                         >
-//                             Back to Home
-//                         </button>
+                         >
+                             Back to Home
+                         </button>
 //                     </div>
 //                 </div>
 //             )}
