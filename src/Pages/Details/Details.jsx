@@ -27,14 +27,14 @@ const DetailsSkeleton = () => (
    </div>
  );
 
-// const Details = () => {
-//   const { _id } = useParams();
-//   const navigate = useNavigate();
-//   const { properties, loading } = useProperties(); 
-//   const [property, setProperty] = useState(null);
-//   const [activeImage, setActiveImage] = useState(0);
-//   const [zoom, setZoom] = useState(1);
-//   const [isLiked, setIsLiked] = useState(false);
+const Details = () => {
+  const { _id } = useParams();
+  const navigate = useNavigate();
+  const { properties, loading } = useProperties(); 
+  const [property, setProperty] = useState(null);
+  const [activeImage, setActiveImage] = useState(0);
+  const [zoom, setZoom] = useState(1);
+  const [isLiked, setIsLiked] = useState(false);
 
 //   // --- Booking & Modal States ---
 //   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
