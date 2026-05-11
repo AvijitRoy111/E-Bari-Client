@@ -9,16 +9,16 @@ import Breadcrumb from "@/Components/Breadcrumb/Breadcrumb";
 import useProperties from '@/hooks/useProperties'; 
 import axiosPublic from '@/api/axiosPublic';
 
-// // --- Skeleton Loader Component ---
-// const DetailsSkeleton = () => (
-//   <div className="max-w-[1440px] mx-auto px-4 md:px-6 pt-6 animate-pulse">
-//     <div className="flex justify-between mb-6">
-//       <div className="h-10 w-32 bg-gray-200 dark:bg-gray-800 rounded-xl"></div>
-//       <div className="h-6 w-48 bg-gray-200 dark:bg-gray-800 rounded-lg"></div>
-//     </div>
-//     <div className="grid lg:grid-cols-12 gap-6 lg:gap-10">
-//       <div className="lg:col-span-7 space-y-4">
-//         <div className="h-[300px] sm:h-[400px] md:h-[550px] bg-gray-200 dark:bg-gray-800 rounded-[2.5rem]"></div>
+// --- Skeleton Loader Component ---
+const DetailsSkeleton = () => (
+  <div className="max-w-[1440px] mx-auto px-4 md:px-6 pt-6 animate-pulse">
+    <div className="flex justify-between mb-6">
+      <div className="h-10 w-32 bg-gray-200 dark:bg-gray-800 rounded-xl"></div>
+      <div className="h-6 w-48 bg-gray-200 dark:bg-gray-800 rounded-lg"></div>
+    </div>
+    <div className="grid lg:grid-cols-12 gap-6 lg:gap-10">
+      <div className="lg:col-span-7 space-y-4">
+        <div className="h-[300px] sm:h-[400px] md:h-[550px] bg-gray-200 dark:bg-gray-800 rounded-[2.5rem]"></div>
 //       </div>
 //       <div className="lg:col-span-5">
 //         <div className="h-[500px] bg-gray-200 dark:bg-gray-800 rounded-[2.5rem]"></div>
