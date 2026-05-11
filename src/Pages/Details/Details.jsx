@@ -55,10 +55,10 @@ const Details = () => {
     }
   }, [_id, properties, loading]);
 
-//   // --- Handle Booking Submission ---
-//   const handleBookingSubmit = async (e) => {
-//     e.preventDefault();
-//     setIsSubmitting(true);
+  // --- Handle Booking Submission ---
+  const handleBookingSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
 //     // Merging Form Data with Property Details for Database
 //     const bookingData = {
