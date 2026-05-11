@@ -72,13 +72,13 @@ const Contact = () => {
                          >
                              Back to Home
                          </button>
-//                     </div>
-//                 </div>
-//             )}
+                     </div>
+                 </div>
+             )}
 
-//             {/* Breadcrumb Navigation */}
-//             <div className="max-w-7xl mx-auto px-6 pt-10">
-//                 <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]} />
+             {/* Breadcrumb Navigation */}
+             <div className="max-w-7xl mx-auto px-6 pt-10">
+                 <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]} />
 //             </div>
 
 //             <section className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
