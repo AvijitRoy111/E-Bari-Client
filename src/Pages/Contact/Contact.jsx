@@ -143,12 +143,12 @@ const Contact = () => {
 
                      {/* Right Side: Professional Contact Form */}
                      <div className="bg-white dark:bg-gray-800 p-8 md:p-12 rounded-[3rem] shadow-2xl shadow-blue-500/5 border border-gray-100 dark:border-gray-700 relative overflow-hidden">
-//                         <div className="absolute top-0 right-0 p-10 opacity-5 pointer-events-none">
-//                             <MessageSquare className="w-32 h-32 text-blue-600" />
-//                         </div>
+                         <div className="absolute top-0 right-0 p-10 opacity-5 pointer-events-none">
+                             <MessageSquare className="w-32 h-32 text-blue-600" />
+                         </div>
 
-//                         <div className="mb-10">
-//                             <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Send a Message</h3>
+                         <div className="mb-10">
+                             <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Send a Message</h3>
 //                             <p className="text-gray-500 dark:text-gray-400">Fill out the form and we'll reply shortly.</p>
 //                         </div>
 
