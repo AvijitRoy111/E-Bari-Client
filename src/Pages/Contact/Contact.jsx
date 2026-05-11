@@ -88,12 +88,12 @@ const Contact = () => {
                      <div className="space-y-12">
                          <div>
                              <h1 className="text-4xl md:text-6xl font-black text-gray-900 dark:text-white mb-6 leading-tight">
-//                                 Let's build <br /> <span className="text-blue-600">your dream.</span>
-//                             </h1>
-//                             <p className="text-gray-500 dark:text-gray-400 text-lg max-w-md leading-relaxed">
-//                                 Whether you're looking for a luxury villa or a modern apartment, our team is ready to guide you.
-//                             </p>
-//                         </div>
+                                 Let's build <br /> <span className="text-blue-600">your dream.</span>
+                             </h1>
+                             <p className="text-gray-500 dark:text-gray-400 text-lg max-w-md leading-relaxed">
+                                 Whether you're looking for a luxury villa or a modern apartment, our team is ready to guide you.
+                             </p>
+                         </div>
 
 //                         {/* Contact Channels */}
 //                         <div className="space-y-6">
