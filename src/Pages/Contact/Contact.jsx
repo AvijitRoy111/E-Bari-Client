@@ -61,8 +61,8 @@ const Contact = () => {
                              <div className="p-4 bg-blue-50 dark:bg-blue-900/30 rounded-full">
                                  <CheckCircle className="w-16 h-16 text-blue-600 shadow-sm" />
                              </div>
-//                         </div>
-//                         <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">Thank You!</h3>
+                         </div>
+                         <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">Thank You!</h3>
 //                         <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
 //                             Your message has been received. Our property experts will reach out to you within 24 hours.
 //                         </p>
