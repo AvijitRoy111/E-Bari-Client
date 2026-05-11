@@ -128,15 +128,15 @@ const Contact = () => {
                              </div>
                          </div>
 
-//                         {/* Social Connect */}
-//                         <div className="pt-8 border-t border-gray-200 dark:border-gray-800">
-//                             <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6">Follow our journey</p>
-//                             <div className="flex gap-4">
-//                                 {[Facebook, Twitter, Instagram, Linkedin].map((Icon, idx) => (
-//                                     <a key={idx} href="#" className="p-3 bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:bg-blue-600 hover:text-white transition-all transform hover:-translate-y-1">
-//                                         <Icon className="w-5 h-5" />
-//                                     </a>
-//                                 ))}
+                         {/* Social Connect */}
+                         <div className="pt-8 border-t border-gray-200 dark:border-gray-800">
+                             <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6">Follow our journey</p>
+                             <div className="flex gap-4">
+                                 {[Facebook, Twitter, Instagram, Linkedin].map((Icon, idx) => (
+                                     <a key={idx} href="#" className="p-3 bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:bg-blue-600 hover:text-white transition-all transform hover:-translate-y-1">
+                                         <Icon className="w-5 h-5" />
+                                     </a>
+                                 ))}
 //                             </div>
 //                         </div>
 //                     </div>
