@@ -60,13 +60,13 @@ const Details = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-//     // Merging Form Data with Property Details for Database
-//     const bookingData = {
-//       customerName: formData.name,
-//       customerEmail: formData.email,
-//       customerPhone: formData.phone,
-//       bookingPurpose: formData.purpose,
-//       propertyId: property._id,
+    // Merging Form Data with Property Details for Database
+    const bookingData = {
+      customerName: formData.name,
+      customerEmail: formData.email,
+      customerPhone: formData.phone,
+      bookingPurpose: formData.purpose,
+      propertyId: property._id,
 //       propertyTitle: property.title || property.property_title,
 //       price: property.price || property.price_min,
 //       propertyThumbnail: property.images?.[0] || property.image,
