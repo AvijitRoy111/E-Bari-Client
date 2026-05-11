@@ -168,25 +168,25 @@ const Contact = () => {
                                  </div>
                                  <div className="space-y-2">
                                      <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Email Address</label>
-//                                     <input
-//                                         required
-//                                         type="email"
-//                                         name="email"
-//                                         value={formData.email}
-//                                         onChange={handleChange}
-//                                         placeholder="name@example.com"
-//                                         className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
-//                                     />
-//                                 </div>
-//                             </div>
+                                     <input
+                                         required
+                                         type="email"
+                                         name="email"
+                                         value={formData.email}
+                                         onChange={handleChange}
+                                         placeholder="name@example.com"
+                                         className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
+                                     />
+                                 </div>
+                             </div>
 
-//                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-//                                 <div className="space-y-2">
-//                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Phone Number</label>
-//                                     <input
-//                                         required
-//                                         type="tel"
-//                                         name="phone"
+                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                 <div className="space-y-2">
+                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Phone Number</label>
+                                     <input
+                                         required
+                                         type="tel"
+                                         name="phone"
 //                                         value={formData.phone}
 //                                         onChange={handleChange}
 //                                         placeholder="+880 00000"
