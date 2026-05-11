@@ -75,9 +75,9 @@ const Details = () => {
         baths: property.bathrooms || property.baths || 0,
         area: property.area || property.sqft || 0
       },
-//       status: 'Pending',
-//       createdAt: new Date().toISOString()
-//     };
+      status: 'Pending',
+      createdAt: new Date().toISOString()
+    };
 
 //     try {
 //       // POST request to backend via axiosPublic
