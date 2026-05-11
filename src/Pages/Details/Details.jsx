@@ -36,16 +36,16 @@ const Details = () => {
   const [zoom, setZoom] = useState(1);
   const [isLiked, setIsLiked] = useState(false);
 
-//   // --- Booking & Modal States ---
-//   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
-//   const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
-//   const [isSubmitting, setIsSubmitting] = useState(false);
-//   const [formData, setFormData] = useState({
-//     name: '',
-//     email: '',
-//     phone: '',
-//     purpose: 'Rent', 
-//   });
+  // --- Booking & Modal States ---
+  const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
+  const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    purpose: 'Rent', 
+  });
 
 //   // --- Filter the specific property by ID ---
 //   useEffect(() => {
