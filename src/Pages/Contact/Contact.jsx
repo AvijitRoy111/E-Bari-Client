@@ -137,12 +137,12 @@ const Contact = () => {
                                          <Icon className="w-5 h-5" />
                                      </a>
                                  ))}
-//                             </div>
-//                         </div>
-//                     </div>
+                             </div>
+                         </div>
+                     </div>
 
-//                     {/* Right Side: Professional Contact Form */}
-//                     <div className="bg-white dark:bg-gray-800 p-8 md:p-12 rounded-[3rem] shadow-2xl shadow-blue-500/5 border border-gray-100 dark:border-gray-700 relative overflow-hidden">
+                     {/* Right Side: Professional Contact Form */}
+                     <div className="bg-white dark:bg-gray-800 p-8 md:p-12 rounded-[3rem] shadow-2xl shadow-blue-500/5 border border-gray-100 dark:border-gray-700 relative overflow-hidden">
 //                         <div className="absolute top-0 right-0 p-10 opacity-5 pointer-events-none">
 //                             <MessageSquare className="w-32 h-32 text-blue-600" />
 //                         </div>
