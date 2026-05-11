@@ -149,13 +149,13 @@ const Contact = () => {
 
                          <div className="mb-10">
                              <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Send a Message</h3>
-//                             <p className="text-gray-500 dark:text-gray-400">Fill out the form and we'll reply shortly.</p>
-//                         </div>
+                             <p className="text-gray-500 dark:text-gray-400">Fill out the form and we'll reply shortly.</p>
+                         </div>
 
-//                         <form onSubmit={handleSubmit} className="space-y-6">
-//                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-//                                 <div className="space-y-2">
-//                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Full Name</label>
+                         <form onSubmit={handleSubmit} className="space-y-6">
+                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                 <div className="space-y-2">
+                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Full Name</label>
 //                                     <input
 //                                         required
 //                                         type="text"
