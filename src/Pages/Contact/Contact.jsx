@@ -79,10 +79,10 @@ const Contact = () => {
              {/* Breadcrumb Navigation */}
              <div className="max-w-7xl mx-auto px-6 pt-10">
                  <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Contact", href: "/contact" }]} />
-//             </div>
+             </div>
 
-//             <section className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
-//                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
+             <section className="max-w-7xl mx-auto px-6 py-12 lg:py-20">
+                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
                     
 //                     {/* Left Side: Professional Information */}
 //                     <div className="space-y-12">
