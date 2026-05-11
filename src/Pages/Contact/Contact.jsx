@@ -53,9 +53,9 @@ const Contact = () => {
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300 relative">
             
-//             {/* Themed Success Modal */}
-//             {showModal && (
-//                 <div className="fixed inset-0 z-[100] flex items-center justify-center bg-gray-900/60 backdrop-blur-md px-4">
+             {/* Themed Success Modal */}
+             {showModal && (
+                 <div className="fixed inset-0 z-[100] flex items-center justify-center bg-gray-900/60 backdrop-blur-md px-4">
 //                     <div className="bg-white dark:bg-gray-800 p-8 rounded-[2rem] shadow-2xl max-w-sm w-full text-center border border-gray-100 dark:border-gray-700 transform transition-all animate-in zoom-in-95 duration-300">
 //                         <div className="flex justify-center mb-6">
 //                             <div className="p-4 bg-blue-50 dark:bg-blue-900/30 rounded-full">
