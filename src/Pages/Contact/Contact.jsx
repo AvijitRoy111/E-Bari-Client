@@ -57,10 +57,10 @@ const Contact = () => {
              {showModal && (
                  <div className="fixed inset-0 z-[100] flex items-center justify-center bg-gray-900/60 backdrop-blur-md px-4">
                      <div className="bg-white dark:bg-gray-800 p-8 rounded-[2rem] shadow-2xl max-w-sm w-full text-center border border-gray-100 dark:border-gray-700 transform transition-all animate-in zoom-in-95 duration-300">
-//                         <div className="flex justify-center mb-6">
-//                             <div className="p-4 bg-blue-50 dark:bg-blue-900/30 rounded-full">
-//                                 <CheckCircle className="w-16 h-16 text-blue-600 shadow-sm" />
-//                             </div>
+                         <div className="flex justify-center mb-6">
+                             <div className="p-4 bg-blue-50 dark:bg-blue-900/30 rounded-full">
+                                 <CheckCircle className="w-16 h-16 text-blue-600 shadow-sm" />
+                             </div>
 //                         </div>
 //                         <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-3">Thank You!</h3>
 //                         <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
