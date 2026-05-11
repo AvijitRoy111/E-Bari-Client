@@ -117,16 +117,16 @@ const Contact = () => {
                                  </div>
                              </div>
 
-//                             <div className="flex items-center gap-5 group">
-//                                 <div className="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 group-hover:border-purple-500 transition-all">
-//                                     <Clock className="w-6 h-6 text-purple-600" />
-//                                 </div>
-//                                 <div>
-//                                     <p className="text-xs uppercase tracking-widest text-gray-400 font-bold mb-1">Office Hours</p>
-//                                     <p className="text-lg font-semibold text-gray-900 dark:text-white">Mon - Fri: 9 AM - 6 PM</p>
-//                                 </div>
-//                             </div>
-//                         </div>
+                             <div className="flex items-center gap-5 group">
+                                 <div className="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 group-hover:border-purple-500 transition-all">
+                                     <Clock className="w-6 h-6 text-purple-600" />
+                                 </div>
+                                 <div>
+                                     <p className="text-xs uppercase tracking-widest text-gray-400 font-bold mb-1">Office Hours</p>
+                                     <p className="text-lg font-semibold text-gray-900 dark:text-white">Mon - Fri: 9 AM - 6 PM</p>
+                                 </div>
+                             </div>
+                         </div>
 
 //                         {/* Social Connect */}
 //                         <div className="pt-8 border-t border-gray-200 dark:border-gray-800">
