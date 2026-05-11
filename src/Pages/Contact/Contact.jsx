@@ -191,55 +191,55 @@ const Contact = () => {
                                          onChange={handleChange}
                                          placeholder="+880 00000"
                                          className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
-//                                     />
-//                                 </div>
-//                                 <div className="space-y-2">
-//                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Subject</label>
-//                                     <input
-//                                         required
-//                                         type="text"
-//                                         name="subject"
-//                                         value={formData.subject}
-//                                         onChange={handleChange}
-//                                         placeholder="Property Inquiry"
-//                                         className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
-//                                     />
-//                                 </div>
-//                             </div>
+                                     />
+                                 </div>
+                                 <div className="space-y-2">
+                                     <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Subject</label>
+                                     <input
+                                         required
+                                         type="text"
+                                         name="subject"
+                                         value={formData.subject}
+                                         onChange={handleChange}
+                                         placeholder="Property Inquiry"
+                                         className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white"
+                                     />
+                                 </div>
+                             </div>
 
-//                             <div className="space-y-2">
-//                                 <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Message</label>
-//                                 <textarea
-//                                     required
-//                                     name="message"
-//                                     rows="4"
-//                                     value={formData.message}
-//                                     onChange={handleChange}
-//                                     placeholder="Tell us about your requirements..."
-//                                     className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white resize-none"
-//                                 ></textarea>
-//                             </div>
+                             <div className="space-y-2">
+                                 <label className="text-sm font-bold text-gray-700 dark:text-gray-300 ml-1">Message</label>
+                                 <textarea
+                                     required
+                                     name="message"
+                                     rows="4"
+                                     value={formData.message}
+                                     onChange={handleChange}
+                                     placeholder="Tell us about your requirements..."
+                                     className="w-full px-6 py-4 rounded-2xl bg-gray-50 dark:bg-gray-900 border border-transparent focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 focus:bg-white dark:focus:bg-gray-950 transition-all outline-none dark:text-white resize-none"
+                                 ></textarea>
+                             </div>
 
-//                             <button
-//                                 disabled={isSubmitting}
-//                                 type="submit"
-//                                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-5 rounded-2xl shadow-xl shadow-blue-500/30 flex items-center justify-center gap-3 transition-all transform active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed group"
-//                             >
-//                                 {isSubmitting ? (
-//                                     <span className="animate-pulse">Processing...</span>
-//                                 ) : (
-//                                     <>
-//                                         <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-//                                         Send Message
-//                                     </>
-//                                 )}
-//                             </button>
-//                         </form>
-//                     </div>
-//                 </div>
-//             </section>
-//         </div>
-//     );
-// };
+                             <button
+                                 disabled={isSubmitting}
+                                 type="submit"
+                                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-5 rounded-2xl shadow-xl shadow-blue-500/30 flex items-center justify-center gap-3 transition-all transform active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed group"
+                             >
+                                 {isSubmitting ? (
+                                     <span className="animate-pulse">Processing...</span>
+                                 ) : (
+                                     <>
+                                         <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                                         Send Message
+                                     </>
+                                 )}
+                             </button>
+                         </form>
+                     </div>
+                 </div>
+             </section>
+         </div>
+     );
+ };
 
-// export default Contact;
+ export default Contact;
