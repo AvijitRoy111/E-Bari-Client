@@ -67,10 +67,10 @@ const Details = () => {
       customerPhone: formData.phone,
       bookingPurpose: formData.purpose,
       propertyId: property._id,
-//       propertyTitle: property.title || property.property_title,
-//       price: property.price || property.price_min,
-//       propertyThumbnail: property.images?.[0] || property.image,
-//       specifications: {
+      propertyTitle: property.title || property.property_title,
+      price: property.price || property.price_min,
+      propertyThumbnail: property.images?.[0] || property.image,
+      specifications: {
 //         beds: property.bedrooms || property.beds || 0,
 //         baths: property.bathrooms || property.baths || 0,
 //         area: property.area || property.sqft || 0
