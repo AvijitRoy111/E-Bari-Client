@@ -71,10 +71,10 @@ const Details = () => {
       price: property.price || property.price_min,
       propertyThumbnail: property.images?.[0] || property.image,
       specifications: {
-//         beds: property.bedrooms || property.beds || 0,
-//         baths: property.bathrooms || property.baths || 0,
-//         area: property.area || property.sqft || 0
-//       },
+        beds: property.bedrooms || property.beds || 0,
+        baths: property.bathrooms || property.baths || 0,
+        area: property.area || property.sqft || 0
+      },
 //       status: 'Pending',
 //       createdAt: new Date().toISOString()
 //     };
