@@ -104,18 +104,18 @@ const Contact = () => {
                                  <div>
                                      <p className="text-xs uppercase tracking-widest text-gray-400 font-bold mb-1">Email Us</p>
                                      <p className="text-lg font-semibold text-gray-900 dark:text-white">hello@dreamhome.com</p>
-//                                 </div>
-//                             </div>
+                                 </div>
+                             </div>
 
-//                             <div className="flex items-center gap-5 group">
-//                                 <div className="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 group-hover:border-green-500 transition-all">
-//                                     <Phone className="w-6 h-6 text-green-600" />
-//                                 </div>
-//                                 <div>
-//                                     <p className="text-xs uppercase tracking-widest text-gray-400 font-bold mb-1">Call Anytime</p>
-//                                     <p className="text-lg font-semibold text-gray-900 dark:text-white">+880 1234-567890</p>
-//                                 </div>
-//                             </div>
+                             <div className="flex items-center gap-5 group">
+                                 <div className="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 group-hover:border-green-500 transition-all">
+                                     <Phone className="w-6 h-6 text-green-600" />
+                                 </div>
+                                 <div>
+                                     <p className="text-xs uppercase tracking-widest text-gray-400 font-bold mb-1">Call Anytime</p>
+                                     <p className="text-lg font-semibold text-gray-900 dark:text-white">+880 1234-567890</p>
+                                 </div>
+                             </div>
 
 //                             <div className="flex items-center gap-5 group">
 //                                 <div className="p-4 bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 group-hover:border-purple-500 transition-all">
