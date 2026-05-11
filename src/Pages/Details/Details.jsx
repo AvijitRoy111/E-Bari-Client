@@ -47,13 +47,13 @@ const Details = () => {
     purpose: 'Rent', 
   });
 
-//   // --- Filter the specific property by ID ---
-//   useEffect(() => {
-//     if (!loading && properties?.length > 0 && _id) {
-//       const found = properties.find(p => String(p._id) === String(_id));
-//       if (found) setProperty(found);
-//     }
-//   }, [_id, properties, loading]);
+  // --- Filter the specific property by ID ---
+  useEffect(() => {
+    if (!loading && properties?.length > 0 && _id) {
+      const found = properties.find(p => String(p._id) === String(_id));
+      if (found) setProperty(found);
+    }
+  }, [_id, properties, loading]);
 
 //   // --- Handle Booking Submission ---
 //   const handleBookingSubmit = async (e) => {
