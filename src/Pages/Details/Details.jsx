@@ -115,9 +115,9 @@ const Details = () => {
     { icon: Coffee, label: "Breakfast" }, { icon: ShieldCheck, label: "Security" },
   ];
 
-//   return (
-//     <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20 text-left">
-//       <div className="max-w-[1440px] mx-auto px-4 md:px-6 pt-6">
+  return (
+    <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20 text-left">
+      <div className="max-w-[1440px] mx-auto px-4 md:px-6 pt-6">
         
 //         {/* Navigation Header */}
 //         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
