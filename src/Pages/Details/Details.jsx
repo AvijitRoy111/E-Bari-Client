@@ -79,9 +79,9 @@ const Details = () => {
       createdAt: new Date().toISOString()
     };
 
-//     try {
-//       // POST request to backend via axiosPublic
-//       const response = await axiosPublic.post('/bookings/booking', bookingData);
+    try {
+      // POST request to backend via axiosPublic
+      const response = await axiosPublic.post('/bookings/booking', bookingData);
 
 //       if (response.data.success) {
 //         setIsBookingModalOpen(false);
