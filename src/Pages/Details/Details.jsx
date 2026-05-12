@@ -135,10 +135,10 @@ const Details = () => {
            {/* Gallery Section */}
            <div className="lg:col-span-7 space-y-4 md:space-y-6">
              <div className="relative h-[300px] sm:h-[400px] md:h-[550px] rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-xl bg-gray-200 dark:bg-gray-800">
-//               <img
-//                 src={property.images?.[activeImage] || property.image}
-//                 alt={property.title}
-//                 className="w-full h-full object-cover transition-transform duration-500"
+               <img
+                 src={property.images?.[activeImage] || property.image}
+                 alt={property.title}
+                 className="w-full h-full object-cover transition-transform duration-500"
 //                 style={{ transform: `scale(${zoom})` }}
 //               />
 //               <div className="absolute bottom-4 right-4 flex gap-2">
