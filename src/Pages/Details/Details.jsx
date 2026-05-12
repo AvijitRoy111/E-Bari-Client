@@ -124,10 +124,10 @@ const Details = () => {
            <button 
               onClick={() => navigate('/all')}
              className="flex items-center gap-2 w-fit px-4 py-2 bg-white dark:bg-gray-900 shadow-sm border border-gray-100 dark:border-gray-800 rounded-xl text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-all font-medium"
-//           >
-//             <ChevronLeft size={18} /> Back to Search
-//           </button>
-//           <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Properties", href: "/all" }, { label: "Details", href: "#" }]} />
+           >
+             <ChevronLeft size={18} /> Back to Search
+           </button>
+           <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Properties", href: "/all" }, { label: "Details", href: "#" }]} />
 //         </div>
 
 //         <div className="grid lg:grid-cols-12 gap-6 lg:gap-10">
