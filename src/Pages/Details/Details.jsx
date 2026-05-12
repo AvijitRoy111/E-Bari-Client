@@ -113,7 +113,7 @@ const Details = () => {
     { icon: Wifi, label: "Free WiFi" }, { icon: Car, label: "Parking" },
     { icon: Tv, label: "Smart TV" }, { icon: Wind, label: "Air Condition" },
     { icon: Coffee, label: "Breakfast" }, { icon: ShieldCheck, label: "Security" },
-//   ];
+  ];
 
 //   return (
 //     <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20 text-left">
