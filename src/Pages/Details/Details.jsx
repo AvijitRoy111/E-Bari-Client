@@ -99,10 +99,10 @@ const Details = () => {
 
   if (loading) return <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20"><DetailsSkeleton /></div>;
 
-//   if (!property) return (
-//     <div className="h-screen flex flex-col items-center justify-center text-center px-4">
-//       <h2 className="text-2xl md:text-3xl font-bold mb-4">Property Not Found</h2>
-//       <button onClick={() => navigate('/all')} className="text-blue-600 flex items-center gap-2 font-semibold">
+  if (!property) return (
+    <div className="h-screen flex flex-col items-center justify-center text-center px-4">
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">Property Not Found</h2>
+      <button onClick={() => navigate('/all')} className="text-blue-600 flex items-center gap-2 font-semibold">
 //         <ChevronLeft size={20} /> Back to Listings
 //       </button>
 //     </div>
