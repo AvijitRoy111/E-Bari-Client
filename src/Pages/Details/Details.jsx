@@ -110,9 +110,9 @@ const Details = () => {
 
   const displayLocation = typeof property.location === 'object' ? property.address : (property.location || property.address);
   const amenities = property.amenities || [
-//     { icon: Wifi, label: "Free WiFi" }, { icon: Car, label: "Parking" },
-//     { icon: Tv, label: "Smart TV" }, { icon: Wind, label: "Air Condition" },
-//     { icon: Coffee, label: "Breakfast" }, { icon: ShieldCheck, label: "Security" },
+    { icon: Wifi, label: "Free WiFi" }, { icon: Car, label: "Parking" },
+    { icon: Tv, label: "Smart TV" }, { icon: Wind, label: "Air Condition" },
+    { icon: Coffee, label: "Breakfast" }, { icon: ShieldCheck, label: "Security" },
 //   ];
 
 //   return (
