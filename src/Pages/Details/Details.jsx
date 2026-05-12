@@ -178,7 +178,7 @@ const Details = () => {
 
                <div className="grid grid-cols-3 gap-3 mb-8">
                  {[
-//                   { icon: BedDouble, label: "Beds", value: property.bedrooms || property.beds || 0 },
+                   { icon: BedDouble, label: "Beds", value: property.bedrooms || property.beds || 0 },
 //                   { icon: Bath, label: "Baths", value: property.bathrooms || property.baths || 0 },
 //                   { icon: Square, label: "Sqft", value: property.area || property.sqft || 0 }
 //                 ].map((stat, i) => (
