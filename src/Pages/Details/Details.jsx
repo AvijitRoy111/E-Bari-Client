@@ -167,14 +167,14 @@ const Details = () => {
                    <div className="flex items-center gap-2 text-gray-500 mt-2"><MapPin size={18} className="text-blue-600" /><span>{displayLocation}</span></div>
                  </div>
                  <button onClick={() => setIsLiked(!isLiked)} className={`p-4 rounded-2xl ${isLiked ? "bg-red-50 text-red-500" : "bg-gray-50 text-gray-400"}`}>
-//                   <Heart size={22} fill={isLiked ? "currentColor" : "none"} />
-//                 </button>
-//               </div>
+                   <Heart size={22} fill={isLiked ? "currentColor" : "none"} />
+                 </button>
+               </div>
 
-//               <div className="mb-6 p-6 bg-blue-600 rounded-3xl text-white">
-//                 <p className="text-xs font-bold uppercase mb-1">Selling Price</p>
-//                 <span className="text-3xl md:text-4xl font-black">${(property.price || property.price_min)?.toLocaleString()}</span>
-//               </div>
+               <div className="mb-6 p-6 bg-blue-600 rounded-3xl text-white">
+                 <p className="text-xs font-bold uppercase mb-1">Selling Price</p>
+                 <span className="text-3xl md:text-4xl font-black">${(property.price || property.price_min)?.toLocaleString()}</span>
+               </div>
 
 //               <div className="grid grid-cols-3 gap-3 mb-8">
 //                 {[
