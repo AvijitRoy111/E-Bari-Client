@@ -86,9 +86,9 @@ const Details = () => {
       if (response.data.success) {
         setIsBookingModalOpen(false);
         setIsSuccessModalOpen(true);
-//         // Reset form
-//         setFormData({ name: '', email: '', phone: '', purpose: 'Rent' });
-//       }
+        // Reset form
+        setFormData({ name: '', email: '', phone: '', purpose: 'Rent' });
+      }
 //     } catch (error) {
 //       console.error("Submission Error:", error);
 //       alert("Failed to process booking. Please try again later.");
