@@ -143,11 +143,11 @@ const Details = () => {
                />
                <div className="absolute bottom-4 right-4 flex gap-2">
                  <button onClick={() => setZoom(z => Math.min(z + 0.2, 2))} className="p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomIn size={20} /></button>
-//                 <button onClick={() => setZoom(z => Math.max(z - 0.2, 1))} className="p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomOut size={20} /></button>
-//               </div>
-//             </div>
+                 <button onClick={() => setZoom(z => Math.max(z - 0.2, 1))} className="p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomOut size={20} /></button>
+               </div>
+             </div>
 
-//             {property.images?.length > 1 && (
+             {property.images?.length > 1 && (
 //               <div className="flex gap-3 overflow-x-auto pb-2 no-scrollbar px-1">
 //                 {property.images.map((img, idx) => (
 //                   <button key={idx} onClick={() => {setActiveImage(idx); setZoom(1);}} className={`relative min-w-[80px] md:min-w-[120px] h-16 md:h-24 rounded-2xl overflow-hidden border-4 transition-all ${activeImage === idx ? "border-blue-600 scale-105" : "border-transparent opacity-60"}`}>
