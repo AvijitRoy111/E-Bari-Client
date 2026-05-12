@@ -92,10 +92,10 @@ const Details = () => {
     } catch (error) {
       console.error("Submission Error:", error);
       alert("Failed to process booking. Please try again later.");
-//     } finally {
-//       setIsSubmitting(false);
-//     }
-//   };
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
 //   if (loading) return <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20"><DetailsSkeleton /></div>;
 
