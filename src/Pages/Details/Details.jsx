@@ -139,10 +139,10 @@ const Details = () => {
                  src={property.images?.[activeImage] || property.image}
                  alt={property.title}
                  className="w-full h-full object-cover transition-transform duration-500"
-//                 style={{ transform: `scale(${zoom})` }}
-//               />
-//               <div className="absolute bottom-4 right-4 flex gap-2">
-//                 <button onClick={() => setZoom(z => Math.min(z + 0.2, 2))} className="p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomIn size={20} /></button>
+                 style={{ transform: `scale(${zoom})` }}
+               />
+               <div className="absolute bottom-4 right-4 flex gap-2">
+                 <button onClick={() => setZoom(z => Math.min(z + 0.2, 2))} className="p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomIn size={20} /></button>
 //                 <button onClick={() => setZoom(z => Math.max(z - 0.2, 1))} className="p-3 bg-white/20 backdrop-blur-md text-white rounded-xl hover:bg-white hover:text-black transition-all"><ZoomOut size={20} /></button>
 //               </div>
 //             </div>
