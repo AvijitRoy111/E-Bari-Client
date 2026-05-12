@@ -89,9 +89,9 @@ const Details = () => {
         // Reset form
         setFormData({ name: '', email: '', phone: '', purpose: 'Rent' });
       }
-//     } catch (error) {
-//       console.error("Submission Error:", error);
-//       alert("Failed to process booking. Please try again later.");
+    } catch (error) {
+      console.error("Submission Error:", error);
+      alert("Failed to process booking. Please try again later.");
 //     } finally {
 //       setIsSubmitting(false);
 //     }
