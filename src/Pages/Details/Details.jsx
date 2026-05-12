@@ -151,12 +151,12 @@ const Details = () => {
                <div className="flex gap-3 overflow-x-auto pb-2 no-scrollbar px-1">
                  {property.images.map((img, idx) => (
                    <button key={idx} onClick={() => {setActiveImage(idx); setZoom(1);}} className={`relative min-w-[80px] md:min-w-[120px] h-16 md:h-24 rounded-2xl overflow-hidden border-4 transition-all ${activeImage === idx ? "border-blue-600 scale-105" : "border-transparent opacity-60"}`}>
-//                     <img src={img} className="w-full h-full object-cover" alt="thumb" />
-//                   </button>
-//                 ))}
-//               </div>
-//             )}
-//           </div>
+                     <img src={img} className="w-full h-full object-cover" alt="thumb" />
+                   </button>
+                 ))}
+               </div>
+             )}
+           </div>
 
 //           {/* Pricing & Booking Card */}
 //           <div className="lg:col-span-5">
