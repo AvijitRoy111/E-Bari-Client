@@ -83,9 +83,9 @@ const Details = () => {
       // POST request to backend via axiosPublic
       const response = await axiosPublic.post('/bookings/booking', bookingData);
 
-//       if (response.data.success) {
-//         setIsBookingModalOpen(false);
-//         setIsSuccessModalOpen(true);
+      if (response.data.success) {
+        setIsBookingModalOpen(false);
+        setIsSuccessModalOpen(true);
 //         // Reset form
 //         setFormData({ name: '', email: '', phone: '', purpose: 'Rent' });
 //       }
