@@ -158,9 +158,9 @@ const Details = () => {
              )}
            </div>
 
-//           {/* Pricing & Booking Card */}
-//           <div className="lg:col-span-5">
-//             <div className="bg-white dark:bg-gray-900 p-6 md:p-8 rounded-[2.5rem] shadow-xl border border-gray-100 dark:border-gray-800 lg:sticky lg:top-8">
+           {/* Pricing & Booking Card */}
+           <div className="lg:col-span-5">
+             <div className="bg-white dark:bg-gray-900 p-6 md:p-8 rounded-[2.5rem] shadow-xl border border-gray-100 dark:border-gray-800 lg:sticky lg:top-8">
 //               <div className="flex justify-between items-start mb-6">
 //                 <div>
 //                   <h1 className="text-2xl md:text-3xl font-black text-gray-900 dark:text-white leading-tight">{property.title || property.property_title}</h1>
