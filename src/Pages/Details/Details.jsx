@@ -97,7 +97,7 @@ const Details = () => {
     }
   };
 
-//   if (loading) return <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20"><DetailsSkeleton /></div>;
+  if (loading) return <div className="min-h-screen bg-[#f8fafc] dark:bg-[#020617] pb-20"><DetailsSkeleton /></div>;
 
 //   if (!property) return (
 //     <div className="h-screen flex flex-col items-center justify-center text-center px-4">
