@@ -106,7 +106,7 @@ const Details = () => {
          <ChevronLeft size={20} /> Back to Listings
        </button>
      </div>
-//   );
+  );
 
 //   const displayLocation = typeof property.location === 'object' ? property.address : (property.location || property.address);
 //   const amenities = property.amenities || [
