@@ -222,11 +222,11 @@ const Details = () => {
                      <span className="text-sm font-medium">{item.label}</span>
                    </div>
                  ))}
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
 
 //       {/* --- Dynamic Booking Modal --- */}
 //       {isBookingModalOpen && (
