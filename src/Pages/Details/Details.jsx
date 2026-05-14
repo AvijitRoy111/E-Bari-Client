@@ -233,7 +233,7 @@ const Details = () => {
          <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/70 backdrop-blur-md">
            <div className="bg-white dark:bg-gray-900 w-full max-w-2xl rounded-[2.5rem] shadow-2xl overflow-hidden relative animate-in zoom-in duration-300 max-h-[95vh] overflow-y-auto no-scrollbar">
             
-//             <button onClick={() => setIsBookingModalOpen(false)} className="absolute top-6 right-6 p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-red-50 hover:text-red-500 transition-colors z-10">
+             <button onClick={() => setIsBookingModalOpen(false)} className="absolute top-6 right-6 p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-red-50 hover:text-red-500 transition-colors z-10">
 //               <X size={20} />
 //             </button>
 
