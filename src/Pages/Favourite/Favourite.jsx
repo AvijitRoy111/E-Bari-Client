@@ -58,8 +58,8 @@ const Favourite = () => {
                                           <span className="truncate">{item.address}</span>
                                       </div>
 
-//                                      <div className="mb-4">
-//                                          <span className="text-xl font-black text-blue-600">
+                                      <div className="mb-4">
+                                          <span className="text-xl font-black text-blue-600">
 //                                              ${item.price_min.toLocaleString()}
 //                                          </span>
 //                                      </div>
