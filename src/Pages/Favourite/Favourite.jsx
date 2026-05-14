@@ -47,8 +47,8 @@ const Favourite = () => {
                                           className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded-full shadow-lg"
                                       >
                                           <Trash2 size={16} />
-//                                      </button>
-//                                  </div>
+                                      </button>
+                                  </div>
 
 //                                  <div className="p-5 flex flex-col flex-1">
 //                                      <h3 className="text-lg font-bold dark:text-white line-clamp-1">{item.title}</h3>
