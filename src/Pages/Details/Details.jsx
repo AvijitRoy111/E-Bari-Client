@@ -203,8 +203,8 @@ const Details = () => {
                    </button>
                  </Link>
                </div>
-//             </div>
-//           </div>
+             </div>
+           </div>
 
 //           {/* Description & Amenities */}
 //           <div className="lg:col-span-12 grid md:grid-cols-12 gap-6 md:gap-10 mt-4">
