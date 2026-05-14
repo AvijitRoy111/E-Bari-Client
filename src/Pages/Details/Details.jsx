@@ -271,15 +271,15 @@ const Details = () => {
                  <form onSubmit={handleBookingSubmit} className="space-y-4">
                    <div>
                      <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Full Name</label>
-//                     <input required type="text" placeholder="Your Name" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
-//                       value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} />
-//                   </div>
+                     <input required type="text" placeholder="Your Name" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
+                       value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} />
+                   </div>
 
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Email</label>
-//                     <input required type="email" placeholder="email@example.com" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
-//                       value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} />
-//                   </div>
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Email</label>
+                     <input required type="email" placeholder="email@example.com" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
+                       value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} />
+                   </div>
 
 //                   <div>
 //                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Phone</label>
