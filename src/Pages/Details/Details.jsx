@@ -294,11 +294,11 @@ const Details = () => {
                          <button key={opt} type="button" onClick={() => setFormData({...formData, purpose: opt})}
                            className={`relative py-4 rounded-2xl font-bold transition-all border-2 flex items-center justify-center gap-2 ${formData.purpose === opt ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600" : "border-gray-100 dark:border-gray-800 text-gray-400"}`}>
                            {formData.purpose === opt && <CheckCircle2 size={18} />}
-//                           {opt}
-//                         </button>
-//                       ))}
-//                     </div>
-//                   </div>
+                           {opt}
+                         </button>
+                       ))}
+                     </div>
+                   </div>
 
 //                   <button disabled={isSubmitting} type="submit" className="w-full mt-4 py-5 bg-blue-600 text-white rounded-2xl font-black text-lg shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all active:scale-[0.98] disabled:opacity-50">
 //                     {isSubmitting ? "Processing..." : "Confirm Booking"}
