@@ -234,12 +234,12 @@ const Details = () => {
            <div className="bg-white dark:bg-gray-900 w-full max-w-2xl rounded-[2.5rem] shadow-2xl overflow-hidden relative animate-in zoom-in duration-300 max-h-[95vh] overflow-y-auto no-scrollbar">
             
              <button onClick={() => setIsBookingModalOpen(false)} className="absolute top-6 right-6 p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-red-50 hover:text-red-500 transition-colors z-10">
-//               <X size={20} />
-//             </button>
+               <X size={20} />
+             </button>
 
-//             <div className="grid md:grid-cols-5 h-full">
-//               {/* Modal Sidebar: Summary */}
-//               <div className="md:col-span-2 bg-gray-50 dark:bg-gray-800/50 p-8 border-r border-gray-100 dark:border-gray-800">
+             <div className="grid md:grid-cols-5 h-full">
+               {/* Modal Sidebar: Summary */}
+               <div className="md:col-span-2 bg-gray-50 dark:bg-gray-800/50 p-8 border-r border-gray-100 dark:border-gray-800">
 //                 <img src={property.images?.[0] || property.image} className="w-full h-32 object-cover rounded-2xl mb-4 shadow-sm" alt="property" />
 //                 <h3 className="font-black text-xl dark:text-white mb-1 leading-tight">{property.title}</h3>
 //                 <p className="text-gray-500 text-sm mb-6 line-clamp-1">{displayLocation}</p>
