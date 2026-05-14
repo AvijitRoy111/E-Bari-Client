@@ -5,10 +5,10 @@ import Breadcrumb from '@/Components/Breadcrumb/Breadcrumb';
 const Favourite = () => {
     const [favItems, setFavItems] = useState([]);
 
-//     useEffect(() => {
-//         const saved = JSON.parse(localStorage.getItem('property-favorites')) || [];
-//         setFavItems(saved);
-//     }, []);
+    useEffect(() => {
+        const saved = JSON.parse(localStorage.getItem('property-favorites')) || [];
+        setFavItems(saved);
+    }, []);
 
 //     const removeFavorite = (id) => {
 //         const updated = favItems.filter(item => item.id !== id);
