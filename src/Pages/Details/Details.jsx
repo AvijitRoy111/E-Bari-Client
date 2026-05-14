@@ -219,9 +219,9 @@ const Details = () => {
                  {amenities.map((item, idx) => (
                    <div key={idx} className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
                      <div className="p-2 bg-blue-50 dark:bg-blue-900/30 text-blue-600 rounded-lg"><item.icon size={18} /></div>
-//                     <span className="text-sm font-medium">{item.label}</span>
-//                   </div>
-//                 ))}
+                     <span className="text-sm font-medium">{item.label}</span>
+                   </div>
+                 ))}
 //               </div>
 //             </div>
 //           </div>
