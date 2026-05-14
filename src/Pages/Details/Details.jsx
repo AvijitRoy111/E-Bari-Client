@@ -300,35 +300,35 @@ const Details = () => {
                      </div>
                    </div>
 
-//                   <button disabled={isSubmitting} type="submit" className="w-full mt-4 py-5 bg-blue-600 text-white rounded-2xl font-black text-lg shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all active:scale-[0.98] disabled:opacity-50">
-//                     {isSubmitting ? "Processing..." : "Confirm Booking"}
-//                   </button>
-//                 </form>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       )}
+                   <button disabled={isSubmitting} type="submit" className="w-full mt-4 py-5 bg-blue-600 text-white rounded-2xl font-black text-lg shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all active:scale-[0.98] disabled:opacity-50">
+                     {isSubmitting ? "Processing..." : "Confirm Booking"}
+                   </button>
+                 </form>
+               </div>
+             </div>
+           </div>
+         </div>
+       )}
 
-//       {/* --- Success Modal --- */}
-//       {isSuccessModalOpen && (
-//         <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md transition-all">
-//           <div className="bg-white dark:bg-gray-900 w-full max-w-sm rounded-[3rem] p-10 text-center shadow-2xl animate-in zoom-in duration-300 border border-white/10">
-//             <div className="w-24 h-24 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl shadow-green-200 dark:shadow-none">
-//               <ShieldCheck size={48} strokeWidth={2.5} />
-//             </div>
-//             <h2 className="text-2xl font-black mb-2 dark:text-white">Request Sent!</h2>
-//             <p className="text-gray-500 dark:text-gray-400 mb-8 font-medium">
-//               Your request for <span className="text-blue-600 font-bold">{property.title}</span> has been received. We will contact you shortly!
-//             </p>
-//             <button onClick={() => setIsSuccessModalOpen(false)} className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all">
-//               Great, Thanks!
-//             </button>
-//           </div>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
+       {/* --- Success Modal --- */}
+       {isSuccessModalOpen && (
+         <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md transition-all">
+           <div className="bg-white dark:bg-gray-900 w-full max-w-sm rounded-[3rem] p-10 text-center shadow-2xl animate-in zoom-in duration-300 border border-white/10">
+             <div className="w-24 h-24 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl shadow-green-200 dark:shadow-none">
+               <ShieldCheck size={48} strokeWidth={2.5} />
+             </div>
+             <h2 className="text-2xl font-black mb-2 dark:text-white">Request Sent!</h2>
+             <p className="text-gray-500 dark:text-gray-400 mb-8 font-medium">
+               Your request for <span className="text-blue-600 font-bold">{property.title}</span> has been received. We will contact you shortly!
+             </p>
+             <button onClick={() => setIsSuccessModalOpen(false)} className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all">
+               Great, Thanks!
+             </button>
+           </div>
+         </div>
+       )}
+     </div>
+   );
+ };
 
-// export default Details;
+ export default Details;
