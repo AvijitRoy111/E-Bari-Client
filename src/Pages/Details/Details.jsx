@@ -179,9 +179,9 @@ const Details = () => {
                <div className="grid grid-cols-3 gap-3 mb-8">
                  {[
                    { icon: BedDouble, label: "Beds", value: property.bedrooms || property.beds || 0 },
-//                   { icon: Bath, label: "Baths", value: property.bathrooms || property.baths || 0 },
-//                   { icon: Square, label: "Sqft", value: property.area || property.sqft || 0 }
-//                 ].map((stat, i) => (
+                  { icon: Bath, label: "Baths", value: property.bathrooms || property.baths || 0 },
+                  { icon: Square, label: "Sqft", value: property.area || property.sqft || 0 }
+                ].map((stat, i) => (
 //                   <div key={i} className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
 //                     <stat.icon className="mx-auto mb-2 text-blue-600" size={20} />
 //                     <p className="text-[10px] text-gray-400 uppercase font-black">{stat.label}</p>
