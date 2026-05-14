@@ -255,9 +255,9 @@ const Details = () => {
                    </div>
                    <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                      <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><Square size={18} className="text-blue-600"/></div>
-//                     <span className="text-sm font-bold">{property.area || property.sqft} Sqft</span>
-//                   </div>
-//                 </div>
+                     <span className="text-sm font-bold">{property.area || property.sqft} Sqft</span>
+                   </div>
+                 </div>
 
 //                 <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
 //                   <p className="text-xs font-black uppercase text-gray-400 mb-1">Price</p>
