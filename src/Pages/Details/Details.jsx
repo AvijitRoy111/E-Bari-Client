@@ -259,18 +259,18 @@ const Details = () => {
                    </div>
                  </div>
 
-//                 <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
-//                   <p className="text-xs font-black uppercase text-gray-400 mb-1">Price</p>
-//                   <p className="text-2xl font-black text-blue-600">${(property.price || property.price_min)?.toLocaleString()}</p>
-//                 </div>
-//               </div>
+                 <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
+                   <p className="text-xs font-black uppercase text-gray-400 mb-1">Price</p>
+                   <p className="text-2xl font-black text-blue-600">${(property.price || property.price_min)?.toLocaleString()}</p>
+                 </div>
+               </div>
 
-//               {/* Modal Body: Form */}
-//               <div className="md:col-span-3 p-8">
-//                 <h2 className="text-2xl font-black dark:text-white mb-6">Quick Booking</h2>
-//                 <form onSubmit={handleBookingSubmit} className="space-y-4">
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Full Name</label>
+               {/* Modal Body: Form */}
+               <div className="md:col-span-3 p-8">
+                 <h2 className="text-2xl font-black dark:text-white mb-6">Quick Booking</h2>
+                 <form onSubmit={handleBookingSubmit} className="space-y-4">
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Full Name</label>
 //                     <input required type="text" placeholder="Your Name" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
 //                       value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} />
 //                   </div>
