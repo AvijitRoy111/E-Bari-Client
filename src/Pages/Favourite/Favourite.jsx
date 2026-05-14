@@ -55,8 +55,8 @@ const Favourite = () => {
                                     
                                       <div className="flex items-center gap-1 text-gray-400 text-xs mt-1 mb-3">
                                           <MapPin size={12} />
-//                                          <span className="truncate">{item.address}</span>
-//                                      </div>
+                                          <span className="truncate">{item.address}</span>
+                                      </div>
 
 //                                      <div className="mb-4">
 //                                          <span className="text-xl font-black text-blue-600">
