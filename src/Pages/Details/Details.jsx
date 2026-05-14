@@ -214,9 +214,9 @@ const Details = () => {
              </div>
 
              <div className="md:col-span-4 bg-white dark:bg-gray-900 p-8 rounded-[2rem] border border-gray-100 dark:border-gray-800">
-//               <h3 className="text-xl font-bold mb-6 dark:text-white">Amenities</h3>
-//               <div className="grid grid-cols-2 gap-4">
-//                 {amenities.map((item, idx) => (
+               <h3 className="text-xl font-bold mb-6 dark:text-white">Amenities</h3>
+               <div className="grid grid-cols-2 gap-4">
+                 {amenities.map((item, idx) => (
 //                   <div key={idx} className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
 //                     <div className="p-2 bg-blue-50 dark:bg-blue-900/30 text-blue-600 rounded-lg"><item.icon size={18} /></div>
 //                     <span className="text-sm font-medium">{item.label}</span>
