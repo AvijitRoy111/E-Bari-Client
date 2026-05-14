@@ -190,10 +190,10 @@ const Details = () => {
                  ))}
                </div>
 
-//               <div className="space-y-3">
-//                 <button 
-//                   onClick={() => setIsBookingModalOpen(true)}
-//                   className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center justify-center gap-3 transition-transform active:scale-95 shadow-lg shadow-blue-100 dark:shadow-none"
+               <div className="space-y-3">
+                 <button 
+                   onClick={() => setIsBookingModalOpen(true)}
+                   className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center justify-center gap-3 transition-transform active:scale-95 shadow-lg shadow-blue-100 dark:shadow-none"
 //                 >
 //                   <Calendar size={20} /> Book Now
 //                 </button>
