@@ -281,19 +281,19 @@ const Details = () => {
                        value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} />
                    </div>
 
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Phone</label>
-//                     <input required type="tel" placeholder="+1..." className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
-//                       value={formData.phone} onChange={(e) => setFormData({...formData, phone: e.target.value})} />
-//                   </div>
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Phone</label>
+                     <input required type="tel" placeholder="+1..." className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
+                       value={formData.phone} onChange={(e) => setFormData({...formData, phone: e.target.value})} />
+                   </div>
 
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Purpose</label>
-//                     <div className="grid grid-cols-2 gap-3">
-//                       {['Rent', 'Buy'].map((opt) => (
-//                         <button key={opt} type="button" onClick={() => setFormData({...formData, purpose: opt})}
-//                           className={`relative py-4 rounded-2xl font-bold transition-all border-2 flex items-center justify-center gap-2 ${formData.purpose === opt ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600" : "border-gray-100 dark:border-gray-800 text-gray-400"}`}>
-//                           {formData.purpose === opt && <CheckCircle2 size={18} />}
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Purpose</label>
+                     <div className="grid grid-cols-2 gap-3">
+                       {['Rent', 'Buy'].map((opt) => (
+                         <button key={opt} type="button" onClick={() => setFormData({...formData, purpose: opt})}
+                           className={`relative py-4 rounded-2xl font-bold transition-all border-2 flex items-center justify-center gap-2 ${formData.purpose === opt ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600" : "border-gray-100 dark:border-gray-800 text-gray-400"}`}>
+                           {formData.purpose === opt && <CheckCircle2 size={18} />}
 //                           {opt}
 //                         </button>
 //                       ))}
