@@ -182,8 +182,8 @@ const Details = () => {
                   { icon: Bath, label: "Baths", value: property.bathrooms || property.baths || 0 },
                   { icon: Square, label: "Sqft", value: property.area || property.sqft || 0 }
                 ].map((stat, i) => (
-//                   <div key={i} className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-//                     <stat.icon className="mx-auto mb-2 text-blue-600" size={20} />
+                  <div key={i} className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+                    <stat.icon className="mx-auto mb-2 text-blue-600" size={20} />
 //                     <p className="text-[10px] text-gray-400 uppercase font-black">{stat.label}</p>
 //                     <p className="font-bold dark:text-white">{stat.value}</p>
 //                   </div>
