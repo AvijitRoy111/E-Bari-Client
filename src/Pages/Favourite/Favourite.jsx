@@ -16,8 +16,8 @@ const Favourite = () => {
         localStorage.setItem('property-favorites', JSON.stringify(updated));
     };
 
-//     return (
-//         <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
+    return (
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-950 pb-20">
 //             <div className="max-w-[1440px] mx-auto px-6 pt-8">
 //                 <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Favourite", href: "/favourite" }]} />
                 
