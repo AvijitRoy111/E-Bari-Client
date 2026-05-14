@@ -244,9 +244,9 @@ const Details = () => {
                  <h3 className="font-black text-xl dark:text-white mb-1 leading-tight">{property.title}</h3>
                  <p className="text-gray-500 text-sm mb-6 line-clamp-1">{displayLocation}</p>
                 
-//                 <div className="space-y-4">
-//                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-//                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><BedDouble size={18} className="text-blue-600"/></div>
+                 <div className="space-y-4">
+                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><BedDouble size={18} className="text-blue-600"/></div>
 //                     <span className="text-sm font-bold">{property.bedrooms || property.beds} Beds</span>
 //                   </div>
 //                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
