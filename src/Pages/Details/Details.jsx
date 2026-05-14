@@ -194,11 +194,11 @@ const Details = () => {
                  <button 
                    onClick={() => setIsBookingModalOpen(true)}
                    className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center justify-center gap-3 transition-transform active:scale-95 shadow-lg shadow-blue-100 dark:shadow-none"
-//                 >
-//                   <Calendar size={20} /> Book Now
-//                 </button>
-//                 <Link to="/contact">
-//                   <button className="w-full py-4 border-2 border-gray-100 dark:border-gray-700 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-3">
+                 >
+                   <Calendar size={20} /> Book Now
+                 </button>
+                 <Link to="/contact">
+                   <button className="w-full py-4 border-2 border-gray-100 dark:border-gray-700 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-3">
 //                     <MessageSquare size={20} /> Contact Agent
 //                   </button>
 //                 </Link>
