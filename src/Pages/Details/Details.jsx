@@ -240,9 +240,9 @@ const Details = () => {
              <div className="grid md:grid-cols-5 h-full">
                {/* Modal Sidebar: Summary */}
                <div className="md:col-span-2 bg-gray-50 dark:bg-gray-800/50 p-8 border-r border-gray-100 dark:border-gray-800">
-//                 <img src={property.images?.[0] || property.image} className="w-full h-32 object-cover rounded-2xl mb-4 shadow-sm" alt="property" />
-//                 <h3 className="font-black text-xl dark:text-white mb-1 leading-tight">{property.title}</h3>
-//                 <p className="text-gray-500 text-sm mb-6 line-clamp-1">{displayLocation}</p>
+                 <img src={property.images?.[0] || property.image} className="w-full h-32 object-cover rounded-2xl mb-4 shadow-sm" alt="property" />
+                 <h3 className="font-black text-xl dark:text-white mb-1 leading-tight">{property.title}</h3>
+                 <p className="text-gray-500 text-sm mb-6 line-clamp-1">{displayLocation}</p>
                 
 //                 <div className="space-y-4">
 //                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
