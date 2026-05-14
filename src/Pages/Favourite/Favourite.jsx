@@ -45,8 +45,8 @@ const Favourite = () => {
                                       <button 
                                           onClick={() => removeFavorite(item.id)}
                                           className="absolute top-4 right-4 p-2 bg-red-500 text-white rounded-full shadow-lg"
-//                                      >
-//                                          <Trash2 size={16} />
+                                      >
+                                          <Trash2 size={16} />
 //                                      </button>
 //                                  </div>
 
