@@ -21,9 +21,9 @@ const Favourite = () => {
              <div className="max-w-[1440px] mx-auto px-6 pt-8">
                  <Breadcrumb items={[{ label: "Home", href: "/" }, { label: "Favourite", href: "/favourite" }]} />
                 
-//                  <div className="mt-8 mb-10">
-//                      <h1 className="text-4xl font-black text-gray-900 dark:text-white tracking-tight">
-//                          My <span className="text-red-500">Favourite</span> Properties
+                  <div className="mt-8 mb-10">
+                      <h1 className="text-4xl font-black text-gray-900 dark:text-white tracking-tight">
+                          My <span className="text-red-500">Favourite</span> Properties
 //                      </h1>
 //                      <p className="text-gray-500 mt-2">You have saved {favItems.length} properties</p>
 //                  </div>
