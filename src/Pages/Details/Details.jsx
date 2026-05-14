@@ -209,8 +209,8 @@ const Details = () => {
            {/* Description & Amenities */}
            <div className="lg:col-span-12 grid md:grid-cols-12 gap-6 md:gap-10 mt-4">
              <div className="md:col-span-8 bg-white dark:bg-gray-900 p-8 md:p-10 rounded-[2rem] border border-gray-100 dark:border-gray-800">
-//               <h2 className="text-2xl font-bold dark:text-white mb-6">About Property</h2>
-//               <p className="text-gray-600 dark:text-gray-400 leading-[1.8] text-lg">{property.description || "No description available."}</p>
+               <h2 className="text-2xl font-bold dark:text-white mb-6">About Property</h2>
+               <p className="text-gray-600 dark:text-gray-400 leading-[1.8] text-lg">{property.description || "No description available."}</p>
 //             </div>
 
 //             <div className="md:col-span-4 bg-white dark:bg-gray-900 p-8 rounded-[2rem] border border-gray-100 dark:border-gray-800">
