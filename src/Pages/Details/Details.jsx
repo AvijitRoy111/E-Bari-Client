@@ -184,11 +184,11 @@ const Details = () => {
                 ].map((stat, i) => (
                   <div key={i} className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
                     <stat.icon className="mx-auto mb-2 text-blue-600" size={20} />
-//                     <p className="text-[10px] text-gray-400 uppercase font-black">{stat.label}</p>
-//                     <p className="font-bold dark:text-white">{stat.value}</p>
-//                   </div>
-//                 ))}
-//               </div>
+                     <p className="text-[10px] text-gray-400 uppercase font-black">{stat.label}</p>
+                     <p className="font-bold dark:text-white">{stat.value}</p>
+                   </div>
+                 ))}
+               </div>
 
 //               <div className="space-y-3">
 //                 <button 
