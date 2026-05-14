@@ -78,8 +78,8 @@ const Favourite = () => {
                                               <span className="text-[10px] font-bold">{item.sqft} sqft</span>
                                           </div>
                                       </div>
-//                                  </div>
-//                              </div>
+                                  </div>
+                              </div>
 //                          ))}
 //                      </div>
 //                  )}
