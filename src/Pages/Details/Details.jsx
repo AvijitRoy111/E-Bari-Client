@@ -199,10 +199,10 @@ const Details = () => {
                  </button>
                  <Link to="/contact">
                    <button className="w-full py-4 border-2 border-gray-100 dark:border-gray-700 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-3">
-//                     <MessageSquare size={20} /> Contact Agent
-//                   </button>
-//                 </Link>
-//               </div>
+                     <MessageSquare size={20} /> Contact Agent
+                   </button>
+                 </Link>
+               </div>
 //             </div>
 //           </div>
 
