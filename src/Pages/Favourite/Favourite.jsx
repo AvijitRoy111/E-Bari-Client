@@ -39,8 +39,8 @@ const Favourite = () => {
                                   <div className="relative overflow-hidden h-52">
                                       <img
                                           src={item.images?.[0]}
-//                                          alt={item.title}
-//                                          className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                          alt={item.title}
+                                          className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-700"
 //                                      />
 //                                      <button 
 //                                          onClick={() => removeFavorite(item.id)}
