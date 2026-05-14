@@ -84,8 +84,8 @@ const Favourite = () => {
                       </div>
                   )}
               </div>
-//          </div>
-//      );
-//  };
+          </div>
+      );
+  };
 
-// export default Favourite;
+ export default Favourite;
