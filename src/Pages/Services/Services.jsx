@@ -28,7 +28,7 @@ const Services = () => {
             id: 4,
             title: "Real Estate Investment",
             desc: "Get data-driven insights and expert advice on where to invest for the highest future ROI.",
-//             icon: <TrendingUp className="w-8 h-8 text-purple-600" />,
+            icon: <TrendingUp className="w-8 h-8 text-purple-600" />,
 //             bgColor: "bg-purple-50 dark:bg-purple-900/20"
 //         },
 //         {
