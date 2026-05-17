@@ -65,8 +65,8 @@ const Services = () => {
                        </h1>
                        <p className="text-gray-500 dark:text-gray-400 text-lg">
                            Whether you are looking to buy, sell, or manage properties, we provide world-class services tailored to your unique needs.
-//                       </p>
-//                   </div>
+                       </p>
+                   </div>
 
 //                   {/* Services Grid */}
 //                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
