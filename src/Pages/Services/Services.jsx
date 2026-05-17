@@ -86,9 +86,9 @@ const Services = () => {
                                   {service.title}
                                </h3>
 
-//                               <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
-//                                   {service.desc}
-//                               </p>
+                               <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
+                                   {service.desc}
+                               </p>
 
 //                               <button className="flex items-center gap-2 text-sm font-bold text-gray-900 dark:text-gray-300 group-hover:text-blue-600 transition-colors uppercase tracking-wider">
 //                                   Learn More
