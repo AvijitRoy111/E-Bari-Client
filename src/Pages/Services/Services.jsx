@@ -83,8 +83,8 @@ const Services = () => {
                               </div>
 
                                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4 group-hover:text-blue-600 transition-colors">
-//                                  {service.title}
-//                               </h3>
+                                  {service.title}
+                               </h3>
 
 //                               <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
 //                                   {service.desc}
