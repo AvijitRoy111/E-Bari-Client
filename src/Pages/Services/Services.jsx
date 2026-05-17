@@ -64,7 +64,7 @@ const Services = () => {
                            Comprehensive Real Estate <span className="text-blue-600">Solutions</span>
                        </h1>
                        <p className="text-gray-500 dark:text-gray-400 text-lg">
-//                           Whether you are looking to buy, sell, or manage properties, we provide world-class services tailored to your unique needs.
+                           Whether you are looking to buy, sell, or manage properties, we provide world-class services tailored to your unique needs.
 //                       </p>
 //                   </div>
 
