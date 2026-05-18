@@ -18,13 +18,13 @@ const BrowseHome = () => {
                 .sort((a, b) => (b.price_max || b.price) - (a.price_max || a.price))
                 .slice(0, 9);
 
-//             setHomes(expensiveHomes);
-//         } catch (error) {
-//             console.error("Error fetching homes:", error);
-//         } finally {
-//             setLoading(false);
-//         }
-//     };
+            setHomes(expensiveHomes);
+        } catch (error) {
+            console.error("Error fetching homes:", error);
+        } finally {
+            setLoading(false);
+        }
+    };
 
 //     useEffect(() => {
 //         fetchHomes();
