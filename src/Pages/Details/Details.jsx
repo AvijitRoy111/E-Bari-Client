@@ -179,156 +179,156 @@ const Details = () => {
                <div className="grid grid-cols-3 gap-3 mb-8">
                  {[
                    { icon: BedDouble, label: "Beds", value: property.bedrooms || property.beds || 0 },
-//                   { icon: Bath, label: "Baths", value: property.bathrooms || property.baths || 0 },
-//                   { icon: Square, label: "Sqft", value: property.area || property.sqft || 0 }
-//                 ].map((stat, i) => (
-//                   <div key={i} className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-//                     <stat.icon className="mx-auto mb-2 text-blue-600" size={20} />
-//                     <p className="text-[10px] text-gray-400 uppercase font-black">{stat.label}</p>
-//                     <p className="font-bold dark:text-white">{stat.value}</p>
-//                   </div>
-//                 ))}
-//               </div>
+                  { icon: Bath, label: "Baths", value: property.bathrooms || property.baths || 0 },
+                  { icon: Square, label: "Sqft", value: property.area || property.sqft || 0 }
+                ].map((stat, i) => (
+                  <div key={i} className="text-center p-4 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+                    <stat.icon className="mx-auto mb-2 text-blue-600" size={20} />
+                     <p className="text-[10px] text-gray-400 uppercase font-black">{stat.label}</p>
+                     <p className="font-bold dark:text-white">{stat.value}</p>
+                   </div>
+                 ))}
+               </div>
 
-//               <div className="space-y-3">
-//                 <button 
-//                   onClick={() => setIsBookingModalOpen(true)}
-//                   className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center justify-center gap-3 transition-transform active:scale-95 shadow-lg shadow-blue-100 dark:shadow-none"
-//                 >
-//                   <Calendar size={20} /> Book Now
-//                 </button>
-//                 <Link to="/contact">
-//                   <button className="w-full py-4 border-2 border-gray-100 dark:border-gray-700 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-3">
-//                     <MessageSquare size={20} /> Contact Agent
-//                   </button>
-//                 </Link>
-//               </div>
-//             </div>
-//           </div>
+               <div className="space-y-3">
+                 <button 
+                   onClick={() => setIsBookingModalOpen(true)}
+                   className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold flex items-center justify-center gap-3 transition-transform active:scale-95 shadow-lg shadow-blue-100 dark:shadow-none"
+                 >
+                   <Calendar size={20} /> Book Now
+                 </button>
+                 <Link to="/contact">
+                   <button className="w-full py-4 border-2 border-gray-100 dark:border-gray-700 dark:text-white rounded-2xl font-bold flex items-center justify-center gap-3">
+                     <MessageSquare size={20} /> Contact Agent
+                   </button>
+                 </Link>
+               </div>
+             </div>
+           </div>
 
-//           {/* Description & Amenities */}
-//           <div className="lg:col-span-12 grid md:grid-cols-12 gap-6 md:gap-10 mt-4">
-//             <div className="md:col-span-8 bg-white dark:bg-gray-900 p-8 md:p-10 rounded-[2rem] border border-gray-100 dark:border-gray-800">
-//               <h2 className="text-2xl font-bold dark:text-white mb-6">About Property</h2>
-//               <p className="text-gray-600 dark:text-gray-400 leading-[1.8] text-lg">{property.description || "No description available."}</p>
-//             </div>
+           {/* Description & Amenities */}
+           <div className="lg:col-span-12 grid md:grid-cols-12 gap-6 md:gap-10 mt-4">
+             <div className="md:col-span-8 bg-white dark:bg-gray-900 p-8 md:p-10 rounded-[2rem] border border-gray-100 dark:border-gray-800">
+               <h2 className="text-2xl font-bold dark:text-white mb-6">About Property</h2>
+               <p className="text-gray-600 dark:text-gray-400 leading-[1.8] text-lg">{property.description || "No description available."}</p>
+             </div>
 
-//             <div className="md:col-span-4 bg-white dark:bg-gray-900 p-8 rounded-[2rem] border border-gray-100 dark:border-gray-800">
-//               <h3 className="text-xl font-bold mb-6 dark:text-white">Amenities</h3>
-//               <div className="grid grid-cols-2 gap-4">
-//                 {amenities.map((item, idx) => (
-//                   <div key={idx} className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
-//                     <div className="p-2 bg-blue-50 dark:bg-blue-900/30 text-blue-600 rounded-lg"><item.icon size={18} /></div>
-//                     <span className="text-sm font-medium">{item.label}</span>
-//                   </div>
-//                 ))}
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
+             <div className="md:col-span-4 bg-white dark:bg-gray-900 p-8 rounded-[2rem] border border-gray-100 dark:border-gray-800">
+               <h3 className="text-xl font-bold mb-6 dark:text-white">Amenities</h3>
+               <div className="grid grid-cols-2 gap-4">
+                 {amenities.map((item, idx) => (
+                   <div key={idx} className="flex items-center gap-3 text-gray-600 dark:text-gray-400">
+                     <div className="p-2 bg-blue-50 dark:bg-blue-900/30 text-blue-600 rounded-lg"><item.icon size={18} /></div>
+                     <span className="text-sm font-medium">{item.label}</span>
+                   </div>
+                 ))}
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
 
-//       {/* --- Dynamic Booking Modal --- */}
-//       {isBookingModalOpen && (
-//         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/70 backdrop-blur-md">
-//           <div className="bg-white dark:bg-gray-900 w-full max-w-2xl rounded-[2.5rem] shadow-2xl overflow-hidden relative animate-in zoom-in duration-300 max-h-[95vh] overflow-y-auto no-scrollbar">
+       {/* --- Dynamic Booking Modal --- */}
+       {isBookingModalOpen && (
+         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/70 backdrop-blur-md">
+           <div className="bg-white dark:bg-gray-900 w-full max-w-2xl rounded-[2.5rem] shadow-2xl overflow-hidden relative animate-in zoom-in duration-300 max-h-[95vh] overflow-y-auto no-scrollbar">
             
-//             <button onClick={() => setIsBookingModalOpen(false)} className="absolute top-6 right-6 p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-red-50 hover:text-red-500 transition-colors z-10">
-//               <X size={20} />
-//             </button>
+             <button onClick={() => setIsBookingModalOpen(false)} className="absolute top-6 right-6 p-2 bg-gray-100 dark:bg-gray-800 rounded-full hover:bg-red-50 hover:text-red-500 transition-colors z-10">
+               <X size={20} />
+             </button>
 
-//             <div className="grid md:grid-cols-5 h-full">
-//               {/* Modal Sidebar: Summary */}
-//               <div className="md:col-span-2 bg-gray-50 dark:bg-gray-800/50 p-8 border-r border-gray-100 dark:border-gray-800">
-//                 <img src={property.images?.[0] || property.image} className="w-full h-32 object-cover rounded-2xl mb-4 shadow-sm" alt="property" />
-//                 <h3 className="font-black text-xl dark:text-white mb-1 leading-tight">{property.title}</h3>
-//                 <p className="text-gray-500 text-sm mb-6 line-clamp-1">{displayLocation}</p>
+             <div className="grid md:grid-cols-5 h-full">
+               {/* Modal Sidebar: Summary */}
+               <div className="md:col-span-2 bg-gray-50 dark:bg-gray-800/50 p-8 border-r border-gray-100 dark:border-gray-800">
+                 <img src={property.images?.[0] || property.image} className="w-full h-32 object-cover rounded-2xl mb-4 shadow-sm" alt="property" />
+                 <h3 className="font-black text-xl dark:text-white mb-1 leading-tight">{property.title}</h3>
+                 <p className="text-gray-500 text-sm mb-6 line-clamp-1">{displayLocation}</p>
                 
-//                 <div className="space-y-4">
-//                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-//                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><BedDouble size={18} className="text-blue-600"/></div>
-//                     <span className="text-sm font-bold">{property.bedrooms || property.beds} Beds</span>
-//                   </div>
-//                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-//                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><Bath size={18} className="text-blue-600"/></div>
-//                     <span className="text-sm font-bold">{property.bathrooms || property.baths} Baths</span>
-//                   </div>
-//                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
-//                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><Square size={18} className="text-blue-600"/></div>
-//                     <span className="text-sm font-bold">{property.area || property.sqft} Sqft</span>
-//                   </div>
-//                 </div>
+                 <div className="space-y-4">
+                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><BedDouble size={18} className="text-blue-600"/></div>
+                     <span className="text-sm font-bold">{property.bedrooms || property.beds} Beds</span>
+                   </div>
+                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><Bath size={18} className="text-blue-600"/></div>
+                     <span className="text-sm font-bold">{property.bathrooms || property.baths} Baths</span>
+                   </div>
+                   <div className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
+                     <div className="p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm"><Square size={18} className="text-blue-600"/></div>
+                     <span className="text-sm font-bold">{property.area || property.sqft} Sqft</span>
+                   </div>
+                 </div>
 
-//                 <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
-//                   <p className="text-xs font-black uppercase text-gray-400 mb-1">Price</p>
-//                   <p className="text-2xl font-black text-blue-600">${(property.price || property.price_min)?.toLocaleString()}</p>
-//                 </div>
-//               </div>
+                 <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
+                   <p className="text-xs font-black uppercase text-gray-400 mb-1">Price</p>
+                   <p className="text-2xl font-black text-blue-600">${(property.price || property.price_min)?.toLocaleString()}</p>
+                 </div>
+               </div>
 
-//               {/* Modal Body: Form */}
-//               <div className="md:col-span-3 p-8">
-//                 <h2 className="text-2xl font-black dark:text-white mb-6">Quick Booking</h2>
-//                 <form onSubmit={handleBookingSubmit} className="space-y-4">
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Full Name</label>
-//                     <input required type="text" placeholder="Your Name" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
-//                       value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} />
-//                   </div>
+               {/* Modal Body: Form */}
+               <div className="md:col-span-3 p-8">
+                 <h2 className="text-2xl font-black dark:text-white mb-6">Quick Booking</h2>
+                 <form onSubmit={handleBookingSubmit} className="space-y-4">
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Full Name</label>
+                     <input required type="text" placeholder="Your Name" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
+                       value={formData.name} onChange={(e) => setFormData({...formData, name: e.target.value})} />
+                   </div>
 
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Email</label>
-//                     <input required type="email" placeholder="email@example.com" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
-//                       value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} />
-//                   </div>
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Email</label>
+                     <input required type="email" placeholder="email@example.com" className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
+                       value={formData.email} onChange={(e) => setFormData({...formData, email: e.target.value})} />
+                   </div>
 
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Phone</label>
-//                     <input required type="tel" placeholder="+1..." className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
-//                       value={formData.phone} onChange={(e) => setFormData({...formData, phone: e.target.value})} />
-//                   </div>
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Phone</label>
+                     <input required type="tel" placeholder="+1..." className="w-full p-4 bg-gray-50 dark:bg-gray-800 border-none rounded-2xl focus:ring-2 focus:ring-blue-600 outline-none dark:text-white"
+                       value={formData.phone} onChange={(e) => setFormData({...formData, phone: e.target.value})} />
+                   </div>
 
-//                   <div>
-//                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Purpose</label>
-//                     <div className="grid grid-cols-2 gap-3">
-//                       {['Rent', 'Buy'].map((opt) => (
-//                         <button key={opt} type="button" onClick={() => setFormData({...formData, purpose: opt})}
-//                           className={`relative py-4 rounded-2xl font-bold transition-all border-2 flex items-center justify-center gap-2 ${formData.purpose === opt ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600" : "border-gray-100 dark:border-gray-800 text-gray-400"}`}>
-//                           {formData.purpose === opt && <CheckCircle2 size={18} />}
-//                           {opt}
-//                         </button>
-//                       ))}
-//                     </div>
-//                   </div>
+                   <div>
+                     <label className="block text-xs font-black uppercase text-gray-400 mb-2 ml-1">Purpose</label>
+                     <div className="grid grid-cols-2 gap-3">
+                       {['Rent', 'Buy'].map((opt) => (
+                         <button key={opt} type="button" onClick={() => setFormData({...formData, purpose: opt})}
+                           className={`relative py-4 rounded-2xl font-bold transition-all border-2 flex items-center justify-center gap-2 ${formData.purpose === opt ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600" : "border-gray-100 dark:border-gray-800 text-gray-400"}`}>
+                           {formData.purpose === opt && <CheckCircle2 size={18} />}
+                           {opt}
+                         </button>
+                       ))}
+                     </div>
+                   </div>
 
-//                   <button disabled={isSubmitting} type="submit" className="w-full mt-4 py-5 bg-blue-600 text-white rounded-2xl font-black text-lg shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all active:scale-[0.98] disabled:opacity-50">
-//                     {isSubmitting ? "Processing..." : "Confirm Booking"}
-//                   </button>
-//                 </form>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       )}
+                   <button disabled={isSubmitting} type="submit" className="w-full mt-4 py-5 bg-blue-600 text-white rounded-2xl font-black text-lg shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all active:scale-[0.98] disabled:opacity-50">
+                     {isSubmitting ? "Processing..." : "Confirm Booking"}
+                   </button>
+                 </form>
+               </div>
+             </div>
+           </div>
+         </div>
+       )}
 
-//       {/* --- Success Modal --- */}
-//       {isSuccessModalOpen && (
-//         <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md transition-all">
-//           <div className="bg-white dark:bg-gray-900 w-full max-w-sm rounded-[3rem] p-10 text-center shadow-2xl animate-in zoom-in duration-300 border border-white/10">
-//             <div className="w-24 h-24 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl shadow-green-200 dark:shadow-none">
-//               <ShieldCheck size={48} strokeWidth={2.5} />
-//             </div>
-//             <h2 className="text-2xl font-black mb-2 dark:text-white">Request Sent!</h2>
-//             <p className="text-gray-500 dark:text-gray-400 mb-8 font-medium">
-//               Your request for <span className="text-blue-600 font-bold">{property.title}</span> has been received. We will contact you shortly!
-//             </p>
-//             <button onClick={() => setIsSuccessModalOpen(false)} className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all">
-//               Great, Thanks!
-//             </button>
-//           </div>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
+       {/* --- Success Modal --- */}
+       {isSuccessModalOpen && (
+         <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-md transition-all">
+           <div className="bg-white dark:bg-gray-900 w-full max-w-sm rounded-[3rem] p-10 text-center shadow-2xl animate-in zoom-in duration-300 border border-white/10">
+             <div className="w-24 h-24 bg-green-500 text-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl shadow-green-200 dark:shadow-none">
+               <ShieldCheck size={48} strokeWidth={2.5} />
+             </div>
+             <h2 className="text-2xl font-black mb-2 dark:text-white">Request Sent!</h2>
+             <p className="text-gray-500 dark:text-gray-400 mb-8 font-medium">
+               Your request for <span className="text-blue-600 font-bold">{property.title}</span> has been received. We will contact you shortly!
+             </p>
+             <button onClick={() => setIsSuccessModalOpen(false)} className="w-full py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-200 hover:bg-blue-700 transition-all">
+               Great, Thanks!
+             </button>
+           </div>
+         </div>
+       )}
+     </div>
+   );
+ };
 
-// export default Details;
+ export default Details;
