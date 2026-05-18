@@ -26,9 +26,9 @@ const BrowseHome = () => {
         }
     };
 
-//     useEffect(() => {
-//         fetchHomes();
-//     }, []);
+    useEffect(() => {
+        fetchHomes();
+    }, []);
 
 //     // Skeleton Card
 //     const SkeletonCard = () => (
