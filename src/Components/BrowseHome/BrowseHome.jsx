@@ -13,10 +13,10 @@ const BrowseHome = () => {
             const res = await axios.get("/fake.json");
             const data = res.data;
 
-//             // Top 9 expensive homes
-//             const expensiveHomes = data
-//                 .sort((a, b) => (b.price_max || b.price) - (a.price_max || a.price))
-//                 .slice(0, 9);
+            // Top 9 expensive homes
+            const expensiveHomes = data
+                .sort((a, b) => (b.price_max || b.price) - (a.price_max || a.price))
+                .slice(0, 9);
 
 //             setHomes(expensiveHomes);
 //         } catch (error) {
