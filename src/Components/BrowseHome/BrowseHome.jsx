@@ -30,9 +30,9 @@ const BrowseHome = () => {
         fetchHomes();
     }, []);
 
-//     // Skeleton Card
-//     const SkeletonCard = () => (
-//         <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md animate-pulse">
+    // Skeleton Card
+    const SkeletonCard = () => (
+        <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md animate-pulse">
 //             <div className="w-full h-48 bg-gray-300"></div>
 //             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 //             <div className="absolute top-3 left-4 bg-gray-400 h-6 w-32 rounded"></div>
