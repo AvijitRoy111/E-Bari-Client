@@ -1,5 +1,5 @@
-// import { useState, useEffect } from "react";
-// import axios from "axios";
+import { useState, useEffect } from "react";
+import axios from "axios";
 
 // const BrowseHome = () => {
 //     const [homes, setHomes] = useState([]);
