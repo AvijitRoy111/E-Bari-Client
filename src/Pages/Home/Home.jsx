@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import { ArrowRight, Star, Quote, ChevronLeft, ChevronRight, Home as HomeIcon, MapPin } from 'lucide-react';
+import { ArrowRight, Star, Quote, Home as HomeIcon, MapPin, ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Swiper styles
 import 'swiper/css';
@@ -10,7 +10,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import banner from "../../assets/images/banner/banner.jpg";
-import PropertySection from "@/Components/PropertySection/PropertySection";
 
 export const Home = () => {
   const [properties, setProperties] = useState([]);
@@ -31,63 +30,90 @@ export const Home = () => {
     fetchProperties();
   }, []);
 
-  // ক্যাটাগরি অনুযায়ী ডাটা ফিল্টার
+  // Filter data based on categories
   const villas = properties.filter(p => p.category?.toLowerCase() === 'villa');
   const apartments = properties.filter(p => p.category?.toLowerCase() === 'apartment');
 
-  const PropertyCarousel = ({ title, items }) => (
-    <div className="mt-16 group">
-      <div className="flex justify-between items-end mb-8 px-2">
-        <div>
-          <h2 className="text-3xl font-black text-gray-900 dark:text-white">{title}</h2>
-          <div className="h-1.5 w-20 bg-blue-600 rounded-full mt-2"></div>
-        </div>
-        <Link to="/all-properties" className="text-blue-600 font-bold flex items-center gap-1 hover:gap-2 transition-all">
-          View All <ArrowRight size={18} />
-        </Link>
-      </div>
+  // Reusable Property Carousel Component
+  const PropertyCarousel = ({ title, items }) => {
+    // Generate a clean, unique selector string for navigation buttons
+    const uniqueSelector = title.replace(/\s+/g, '-').toLowerCase();
 
-      <Swiper
-        modules={[Navigation, Autoplay]}
-        spaceBetween={30}
-        slidesPerView={1}
-        navigation={{
-          nextEl: `.next-${title.replace(/\s+/g, '')}`,
-          prevEl: `.prev-${title.replace(/\s+/g, '')}`,
-        }}
-        breakpoints={{
-          640: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-        className="pb-10"
-      >
-        {items.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="bg-white dark:bg-gray-900 rounded-[2rem] overflow-hidden border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-2xl transition-all duration-500 group/card">
-              <div className="relative h-64 overflow-hidden">
-                <img src={item.images?.[0]} className="w-full h-full object-cover group-hover/card:scale-110 transition-transform duration-700" alt="" />
-                <div className="absolute top-4 left-4 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md px-4 py-1 rounded-full text-xs font-bold text-blue-600 uppercase">
-                  {item.category}
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold dark:text-white line-clamp-1 mb-2">{item.title}</h3>
-                <div className="flex items-center gap-1 text-gray-400 text-sm mb-4">
-                  <MapPin size={14} /> <span>{item.address}</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <span className="text-2xl font-black text-blue-600">${item.price_min?.toLocaleString()}</span>
-                  <Link to={`/details/${item.id}`} className="p-3 bg-gray-100 dark:bg-gray-800 rounded-xl hover:bg-blue-600 hover:text-white transition-colors">
-                    <ArrowRight size={20} />
-                  </Link>
-                </div>
-              </div>
+    return (
+      <div className="mt-16 group relative">
+        {/* Header Section */}
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 px-2 gap-4">
+          <div>
+            <h2 className="text-3xl font-black text-gray-900 dark:text-white">{title}</h2>
+            <div className="h-1.5 w-20 bg-blue-600 rounded-full mt-2"></div>
+          </div>
+          
+          <div className="flex items-center gap-4">
+            {/* Custom Navigation Buttons to avoid breaking Swiper */}
+            <div className="flex gap-2">
+              <button className={`prev-${uniqueSelector} p-2 rounded-full bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-sm hover:bg-blue-600 hover:text-white dark:text-white transition-all cursor-pointer`}>
+                <ChevronLeft size={20} />
+              </button>
+              <button className={`next-${uniqueSelector} p-2 rounded-full bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-sm hover:bg-blue-600 hover:text-white dark:text-white transition-all cursor-pointer`}>
+                <ChevronRight size={20} />
+              </button>
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
-  );
+            <Link to="/all-properties" className="text-blue-600 font-bold flex items-center gap-1 hover:gap-2 transition-all shrink-0">
+              View All <ArrowRight size={18} />
+            </Link>
+          </div>
+        </div>
+
+        {/* Swiper Component */}
+        <Swiper
+          modules={[Navigation, Autoplay]}
+          spaceBetween={30}
+          slidesPerView={1}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
+          navigation={{
+            nextEl: `.next-${uniqueSelector}`,
+            prevEl: `.prev-${uniqueSelector}`,
+          }}
+          breakpoints={{
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          className="pb-10"
+        >
+          {items.map((item, idx) => (
+            <SwiperSlide key={item.id || idx}>
+              <div className="bg-white dark:bg-gray-900 rounded-[2rem] overflow-hidden border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-2xl transition-all duration-500 group/card h-full">
+                <div className="relative h-64 overflow-hidden">
+                  <img 
+                    src={item.images?.[0] || "https://via.placeholder.com/400x300"} 
+                    className="w-full h-full object-cover group-hover/card:scale-110 transition-transform duration-700" 
+                    alt={item.title || "Property"} 
+                  />
+                  <div className="absolute top-4 left-4 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md px-4 py-1 rounded-full text-xs font-bold text-blue-600 uppercase shadow-sm">
+                    {item.category}
+                  </div>
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold dark:text-white line-clamp-1 mb-2">{item.title}</h3>
+                  <div className="flex items-center gap-1 text-gray-400 text-sm mb-4">
+                    <MapPin size={14} /> <span className="line-clamp-1">{item.address}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-2xl font-black text-blue-600">
+                      ${item.price_min ? item.price_min.toLocaleString() : (item.price?.toLocaleString() || 'N/A')}
+                    </span>
+                    <Link to={`/details/${item.id}`} className="p-3 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-xl hover:bg-blue-600 hover:text-white transition-colors">
+                      <ArrowRight size={20} />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    );
+  };
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
@@ -121,7 +147,7 @@ export const Home = () => {
       {/* 2. Announcement Ticker */}
       <div className="bg-blue-600 dark:bg-blue-700 py-3 overflow-hidden whitespace-nowrap">
         <div className="inline-block animate-marquee text-white font-bold text-sm md:text-base uppercase tracking-widest">
-           🔥 Special Offers Available! Get up to 10% discount on your first booking! • Luxury Villas starting from $200k • New Apartments in Dhaka • Limited Time Only! 🔥
+            Special Offers Available! Get up to 10% discount on your first booking! • Luxury Villas starting from $200k • New Apartments in Dhaka • Limited Time Only! 
         </div>
       </div>
 
@@ -129,12 +155,12 @@ export const Home = () => {
         
         {/* 3. Dynamic Property Sections (Carousels) */}
         {loading ? (
-          <div className="py-20 text-center dark:text-white">Loading stunning properties...</div>
+          <div className="py-20 text-center dark:text-white font-medium text-lg">Loading stunning properties...</div>
         ) : (
           <>
             <PropertyCarousel title="Featured Properties" items={properties} />
-            <PropertyCarousel title="Luxury Villas" items={villas} />
-            <PropertyCarousel title="Modern Apartments" items={apartments} />
+            {villas.length > 0 && <PropertyCarousel title="Luxury Villas" items={villas} />}
+            {apartments.length > 0 && <PropertyCarousel title="Modern Apartments" items={apartments} />}
           </>
         )}
 
@@ -145,7 +171,7 @@ export const Home = () => {
             { icon: <Star size={32}/>, title: "Top Rated", desc: "We are the highest-rated real estate platform in the region." },
             { icon: <Quote size={32}/>, title: "Trusted Agency", desc: "Verified owners and hassle-free documentation process." },
           ].map((box, i) => (
-            <div key={i} className="p-10 bg-white dark:bg-gray-900 rounded-[2.5rem] border border-gray-100 dark:border-gray-800 text-center hover:translate-y-[-10px] transition-all duration-500">
+            <div key={i} className="p-10 bg-white dark:bg-gray-900 rounded-[2.5rem] border border-gray-100 dark:border-gray-800 text-center hover:translate-y-[-10px] transition-all duration-500 shadow-sm">
               <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
                 {box.icon}
               </div>
@@ -162,9 +188,9 @@ export const Home = () => {
           
           <Swiper
             modules={[Autoplay, Pagination]}
-            autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
             pagination={{ clickable: true }}
-            className="pb-12"
+            className="pb-12 text-white"
           >
             {[1, 2, 3].map((t) => (
               <SwiperSlide key={t}>
@@ -187,6 +213,7 @@ export const Home = () => {
 
       </div>
 
+      {/* Marquee Animation Styles */}
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes marquee {
           0% { transform: translateX(100%); }
@@ -194,7 +221,7 @@ export const Home = () => {
         }
         .animate-marquee {
           display: inline-block;
-          animation: marquee 20s linear infinite;
+          animation: marquee 25s linear infinite;
         }
       `}} />
     </div>

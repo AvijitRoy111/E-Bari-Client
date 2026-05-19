@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Bed, Bath, Maximize, MapPin, ArrowLeft, Heart, Plus, Minus, Building2 } from 'lucide-react';
+import  { useState } from 'react';
+import { Bed, Bath, Maximize, MapPin, ArrowLeft,  Plus, Minus, Building2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Apartment = () => {

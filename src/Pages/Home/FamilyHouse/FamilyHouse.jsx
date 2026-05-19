@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Bed, Bath, Maximize, MapPin, ArrowLeft, Heart, Plus, Minus } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
