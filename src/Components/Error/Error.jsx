@@ -17,8 +17,8 @@ const ErrorPage = () => {
          </nav>
        </div>
 
-//       {/* Main Content Section */}
-//       <main className="flex-grow flex flex-col items-center justify-center text-center px-4">
+       {/* Main Content Section */}
+       <main className="flex-grow flex flex-col items-center justify-center text-center px-4">
 //         {/* Error Code / Visual Element */}
 //         <h1 className="text-9xl font-extrabold text-blue-600 tracking-widest animate-pulse">
 //           404
