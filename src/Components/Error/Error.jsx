@@ -70,6 +70,6 @@ const ErrorPage = () => {
        </footer>
      </div>
    );
-// };
+ };
 
-// export default ErrorPage;
+ export default ErrorPage;
