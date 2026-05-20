@@ -46,9 +46,9 @@ const BrowseHome = () => {
              <img
                  src={item.images[0]}
                  alt={item.title}
-//                 className="w-full h-৫২ object-cover"
-//             />
-//             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                 className="w-full h-৫২ object-cover"
+             />
+             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
 
 //             <h3 className="absolute top-3 left-4  text-white text-xl font-semibold">
 //                 {item.title}
