@@ -34,12 +34,12 @@ const ErrorPage = () => {
          </h2>
          <p className="text-gray-600 max-w-md mb-8 leading-relaxed">
            Apni jei pata ti khujchen ta hoyto muche fela hoyeche, tar nam poriborton kora hoyeche ba samoyikvabe opasthorji ache.
-//         </p>
+         </p>
 
-//         {/* Call to Action Buttons */}
-//         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-//           {/* Back Button */}
-//           <button
+         {/* Call to Action Buttons */}
+         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+           {/* Back Button */}
+           <button
 //             onClick={handleGoBack}
 //             className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all cursor-pointer"
 //           >
