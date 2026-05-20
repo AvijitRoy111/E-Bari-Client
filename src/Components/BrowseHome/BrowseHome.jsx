@@ -43,9 +43,9 @@ const BrowseHome = () => {
      // Home Card
      const HomeCard = ({ item }) => (
          <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md">
-//             <img
-//                 src={item.images[0]}
-//                 alt={item.title}
+             <img
+                 src={item.images[0]}
+                 alt={item.title}
 //                 className="w-full h-৫২ object-cover"
 //             />
 //             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
