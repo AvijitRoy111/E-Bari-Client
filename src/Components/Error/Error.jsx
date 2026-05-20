@@ -1,9 +1,9 @@
 
 const ErrorPage = () => {
   // Ager page-e ferot jaoar jonno hander function
-//   const handleGoBack = () => {
-//     window.history.back();
-//   };
+  const handleGoBack = () => {
+    window.history.back();
+  };
 
 //   return (
 //     <div className="min-h-screen bg-gray-50 flex flex-col justify-between font-sans text-gray-800">
