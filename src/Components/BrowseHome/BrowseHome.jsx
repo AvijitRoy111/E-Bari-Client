@@ -40,9 +40,9 @@ const BrowseHome = () => {
          </div>
      );
 
-//     // Home Card
-//     const HomeCard = ({ item }) => (
-//         <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md">
+     // Home Card
+     const HomeCard = ({ item }) => (
+         <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md">
 //             <img
 //                 src={item.images[0]}
 //                 alt={item.title}
