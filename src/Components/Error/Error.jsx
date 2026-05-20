@@ -1,6 +1,6 @@
 
-// const ErrorPage = () => {
-//   // Ager page-e ferot jaoar jonno hander function
+const ErrorPage = () => {
+  // Ager page-e ferot jaoar jonno hander function
 //   const handleGoBack = () => {
 //     window.history.back();
 //   };
