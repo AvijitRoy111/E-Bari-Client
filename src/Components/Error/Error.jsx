@@ -21,12 +21,12 @@ const ErrorPage = () => {
        <main className="flex-grow flex flex-col items-center justify-center text-center px-4">
          {/* Error Code / Visual Element */}
          <h1 className="text-9xl font-extrabold text-blue-600 tracking-widest animate-pulse">
-//           404
-//         </h1>
+           404
+         </h1>
         
-//         <div className="bg-white px-6 py-2 text-sm font-semibold rounded-md shadow-sm border border-gray-100 text-blue-600 -mt-4 mb-6">
-//           Page Not Found
-//         </div>
+         <div className="bg-white px-6 py-2 text-sm font-semibold rounded-md shadow-sm border border-gray-100 text-blue-600 -mt-4 mb-6">
+           Page Not Found
+         </div>
 
 //         {/* Message */}
 //         <h2 className="text-3xl font-bold text-gray-900 mb-3">
