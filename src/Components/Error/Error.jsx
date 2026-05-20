@@ -62,9 +62,9 @@ const ErrorPage = () => {
              Home-e Fire Jan
            </a>
          </div>
-//       </main>
+       </main>
 
-//       {/* Footer / Bottom Spacing */}
+       {/* Footer / Bottom Spacing */}
 //       <footer className="py-6 text-center text-sm text-gray-400 border-t border-gray-100 bg-white">
 //         &copy; {new Date().getFullYear()} Your Company. All rights reserved.
 //       </footer>
