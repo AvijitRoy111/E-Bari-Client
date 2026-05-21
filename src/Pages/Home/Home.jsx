@@ -41,8 +41,8 @@ export const Home = () => {
     fetchProperties();
   }, []);
 
-//   // Filter data based on categories
-//   const villas = properties.filter(
+  // Filter data based on categories
+  const villas = properties.filter(
 //     (p) => p.category?.toLowerCase() === "villa"
 //   );
 
