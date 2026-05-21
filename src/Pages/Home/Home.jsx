@@ -22,7 +22,7 @@ import banner from "../../assets/images/banner/banner.jpg";
 
 export const Home = () => {
   const [properties, setProperties] = useState([]);
-//   const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
 //   useEffect(() => {
 //     const fetchProperties = async () => {
