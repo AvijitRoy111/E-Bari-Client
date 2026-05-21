@@ -47,8 +47,8 @@ export const Home = () => {
   );
 
   const apartments = properties.filter(
-//     (p) => p.category?.toLowerCase() === "apartment"
-//   );
+    (p) => p.category?.toLowerCase() === "apartment"
+  );
 
 //   // Reusable Property Carousel Component
 //   const PropertyCarousel = ({ title, items }) => {
