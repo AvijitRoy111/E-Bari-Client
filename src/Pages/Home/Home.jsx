@@ -38,8 +38,8 @@ export const Home = () => {
       }
     };
 
-//     fetchProperties();
-//   }, []);
+    fetchProperties();
+  }, []);
 
 //   // Filter data based on categories
 //   const villas = properties.filter(
