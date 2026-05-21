@@ -18,7 +18,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// import banner from "../../assets/images/banner/banner.jpg";
+import banner from "../../assets/images/banner/banner.jpg";
 
 // export const Home = () => {
 //   const [properties, setProperties] = useState([]);
