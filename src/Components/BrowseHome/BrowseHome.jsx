@@ -62,9 +62,9 @@ const BrowseHome = () => {
          setVisibleCount((prev) => prev + 3);
      };
 
-//     const handleSeeLess = () => {
-//         setVisibleCount(3);
-//     };
+     const handleSeeLess = () => {
+         setVisibleCount(3);
+     };
 
 //     return (
 //         <div className="mt-8">
