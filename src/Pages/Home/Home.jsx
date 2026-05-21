@@ -20,7 +20,7 @@ import "swiper/css/pagination";
 
 import banner from "../../assets/images/banner/banner.jpg";
 
-// export const Home = () => {
+export const Home = () => {
 //   const [properties, setProperties] = useState([]);
 //   const [loading, setLoading] = useState(true);
 
