@@ -31,8 +31,8 @@ export const Home = () => {
         const data = await response.json();
 
         setProperties(data);
-//       } catch (error) {
-//         console.error("Error:", error);
+      } catch (error) {
+        console.error("Error:", error);
 //       } finally {
 //         setLoading(false);
 //       }
