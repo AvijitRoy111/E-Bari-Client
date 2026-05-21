@@ -96,10 +96,10 @@ const BrowseHome = () => {
                      <button
                          onClick={handleSeeMore}
                          className="px-6 py-2 bg-blue-600 text-white rounded-lg shadow"
-//                     >
-//                         See More
-//                     </button>
-//                 )}
+                     >
+                         See More
+                     </button>
+                 )}
 
 //                 {!loading && visibleCount >= 9 && (
 //                     <button
