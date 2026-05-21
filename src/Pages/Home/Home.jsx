@@ -26,7 +26,7 @@ export const Home = () => {
 
   useEffect(() => {
     const fetchProperties = async () => {
-//       try {
+      try {
 //         const response = await fetch("/fake.json");
 //         const data = await response.json();
 
