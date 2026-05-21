@@ -108,9 +108,9 @@ const BrowseHome = () => {
                      >
                          See Less
                      </button>
-//                 )}
-//             </div>
-//         </div>
+                 )}
+             </div>
+         </div>
 //     );
 // };
 
