@@ -52,8 +52,8 @@ export const Home = () => {
 
   // Reusable Property Carousel Component
   const PropertyCarousel = ({ title, items }) => {
-//     // Generate unique selector
-//     const uniqueSelector = title.replace(/\s+/g, "-").toLowerCase();
+    // Generate unique selector
+    const uniqueSelector = title.replace(/\s+/g, "-").toLowerCase();
 
 //     return (
 //       <div className="mt-16 group relative">
