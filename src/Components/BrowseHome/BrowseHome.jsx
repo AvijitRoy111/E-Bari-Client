@@ -111,7 +111,7 @@ const BrowseHome = () => {
                  )}
              </div>
          </div>
-//     );
-// };
+     );
+ };
 
-// export default BrowseHome;
+ export default BrowseHome;
