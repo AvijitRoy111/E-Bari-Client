@@ -3,15 +3,15 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-// import {
-//   ArrowRight,
-//   Star,
-//   Quote,
-//   Home as HomeIcon,
-//   MapPin,
-//   ChevronLeft,
-//   ChevronRight,
-// } from "lucide-react";
+import {
+  ArrowRight,
+  Star,
+  Quote,
+  Home as HomeIcon,
+  MapPin,
+  ChevronLeft,
+  ChevronRight,
+} from "lucide-react";
 
 // // Swiper styles
 // import "swiper/css";
