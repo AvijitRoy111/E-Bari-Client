@@ -66,14 +66,14 @@ const BrowseHome = () => {
          setVisibleCount(3);
      };
 
-//     return (
-//         <div className="mt-8">
-//             {/* Header */}
-//             <div className="flex flex-col items-center justify-center gap-4 pb-6">
-//                 <h3 className="text-4xl font-bold">Browse expensive homes</h3>
-//                 <p className="text-xl font-normal text-center px-2 md:px-32">
-//                     Welcome to Abriculteurs, the family-run agency committed to exceptional service.
-//                     Discover a meticulous presentation of this property: professional photos. Trust
+     return (
+         <div className="mt-8">
+             {/* Header */}
+             <div className="flex flex-col items-center justify-center gap-4 pb-6">
+                 <h3 className="text-4xl font-bold">Browse expensive homes</h3>
+                 <p className="text-xl font-normal text-center px-2 md:px-32">
+                     Welcome to Abriculteurs, the family-run agency committed to exceptional service.
+                     Discover a meticulous presentation of this property: professional photos. Trust
 //                     our expertise to turn your real estate into remarkable successes.
 //                 </p>
 //             </div>
