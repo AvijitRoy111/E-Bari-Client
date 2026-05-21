@@ -1,5 +1,5 @@
-// import { useState, useEffect } from "react";
-// import PropTypes from "prop-types";
+import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 // import { Link } from "react-router-dom";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import { Navigation, Pagination, Autoplay } from "swiper/modules";
