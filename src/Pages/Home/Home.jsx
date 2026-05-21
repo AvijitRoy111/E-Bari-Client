@@ -43,8 +43,8 @@ export const Home = () => {
 
   // Filter data based on categories
   const villas = properties.filter(
-//     (p) => p.category?.toLowerCase() === "villa"
-//   );
+    (p) => p.category?.toLowerCase() === "villa"
+  );
 
 //   const apartments = properties.filter(
 //     (p) => p.category?.toLowerCase() === "apartment"
