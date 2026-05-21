@@ -33,7 +33,7 @@ export const Home = () => {
         setProperties(data);
       } catch (error) {
         console.error("Error:", error);
-//       } finally {
+      } finally {
 //         setLoading(false);
 //       }
 //     };
