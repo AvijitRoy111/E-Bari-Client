@@ -50,8 +50,8 @@ export const Home = () => {
     (p) => p.category?.toLowerCase() === "apartment"
   );
 
-//   // Reusable Property Carousel Component
-//   const PropertyCarousel = ({ title, items }) => {
+  // Reusable Property Carousel Component
+  const PropertyCarousel = ({ title, items }) => {
 //     // Generate unique selector
 //     const uniqueSelector = title.replace(/\s+/g, "-").toLowerCase();
 
