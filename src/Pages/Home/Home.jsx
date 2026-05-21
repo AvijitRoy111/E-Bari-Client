@@ -24,8 +24,8 @@ export const Home = () => {
   const [properties, setProperties] = useState([]);
   const [loading, setLoading] = useState(true);
 
-//   useEffect(() => {
-//     const fetchProperties = async () => {
+  useEffect(() => {
+    const fetchProperties = async () => {
 //       try {
 //         const response = await fetch("/fake.json");
 //         const data = await response.json();
