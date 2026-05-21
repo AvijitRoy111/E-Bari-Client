@@ -101,11 +101,11 @@ const BrowseHome = () => {
                      </button>
                  )}
 
-//                 {!loading && visibleCount >= 9 && (
-//                     <button
-//                         onClick={handleSeeLess}
-//                         className="px-6 py-2 bg-red-600 text-white rounded-lg shadow"
-//                     >
+                 {!loading && visibleCount >= 9 && (
+                     <button
+                         onClick={handleSeeLess}
+                         className="px-6 py-2 bg-red-600 text-white rounded-lg shadow"
+                     >
 //                         See Less
 //                     </button>
 //                 )}
