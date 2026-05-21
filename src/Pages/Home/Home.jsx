@@ -46,7 +46,7 @@ export const Home = () => {
     (p) => p.category?.toLowerCase() === "villa"
   );
 
-//   const apartments = properties.filter(
+  const apartments = properties.filter(
 //     (p) => p.category?.toLowerCase() === "apartment"
 //   );
 
