@@ -16,7 +16,7 @@ import {
 // Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-// import "swiper/css/pagination";
+import "swiper/css/pagination";
 
 // import banner from "../../assets/images/banner/banner.jpg";
 
