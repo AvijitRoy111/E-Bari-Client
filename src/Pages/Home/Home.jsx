@@ -30,7 +30,7 @@ export const Home = () => {
         const response = await fetch("/fake.json");
         const data = await response.json();
 
-//         setProperties(data);
+        setProperties(data);
 //       } catch (error) {
 //         console.error("Error:", error);
 //       } finally {
