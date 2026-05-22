@@ -80,8 +80,8 @@ export const Home = () => {
                  className={`next-${uniqueSelector} p-2 rounded-full bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-sm hover:bg-blue-600 hover:text-white dark:text-white transition-all cursor-pointer`}
                >
                  <ChevronRight size={20} />
-//               </button>
-//             </div>
+               </button>
+             </div>
 
 //             <Link
 //               to="/all-properties"
