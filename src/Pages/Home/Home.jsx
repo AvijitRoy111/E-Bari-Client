@@ -118,8 +118,8 @@ export const Home = () => {
            {items.map((item, idx) => (
              <SwiperSlide key={item.id || idx}>
                <div className="bg-white dark:bg-gray-900 rounded-[2rem] overflow-hidden border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-2xl transition-all duration-500 group/card h-full">
-//                 <div className="relative h-64 overflow-hidden">
-//                   <img
+                 <div className="relative h-64 overflow-hidden">
+                   <img
 //                     src={
 //                       item?.images?.[0] ||
 //                       "https://via.placeholder.com/400x300"
