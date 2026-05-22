@@ -102,8 +102,8 @@ export const Home = () => {
              disableOnInteraction: false,
            }}
            navigation={{
-//             nextEl: `.next-${uniqueSelector}`,
-//             prevEl: `.prev-${uniqueSelector}`,
+             nextEl: `.next-${uniqueSelector}`,
+             prevEl: `.prev-${uniqueSelector}`,
 //           }}
 //           breakpoints={{
 //             640: {
