@@ -85,8 +85,8 @@ export const Home = () => {
 
              <Link
                to="/all-properties"
-//               className="text-blue-600 font-bold flex items-center gap-1 hover:gap-2 transition-all shrink-0"
-//             >
+               className="text-blue-600 font-bold flex items-center gap-1 hover:gap-2 transition-all shrink-0"
+             >
 //               View All <ArrowRight size={18} />
 //             </Link>
 //           </div>
