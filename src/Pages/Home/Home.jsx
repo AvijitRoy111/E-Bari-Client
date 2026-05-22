@@ -106,8 +106,8 @@ export const Home = () => {
              prevEl: `.prev-${uniqueSelector}`,
            }}
            breakpoints={{
-//             640: {
-//               slidesPerView: 2,
+             640: {
+               slidesPerView: 2,
 //             },
 //             1024: {
 //               slidesPerView: 3,
