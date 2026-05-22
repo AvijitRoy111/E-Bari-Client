@@ -108,9 +108,9 @@ export const Home = () => {
            breakpoints={{
              640: {
                slidesPerView: 2,
-//             },
-//             1024: {
-//               slidesPerView: 3,
+             },
+             1024: {
+               slidesPerView: 3,
 //             },
 //           }}
 //           className="pb-10"
