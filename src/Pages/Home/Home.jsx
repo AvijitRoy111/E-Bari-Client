@@ -100,8 +100,8 @@ export const Home = () => {
            autoplay={{
              delay: 4000,
              disableOnInteraction: false,
-//           }}
-//           navigation={{
+           }}
+           navigation={{
 //             nextEl: `.next-${uniqueSelector}`,
 //             prevEl: `.prev-${uniqueSelector}`,
 //           }}
