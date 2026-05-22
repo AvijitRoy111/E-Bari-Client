@@ -60,9 +60,9 @@ export const Home = () => {
          {/* Header */}
          <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 px-2 gap-4">
            <div>
-//             <h2 className="text-3xl font-black text-gray-900 dark:text-white">
-//               {title}
-//             </h2>
+             <h2 className="text-3xl font-black text-gray-900 dark:text-white">
+               {title}
+             </h2>
 
 //             <div className="h-1.5 w-20 bg-blue-600 rounded-full mt-2"></div>
 //           </div>
