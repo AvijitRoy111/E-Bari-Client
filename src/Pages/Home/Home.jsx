@@ -57,9 +57,9 @@ export const Home = () => {
 
      return (
        <div className="mt-16 group relative">
-//         {/* Header */}
-//         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 px-2 gap-4">
-//           <div>
+         {/* Header */}
+         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 px-2 gap-4">
+           <div>
 //             <h2 className="text-3xl font-black text-gray-900 dark:text-white">
 //               {title}
 //             </h2>
