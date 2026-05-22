@@ -55,8 +55,8 @@ export const Home = () => {
     // Generate unique selector
     const uniqueSelector = title.replace(/\s+/g, "-").toLowerCase();
 
-//     return (
-//       <div className="mt-16 group relative">
+     return (
+       <div className="mt-16 group relative">
 //         {/* Header */}
 //         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 px-2 gap-4">
 //           <div>
