@@ -64,8 +64,8 @@ export const Home = () => {
                {title}
              </h2>
 
-//             <div className="h-1.5 w-20 bg-blue-600 rounded-full mt-2"></div>
-//           </div>
+             <div className="h-1.5 w-20 bg-blue-600 rounded-full mt-2"></div>
+           </div>
 
 //           <div className="flex items-center gap-4">
 //             {/* Navigation Buttons */}
