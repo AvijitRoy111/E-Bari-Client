@@ -92,11 +92,11 @@ export const Home = () => {
            </div>
          </div>
 
-//         {/* Swiper */}
-//         <Swiper
-//           modules={[Navigation, Autoplay]}
-//           spaceBetween={30}
-//           slidesPerView={1}
+         {/* Swiper */}
+         <Swiper
+           modules={[Navigation, Autoplay]}
+           spaceBetween={30}
+           slidesPerView={1}
 //           autoplay={{
 //             delay: 4000,
 //             disableOnInteraction: false,
