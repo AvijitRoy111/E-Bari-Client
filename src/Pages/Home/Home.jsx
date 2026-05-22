@@ -83,8 +83,8 @@ export const Home = () => {
                </button>
              </div>
 
-//             <Link
-//               to="/all-properties"
+             <Link
+               to="/all-properties"
 //               className="text-blue-600 font-bold flex items-center gap-1 hover:gap-2 transition-all shrink-0"
 //             >
 //               View All <ArrowRight size={18} />
