@@ -104,8 +104,8 @@ export const Home = () => {
            navigation={{
              nextEl: `.next-${uniqueSelector}`,
              prevEl: `.prev-${uniqueSelector}`,
-//           }}
-//           breakpoints={{
+           }}
+           breakpoints={{
 //             640: {
 //               slidesPerView: 2,
 //             },
