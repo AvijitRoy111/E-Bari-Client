@@ -111,9 +111,9 @@ export const Home = () => {
              },
              1024: {
                slidesPerView: 3,
-//             },
-//           }}
-//           className="pb-10"
+             },
+           }}
+           className="pb-10"
 //         >
 //           {items.map((item, idx) => (
 //             <SwiperSlide key={item.id || idx}>
