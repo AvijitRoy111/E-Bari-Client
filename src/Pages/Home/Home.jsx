@@ -146,7 +146,7 @@ export const Home = () => {
                      </span>
                    </div>
 
-//                   <div className="flex justify-between items-center">
+                   <div className="flex justify-between items-center">
 //                     <span className="text-2xl font-black text-blue-600">
 //                       $
 //                       {item?.price_min
