@@ -133,7 +133,7 @@ export const Home = () => {
                    </div>
                  </div>
 
-//                 <div className="p-6">
+                 <div className="p-6">
 //                   <h3 className="text-xl font-bold dark:text-white line-clamp-1 mb-2">
 //                     {item?.title}
 //                   </h3>
