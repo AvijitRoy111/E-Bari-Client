@@ -129,9 +129,9 @@ export const Home = () => {
                    />
 
                    <div className="absolute top-4 left-4 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md px-4 py-1 rounded-full text-xs font-bold text-blue-600 uppercase shadow-sm">
-//                     {item?.category}
-//                   </div>
-//                 </div>
+                     {item?.category}
+                   </div>
+                 </div>
 
 //                 <div className="p-6">
 //                   <h3 className="text-xl font-bold dark:text-white line-clamp-1 mb-2">
