@@ -151,7 +151,7 @@ export const Home = () => {
                        $
                        {item?.price_min
                          ? item.price_min.toLocaleString()
-//                         : item?.price?.toLocaleString() || "N/A"}
+                         : item?.price?.toLocaleString() || "N/A"}
 //                     </span>
 
 //                     <Link
