@@ -161,7 +161,7 @@ export const Home = () => {
                        <ArrowRight size={20} />
                      </Link>
                    </div>
-//                 </div>
+                 </div>
 //               </div>
 //             </SwiperSlide>
 //           ))}
