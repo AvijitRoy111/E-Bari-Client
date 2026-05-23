@@ -138,7 +138,7 @@ export const Home = () => {
                      {item?.title}
                    </h3>
 
-//                   <div className="flex items-center gap-1 text-gray-400 text-sm mb-4">
+                   <div className="flex items-center gap-1 text-gray-400 text-sm mb-4">
 //                     <MapPin size={14} />
 
 //                     <span className="line-clamp-1">
