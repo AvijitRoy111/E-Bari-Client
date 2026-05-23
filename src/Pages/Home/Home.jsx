@@ -124,11 +124,11 @@ export const Home = () => {
                        item?.images?.[0] ||
                        "https://via.placeholder.com/400x300"
                      }
-//                     alt={item?.title || "Property"}
-//                     className="w-full h-full object-cover group-hover/card:scale-110 transition-transform duration-700"
-//                   />
+                     alt={item?.title || "Property"}
+                     className="w-full h-full object-cover group-hover/card:scale-110 transition-transform duration-700"
+                   />
 
-//                   <div className="absolute top-4 left-4 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md px-4 py-1 rounded-full text-xs font-bold text-blue-600 uppercase shadow-sm">
+                   <div className="absolute top-4 left-4 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md px-4 py-1 rounded-full text-xs font-bold text-blue-600 uppercase shadow-sm">
 //                     {item?.category}
 //                   </div>
 //                 </div>
