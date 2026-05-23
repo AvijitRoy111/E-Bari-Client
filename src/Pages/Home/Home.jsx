@@ -141,7 +141,7 @@ export const Home = () => {
                    <div className="flex items-center gap-1 text-gray-400 text-sm mb-4">
                      <MapPin size={14} />
 
-//                     <span className="line-clamp-1">
+                     <span className="line-clamp-1">
 //                       {item?.address}
 //                     </span>
 //                   </div>
