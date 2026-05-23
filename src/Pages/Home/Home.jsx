@@ -149,7 +149,7 @@ export const Home = () => {
                    <div className="flex justify-between items-center">
                      <span className="text-2xl font-black text-blue-600">
                        $
-//                       {item?.price_min
+                       {item?.price_min
 //                         ? item.price_min.toLocaleString()
 //                         : item?.price?.toLocaleString() || "N/A"}
 //                     </span>
