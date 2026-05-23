@@ -144,7 +144,7 @@ export const Home = () => {
                      <span className="line-clamp-1">
                        {item?.address}
                      </span>
-//                   </div>
+                   </div>
 
 //                   <div className="flex justify-between items-center">
 //                     <span className="text-2xl font-black text-blue-600">
