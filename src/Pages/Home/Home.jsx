@@ -152,7 +152,7 @@ export const Home = () => {
                        {item?.price_min
                          ? item.price_min.toLocaleString()
                          : item?.price?.toLocaleString() || "N/A"}
-//                     </span>
+                     </span>
 
 //                     <Link
 //                       to={`/details/${item?.id}`}
