@@ -142,7 +142,7 @@ export const Home = () => {
                      <MapPin size={14} />
 
                      <span className="line-clamp-1">
-//                       {item?.address}
+                       {item?.address}
 //                     </span>
 //                   </div>
 
