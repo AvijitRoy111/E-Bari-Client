@@ -158,7 +158,7 @@ export const Home = () => {
                        to={`/details/${item?.id}`}
                        className="p-3 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-xl hover:bg-blue-600 hover:text-white transition-colors"
                      >
-//                       <ArrowRight size={20} />
+                       <ArrowRight size={20} />
 //                     </Link>
 //                   </div>
 //                 </div>
