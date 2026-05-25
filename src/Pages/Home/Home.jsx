@@ -183,7 +183,7 @@ export const Home = () => {
 
          title: PropTypes.string,
 
-//         address: PropTypes.string,
+         address: PropTypes.string,
 
 //         category: PropTypes.string,
 
