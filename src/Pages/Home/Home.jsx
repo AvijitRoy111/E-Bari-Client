@@ -194,7 +194,7 @@ export const Home = () => {
          price: PropTypes.number,
 
          price_min: PropTypes.number,
-//       })
+       })
 //     ).isRequired,
 //   };
 
