@@ -199,7 +199,7 @@ export const Home = () => {
    };
 
    return (
-//     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
+     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
 
 //       {/* Hero Section */}
 //       <div className="relative w-full h-[600px] overflow-hidden">
