@@ -181,7 +181,7 @@ export const Home = () => {
            PropTypes.number,
          ]),
 
-//         title: PropTypes.string,
+         title: PropTypes.string,
 
 //         address: PropTypes.string,
 
