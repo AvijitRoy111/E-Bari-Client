@@ -162,8 +162,8 @@ export const Home = () => {
                      </Link>
                    </div>
                  </div>
-//               </div>
-//             </SwiperSlide>
+               </div>
+             </SwiperSlide>
 //           ))}
 //         </Swiper>
 //       </div>
