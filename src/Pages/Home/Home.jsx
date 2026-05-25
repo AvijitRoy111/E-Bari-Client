@@ -176,7 +176,7 @@ export const Home = () => {
 
      items: PropTypes.arrayOf(
        PropTypes.shape({
-//         id: PropTypes.oneOfType([
+         id: PropTypes.oneOfType([
 //           PropTypes.string,
 //           PropTypes.number,
 //         ]),
