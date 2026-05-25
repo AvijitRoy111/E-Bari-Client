@@ -218,7 +218,7 @@ export const Home = () => {
            </span>
 
            <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">
-//             Find Your Perfect <br />
+             Find Your Perfect <br />
 
 //             <span className="text-blue-500">
 //               Future Home
