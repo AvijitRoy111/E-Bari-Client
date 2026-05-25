@@ -174,8 +174,8 @@ export const Home = () => {
    PropertyCarousel.propTypes = {
      title: PropTypes.string.isRequired,
 
-//     items: PropTypes.arrayOf(
-//       PropTypes.shape({
+     items: PropTypes.arrayOf(
+       PropTypes.shape({
 //         id: PropTypes.oneOfType([
 //           PropTypes.string,
 //           PropTypes.number,
