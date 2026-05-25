@@ -167,7 +167,7 @@ export const Home = () => {
            ))}
          </Swiper>
        </div>
-//     );
+     );
 //   };
 
 //   // PropTypes Fix
