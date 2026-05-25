@@ -198,7 +198,7 @@ export const Home = () => {
      ).isRequired,
    };
 
-//   return (
+   return (
 //     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
 
 //       {/* Hero Section */}
