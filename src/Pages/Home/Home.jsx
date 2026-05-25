@@ -172,7 +172,7 @@ export const Home = () => {
 
    // PropTypes Fix
    PropertyCarousel.propTypes = {
-//     title: PropTypes.string.isRequired,
+     title: PropTypes.string.isRequired,
 
 //     items: PropTypes.arrayOf(
 //       PropTypes.shape({
