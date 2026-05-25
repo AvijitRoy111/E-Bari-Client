@@ -205,7 +205,7 @@ export const Home = () => {
        <div className="relative w-full h-[600px] overflow-hidden">
          <div
            className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
-//           style={{
+           style={{
 //             backgroundImage: `url(${banner})`,
 //           }}
 //         ></div>
