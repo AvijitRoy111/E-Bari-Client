@@ -203,7 +203,7 @@ export const Home = () => {
 
        {/* Hero Section */}
        <div className="relative w-full h-[600px] overflow-hidden">
-//         <div
+         <div
 //           className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
 //           style={{
 //             backgroundImage: `url(${banner})`,
