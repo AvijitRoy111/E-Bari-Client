@@ -221,7 +221,7 @@ export const Home = () => {
              Find Your Perfect <br />
 
              <span className="text-blue-500">
-//               Future Home
+               Future Home
 //             </span>
 //           </h1>
 
