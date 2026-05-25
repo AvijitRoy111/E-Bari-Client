@@ -170,7 +170,7 @@ export const Home = () => {
      );
    };
 
-//   // PropTypes Fix
+   // PropTypes Fix
 //   PropertyCarousel.propTypes = {
 //     title: PropTypes.string.isRequired,
 
