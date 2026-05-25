@@ -215,7 +215,7 @@ export const Home = () => {
          <div className="relative z-10 max-w-[1440px] mx-auto h-full flex flex-col justify-center px-6 md:px-12">
            <span className="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold w-fit mb-6">
              Real Estate Agency
-//           </span>
+           </span>
 
 //           <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">
 //             Find Your Perfect <br />
