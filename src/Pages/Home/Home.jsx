@@ -191,7 +191,7 @@ export const Home = () => {
            PropTypes.string
          ),
 
-//         price: PropTypes.number,
+         price: PropTypes.number,
 
 //         price_min: PropTypes.number,
 //       })
