@@ -189,7 +189,7 @@ export const Home = () => {
 
          images: PropTypes.arrayOf(
            PropTypes.string
-//         ),
+         ),
 
 //         price: PropTypes.number,
 
