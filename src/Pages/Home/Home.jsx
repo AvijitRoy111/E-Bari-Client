@@ -217,7 +217,7 @@ export const Home = () => {
              Real Estate Agency
            </span>
 
-//           <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">
+           <h1 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight">
 //             Find Your Perfect <br />
 
 //             <span className="text-blue-500">
