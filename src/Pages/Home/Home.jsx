@@ -206,7 +206,7 @@ export const Home = () => {
          <div
            className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
            style={{
-//             backgroundImage: `url(${banner})`,
+             backgroundImage: `url(${banner})`,
 //           }}
 //         ></div>
 
