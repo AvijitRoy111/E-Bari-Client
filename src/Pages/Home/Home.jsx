@@ -171,7 +171,7 @@ export const Home = () => {
    };
 
    // PropTypes Fix
-//   PropertyCarousel.propTypes = {
+   PropertyCarousel.propTypes = {
 //     title: PropTypes.string.isRequired,
 
 //     items: PropTypes.arrayOf(
