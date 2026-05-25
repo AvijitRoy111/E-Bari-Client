@@ -223,7 +223,7 @@ export const Home = () => {
              <span className="text-blue-500">
                Future Home
              </span>
-//           </h1>
+           </h1>
 
 //           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
 //             Discover the best properties with trusted and hassle-free service.
