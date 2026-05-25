@@ -227,7 +227,7 @@ export const Home = () => {
 
            <p className="text-gray-300 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">
              Discover the best properties with trusted and hassle-free service.
-//             Over 10,000+ people already found their dream space with E-Bari.
+             Over 10,000+ people already found their dream space with E-Bari.
 //           </p>
 
 //           <div className="flex flex-wrap gap-4">
