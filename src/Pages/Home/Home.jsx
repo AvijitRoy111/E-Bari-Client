@@ -207,7 +207,7 @@ export const Home = () => {
            className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
            style={{
              backgroundImage: `url(${banner})`,
-//           }}
+           }}
 //         ></div>
 
 //         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
