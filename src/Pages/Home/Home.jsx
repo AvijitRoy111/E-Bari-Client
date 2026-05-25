@@ -185,7 +185,7 @@ export const Home = () => {
 
          address: PropTypes.string,
 
-//         category: PropTypes.string,
+         category: PropTypes.string,
 
 //         images: PropTypes.arrayOf(
 //           PropTypes.string
