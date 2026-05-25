@@ -202,7 +202,7 @@ export const Home = () => {
      <div className="min-h-screen bg-gray-50 dark:bg-gray-950 transition-colors duration-300">
 
        {/* Hero Section */}
-//       <div className="relative w-full h-[600px] overflow-hidden">
+       <div className="relative w-full h-[600px] overflow-hidden">
 //         <div
 //           className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 scale-105"
 //           style={{
