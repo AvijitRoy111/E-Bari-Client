@@ -179,7 +179,7 @@ export const Home = () => {
          id: PropTypes.oneOfType([
            PropTypes.string,
            PropTypes.number,
-//         ]),
+         ]),
 
 //         title: PropTypes.string,
 
