@@ -272,7 +272,7 @@ export const Home = () => {
              />
 
             {villas.length > 0 && (
-//               <PropertyCarousel
+               <PropertyCarousel
 //                 title="Luxury Villas"
 //                 items={villas}
 //               />
