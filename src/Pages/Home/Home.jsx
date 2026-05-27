@@ -248,7 +248,7 @@ export const Home = () => {
          </div>
        </div>
 
-//       {/* Announcement */}
+       {/* Announcement */}
 //       <div className="bg-blue-600 dark:bg-blue-700 py-3 overflow-hidden whitespace-nowrap">
 //         <div className="inline-block animate-marquee text-white font-bold text-sm md:text-base uppercase tracking-widest">
 //           Special Offers Available! Get up to 10% discount on your first
