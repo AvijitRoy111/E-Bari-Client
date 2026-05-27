@@ -265,7 +265,7 @@ export const Home = () => {
              Loading stunning properties...
            </div>
          ) : (
-//           <>
+           <>
 //             <PropertyCarousel
 //               title="Featured Properties"
 //               items={properties}
