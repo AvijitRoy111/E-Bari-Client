@@ -264,7 +264,7 @@ export const Home = () => {
            <div className="py-20 text-center dark:text-white font-medium text-lg">
              Loading stunning properties...
            </div>
-//         ) : (
+         ) : (
 //           <>
 //             <PropertyCarousel
 //               title="Featured Properties"
