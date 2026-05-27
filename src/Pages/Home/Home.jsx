@@ -259,7 +259,7 @@ export const Home = () => {
 
        <div className="max-w-[1440px] mx-auto px-6 pb-20">
 
-//         {/* Property Sections */}
+         {/* Property Sections */}
 //         {loading ? (
 //           <div className="py-20 text-center dark:text-white font-medium text-lg">
 //             Loading stunning properties...
