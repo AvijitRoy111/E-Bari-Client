@@ -254,7 +254,7 @@ export const Home = () => {
            Special Offers Available! Get up to 10% discount on your first
            booking! • Luxury Villas starting from $200k • New Apartments in
            Dhaka • Limited Time Only!
-//         </div>
+         </div>
 //       </div>
 
 //       <div className="max-w-[1440px] mx-auto px-6 pb-20">
