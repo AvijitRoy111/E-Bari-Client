@@ -244,7 +244,7 @@ export const Home = () => {
              >
                Contact Us
              </Link>
-//           </div>
+           </div>
 //         </div>
 //       </div>
 
