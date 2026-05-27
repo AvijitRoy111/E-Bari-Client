@@ -269,7 +269,7 @@ export const Home = () => {
              <PropertyCarousel
                title="Featured Properties"
                items={properties}
-//             />
+             />
 
 //             {villas.length > 0 && (
 //               <PropertyCarousel
