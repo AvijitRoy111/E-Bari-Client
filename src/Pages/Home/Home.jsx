@@ -278,7 +278,7 @@ export const Home = () => {
                />
              )}
 
-//             {apartments.length > 0 && (
+             {apartments.length > 0 && (
 //               <PropertyCarousel
 //                 title="Modern Apartments"
 //                 items={apartments}
