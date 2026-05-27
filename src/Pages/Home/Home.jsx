@@ -276,7 +276,7 @@ export const Home = () => {
                  title="Luxury Villas"
                  items={villas}
                />
-//             )}
+             )}
 
 //             {apartments.length > 0 && (
 //               <PropertyCarousel
