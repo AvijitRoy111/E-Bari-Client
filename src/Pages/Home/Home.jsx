@@ -238,7 +238,7 @@ export const Home = () => {
                Explore Properties <ArrowRight size={20} />
              </Link>
 
-//             <Link
+             <Link
 //               to="/contact"
 //               className="px-8 py-4 bg-white/10 backdrop-blur-md hover:bg-white/20 text-white border border-white/30 rounded-2xl font-bold text-lg transition-all"
 //             >
