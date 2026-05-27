@@ -241,7 +241,7 @@ export const Home = () => {
              <Link
                to="/contact"
                className="px-8 py-4 bg-white/10 backdrop-blur-md hover:bg-white/20 text-white border border-white/30 rounded-2xl font-bold text-lg transition-all"
-//             >
+             >
 //               Contact Us
 //             </Link>
 //           </div>
