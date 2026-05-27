@@ -263,7 +263,7 @@ export const Home = () => {
          {loading ? (
            <div className="py-20 text-center dark:text-white font-medium text-lg">
              Loading stunning properties...
-//           </div>
+           </div>
 //         ) : (
 //           <>
 //             <PropertyCarousel
