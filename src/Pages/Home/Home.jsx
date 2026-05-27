@@ -251,7 +251,7 @@ export const Home = () => {
        {/* Announcement */}
        <div className="bg-blue-600 dark:bg-blue-700 py-3 overflow-hidden whitespace-nowrap">
          <div className="inline-block animate-marquee text-white font-bold text-sm md:text-base uppercase tracking-widest">
-//           Special Offers Available! Get up to 10% discount on your first
+           Special Offers Available! Get up to 10% discount on your first
 //           booking! • Luxury Villas starting from $200k • New Apartments in
 //           Dhaka • Limited Time Only!
 //         </div>
