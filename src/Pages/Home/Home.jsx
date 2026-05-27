@@ -268,7 +268,7 @@ export const Home = () => {
            <>
              <PropertyCarousel
                title="Featured Properties"
-//               items={properties}
+               items={properties}
 //             />
 
 //             {villas.length > 0 && (
