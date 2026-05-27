@@ -245,8 +245,8 @@ export const Home = () => {
                Contact Us
              </Link>
            </div>
-//         </div>
-//       </div>
+         </div>
+       </div>
 
 //       {/* Announcement */}
 //       <div className="bg-blue-600 dark:bg-blue-700 py-3 overflow-hidden whitespace-nowrap">
