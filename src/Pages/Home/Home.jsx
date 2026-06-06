@@ -304,8 +304,8 @@ export const Home = () => {
 
              {
                icon: <Quote size={32} />,
-//               title: "Trusted Agency",
-//               desc: "Verified owners and hassle-free documentation process.",
+               title: "Trusted Agency",
+               desc: "Verified owners and hassle-free documentation process.",
 //             },
 //           ].map((box, i) => (
 //             <div
