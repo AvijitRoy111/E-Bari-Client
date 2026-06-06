@@ -287,9 +287,9 @@ export const Home = () => {
            </>
          )}
 
-//         {/* Why Choose Us */}
-//         <div className="mt-32 grid md:grid-cols-3 gap-8">
-//           {[
+         {/* Why Choose Us */}
+         <div className="mt-32 grid md:grid-cols-3 gap-8">
+           {[
 //             {
 //               icon: <HomeIcon size={32} />,
 //               title: "Wide Range",
