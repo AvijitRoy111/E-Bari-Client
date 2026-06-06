@@ -298,7 +298,7 @@ export const Home = () => {
 
              {
               icon: <Star size={32} />,
-//               title: "Top Rated",
+               title: "Top Rated",
 //               desc: "We are the highest-rated real estate platform in the region.",
 //             },
 
