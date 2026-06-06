@@ -313,8 +313,8 @@ export const Home = () => {
                className="p-10 bg-white dark:bg-gray-900 rounded-[2.5rem] border border-gray-100 dark:border-gray-800 text-center hover:translate-y-[-10px] transition-all duration-500 shadow-sm"
              >
                <div className="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
-//                 {box.icon}
-//               </div>
+                 {box.icon}
+               </div>
 
 //               <h3 className="text-xl font-black dark:text-white mb-4">
 //                 {box.title}
