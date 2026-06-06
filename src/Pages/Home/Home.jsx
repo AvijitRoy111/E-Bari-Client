@@ -294,10 +294,10 @@ export const Home = () => {
                icon: <HomeIcon size={32} />,
                title: "Wide Range",
                desc: "Choose from thousands of properties across the country.",
-//             },
+             },
 
-//             {
-//               icon: <Star size={32} />,
+             {
+              icon: <Star size={32} />,
 //               title: "Top Rated",
 //               desc: "We are the highest-rated real estate platform in the region.",
 //             },
