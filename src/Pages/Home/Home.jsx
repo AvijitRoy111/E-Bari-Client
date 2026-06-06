@@ -322,7 +322,7 @@ export const Home = () => {
 
                <p className="text-gray-500 dark:text-gray-400">
                  {box.desc}
-//               </p>
+               </p>
 //             </div>
 //           ))}
 //         </div>
