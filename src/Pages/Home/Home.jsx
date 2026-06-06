@@ -282,10 +282,10 @@ export const Home = () => {
                <PropertyCarousel
                  title="Modern Apartments"
                  items={apartments}
-//               />
-//             )}
-//           </>
-//         )}
+               />
+             )}
+           </>
+         )}
 
 //         {/* Why Choose Us */}
 //         <div className="mt-32 grid md:grid-cols-3 gap-8">
