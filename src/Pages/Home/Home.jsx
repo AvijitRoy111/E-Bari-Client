@@ -299,8 +299,8 @@ export const Home = () => {
              {
               icon: <Star size={32} />,
                title: "Top Rated",
-//               desc: "We are the highest-rated real estate platform in the region.",
-//             },
+               desc: "We are the highest-rated real estate platform in the region.",
+             },
 
 //             {
 //               icon: <Quote size={32} />,
