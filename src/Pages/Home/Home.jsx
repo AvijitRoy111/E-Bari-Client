@@ -302,8 +302,8 @@ export const Home = () => {
                desc: "We are the highest-rated real estate platform in the region.",
              },
 
-//             {
-//               icon: <Quote size={32} />,
+             {
+               icon: <Quote size={32} />,
 //               title: "Trusted Agency",
 //               desc: "Verified owners and hassle-free documentation process.",
 //             },
