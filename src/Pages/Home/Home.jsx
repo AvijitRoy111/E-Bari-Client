@@ -321,7 +321,7 @@ export const Home = () => {
                </h3>
 
                <p className="text-gray-500 dark:text-gray-400">
-//                 {box.desc}
+                 {box.desc}
 //               </p>
 //             </div>
 //           ))}
