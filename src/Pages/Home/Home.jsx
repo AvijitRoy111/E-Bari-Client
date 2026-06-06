@@ -290,10 +290,10 @@ export const Home = () => {
          {/* Why Choose Us */}
          <div className="mt-32 grid md:grid-cols-3 gap-8">
            {[
-//             {
-//               icon: <HomeIcon size={32} />,
-//               title: "Wide Range",
-//               desc: "Choose from thousands of properties across the country.",
+             {
+               icon: <HomeIcon size={32} />,
+               title: "Wide Range",
+               desc: "Choose from thousands of properties across the country.",
 //             },
 
 //             {
