@@ -318,9 +318,9 @@ export const Home = () => {
 
                <h3 className="text-xl font-black dark:text-white mb-4">
                  {box.title}
-//               </h3>
+               </h3>
 
-//               <p className="text-gray-500 dark:text-gray-400">
+               <p className="text-gray-500 dark:text-gray-400">
 //                 {box.desc}
 //               </p>
 //             </div>
