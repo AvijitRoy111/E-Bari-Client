@@ -306,8 +306,8 @@ export const Home = () => {
                icon: <Quote size={32} />,
                title: "Trusted Agency",
                desc: "Verified owners and hassle-free documentation process.",
-//             },
-//           ].map((box, i) => (
+             },
+           ].map((box, i) => (
 //             <div
 //               key={i}
 //               className="p-10 bg-white dark:bg-gray-900 rounded-[2.5rem] border border-gray-100 dark:border-gray-800 text-center hover:translate-y-[-10px] transition-all duration-500 shadow-sm"
