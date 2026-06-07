@@ -351,7 +351,7 @@ export const Home = () => {
            >
              {[1, 2, 3].map((t) => (
                <SwiperSlide key={t}>
-//                 <div className="max-w-3xl mx-auto">
+                 <div className="max-w-3xl mx-auto">
 //                   <p className="text-xl md:text-2xl text-blue-50 italic mb-8">
 //                     Finding a home was never this easy. E-Bari provided me
 //                     with multiple options and the agent support was
