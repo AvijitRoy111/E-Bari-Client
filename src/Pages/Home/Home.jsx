@@ -332,7 +332,7 @@ export const Home = () => {
            <Quote
              className="absolute top-10 left-10 text-white/10"
              size={120}
-//           />
+           />
 
 //           <h2 className="text-4xl font-black text-white mb-12 relative z-10">
 //             What Our Clients Say
