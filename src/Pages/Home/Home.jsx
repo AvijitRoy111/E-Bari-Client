@@ -348,7 +348,7 @@ export const Home = () => {
                clickable: true,
              }}
              className="pb-12 text-white"
-//           >
+           >
 //             {[1, 2, 3].map((t) => (
 //               <SwiperSlide key={t}>
 //                 <div className="max-w-3xl mx-auto">
