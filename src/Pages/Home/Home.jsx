@@ -345,7 +345,7 @@ export const Home = () => {
                disableOnInteraction: false,
              }}
              pagination={{
-//               clickable: true,
+               clickable: true,
 //             }}
 //             className="pb-12 text-white"
 //           >
