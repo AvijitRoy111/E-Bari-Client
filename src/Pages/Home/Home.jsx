@@ -349,7 +349,7 @@ export const Home = () => {
              }}
              className="pb-12 text-white"
            >
-//             {[1, 2, 3].map((t) => (
+             {[1, 2, 3].map((t) => (
 //               <SwiperSlide key={t}>
 //                 <div className="max-w-3xl mx-auto">
 //                   <p className="text-xl md:text-2xl text-blue-50 italic mb-8">
