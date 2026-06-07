@@ -344,7 +344,7 @@ export const Home = () => {
                delay: 3000,
                disableOnInteraction: false,
              }}
-//             pagination={{
+             pagination={{
 //               clickable: true,
 //             }}
 //             className="pb-12 text-white"
