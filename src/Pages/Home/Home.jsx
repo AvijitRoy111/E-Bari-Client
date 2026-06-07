@@ -340,7 +340,7 @@ export const Home = () => {
 
            <Swiper
              modules={[Autoplay, Pagination]}
-//             autoplay={{
+             autoplay={{
 //               delay: 3000,
 //               disableOnInteraction: false,
 //             }}
