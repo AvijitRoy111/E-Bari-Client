@@ -343,7 +343,7 @@ export const Home = () => {
              autoplay={{
                delay: 3000,
                disableOnInteraction: false,
-//             }}
+             }}
 //             pagination={{
 //               clickable: true,
 //             }}
