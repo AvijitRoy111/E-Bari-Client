@@ -338,7 +338,7 @@ export const Home = () => {
              What Our Clients Say
            </h2>
 
-//           <Swiper
+           <Swiper
 //             modules={[Autoplay, Pagination]}
 //             autoplay={{
 //               delay: 3000,
