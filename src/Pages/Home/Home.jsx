@@ -334,7 +334,7 @@ export const Home = () => {
              size={120}
            />
 
-//           <h2 className="text-4xl font-black text-white mb-12 relative z-10">
+           <h2 className="text-4xl font-black text-white mb-12 relative z-10">
 //             What Our Clients Say
 //           </h2>
 
