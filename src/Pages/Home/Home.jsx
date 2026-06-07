@@ -335,7 +335,7 @@ export const Home = () => {
            />
 
            <h2 className="text-4xl font-black text-white mb-12 relative z-10">
-//             What Our Clients Say
+             What Our Clients Say
 //           </h2>
 
 //           <Swiper
