@@ -347,7 +347,7 @@ export const Home = () => {
              pagination={{
                clickable: true,
              }}
-//             className="pb-12 text-white"
+             className="pb-12 text-white"
 //           >
 //             {[1, 2, 3].map((t) => (
 //               <SwiperSlide key={t}>
