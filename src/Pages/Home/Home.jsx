@@ -342,7 +342,7 @@ export const Home = () => {
              modules={[Autoplay, Pagination]}
              autoplay={{
                delay: 3000,
-//               disableOnInteraction: false,
+               disableOnInteraction: false,
 //             }}
 //             pagination={{
 //               clickable: true,
