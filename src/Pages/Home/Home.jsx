@@ -325,7 +325,7 @@ export const Home = () => {
                </p>
              </div>
            ))}
-//         </div>
+         </div>
 
 //         {/* Testimonial */}
 //         <div className="mt-32 bg-blue-600 rounded-[3rem] p-12 md:p-20 relative overflow-hidden text-center">
