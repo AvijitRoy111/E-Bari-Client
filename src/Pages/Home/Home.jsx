@@ -324,7 +324,7 @@ export const Home = () => {
                  {box.desc}
                </p>
              </div>
-//           ))}
+           ))}
 //         </div>
 
 //         {/* Testimonial */}
