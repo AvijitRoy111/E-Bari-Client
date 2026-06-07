@@ -328,7 +328,7 @@ export const Home = () => {
          </div>
 
          {/* Testimonial */}
-//         <div className="mt-32 bg-blue-600 rounded-[3rem] p-12 md:p-20 relative overflow-hidden text-center">
+         <div className="mt-32 bg-blue-600 rounded-[3rem] p-12 md:p-20 relative overflow-hidden text-center">
 //           <Quote
 //             className="absolute top-10 left-10 text-white/10"
 //             size={120}
