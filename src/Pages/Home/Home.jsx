@@ -364,7 +364,7 @@ export const Home = () => {
                      <div className="text-left">
                        <h4 className="font-bold text-white">
                          Rahat Chowdhury
-//                       </h4>
+                       </h4>
 
 //                       <p className="text-blue-200 text-sm">
 //                         Property Buyer
