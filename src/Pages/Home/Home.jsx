@@ -369,7 +369,7 @@ export const Home = () => {
                        <p className="text-blue-200 text-sm">
                          Property Buyer
                        </p>
-//                     </div>
+                     </div>
 //                   </div>
 //                 </div>
 //               </SwiperSlide>
