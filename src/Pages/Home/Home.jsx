@@ -366,8 +366,8 @@ export const Home = () => {
                          Rahat Chowdhury
                        </h4>
 
-//                       <p className="text-blue-200 text-sm">
-//                         Property Buyer
+                       <p className="text-blue-200 text-sm">
+                         Property Buyer
 //                       </p>
 //                     </div>
 //                   </div>
