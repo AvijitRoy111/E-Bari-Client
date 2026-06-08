@@ -370,7 +370,7 @@ export const Home = () => {
                          Property Buyer
                        </p>
                      </div>
-//                   </div>
+                   </div>
 //                 </div>
 //               </SwiperSlide>
 //             ))}
