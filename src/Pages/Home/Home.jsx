@@ -358,7 +358,7 @@ export const Home = () => {
                      outstanding. Highly recommended!
                    </p>
 
-//                   <div className="flex items-center justify-center gap-4">
+                   <div className="flex items-center justify-center gap-4">
 //                     <div className="w-14 h-14 rounded-full bg-white/20"></div>
 
 //                     <div className="text-left">
