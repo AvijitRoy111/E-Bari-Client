@@ -363,7 +363,7 @@ export const Home = () => {
 
                      <div className="text-left">
                        <h4 className="font-bold text-white">
-//                         Rahat Chowdhury
+                         Rahat Chowdhury
 //                       </h4>
 
 //                       <p className="text-blue-200 text-sm">
