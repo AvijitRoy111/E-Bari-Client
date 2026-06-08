@@ -356,7 +356,7 @@ export const Home = () => {
                      Finding a home was never this easy. E-Bari provided me
                      with multiple options and the agent support was
                      outstanding. Highly recommended!
-//                   </p>
+                   </p>
 
 //                   <div className="flex items-center justify-center gap-4">
 //                     <div className="w-14 h-14 rounded-full bg-white/20"></div>
