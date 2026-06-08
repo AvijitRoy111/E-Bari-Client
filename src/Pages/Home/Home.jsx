@@ -355,7 +355,7 @@ export const Home = () => {
                    <p className="text-xl md:text-2xl text-blue-50 italic mb-8">
                      Finding a home was never this easy. E-Bari provided me
                      with multiple options and the agent support was
-//                     outstanding. Highly recommended!
+                     outstanding. Highly recommended!
 //                   </p>
 
 //                   <div className="flex items-center justify-center gap-4">
