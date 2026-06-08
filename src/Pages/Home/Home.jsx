@@ -362,7 +362,7 @@ export const Home = () => {
                      <div className="w-14 h-14 rounded-full bg-white/20"></div>
 
                      <div className="text-left">
-//                       <h4 className="font-bold text-white">
+                       <h4 className="font-bold text-white">
 //                         Rahat Chowdhury
 //                       </h4>
 
