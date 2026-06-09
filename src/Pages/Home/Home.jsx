@@ -374,8 +374,8 @@ export const Home = () => {
                  </div>
                </SwiperSlide>
              ))}
-//           </Swiper>
-//         </div>
+           </Swiper>
+         </div>
 //       </div>
 
 //       {/* Marquee Animation */}
