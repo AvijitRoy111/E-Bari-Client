@@ -380,7 +380,7 @@ export const Home = () => {
 
        {/* Marquee Animation */}
        <style
-//         dangerouslySetInnerHTML={{
+         dangerouslySetInnerHTML={{
 //           __html: `
 //           @keyframes marquee {
 //             0% {
