@@ -372,7 +372,7 @@ export const Home = () => {
                      </div>
                    </div>
                  </div>
-//               </SwiperSlide>
+               </SwiperSlide>
 //             ))}
 //           </Swiper>
 //         </div>
