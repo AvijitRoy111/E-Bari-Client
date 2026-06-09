@@ -373,7 +373,7 @@ export const Home = () => {
                    </div>
                  </div>
                </SwiperSlide>
-//             ))}
+             ))}
 //           </Swiper>
 //         </div>
 //       </div>
