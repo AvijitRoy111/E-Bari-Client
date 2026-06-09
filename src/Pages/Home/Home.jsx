@@ -381,7 +381,7 @@ export const Home = () => {
        {/* Marquee Animation */}
        <style
          dangerouslySetInnerHTML={{
-//           __html: `
+           __html: `
 //           @keyframes marquee {
 //             0% {
 //               transform: translateX(100%);
