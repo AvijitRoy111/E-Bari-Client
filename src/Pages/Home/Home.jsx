@@ -392,7 +392,7 @@ export const Home = () => {
              }
            }
 
-//           .animate-marquee {
+           .animate-marquee {
 //             display: inline-block;
 //             animation: marquee 25s linear infinite;
 //           }
