@@ -397,7 +397,7 @@ export const Home = () => {
              animation: marquee 25s linear infinite;
            }
          `,
-//         }}
+         }}
 //       />
 //     </div>
 //   );
