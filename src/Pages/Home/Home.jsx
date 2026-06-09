@@ -378,8 +378,8 @@ export const Home = () => {
          </div>
        </div>
 
-//       {/* Marquee Animation */}
-//       <style
+       {/* Marquee Animation */}
+       <style
 //         dangerouslySetInnerHTML={{
 //           __html: `
 //           @keyframes marquee {
