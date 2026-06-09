@@ -376,7 +376,7 @@ export const Home = () => {
              ))}
            </Swiper>
          </div>
-//       </div>
+       </div>
 
 //       {/* Marquee Animation */}
 //       <style
