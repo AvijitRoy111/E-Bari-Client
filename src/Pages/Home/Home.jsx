@@ -396,7 +396,7 @@ export const Home = () => {
              display: inline-block;
              animation: marquee 25s linear infinite;
            }
-//         `,
+         `,
 //         }}
 //       />
 //     </div>
