@@ -383,7 +383,7 @@ export const Home = () => {
          dangerouslySetInnerHTML={{
            __html: `
            @keyframes marquee {
-//             0% {
+             0% {
 //               transform: translateX(100%);
 //             }
 
