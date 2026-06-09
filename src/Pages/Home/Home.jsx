@@ -387,7 +387,7 @@ export const Home = () => {
                transform: translateX(100%);
              }
 
-//             100% {
+             100% {
 //               transform: translateX(-100%);
 //             }
 //           }
