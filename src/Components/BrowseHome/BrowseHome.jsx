@@ -1,6 +1,6 @@
  import { useState, useEffect } from "react";
  import axios from "axios";
-// import PropTypes from "prop-types";
+ import PropTypes from "prop-types";
 
 // const BrowseHome = () => {
 //     const [homes, setHomes] = useState([]);
