@@ -10,7 +10,7 @@
      const [visibleCount, setVisibleCount] = useState(3);
 
      const fetchHomes = async () => {
-//         try {
+         try {
 //             const res = await axios.get("/fake.json");
 //             const data = res.data;
 
