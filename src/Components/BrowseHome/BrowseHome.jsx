@@ -4,7 +4,7 @@
 
  const BrowseHome = () => {
      const [homes, setHomes] = useState([]);
-//     const [loading, setLoading] = useState(true);
+     const [loading, setLoading] = useState(true);
 
 //     // How many items to show
 //     const [visibleCount, setVisibleCount] = useState(3);
