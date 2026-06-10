@@ -23,7 +23,7 @@
                  )
                  .slice(0, 9);
 
-//             setHomes(expensiveHomes);
+             setHomes(expensiveHomes);
 //         } catch (error) {
 //             console.error("Error fetching homes:", error);
 //         } finally {
