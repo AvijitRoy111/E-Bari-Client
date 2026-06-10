@@ -28,7 +28,7 @@
              console.error("Error fetching homes:", error);
          } finally {
              setLoading(false);
-//         }
+         }
 //     };
 
 //     useEffect(() => {
