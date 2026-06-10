@@ -12,7 +12,7 @@
      const fetchHomes = async () => {
          try {
              const res = await axios.get("/fake.json");
-//             const data = res.data;
+             const data = res.data;
 
 //             // Top 9 expensive homes
 //             const expensiveHomes = data
