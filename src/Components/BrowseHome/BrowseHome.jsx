@@ -25,7 +25,7 @@
 
              setHomes(expensiveHomes);
          } catch (error) {
-//             console.error("Error fetching homes:", error);
+             console.error("Error fetching homes:", error);
 //         } finally {
 //             setLoading(false);
 //         }
