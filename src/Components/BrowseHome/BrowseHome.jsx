@@ -27,7 +27,7 @@
          } catch (error) {
              console.error("Error fetching homes:", error);
          } finally {
-//             setLoading(false);
+             setLoading(false);
 //         }
 //     };
 
