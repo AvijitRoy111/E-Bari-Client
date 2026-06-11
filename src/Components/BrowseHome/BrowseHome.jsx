@@ -32,7 +32,7 @@
      };
 
      useEffect(() => {
-//         fetchHomes();
+         fetchHomes();
 //     }, []);
 
 //     // Skeleton Card
