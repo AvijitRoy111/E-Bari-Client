@@ -33,7 +33,7 @@
 
      useEffect(() => {
          fetchHomes();
-//     }, []);
+     }, []);
 
 //     // Skeleton Card
 //     const SkeletonCard = () => (
