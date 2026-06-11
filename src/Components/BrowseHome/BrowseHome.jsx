@@ -38,7 +38,7 @@
      // Skeleton Card
      const SkeletonCard = () => (
          <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md animate-pulse">
-//             <div className="w-full h-48 bg-gray-300"></div>
+             <div className="w-full h-48 bg-gray-300"></div>
 
 //             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 
