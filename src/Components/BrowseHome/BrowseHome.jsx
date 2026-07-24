@@ -49,7 +49,7 @@
      );
 
      // Home Card
-//     const HomeCard = ({ item }) => (
+     const HomeCard = ({ item }) => (
 //         <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md">
 //             <img
 //                 src={item?.images?.[0]}
