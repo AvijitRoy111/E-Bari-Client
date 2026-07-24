@@ -57,7 +57,7 @@
                  className="w-full h-52 object-cover"
              />
 
-//             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
 
 //             <h3 className="absolute top-3 left-4 text-white text-xl font-semibold">
 //                 {item?.title}
