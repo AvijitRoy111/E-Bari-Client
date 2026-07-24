@@ -70,7 +70,7 @@
     );
 
      // PropTypes Fix
-//     HomeCard.propTypes = {
+     HomeCard.propTypes = {
 //         item: PropTypes.shape({
 //             id: PropTypes.oneOfType([
 //                 PropTypes.string,
