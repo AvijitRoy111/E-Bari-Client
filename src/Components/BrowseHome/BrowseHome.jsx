@@ -60,7 +60,7 @@
              <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
 
              <h3 className="absolute top-3 left-4 text-white text-xl font-semibold">
-//                 {item?.title}
+                 {item?.title}
 //             </h3>
 
 //             <div className="absolute top-3 right-4 bg-white text-black w-10 h-10 rounded-full flex items-center justify-center font-semibold shadow">
