@@ -72,7 +72,7 @@
      // PropTypes Fix
      HomeCard.propTypes = {
          item: PropTypes.shape({
-//             id: PropTypes.oneOfType([
+             id: PropTypes.oneOfType([
 //                 PropTypes.string,
 //                 PropTypes.number,
 //             ]),
