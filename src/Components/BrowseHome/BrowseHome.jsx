@@ -67,7 +67,7 @@
                  {item?.sellCount}
              </div>
          </div>
-//     );
+    );
 
 //     // PropTypes Fix
 //     HomeCard.propTypes = {
