@@ -46,7 +46,7 @@
 
              <div className="absolute top-3 right-4 bg-gray-300 w-10 h-10 rounded-full"></div>
          </div>
-//     );
+     );
 
 //     // Home Card
 //     const HomeCard = ({ item }) => (
