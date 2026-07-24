@@ -66,7 +66,7 @@
              <div className="absolute top-3 right-4 bg-white text-black w-10 h-10 rounded-full flex items-center justify-center font-semibold shadow">
                  {item?.sellCount}
              </div>
-//         </div>
+         </div>
 //     );
 
 //     // PropTypes Fix
