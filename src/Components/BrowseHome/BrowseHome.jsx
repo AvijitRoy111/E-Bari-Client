@@ -53,7 +53,7 @@
          <div className="max-w-sm relative rounded-xl overflow-hidden shadow-md">
              <img
                  src={item?.images?.[0]}
-//                 alt={item?.title}
+                 alt={item?.title}
 //                 className="w-full h-52 object-cover"
 //             />
 
