@@ -83,7 +83,7 @@
                  PropTypes.number,
              ]),
          }).isRequired,
-//     };
+     };
 
 //     const handleSeeMore = () => {
 //         setVisibleCount((prev) => prev + 3);
