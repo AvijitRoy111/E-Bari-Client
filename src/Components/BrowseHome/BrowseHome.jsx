@@ -102,7 +102,7 @@
                  </h3>
 
                  <p className="text-xl font-normal text-center px-2 md:px-32">
-//                     Welcome to Abriculteurs, the family-run agency committed
+                     Welcome to Abriculteurs, the family-run agency committed
 //                     to exceptional service. Discover a meticulous presentation
 //                     of this property: professional photos. Trust our expertise
 //                     to turn your real estate into remarkable successes.
