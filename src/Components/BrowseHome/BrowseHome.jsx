@@ -90,7 +90,7 @@
      };
 
      const handleSeeLess = () => {
-//         setVisibleCount(3);
+         setVisibleCount(3);
 //     };
 
 //     return (
