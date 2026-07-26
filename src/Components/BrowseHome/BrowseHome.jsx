@@ -74,7 +74,7 @@
          item: PropTypes.shape({
              id: PropTypes.oneOfType([
                  PropTypes.string,
-//                 PropTypes.number,
+                 PropTypes.number,
 //             ]),
 //             title: PropTypes.string,
 //             images: PropTypes.arrayOf(PropTypes.string),
