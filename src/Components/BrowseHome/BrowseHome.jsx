@@ -85,7 +85,7 @@
          }).isRequired,
      };
 
-//     const handleSeeMore = () => {
+     const handleSeeMore = () => {
 //         setVisibleCount((prev) => prev + 3);
 //     };
 
