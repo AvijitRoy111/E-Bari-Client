@@ -76,7 +76,7 @@
                  PropTypes.string,
                  PropTypes.number,
              ]),
-//             title: PropTypes.string,
+             title: PropTypes.string,
 //             images: PropTypes.arrayOf(PropTypes.string),
 //             sellCount: PropTypes.oneOfType([
 //                 PropTypes.string,
