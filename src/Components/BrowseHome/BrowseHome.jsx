@@ -81,7 +81,7 @@
              sellCount: PropTypes.oneOfType([
                  PropTypes.string,
                  PropTypes.number,
-//             ]),
+             ]),
 //         }).isRequired,
 //     };
 
