@@ -79,7 +79,7 @@
              title: PropTypes.string,
              images: PropTypes.arrayOf(PropTypes.string),
              sellCount: PropTypes.oneOfType([
-//                 PropTypes.string,
+                 PropTypes.string,
 //                 PropTypes.number,
 //             ]),
 //         }).isRequired,
