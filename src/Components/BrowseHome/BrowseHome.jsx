@@ -80,7 +80,7 @@
              images: PropTypes.arrayOf(PropTypes.string),
              sellCount: PropTypes.oneOfType([
                  PropTypes.string,
-//                 PropTypes.number,
+                 PropTypes.number,
 //             ]),
 //         }).isRequired,
 //     };
