@@ -82,7 +82,7 @@
                  PropTypes.string,
                  PropTypes.number,
              ]),
-//         }).isRequired,
+         }).isRequired,
 //     };
 
 //     const handleSeeMore = () => {
