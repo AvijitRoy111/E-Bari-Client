@@ -105,7 +105,7 @@
                      Welcome to Abriculteurs, the family-run agency committed
                      to exceptional service. Discover a meticulous presentation
                      of this property: professional photos. Trust our expertise
-//                     to turn your real estate into remarkable successes.
+                     to turn your real estate into remarkable successes.
 //                 </p>
 //             </div>
 
