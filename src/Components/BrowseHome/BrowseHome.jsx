@@ -89,7 +89,7 @@
          setVisibleCount((prev) => prev + 3);
      };
 
-//     const handleSeeLess = () => {
+     const handleSeeLess = () => {
 //         setVisibleCount(3);
 //     };
 
