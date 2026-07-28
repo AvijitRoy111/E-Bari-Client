@@ -120,7 +120,7 @@
                                .slice(0, visibleCount)
                                .map((item) => (
                                    <HomeCard
-//                                       key={item.id}
+                                       key={item.id}
 //                                       item={item}
 //                                   />
 //                               ))}
