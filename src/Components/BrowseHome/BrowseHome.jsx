@@ -118,7 +118,7 @@
                            ))
                          : homes
                                .slice(0, visibleCount)
-//                               .map((item) => (
+                               .map((item) => (
 //                                   <HomeCard
 //                                       key={item.id}
 //                                       item={item}
