@@ -121,7 +121,7 @@
                                .map((item) => (
                                    <HomeCard
                                        key={item.id}
-//                                       item={item}
+                                       item={item}
 //                                   />
 //                               ))}
 //                 </div>
