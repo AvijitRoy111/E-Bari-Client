@@ -117,7 +117,7 @@
                                <SkeletonCard key={idx} />
                            ))
                          : homes
-//                               .slice(0, visibleCount)
+                               .slice(0, visibleCount)
 //                               .map((item) => (
 //                                   <HomeCard
 //                                       key={item.id}
