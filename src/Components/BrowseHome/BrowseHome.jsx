@@ -116,7 +116,7 @@
                          ? Array.from({ length: 3 }).map((_, idx) => (
                                <SkeletonCard key={idx} />
                            ))
-//                         : homes
+                         : homes
 //                               .slice(0, visibleCount)
 //                               .map((item) => (
 //                                   <HomeCard
