@@ -151,4 +151,4 @@
      );
  };
 
-// export default BrowseHome;
+ export default BrowseHome;
