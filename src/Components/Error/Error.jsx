@@ -9,7 +9,7 @@ const ErrorPage = () => {
       
         {/* Top Section: Breadcrumb */}
         <div className="max-w-7xl w-full mx-auto px-4 pt-6 sm:px-6 lg:px-8">
-//          <nav className="flex items-center space-x-2 text-sm text-gray-500">
+          <nav className="flex items-center space-x-2 text-sm text-gray-500">
 //            <a href="/" className="hover:text-blue-600 transition-colors">Home</a>
 //            <span>/</span>
 //            <span className="text-gray-400 font-medium">Error 404</span>
