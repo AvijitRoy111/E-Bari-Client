@@ -7,7 +7,7 @@ const ErrorPage = () => {
    return (
      <div className="min-h-screen bg-gray-50 flex flex-col justify-between font-sans text-gray-800">
       
-//        {/* Top Section: Breadcrumb */}
+        {/* Top Section: Breadcrumb */}
 //        <div className="max-w-7xl w-full mx-auto px-4 pt-6 sm:px-6 lg:px-8">
 //          <nav className="flex items-center space-x-2 text-sm text-gray-500">
 //            <a href="/" className="hover:text-blue-600 transition-colors">Home</a>
