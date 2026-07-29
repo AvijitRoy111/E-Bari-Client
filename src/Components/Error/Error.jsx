@@ -13,7 +13,7 @@ const ErrorPage = () => {
             <a href="/" className="hover:text-blue-600 transition-colors">Home</a>
             <span>/</span>
             <span className="text-gray-400 font-medium">Error 404</span>
-//          </nav>
+          </nav>
 //        </div>
 
 //        {/* Main Content Section */}
