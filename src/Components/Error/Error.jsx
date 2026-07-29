@@ -14,7 +14,7 @@ const ErrorPage = () => {
             <span>/</span>
             <span className="text-gray-400 font-medium">Error 404</span>
           </nav>
-//        </div>
+        </div>
 
 //        {/* Main Content Section */}
 //        <main className="flex-grow flex flex-col items-center justify-center text-center px-4">
