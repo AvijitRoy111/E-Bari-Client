@@ -148,7 +148,7 @@
                  )}
              </div>
          </div>
-//     );
+     );
 // };
 
 // export default BrowseHome;
