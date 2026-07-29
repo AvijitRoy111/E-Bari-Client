@@ -4,7 +4,7 @@ const ErrorPage = () => {
      window.history.back();
    };
 
-//   return (
+   return (
 //     <div className="min-h-screen bg-gray-50 flex flex-col justify-between font-sans text-gray-800">
       
 //        {/* Top Section: Breadcrumb */}
