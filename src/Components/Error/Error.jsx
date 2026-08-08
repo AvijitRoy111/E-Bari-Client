@@ -68,7 +68,7 @@ const ErrorPage = () => {
           &copy; {new Date().getFullYear()} Your Company. All rights reserved.
         </footer>
       </div>
-//    );
+    );
 //  };
 
 //  export default ErrorPage;
