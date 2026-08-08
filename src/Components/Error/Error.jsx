@@ -60,7 +60,7 @@ const ErrorPage = () => {
             >
               Home-e Fire Jan
             </a>
-//          </div>
+          </div>
 //        </main>
 
 //        {/* Footer / Bottom Spacing */}
