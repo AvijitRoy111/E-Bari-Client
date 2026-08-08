@@ -28,8 +28,8 @@ const ErrorPage = () => {
           </div>
 
           {/* Message */}
-//          <h2 className="text-3xl font-bold text-gray-900 mb-3">
-//            Oops! Kichu ekta vul hoyeche.
+          <h2 className="text-3xl font-bold text-gray-900 mb-3">
+            Oops! Kichu ekta vul hoyeche.
 //          </h2>
 //          <p className="text-gray-600 max-w-md mb-8 leading-relaxed">
 //            Apni jei pata ti khujchen ta hoyto muche fela hoyeche, tar nam poriborton kora hoyeche ba samoyikvabe opasthorji ache.
