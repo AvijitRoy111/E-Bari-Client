@@ -43,7 +43,7 @@ const ErrorPage = () => {
               className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-all cursor-pointer"
             >
               <svg 
-//                className="mr-2 -ml-1 h-5 w-5 text-gray-500" 
+                className="mr-2 -ml-1 h-5 w-5 text-gray-500" 
 //                fill="none" 
 //                viewBox="0 0 24 24" 
 //                stroke="currentColor"
