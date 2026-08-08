@@ -32,8 +32,8 @@ const ErrorPage = () => {
             Oops! Kichu ekta vul hoyeche.
           </h2>
           <p className="text-gray-600 max-w-md mb-8 leading-relaxed">
-//            Apni jei pata ti khujchen ta hoyto muche fela hoyeche, tar nam poriborton kora hoyeche ba samoyikvabe opasthorji ache.
-//          </p>
+            Apni jei pata ti khujchen ta hoyto muche fela hoyeche, tar nam poriborton kora hoyeche ba samoyikvabe opasthorji ache.
+          </p>
 
 //          {/* Call to Action Buttons */}
 //          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
