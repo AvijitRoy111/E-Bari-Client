@@ -23,8 +23,8 @@ const ErrorPage = () => {
             404
           </h1>
         
-//          <div className="bg-white px-6 py-2 text-sm font-semibold rounded-md shadow-sm border border-gray-100 text-blue-600 -mt-4 mb-6">
-//            Page Not Found
+          <div className="bg-white px-6 py-2 text-sm font-semibold rounded-md shadow-sm border border-gray-100 text-blue-600 -mt-4 mb-6">
+            Page Not Found
 //          </div>
 
 //          {/* Message */}
