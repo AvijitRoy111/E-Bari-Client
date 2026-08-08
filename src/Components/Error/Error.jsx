@@ -35,8 +35,8 @@ const ErrorPage = () => {
             Apni jei pata ti khujchen ta hoyto muche fela hoyeche, tar nam poriborton kora hoyeche ba samoyikvabe opasthorji ache.
           </p>
 
-//          {/* Call to Action Buttons */}
-//          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          {/* Call to Action Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
 //            {/* Back Button */}
 //            <button
 //              onClick={handleGoBack}
