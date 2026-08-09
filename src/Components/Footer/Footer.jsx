@@ -17,7 +17,7 @@
              </div>
            </div>
 
-//           <p className="text-sm text-slate-600 dark:text-slate-400">We help people find homes, sell properties, and get personalized alerts for the best deals.</p>
+           <p className="text-sm text-slate-600 dark:text-slate-400">We help people find homes, sell properties, and get personalized alerts for the best deals.</p>
 
 //           <div className="flex items-center gap-3">
 //             <a href="#" className="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800"><svg className="w-5 h-5" viewBox="0 0 24 24" fill="#1877F2"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1 .9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.3 3h-1.9v7A10 10 0 0 0 22 12z"/></svg></a>
