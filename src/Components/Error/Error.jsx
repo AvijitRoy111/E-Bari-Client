@@ -69,6 +69,6 @@ const ErrorPage = () => {
         </footer>
       </div>
     );
-//  };
+  };
 
 //  export default ErrorPage;
