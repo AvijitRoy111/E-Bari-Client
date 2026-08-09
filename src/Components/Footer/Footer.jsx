@@ -20,7 +20,7 @@
            <p className="text-sm text-slate-600 dark:text-slate-400">We help people find homes, sell properties, and get personalized alerts for the best deals.</p>
 
            <div className="flex items-center gap-3">
-//             <a href="#" className="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800"><svg className="w-5 h-5" viewBox="0 0 24 24" fill="#1877F2"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1 .9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.3 3h-1.9v7A10 10 0 0 0 22 12z"/></svg></a>
+             <a href="#" className="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800"><svg className="w-5 h-5" viewBox="0 0 24 24" fill="#1877F2"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1 .9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2V12h2.2l-.3 3h-1.9v7A10 10 0 0 0 22 12z"/></svg></a>
 //             <a href="#" className="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800"><svg className="w-5 h-5" viewBox="0 0 24 24" fill="#1DA1F2"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04A4.28 4.28 0 0 0 12 8.75a12.15 12.15 0 0 1-8.82-4.47 4.28 4.28 0 0 0 1.32 5.71 4.25 4.25 0 0 1-1.94-.54v.05a4.28 4.28 0 0 0 3.44 4.19 4.3 4.3 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98A8.6 8.6 0 0 1 2 19.54 12.14 12.14 0 0 0 8.29 21c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.36 8.36 0 0 0 22.46 6z"/></svg></a>
 //             <a href="#" className="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800"><svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="url(#instaGradient)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
 //   <defs>
