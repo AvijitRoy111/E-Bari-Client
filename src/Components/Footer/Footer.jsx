@@ -14,7 +14,7 @@
              <div>
                <h3 className="text-xl font-semibold">E-<span className="text-green-700">B</span>ari</h3>
                <p className="text-sm text-slate-500 dark:text-slate-400">Trusted, easy and hassle-free real estate service.</p>
-//             </div>
+             </div>
 //           </div>
 
 //           <p className="text-sm text-slate-600 dark:text-slate-400">We help people find homes, sell properties, and get personalized alerts for the best deals.</p>
