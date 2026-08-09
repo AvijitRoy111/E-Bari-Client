@@ -11,7 +11,7 @@
          <div className="space-y-4">
            <div className="flex items-center gap-3">
              <img src={logo} alt="E-Bari logo" className="w-12 h-12 rounded-full object-cover" />
-//             <div>
+             <div>
 //               <h3 className="text-xl font-semibold">E-<span className="text-green-700">B</span>ari</h3>
 //               <p className="text-sm text-slate-500 dark:text-slate-400">Trusted, easy and hassle-free real estate service.</p>
 //             </div>
