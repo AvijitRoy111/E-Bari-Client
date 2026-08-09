@@ -5,7 +5,7 @@
 
  const Footer = () => {
    return (
-//     <footer className="shadow-[0_-6px_20px_rgba(0,0,0,0.15)] bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border-t border-slate-200 dark:border-slate-800">
+     <footer className="shadow-[0_-6px_20px_rgba(0,0,0,0.15)] bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border-t border-slate-200 dark:border-slate-800">
 //       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
 //         {/* Brand */}
 //         <div className="space-y-4">
