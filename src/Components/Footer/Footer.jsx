@@ -9,7 +9,7 @@
        <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-8">
          {/* Brand */}
          <div className="space-y-4">
-//           <div className="flex items-center gap-3">
+           <div className="flex items-center gap-3">
 //             <img src={logo} alt="E-Bari logo" className="w-12 h-12 rounded-full object-cover" />
 //             <div>
 //               <h3 className="text-xl font-semibold">E-<span className="text-green-700">B</span>ari</h3>
