@@ -1,5 +1,5 @@
-// // components/Footer.jsx
-// import React from "react";
+ // components/Footer.jsx
+ import React from "react";
 // import logo from "../../assets/images/logo/bari.png.png";
 // import { Mail, Phone, MapPin, Twitter, Facebook, Instagram } from "lucide-react";
 
