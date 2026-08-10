@@ -75,7 +75,7 @@
 
            <p className="text-xs text-slate-400 dark:text-slate-500 mt-2">We never share your email with anyone. Unsubscribe anytime.</p>
          </div>
-//       </div>
+       </div>
 
 //       {/* Bottom Bar */}
 //       <div className="border-t border-slate-100 dark:border-slate-800">
