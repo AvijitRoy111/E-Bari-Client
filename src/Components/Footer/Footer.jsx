@@ -67,7 +67,7 @@
            <form onSubmit={(e) => e.preventDefault()} className="flex flex-col sm:flex-row gap-2">
              <input
                type="email"
-//               placeholder="Your email"
+               placeholder="Your email"
 //               className="w-full px-3 py-2 rounded-md border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-sm focus:ring-2 focus:ring-green-400"
 //             />
 //             <button type="submit" className="px-4 py-2 bg-green-700 hover:bg-green-800 text-white rounded-md text-sm">Subscribe</button>
