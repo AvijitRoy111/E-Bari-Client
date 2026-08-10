@@ -26,8 +26,8 @@
    <defs>
      <linearGradient id="instaGradient" x1="0" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse">
        <stop offset="0%" stopColor="#feda75" />
-//       <stop offset="50%" stopColor="#d62976" />
-//       <stop offset="100%" stopColor="#4f5bd5" />
+       <stop offset="50%" stopColor="#d62976" />
+       <stop offset="100%" stopColor="#4f5bd5" />
 //     </linearGradient>
 //   </defs>
 //   <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
