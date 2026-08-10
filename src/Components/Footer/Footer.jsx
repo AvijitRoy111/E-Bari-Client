@@ -56,8 +56,8 @@
              <li className="flex items-center gap-2"><Phone className="w-4 h-4" /> +880 1X XXX XXXX</li>
              <li className="flex items-center gap-2"><Mail className="w-4 h-4" /> info@e-bari.com</li>
              <li className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Dhaka, Bangladesh</li>
-//             <li className="text-xs text-slate-500 dark:text-slate-400">Office Time: Sat–Thu • 10:00 AM – 7:00 PM</li>
-//           </ul>
+             <li className="text-xs text-slate-500 dark:text-slate-400">Office Time: Sat–Thu • 10:00 AM – 7:00 PM</li>
+           </ul>
 //         </div>
 
 //         {/* Newsletter */}
