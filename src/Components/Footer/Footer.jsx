@@ -25,7 +25,7 @@
              <a href="#" className="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800"><svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="url(#instaGradient)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
    <defs>
      <linearGradient id="instaGradient" x1="0" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse">
-//       <stop offset="0%" stopColor="#feda75" />
+       <stop offset="0%" stopColor="#feda75" />
 //       <stop offset="50%" stopColor="#d62976" />
 //       <stop offset="100%" stopColor="#4f5bd5" />
 //     </linearGradient>
