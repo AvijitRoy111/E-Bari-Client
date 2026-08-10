@@ -47,10 +47,10 @@
              <li><a href="/contact" className="hover:underline">Contact</a></li>
              <li><a href="/about" className="hover:underline">About Us</a></li>
            </ul>
-//         </div>
+         </div>
 
-//         {/* Contact Info */}
-//         <div className="mt-4 md:mt-0">
+         {/* Contact Info */}
+         <div className="mt-4 md:mt-0">
 //           <h4 className="font-semibold mb-2">Contact</h4>
 //           <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
 //             <li className="flex items-center gap-2"><Phone className="w-4 h-4" /> +880 1X XXX XXXX</li>
