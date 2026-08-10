@@ -58,7 +58,7 @@
              <li className="flex items-center gap-2"><MapPin className="w-4 h-4" /> Dhaka, Bangladesh</li>
              <li className="text-xs text-slate-500 dark:text-slate-400">Office Time: Sat–Thu • 10:00 AM – 7:00 PM</li>
            </ul>
-//         </div>
+         </div>
 
 //         {/* Newsletter */}
 //         <div className="mt-4 md:mt-0">
