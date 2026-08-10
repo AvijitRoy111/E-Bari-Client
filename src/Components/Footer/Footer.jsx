@@ -80,7 +80,7 @@
        {/* Bottom Bar */}
        <div className="border-t border-slate-100 dark:border-slate-800">
          <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between text-sm text-slate-500 dark:text-slate-400">
-//           <p>© {new Date().getFullYear()} E-Bari. All rights reserved.</p>
+           <p>© {new Date().getFullYear()} E-Bari. All rights reserved.</p>
 //           <div className="flex items-center gap-4 mt-3 md:mt-0">
 //             <a href="/privacy" className="hover:underline">Privacy Policy</a>
 //             <a href="/terms" className="hover:underline">Terms & Conditions</a>
