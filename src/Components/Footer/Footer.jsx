@@ -38,7 +38,7 @@
          </div>
 
          {/* Quick Links */}
-//         <div className="mt-4 md:mt-0">
+         <div className="mt-4 md:mt-0">
 //           <h4 className="font-semibold mb-2">Quick Links</h4>
 //           <ul className="space-y-1.5 text-sm">
 //             <li><a href="/" className="hover:underline">Home</a></li>
