@@ -43,7 +43,7 @@
            <ul className="space-y-1.5 text-sm">
              <li><a href="/" className="hover:underline">Home</a></li>
              <li><a href="/all-properties" className="hover:underline">All Properties</a></li>
-//             <li><a href="/services" className="hover:underline">Services</a></li>
+             <li><a href="/services" className="hover:underline">Services</a></li>
 //             <li><a href="/contact" className="hover:underline">Contact</a></li>
 //             <li><a href="/about" className="hover:underline">About Us</a></li>
 //           </ul>
