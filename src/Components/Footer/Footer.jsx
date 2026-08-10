@@ -73,7 +73,7 @@
              <button type="submit" className="px-4 py-2 bg-green-700 hover:bg-green-800 text-white rounded-md text-sm">Subscribe</button>
            </form>
 
-//           <p className="text-xs text-slate-400 dark:text-slate-500 mt-2">We never share your email with anyone. Unsubscribe anytime.</p>
+           <p className="text-xs text-slate-400 dark:text-slate-500 mt-2">We never share your email with anyone. Unsubscribe anytime.</p>
 //         </div>
 //       </div>
 
