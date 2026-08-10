@@ -85,8 +85,8 @@
              <a href="/privacy" className="hover:underline">Privacy Policy</a>
              <a href="/terms" className="hover:underline">Terms & Conditions</a>
              <span className="hidden md:inline">— Designed with  in Bangladesh</span>
-//           </div>
-//         </div>
+           </div>
+         </div>
 //       </div>
 //     </footer>
 //   );
