@@ -7,7 +7,7 @@
       const [loading, setLoading] = useState(true);
 
       // How many items to show
-//      const [visibleCount, setVisibleCount] = useState(3);
+      const [visibleCount, setVisibleCount] = useState(3);
 
 //      const fetchHomes = async () => {
 //          try {
