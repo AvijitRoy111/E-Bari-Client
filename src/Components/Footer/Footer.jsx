@@ -87,8 +87,8 @@
              <span className="hidden md:inline">— Designed with  in Bangladesh</span>
            </div>
          </div>
-//       </div>
-//     </footer>
+       </div>
+     </footer>
 //   );
 // };
 
