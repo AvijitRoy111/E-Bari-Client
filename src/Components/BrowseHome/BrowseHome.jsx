@@ -9,7 +9,7 @@
       // How many items to show
       const [visibleCount, setVisibleCount] = useState(3);
 
-//      const fetchHomes = async () => {
+      const fetchHomes = async () => {
 //          try {
 //              const res = await axios.get("/fake.json");
 //              const data = res.data;
