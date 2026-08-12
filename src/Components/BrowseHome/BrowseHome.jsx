@@ -3,7 +3,7 @@
   import PropTypes from "prop-types";
 
   const BrowseHome = () => {
-//      const [homes, setHomes] = useState([]);
+      const [homes, setHomes] = useState([]);
 //      const [loading, setLoading] = useState(true);
 
 //      // How many items to show
