@@ -15,7 +15,7 @@
               const data = res.data;
 
               // Top 9 expensive homes
-//              const expensiveHomes = data
+              const expensiveHomes = data
 //                  .sort(
 //                      (a, b) =>
 //                          (b.price_max || b.price) -
