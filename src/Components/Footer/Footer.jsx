@@ -90,6 +90,6 @@
        </div>
      </footer>
    );
-// };
+ };
 
 // export default Footer;
