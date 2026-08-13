@@ -31,7 +31,7 @@
           }
       };
 
-//      useEffect(() => {
+      useEffect(() => {
 //          fetchHomes();
 //      }, []);
 
