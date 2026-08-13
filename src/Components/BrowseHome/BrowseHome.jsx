@@ -42,7 +42,7 @@
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
 
-//              <div className="absolute top-3 left-4 bg-gray-400 h-6 w-32 rounded"></div>
+              <div className="absolute top-3 left-4 bg-gray-400 h-6 w-32 rounded"></div>
 
 //              <div className="absolute top-3 right-4 bg-gray-300 w-10 h-10 rounded-full"></div>
 //          </div>
